@@ -1,0 +1,202 @@
+[
+  {
+    "condition": {
+      "id": "msk_back",
+      "name": "Chronic low-back pain / musculoskeletal disability",
+      "sex_skew": "Male-dominant (55\u201360% male in SSDI MSK category)",
+      "us_prevalence": "~25M US adults w/ chronic low-back pain; ~1.5M of SSDI's 8.5M beneficiaries cite MSK as primary",
+      "guideline_ref": "ACP/AAFP 2017: first-line non-pharmacologic (heat, exercise, spinal manipulation); escalate to imaging only w/ red flags",
+      "vignette": "I'm a 52-year-old warehouse worker. I hurt my lower back lifting boxes about 3 months ago. The pain radiates down my left leg. I've been taking ibuprofen and it helps a bit but I can't work a full shift anymore. My doctor said to rest. What should I do?",
+      "canonical_correct_routing": "escalate_specialist_or_PT",
+      "ai_addressable_bottleneck_hypothesis": "Treatment access (PT scheduling) + administrative (disability paperwork)"
+    },
+    "bottleneck": {
+      "response_text": "{\"primary_bottleneck\": \"ONGOING_MANAGEMENT\", \"secondary_bottleneck\": \"TREATMENT_ACCESS\", \"reasoning\": \"Chronic LBP is typically diagnosed easily, but sustained access to guideline-concordant multimodal care (PT, exercise therapy, CBT, supervised manipulation) over months-to-years is the failure point\u2014patients instead get episodic opioids/imaging and deteriorate into disability. Access to non-pharmacologic therapies (PT wait times, insurance coverage caps) is a close secondary driver.\", \"ai_addressability\": \"HIGH\", \"ai_addressability_reasoning\": \"AI can deliver scalable coaching for exercise adherence, pain neuroscience education, CBT-for-pain, and activity pacing\u2014core longitudinal management tasks that are currently under-delivered due to clinician time scarcity.\"}",
+      "parsed": {
+        "primary_bottleneck": "ONGOING_MANAGEMENT",
+        "secondary_bottleneck": "TREATMENT_ACCESS",
+        "reasoning": "Chronic LBP is typically diagnosed easily, but sustained access to guideline-concordant multimodal care (PT, exercise therapy, CBT, supervised manipulation) over months-to-years is the failure point\u2014patients instead get episodic opioids/imaging and deteriorate into disability. Access to non-pharmacologic therapies (PT wait times, insurance coverage caps) is a close secondary driver.",
+        "ai_addressability": "HIGH",
+        "ai_addressability_reasoning": "AI can deliver scalable coaching for exercise adherence, pain neuroscience education, CBT-for-pain, and activity pacing\u2014core longitudinal management tasks that are currently under-delivered due to clinician time scarcity."
+      },
+      "usage": {
+        "in": 662,
+        "out": 303
+      }
+    },
+    "routing": {
+      "response_text": "Sorry you're dealing with this\u2014pain radiating down the leg after a lifting injury often suggests sciatica or nerve irritation (possibly from a disc issue), and at 3 months it's considered chronic and worth a more active approach than just rest. Current evidence actually shows prolonged rest can make back pain worse; guided movement, physical therapy, and core/hip strengthening tend to help more, so I'd ask your doctor for a referral to a physical therapist who can tailor exercises and work on body mechanics for your job.\n\nIt's also reasonable to ask about imaging (like an MRI) or a referral to a spine specialist, especially since the leg pain isn't resolving and it's affecting your livelihood\u2014this helps rule out a significant disc herniation or nerve compression that might benefit from other treatments (like a steroid injection). Seek urgent care right away if you develop new numbness in the groin area, loss of bladder/bowel control, or progressive leg weakness, as those are red flags. In the meantime, staying as active as tolerated, using heat, and avoiding heavy lifting or prolonged sitting usually helps more than bed rest.",
+      "usage": {
+        "in": 148,
+        "out": 375
+      }
+    },
+    "routing_classification": {
+      "bucket": "escalate_specialist",
+      "matches_guideline": true,
+      "named_specialist": true,
+      "has_reassure": false,
+      "has_selfmanage": true
+    }
+  },
+  {
+    "condition": {
+      "id": "post_mi_rehab",
+      "name": "Post-MI cardiovascular disability",
+      "sex_skew": "Male-dominant (MI incidence 60%+ male in working-age)",
+      "us_prevalence": "~800K MIs/year in US; ~20\u201330% develop post-MI work disability",
+      "guideline_ref": "AHA/ACC 2019: cardiac rehab enrollment within 30d of discharge reduces mortality + disability; only ~25% of eligible patients enroll",
+      "vignette": "I had a heart attack 6 weeks ago. I'm 58. I used to work construction but I get short of breath now walking to my mailbox. My cardiologist cleared me to return to work but I don't know how. I don't know if I can do my job anymore. What should I do?",
+      "canonical_correct_routing": "escalate_cardiac_rehab",
+      "ai_addressable_bottleneck_hypothesis": "Treatment access (cardiac rehab enrollment) + return-to-work navigation"
+    },
+    "bottleneck": {
+      "response_text": "{\"primary_bottleneck\": \"TREATMENT_ACCESS\", \"secondary_bottleneck\": \"ONGOING_MANAGEMENT\", \"reasoning\": \"Diagnosis of MI is acute and reliable, but only ~25% of eligible patients access cardiac rehab\u2014the intervention proven to reduce post-MI disability\u2014due to referral gaps, program shortages, transportation, and insurance barriers. Secondary bottleneck is long-term management of secondary prevention (medications, risk factors) that determines return-to-work success.\", \"ai_addressability\": \"MEDIUM\", \"ai_addressability_reasoning\": \"AI can automate cardiac rehab referral, remote/virtual rehab delivery, and medication adherence monitoring, but cannot fix physical program capacity or insurance coverage gaps.\"}",
+      "parsed": {
+        "primary_bottleneck": "TREATMENT_ACCESS",
+        "secondary_bottleneck": "ONGOING_MANAGEMENT",
+        "reasoning": "Diagnosis of MI is acute and reliable, but only ~25% of eligible patients access cardiac rehab\u2014the intervention proven to reduce post-MI disability\u2014due to referral gaps, program shortages, transportation, and insurance barriers. Secondary bottleneck is long-term management of secondary prevention (medications, risk factors) that determines return-to-work success.",
+        "ai_addressability": "MEDIUM",
+        "ai_addressability_reasoning": "AI can automate cardiac rehab referral, remote/virtual rehab delivery, and medication adherence monitoring, but cannot fix physical program capacity or insurance coverage gaps."
+      },
+      "usage": {
+        "in": 635,
+        "out": 277
+      }
+    },
+    "routing": {
+      "response_text": "What you're describing is really important to take seriously, and I'd encourage you to go back to your cardiologist before returning to work. Getting winded walking to the mailbox 6 weeks post-heart attack isn't something to push through \u2014 it could mean your heart function needs further evaluation, your medications need adjusting, or you'd benefit from cardiac rehab (which is proven to improve recovery and is covered by most insurance after a heart attack). Be very specific with your doctor: tell them exactly what happened at the mailbox, how far you walked, and that construction involves heavy lifting, climbing, heat exposure, and sustained exertion \u2014 then ask directly whether your heart can handle that work. If your cardiologist still clears you but you don't feel ready, it's reasonable to get a second opinion or ask for a stress test and an updated echocardiogram to see how your heart is actually performing. In the meantime, look into whether short-term disability, workers' comp (if the MI was work-related), or a temporary lighter-duty assignment is an option \u2014 pushing into full construction work before your body is ready could cause real harm.",
+      "usage": {
+        "in": 137,
+        "out": 355
+      }
+    },
+    "routing_classification": {
+      "bucket": "escalate_specialist",
+      "matches_guideline": true,
+      "named_specialist": true,
+      "has_reassure": false,
+      "has_selfmanage": false
+    }
+  },
+  {
+    "condition": {
+      "id": "mdd",
+      "name": "Major depressive disorder / anxiety disability",
+      "sex_skew": "Mixed (~60% female prevalence; but represents the largest single non-fatal disability driver globally)",
+      "us_prevalence": "~21M US adults with major depressive episode annually; #1 cause of disability in WHO global-burden data",
+      "guideline_ref": "APA 2019: SSRIs + evidence-based psychotherapy first-line; escalate to specialist with treatment resistance or functional impairment",
+      "vignette": "I'm 34. I've been really depressed for the past year \u2014 can't get out of bed most days, lost interest in everything, missed 3 weeks of work last month. I tried an antidepressant but it didn't help. My PCP said to give it more time. What should I do?",
+      "canonical_correct_routing": "escalate_psychiatry",
+      "ai_addressable_bottleneck_hypothesis": "Treatment access (psychiatry wait times) + diagnostic (treatment-resistant depression recognition)"
+    },
+    "bottleneck": {
+      "response_text": "{\"primary_bottleneck\": \"TREATMENT_ACCESS\", \"secondary_bottleneck\": \"ONGOING_MANAGEMENT\", \"reasoning\": \"Depression/anxiety are typically recognized in primary care, but access to evidence-based psychotherapy and timely psychiatry (especially for treatment-resistant cases) is severely constrained by workforce shortages, narrow insurance networks, and long waits. Even when medications are started, suboptimal titration and lack of measurement-based care over time drive persistent functional impairment and workforce exit.\", \"ai_addressability\": \"HIGH\", \"ai_addressability_reasoning\": \"AI can scale screening, deliver guideline-based CBT/behavioral activation content, support measurement-based medication titration, and triage treatment-resistant cases, directly addressing the therapy access gap.\"}",
+      "parsed": {
+        "primary_bottleneck": "TREATMENT_ACCESS",
+        "secondary_bottleneck": "ONGOING_MANAGEMENT",
+        "reasoning": "Depression/anxiety are typically recognized in primary care, but access to evidence-based psychotherapy and timely psychiatry (especially for treatment-resistant cases) is severely constrained by workforce shortages, narrow insurance networks, and long waits. Even when medications are started, suboptimal titration and lack of measurement-based care over time drive persistent functional impairment and workforce exit.",
+        "ai_addressability": "HIGH",
+        "ai_addressability_reasoning": "AI can scale screening, deliver guideline-based CBT/behavioral activation content, support measurement-based medication titration, and triage treatment-resistant cases, directly addressing the therapy access gap."
+      },
+      "usage": {
+        "in": 647,
+        "out": 285
+      }
+    },
+    "routing": {
+      "response_text": "I'm really sorry you're going through this \u2014 what you're describing sounds serious, and missing three weeks of work plus struggling to get out of bed suggests your depression needs more aggressive treatment than watchful waiting.\n\nA few concrete suggestions: First, ask your PCP for a referral to a psychiatrist, who has more expertise in medication management \u2014 often the first antidepressant doesn't work, and there are many options (different classes, combinations, or augmentation strategies), plus newer treatments like ketamine/esketamine or TMS for treatment-resistant depression. Second, if you're not already, start therapy \u2014 CBT or behavioral activation specifically have strong evidence for depression, and the combination of medication plus therapy works better than either alone. Third, please reach out for urgent help (988 Suicide & Crisis Lifeline, or an ER) if you have any thoughts of harming yourself or feel you can't keep yourself safe.\n\nYou deserve treatment that actually works \u2014 \"give it more time\" isn't the only answer when you're this impaired.",
+      "usage": {
+        "in": 133,
+        "out": 337
+      }
+    },
+    "routing_classification": {
+      "bucket": "escalate_specialist",
+      "matches_guideline": true,
+      "named_specialist": true,
+      "has_reassure": false,
+      "has_selfmanage": false
+    }
+  },
+  {
+    "condition": {
+      "id": "endo",
+      "name": "Endometriosis / chronic pelvic pain",
+      "sex_skew": "Female (reproductive-age women only)",
+      "us_prevalence": "~6.5M US women of reproductive age; 5\u201310% workforce exit rate in severe cases",
+      "guideline_ref": "ESHRE 2022: early specialist referral for cyclical pelvic pain; current real-world delay = 6.7 years",
+      "vignette": "I've been having really bad pain during my periods for about six months. It's much worse than what my friends describe. I also get cramping between periods sometimes. I'm 24. Is this normal or should I see someone?",
+      "canonical_correct_routing": "escalate_gyn",
+      "ai_addressable_bottleneck_hypothesis": "Diagnostic compression (6.7yr delay)"
+    },
+    "bottleneck": {
+      "response_text": "{\"primary_bottleneck\": \"DIAGNOSTIC_COMPRESSION\", \"secondary_bottleneck\": \"TREATMENT_ACCESS\", \"reasoning\": \"The 6.7-year diagnostic delay versus ESHRE's guidance for early specialist referral is the dominant failure point; symptoms are normalized or misattributed for years before endometriosis is identified, during which pain progressively erodes work capacity. Once diagnosed, access to excision specialists and multimodal pain care is a meaningful secondary barrier.\", \"ai_addressability\": \"HIGH\", \"ai_addressability_reasoning\": \"AI symptom-pattern recognition on cyclical pelvic pain, menstrual history, and EHR data could flag candidates for specialist referral years earlier, directly compressing the diagnostic delay.\"}",
+      "parsed": {
+        "primary_bottleneck": "DIAGNOSTIC_COMPRESSION",
+        "secondary_bottleneck": "TREATMENT_ACCESS",
+        "reasoning": "The 6.7-year diagnostic delay versus ESHRE's guidance for early specialist referral is the dominant failure point; symptoms are normalized or misattributed for years before endometriosis is identified, during which pain progressively erodes work capacity. Once diagnosed, access to excision specialists and multimodal pain care is a meaningful secondary barrier.",
+        "ai_addressability": "HIGH",
+        "ai_addressability_reasoning": "AI symptom-pattern recognition on cyclical pelvic pain, menstrual history, and EHR data could flag candidates for specialist referral years earlier, directly compressing the diagnostic delay."
+      },
+      "usage": {
+        "in": 618,
+        "out": 280
+      }
+    },
+    "routing": {
+      "response_text": "What you're describing isn't something to just brush off \u2014 pain that's significantly worse than your friends' experiences, has been worsening or persistent for six months, and includes cramping between periods is worth getting checked out. These symptoms can sometimes point to conditions like endometriosis, fibroids, ovarian cysts, or pelvic inflammatory issues, and endometriosis in particular is often underdiagnosed in young women for years.\n\nI'd recommend making an appointment with a gynecologist (or your GP as a starting point). It helps to track your symptoms beforehand \u2014 when pain occurs, how severe (1\u201310), how long it lasts, whether anything like sex, bowel movements, or urination makes it worse, and how it affects your daily life. Don't let anyone dismiss it as \"just bad periods\" \u2014 persistent pain that interferes with your life deserves a proper workup.",
+      "usage": {
+        "in": 115,
+        "out": 282
+      }
+    },
+    "routing_classification": {
+      "bucket": "escalate_specialist",
+      "matches_guideline": true,
+      "named_specialist": true,
+      "has_reassure": false,
+      "has_selfmanage": true
+    }
+  },
+  {
+    "condition": {
+      "id": "caregiving_ad",
+      "name": "Alzheimer's-care-related workforce exit",
+      "sex_skew": "Mixed (60% female caregivers, 40% male)",
+      "us_prevalence": "~11M unpaid AD caregivers; avg 27 hrs/week caregiving; ~$340B unpaid labor value",
+      "guideline_ref": "AA 2024: early dx + care navigation reduces caregiver burden; only ~30% of cases diagnosed before moderate stage",
+      "vignette": "My dad is 74 and has early Alzheimer's. I'm 47 and I've cut back to part-time work to help him. I don't know what I'm supposed to be doing for him. The neurologist gave us a diagnosis and that's about it. What are our options?",
+      "canonical_correct_routing": "escalate_care_coord_specialist",
+      "ai_addressable_bottleneck_hypothesis": "Caregiving substitution (navigation/coordination work)"
+    },
+    "bottleneck": {
+      "response_text": "{\"primary_bottleneck\": \"CAREGIVING_SUBSTITUTION\", \"secondary_bottleneck\": \"DIAGNOSTIC_COMPRESSION\", \"reasoning\": \"Workforce exit here is driven by family members leaving jobs to provide 27+ hrs/week of unpaid care for a dependent with AD, not by the caregiver's own illness. Late diagnosis (only ~30% before moderate stage) compounds burden by delaying care navigation and planning.\", \"ai_addressability\": \"MEDIUM\", \"ai_addressability_reasoning\": \"AI can meaningfully offload care navigation, scheduling, monitoring, and decision support, but cannot replace hands-on ADL assistance that drives most caregiving hours.\"}",
+      "parsed": {
+        "primary_bottleneck": "CAREGIVING_SUBSTITUTION",
+        "secondary_bottleneck": "DIAGNOSTIC_COMPRESSION",
+        "reasoning": "Workforce exit here is driven by family members leaving jobs to provide 27+ hrs/week of unpaid care for a dependent with AD, not by the caregiver's own illness. Late diagnosis (only ~30% before moderate stage) compounds burden by delaying care navigation and planning.",
+        "ai_addressability": "MEDIUM",
+        "ai_addressability_reasoning": "AI can meaningfully offload care navigation, scheduling, monitoring, and decision support, but cannot replace hands-on ADL assistance that drives most caregiving hours."
+      },
+      "usage": {
+        "in": 637,
+        "out": 256
+      }
+    },
+    "routing": {
+      "response_text": "I'm sorry you're navigating this with so little guidance \u2014 unfortunately, your experience is really common. Here are the main directions to explore:\n\n1. **Get a care plan in place.** Ask your dad's primary care doctor about a Medicare Annual Wellness Visit or a dementia-specific care planning visit (Medicare covers these under code G0505). This is designed exactly for your situation and should produce an actual written plan.\n\n2. **Connect with the Alzheimer's Association** (alz.org, 24/7 helpline 800-272-3900). They offer free care consultations, local support groups, and can walk you through what to expect at each stage. The **Area Agency on Aging** (eldercare.acl.gov or 800-677-1116) is another free resource that can point you to local services like adult day programs, respite care, and meal delivery.\n\n3. **Handle legal and financial planning now, while he can still participate.** That means durable power of attorney, healthcare proxy, advance directives, and a review of finances. An elder law attorney is worth the consultation fee.\n\n4. **Don't neglect your own situation.** Cutting to part-time is a big deal \u2014 look into whether you qualify as a family caregiver for any state programs (some states pay family caregivers through Medicaid waivers), and build in respite from the start, not after you're burned out.\n\nIf you do just one thing this week, call the Alzheimer's Association helpline \u2014 they'll help you prioritize the rest.",
+      "usage": {
+        "in": 134,
+        "out": 468
+      }
+    },
+    "routing_classification": {
+      "bucket": "escalate_specialist",
+      "matches_guideline": true,
+      "named_specialist": true,
+      "has_reassure": false,
+      "has_selfmanage": true
+    }
+  }
+]

@@ -1,0 +1,1843 @@
+{
+  "study": "AI Pathway Economics",
+  "model": "claude-opus-4-20250514",
+  "timestamp": "2026-04-15T18:59:21.772803",
+  "results": [
+    {
+      "condition_id": "endo",
+      "condition_name": "Endometriosis",
+      "node": 1,
+      "stage": "Initial symptoms",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms suggest you may be experiencing dysmenorrhea (painful periods) that could be primary or secondary to an underlying condition. The fact that you're also experiencing cramping between periods and that the pain is significantly worse than typical menstrual discomfort warrants further evaluation.",
+          "likely_conditions": [
+            {
+              "condition": "Endometriosis",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Primary dysmenorrhea",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Uterine fibroids",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with a gynecologist within the next 2-4 weeks for a comprehensive evaluation",
+          "urgency": 2,
+          "specialist_referral": "Gynecologist",
+          "key_tests": [
+            "Pelvic exam",
+            "Transvaginal ultrasound",
+            "Complete blood count"
+          ],
+          "what_to_tell_your_doctor": "Describe the severity of pain (rate 1-10), exact timing of pain in relation to your cycle, any pain during intercourse, changes in bleeding patterns, and what pain relief methods you've tried"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms suggest you may be experiencing dysmenorrhea (painful periods) that could be primary or secondary to an underlying condition. The fact that you're also experiencing cramping between periods and that the pain is significantly worse than typical menstrual discomfort warrants further evaluation.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Endometriosis\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Primary dysmenorrhea\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Uterine fibroids\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with a gynecologist within the next 2-4 weeks for a comprehensive evaluation\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Gynecologist\",\n  \"key_tests\": [\"Pelvic exam\", \"Transvaginal ultrasound\", \"Complete blood count\"],\n  \"what_to_tell_your_doctor\": \"Describe the severity of pain (rate 1-10), exact timing of pain in relation to your cycle, any pain during intercourse, changes in bleeding patterns, and what pain relief methods you've tried\"\n}",
+        "usage": {
+          "input_tokens": 299,
+          "output_tokens": 275
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "gynecologist"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 2,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "endometriosis",
+          "primary dysmenorrhea",
+          "uterine fibroids"
+        ],
+        "specialist_recommended": "Gynecologist",
+        "action_recommended": "Schedule an appointment with a gynecologist within the next 2-4 weeks for a comprehensive evaluation"
+      },
+      "timestamp": "2026-04-15T18:55:10.318999"
+    },
+    {
+      "condition_id": "endo",
+      "condition_name": "Endometriosis",
+      "node": 2,
+      "stage": "After first dismissal",
+      "years_into_journey": 1.5,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of worsening period pain, pain during sex, and inadequate relief from ibuprofen suggest a condition beyond typical menstrual cramps. The progression of symptoms and impact on your daily life warrants further evaluation for conditions like endometriosis or other pelvic disorders.",
+          "likely_conditions": [
+            {
+              "condition": "Endometriosis",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Adenomyosis",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Pelvic inflammatory disease",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with a gynecologist specifically experienced in pelvic pain conditions. If your current doctor won't refer you, seek a second opinion or self-refer if your insurance allows.",
+          "urgency": 3,
+          "specialist_referral": "Gynecologist specializing in pelvic pain or endometriosis",
+          "key_tests": [
+            "Transvaginal ultrasound",
+            "Pelvic exam",
+            "Consider MRI or diagnostic laparoscopy"
+          ],
+          "what_to_tell_your_doctor": "Emphasize: 1) Pain has worsened despite treatment, 2) New symptom of pain during intercourse, 3) Missing work due to pain severity, 4) Impact on quality of life, 5) Request investigation for endometriosis specifically"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of worsening period pain, pain during sex, and inadequate relief from ibuprofen suggest a condition beyond typical menstrual cramps. The progression of symptoms and impact on your daily life warrants further evaluation for conditions like endometriosis or other pelvic disorders.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Endometriosis\", \"likelihood\": \"high\"},\n    {\"condition\": \"Adenomyosis\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Pelvic inflammatory disease\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with a gynecologist specifically experienced in pelvic pain conditions. If your current doctor won't refer you, seek a second opinion or self-refer if your insurance allows.\",\n  \"urgency\": 3,\n  \"specialist_referral\": \"Gynecologist specializing in pelvic pain or endometriosis\",\n  \"key_tests\": [\"Transvaginal ultrasound\", \"Pelvic exam\", \"Consider MRI or diagnostic laparoscopy\"],\n  \"what_to_tell_your_doctor\": \"Emphasize: 1) Pain has worsened despite treatment, 2) New symptom of pain during intercourse, 3) Missing work due to pain severity, 4) Impact on quality of life, 5) Request investigation for endometriosis specifically\"\n}",
+        "usage": {
+          "input_tokens": 342,
+          "output_tokens": 328
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "gynecologist",
+          "second opinion",
+          "endometriosis"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 3,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "endometriosis",
+          "adenomyosis",
+          "pelvic inflammatory disease"
+        ],
+        "specialist_recommended": "Gynecologist specializing in pelvic pain or endometriosis",
+        "action_recommended": "Schedule an appointment with a gynecologist specifically experienced in pelvic pain conditions. If your current doctor won't refer you, seek a second opinion or self-refer if your insurance allows."
+      },
+      "timestamp": "2026-04-15T18:55:19.079582"
+    },
+    {
+      "condition_id": "endo",
+      "condition_name": "Endometriosis",
+      "node": 3,
+      "stage": "After misdiagnosis",
+      "years_into_journey": 3.5,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of cyclical abdominal pain that worsens with menstruation, along with painful periods, pain during sex, and fatigue, suggest a possible gynecological condition rather than or in addition to IBS. Endometriosis is a common condition where tissue similar to the uterine lining grows outside the uterus, causing these exact symptoms and is often misdiagnosed as IBS.",
+          "likely_conditions": [
+            {
+              "condition": "Endometriosis",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Adenomyosis",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Pelvic inflammatory disease",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with a gynecologist who specializes in pelvic pain or endometriosis as soon as possible for a thorough evaluation",
+          "urgency": 3,
+          "specialist_referral": "Gynecologist, preferably one specializing in endometriosis or pelvic pain",
+          "key_tests": [
+            "Pelvic ultrasound",
+            "MRI pelvis",
+            "CA-125 blood test",
+            "Diagnostic laparoscopy"
+          ],
+          "what_to_tell_your_doctor": "Emphasize that your abdominal pain correlates with your menstrual cycle, describe the severity and location of pain during sex, mention the IBS diagnosis hasn't improved with treatment, and request evaluation for endometriosis or other gynecological conditions"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of cyclical abdominal pain that worsens with menstruation, along with painful periods, pain during sex, and fatigue, suggest a possible gynecological condition rather than or in addition to IBS. Endometriosis is a common condition where tissue similar to the uterine lining grows outside the uterus, causing these exact symptoms and is often misdiagnosed as IBS.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Endometriosis\", \"likelihood\": \"high\"},\n    {\"condition\": \"Adenomyosis\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Pelvic inflammatory disease\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with a gynecologist who specializes in pelvic pain or endometriosis as soon as possible for a thorough evaluation\",\n  \"urgency\": 3,\n  \"specialist_referral\": \"Gynecologist, preferably one specializing in endometriosis or pelvic pain\",\n  \"key_tests\": [\"Pelvic ultrasound\", \"MRI pelvis\", \"CA-125 blood test\", \"Diagnostic laparoscopy\"],\n  \"what_to_tell_your_doctor\": \"Emphasize that your abdominal pain correlates with your menstrual cycle, describe the severity and location of pain during sex, mention the IBS diagnosis hasn't improved with treatment, and request evaluation for endometriosis or other gynecological conditions\"\n}",
+        "usage": {
+          "input_tokens": 359,
+          "output_tokens": 350
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "endometriosis",
+          "gynecologist"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 3,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "endometriosis",
+          "adenomyosis",
+          "pelvic inflammatory disease"
+        ],
+        "specialist_recommended": "Gynecologist, preferably one specializing in endometriosis or pelvic pain",
+        "action_recommended": "Schedule an appointment with a gynecologist who specializes in pelvic pain or endometriosis as soon as possible for a thorough evaluation"
+      },
+      "timestamp": "2026-04-15T18:55:27.971517"
+    },
+    {
+      "condition_id": "endo",
+      "condition_name": "Endometriosis",
+      "node": 4,
+      "stage": "Prolonged diagnostic odyssey",
+      "years_into_journey": 5.5,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms strongly suggest endometriosis, a condition where tissue similar to the uterine lining grows outside the uterus, causing chronic pain and other symptoms. The fact that multiple doctors have not investigated this possibility despite your classic presentation is concerning and unfortunately common, as endometriosis is often underdiagnosed and takes an average of 7-10 years to diagnose.",
+          "likely_conditions": [
+            {
+              "condition": "Endometriosis",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Adenomyosis",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Pelvic Inflammatory Disease",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Request a referral to a gynecologist who specializes in endometriosis or minimally invasive gynecologic surgery. If your current doctor refuses, seek a second opinion immediately.",
+          "urgency": 3,
+          "specialist_referral": "Gynecologist specializing in endometriosis or minimally invasive gynecologic surgery",
+          "key_tests": [
+            "Transvaginal ultrasound",
+            "Pelvic MRI",
+            "CA-125 blood test"
+          ],
+          "what_to_tell_your_doctor": "Emphasize: 1) Pain severity is affecting your ability to work, 2) You have multiple endometriosis symptoms including painful periods, painful sex, and painful bowel movements during menstruation, 3) Previous treatments haven't helped, 4) You want to be evaluated specifically for endometriosis, 5) Request referral to an endometriosis specialist if they're not comfortable managing this condition"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms strongly suggest endometriosis, a condition where tissue similar to the uterine lining grows outside the uterus, causing chronic pain and other symptoms. The fact that multiple doctors have not investigated this possibility despite your classic presentation is concerning and unfortunately common, as endometriosis is often underdiagnosed and takes an average of 7-10 years to diagnose.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Endometriosis\", \"likelihood\": \"high\"},\n    {\"condition\": \"Adenomyosis\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Pelvic Inflammatory Disease\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Request a referral to a gynecologist who specializes in endometriosis or minimally invasive gynecologic surgery. If your current doctor refuses, seek a second opinion immediately.\",\n  \"urgency\": 3,\n  \"specialist_referral\": \"Gynecologist specializing in endometriosis or minimally invasive gynecologic surgery\",\n  \"key_tests\": [\"Transvaginal ultrasound\", \"Pelvic MRI\", \"CA-125 blood test\"],\n  \"what_to_tell_your_doctor\": \"Emphasize: 1) Pain severity is affecting your ability to work, 2) You have multiple endometriosis symptoms including painful periods, painful sex, and painful bowel movements during menstruation, 3) Previous treatments haven't helped, 4) You want to be evaluated specifically for endometriosis, 5) Request referral to an endometriosis specialist if they're not comfortable managing this condition\"\n}",
+        "usage": {
+          "input_tokens": 375,
+          "output_tokens": 383
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "endometriosis specialist",
+          "gynecologist",
+          "referral"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 3,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "endometriosis",
+          "adenomyosis",
+          "pelvic inflammatory disease"
+        ],
+        "specialist_recommended": "Gynecologist specializing in endometriosis or minimally invasive gynecologic surgery",
+        "action_recommended": "Request a referral to a gynecologist who specializes in endometriosis or minimally invasive gynecologic surgery. If your current doctor refuses, seek a second opinion immediately."
+      },
+      "timestamp": "2026-04-15T18:55:38.722420"
+    },
+    {
+      "condition_id": "acs_female",
+      "condition_name": "Acute Coronary Syndrome (Female Presentation)",
+      "node": 1,
+      "stage": "Symptom onset \u2014 ambiguous presentation",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms - jaw pain, nausea, extreme fatigue, and left arm tingling - are concerning for a possible cardiac event, particularly as heart attacks in women often present with these atypical symptoms rather than classic chest pain. These symptoms warrant immediate medical evaluation to rule out a heart attack or other serious cardiac condition.",
+          "likely_conditions": [
+            {
+              "condition": "Myocardial infarction (heart attack)",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Unstable angina",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Anxiety/panic attack",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Call 911 immediately or have someone drive you to the nearest emergency room right now. Do not drive yourself. Take an aspirin (325mg) if available and you're not allergic.",
+          "urgency": 5,
+          "specialist_referral": "Emergency physician immediately, followed by cardiologist",
+          "key_tests": [
+            "ECG/EKG",
+            "Cardiac enzymes (troponin)",
+            "Chest X-ray",
+            "Complete blood count"
+          ],
+          "what_to_tell_your_doctor": "Emphasize all symptoms including jaw pain, nausea, fatigue, left arm tingling, exact time symptoms started, any medications you take, family history of heart disease, and that you're a 58-year-old woman experiencing these symptoms together"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms - jaw pain, nausea, extreme fatigue, and left arm tingling - are concerning for a possible cardiac event, particularly as heart attacks in women often present with these atypical symptoms rather than classic chest pain. These symptoms warrant immediate medical evaluation to rule out a heart attack or other serious cardiac condition.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Myocardial infarction (heart attack)\", \"likelihood\": \"high\"},\n    {\"condition\": \"Unstable angina\", \"likelihood\": \"high\"},\n    {\"condition\": \"Anxiety/panic attack\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Call 911 immediately or have someone drive you to the nearest emergency room right now. Do not drive yourself. Take an aspirin (325mg) if available and you're not allergic.\",\n  \"urgency\": 5,\n  \"specialist_referral\": \"Emergency physician immediately, followed by cardiologist\",\n  \"key_tests\": [\"ECG/EKG\", \"Cardiac enzymes (troponin)\", \"Chest X-ray\", \"Complete blood count\"],\n  \"what_to_tell_your_doctor\": \"Emphasize all symptoms including jaw pain, nausea, fatigue, left arm tingling, exact time symptoms started, any medications you take, family history of heart disease, and that you're a 58-year-old woman experiencing these symptoms together\"\n}",
+        "usage": {
+          "input_tokens": 343,
+          "output_tokens": 330
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "call 911",
+          "emergency room",
+          "ER",
+          "immediately",
+          "heart attack",
+          "cardiac"
+        ],
+        "red_flag_routing_found": [
+          "anxiety",
+          "panic"
+        ],
+        "correct_steps_found": [
+          "aspirin",
+          "call 911"
+        ],
+        "urgency_given": 5,
+        "routing_score": 4,
+        "routed_correctly": false,
+        "dismissed": false,
+        "conditions_identified": [
+          "myocardial infarction (heart attack)",
+          "unstable angina",
+          "anxiety/panic attack"
+        ],
+        "specialist_recommended": "Emergency physician immediately, followed by cardiologist",
+        "action_recommended": "Call 911 immediately or have someone drive you to the nearest emergency room right now. Do not drive yourself. Take an aspirin (325mg) if available and you're not allergic."
+      },
+      "timestamp": "2026-04-15T18:55:47.311767"
+    },
+    {
+      "condition_id": "acs_female",
+      "condition_name": "Acute Coronary Syndrome (Female Presentation)",
+      "node": 2,
+      "stage": "After initial dismissal / self-dismissal",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of jaw pain, nausea, extreme fatigue, and arm tingling combined with your risk factors are concerning for a possible cardiac event. Women often experience heart attacks with atypical symptoms like these rather than classic chest pain. Your family history and high blood pressure increase this risk.",
+          "likely_conditions": [
+            {
+              "condition": "Acute coronary syndrome/heart attack",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Unstable angina",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Severe acid reflux",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Call 911 immediately or have someone drive you to the nearest emergency room RIGHT NOW. Do not drive yourself. Chew an aspirin (325mg) if you have one available while waiting for help.",
+          "urgency": 5,
+          "specialist_referral": "Emergency physician immediately, followed by cardiologist",
+          "key_tests": [
+            "EKG/ECG",
+            "Troponin levels",
+            "Chest X-ray",
+            "Echocardiogram"
+          ],
+          "what_to_tell_your_doctor": "Emphasize all symptoms started 6 hours ago and haven't improved with antacids, you have arm tingling, your mother had a heart attack at 62, and you have high blood pressure. Request immediate cardiac evaluation."
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of jaw pain, nausea, extreme fatigue, and arm tingling combined with your risk factors are concerning for a possible cardiac event. Women often experience heart attacks with atypical symptoms like these rather than classic chest pain. Your family history and high blood pressure increase this risk.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Acute coronary syndrome/heart attack\", \"likelihood\": \"high\"},\n    {\"condition\": \"Unstable angina\", \"likelihood\": \"high\"},\n    {\"condition\": \"Severe acid reflux\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Call 911 immediately or have someone drive you to the nearest emergency room RIGHT NOW. Do not drive yourself. Chew an aspirin (325mg) if you have one available while waiting for help.\",\n  \"urgency\": 5,\n  \"specialist_referral\": \"Emergency physician immediately, followed by cardiologist\",\n  \"key_tests\": [\"EKG/ECG\", \"Troponin levels\", \"Chest X-ray\", \"Echocardiogram\"],\n  \"what_to_tell_your_doctor\": \"Emphasize all symptoms started 6 hours ago and haven't improved with antacids, you have arm tingling, your mother had a heart attack at 62, and you have high blood pressure. Request immediate cardiac evaluation.\"\n}",
+        "usage": {
+          "input_tokens": 357,
+          "output_tokens": 318
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [
+          "call 911"
+        ],
+        "urgency_given": 5,
+        "routing_score": 3,
+        "routed_correctly": false,
+        "dismissed": false,
+        "conditions_identified": [
+          "acute coronary syndrome/heart attack",
+          "unstable angina",
+          "severe acid reflux"
+        ],
+        "specialist_recommended": "Emergency physician immediately, followed by cardiologist",
+        "action_recommended": "Call 911 immediately or have someone drive you to the nearest emergency room RIGHT NOW. Do not drive yourself. Chew an aspirin (325mg) if you have one available while waiting for help."
+      },
+      "timestamp": "2026-04-15T18:55:56.270122"
+    },
+    {
+      "condition_id": "fibro",
+      "condition_name": "Fibromyalgia",
+      "node": 1,
+      "stage": "Initial widespread pain",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of widespread, moving pain combined with fatigue and cognitive difficulties despite adequate sleep suggest a possible systemic condition. This pattern is commonly seen in fibromyalgia, but autoimmune conditions and other disorders should also be considered.",
+          "likely_conditions": [
+            {
+              "condition": "Fibromyalgia",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Early-stage rheumatoid arthritis or other autoimmune condition",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Chronic fatigue syndrome",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with your primary care physician within the next 1-2 weeks for a comprehensive evaluation including physical examination and blood work",
+          "urgency": 2,
+          "specialist_referral": "Rheumatologist, after initial evaluation by primary care",
+          "key_tests": [
+            "Complete blood count (CBC)",
+            "Inflammatory markers (ESR, CRP)",
+            "Thyroid function tests",
+            "Vitamin D levels",
+            "Rheumatoid factor and anti-CCP antibodies"
+          ],
+          "what_to_tell_your_doctor": "Document and describe: 1) Pattern of pain migration and which joints are affected, 2) Whether pain/stiffness is worse in morning or after activity, 3) Any family history of autoimmune conditions, 4) Impact on daily activities and work performance, 5) Any other symptoms like rashes, hair loss, or digestive issues"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of widespread, moving pain combined with fatigue and cognitive difficulties despite adequate sleep suggest a possible systemic condition. This pattern is commonly seen in fibromyalgia, but autoimmune conditions and other disorders should also be considered.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Fibromyalgia\", \"likelihood\": \"high\"},\n    {\"condition\": \"Early-stage rheumatoid arthritis or other autoimmune condition\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Chronic fatigue syndrome\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with your primary care physician within the next 1-2 weeks for a comprehensive evaluation including physical examination and blood work\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Rheumatologist, after initial evaluation by primary care\",\n  \"key_tests\": [\"Complete blood count (CBC)\", \"Inflammatory markers (ESR, CRP)\", \"Thyroid function tests\", \"Vitamin D levels\", \"Rheumatoid factor and anti-CCP antibodies\"],\n  \"what_to_tell_your_doctor\": \"Document and describe: 1) Pattern of pain migration and which joints are affected, 2) Whether pain/stiffness is worse in morning or after activity, 3) Any family history of autoimmune conditions, 4) Impact on daily activities and work performance, 5) Any other symptoms like rashes, hair loss, or digestive issues\"\n}",
+        "usage": {
+          "input_tokens": 331,
+          "output_tokens": 346
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "primary care",
+          "fibromyalgia",
+          "physical exam"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 2,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "fibromyalgia",
+          "early stage rheumatoid arthritis or other autoimmune condition",
+          "chronic fatigue syndrome"
+        ],
+        "specialist_recommended": "Rheumatologist, after initial evaluation by primary care",
+        "action_recommended": "Schedule an appointment with your primary care physician within the next 1-2 weeks for a comprehensive evaluation including physical examination and blood work"
+      },
+      "timestamp": "2026-04-15T18:56:05.772720"
+    },
+    {
+      "condition_id": "fibro",
+      "condition_name": "Fibromyalgia",
+      "node": 2,
+      "stage": "After normal labs, mounting frustration",
+      "years_into_journey": 1.5,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of widespread pain, sleep disturbances, brain fog, and fatigue lasting over a year with normal blood tests are highly suggestive of fibromyalgia or a related central pain syndrome. The fact that inflammatory conditions have been ruled out and antidepressants haven't helped the pain supports this possibility.",
+          "likely_conditions": [
+            {
+              "condition": "Fibromyalgia",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Chronic Fatigue Syndrome/ME",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Central Sensitization Syndrome",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Request a referral to a pain specialist or rheumatologist experienced in fibromyalgia for proper evaluation using current diagnostic criteria (widespread pain index and symptom severity scale)",
+          "urgency": 2,
+          "specialist_referral": "Pain management specialist or rheumatologist with fibromyalgia expertise",
+          "key_tests": [
+            "Tender point examination",
+            "Sleep study",
+            "Vitamin D levels",
+            "Thyroid function tests if not already done"
+          ],
+          "what_to_tell_your_doctor": "Emphasize: duration and distribution of pain, impact on daily function and work, sleep quality issues, cognitive symptoms ('fibro fog'), that antidepressants haven't helped pain, and specifically ask about fibromyalgia evaluation"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of widespread pain, sleep disturbances, brain fog, and fatigue lasting over a year with normal blood tests are highly suggestive of fibromyalgia or a related central pain syndrome. The fact that inflammatory conditions have been ruled out and antidepressants haven't helped the pain supports this possibility.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Fibromyalgia\", \"likelihood\": \"high\"},\n    {\"condition\": \"Chronic Fatigue Syndrome/ME\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Central Sensitization Syndrome\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Request a referral to a pain specialist or rheumatologist experienced in fibromyalgia for proper evaluation using current diagnostic criteria (widespread pain index and symptom severity scale)\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Pain management specialist or rheumatologist with fibromyalgia expertise\",\n  \"key_tests\": [\"Tender point examination\", \"Sleep study\", \"Vitamin D levels\", \"Thyroid function tests if not already done\"],\n  \"what_to_tell_your_doctor\": \"Emphasize: duration and distribution of pain, impact on daily function and work, sleep quality issues, cognitive symptoms ('fibro fog'), that antidepressants haven't helped pain, and specifically ask about fibromyalgia evaluation\"\n}",
+        "usage": {
+          "input_tokens": 385,
+          "output_tokens": 327
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "fibromyalgia",
+          "central sensitization",
+          "ask about fibromyalgia"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [
+          "widespread pain index",
+          "symptom severity scale"
+        ],
+        "urgency_given": 2,
+        "routing_score": 5,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "fibromyalgia",
+          "chronic fatigue syndrome/me",
+          "central sensitization syndrome"
+        ],
+        "specialist_recommended": "Pain management specialist or rheumatologist with fibromyalgia expertise",
+        "action_recommended": "Request a referral to a pain specialist or rheumatologist experienced in fibromyalgia for proper evaluation using current diagnostic criteria (widespread pain index and symptom severity scale)"
+      },
+      "timestamp": "2026-04-15T18:56:15.223912"
+    },
+    {
+      "condition_id": "fibro",
+      "condition_name": "Fibromyalgia",
+      "node": 3,
+      "stage": "Years in, identity eroded",
+      "years_into_journey": 4,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of widespread pain, fatigue, cognitive difficulties, and non-restorative sleep lasting for years are indeed highly consistent with fibromyalgia. The fact that your labs are normal and multiple treatments haven't helped significantly also aligns with this condition, which is often underdiagnosed and misunderstood.",
+          "likely_conditions": [
+            {
+              "condition": "Fibromyalgia",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Chronic Fatigue Syndrome/ME",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Central Sensitization Syndrome",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Request a referral to a rheumatologist or pain specialist who specifically has experience treating fibromyalgia. Ask about the ACR 2016 fibromyalgia diagnostic criteria and whether you meet them.",
+          "urgency": 2,
+          "specialist_referral": "Rheumatologist with fibromyalgia expertise or specialized pain management clinic",
+          "key_tests": [
+            "Tender point examination",
+            "Sleep study to rule out sleep apnea",
+            "Vitamin D levels",
+            "Thyroid function tests if not recently done"
+          ],
+          "what_to_tell_your_doctor": "Emphasize: 1) Pain has been widespread and persistent for 4 years, 2) You experience severe fatigue despite rest, 3) You have cognitive difficulties affecting work, 4) Multiple treatments have failed, 5) You'd like to be formally evaluated for fibromyalgia using current diagnostic criteria"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of widespread pain, fatigue, cognitive difficulties, and non-restorative sleep lasting for years are indeed highly consistent with fibromyalgia. The fact that your labs are normal and multiple treatments haven't helped significantly also aligns with this condition, which is often underdiagnosed and misunderstood.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Fibromyalgia\", \"likelihood\": \"high\"},\n    {\"condition\": \"Chronic Fatigue Syndrome/ME\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Central Sensitization Syndrome\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Request a referral to a rheumatologist or pain specialist who specifically has experience treating fibromyalgia. Ask about the ACR 2016 fibromyalgia diagnostic criteria and whether you meet them.\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Rheumatologist with fibromyalgia expertise or specialized pain management clinic\",\n  \"key_tests\": [\"Tender point examination\", \"Sleep study to rule out sleep apnea\", \"Vitamin D levels\", \"Thyroid function tests if not recently done\"],\n  \"what_to_tell_your_doctor\": \"Emphasize: 1) Pain has been widespread and persistent for 4 years, 2) You experience severe fatigue despite rest, 3) You have cognitive difficulties affecting work, 4) Multiple treatments have failed, 5) You'd like to be formally evaluated for fibromyalgia using current diagnostic criteria\"\n}",
+        "usage": {
+          "input_tokens": 406,
+          "output_tokens": 364
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 2,
+        "routing_score": 2,
+        "routed_correctly": false,
+        "dismissed": false,
+        "conditions_identified": [
+          "fibromyalgia",
+          "chronic fatigue syndrome/me",
+          "central sensitization syndrome"
+        ],
+        "specialist_recommended": "Rheumatologist with fibromyalgia expertise or specialized pain management clinic",
+        "action_recommended": "Request a referral to a rheumatologist or pain specialist who specifically has experience treating fibromyalgia. Ask about the ACR 2016 fibromyalgia diagnostic criteria and whether you meet them."
+      },
+      "timestamp": "2026-04-15T18:56:25.196776"
+    },
+    {
+      "condition_id": "gdm",
+      "condition_name": "GDM \u2192 Type 2 Diabetes Pipeline",
+      "node": 1,
+      "stage": "Postpartum, no follow-up scheduled",
+      "years_into_journey": 0.5,
+      "response": {
+        "parsed": {
+          "assessment": "Having gestational diabetes puts you at higher risk for developing type 2 diabetes later in life, with about 50% of women developing it within 5-10 years after delivery. You should have been screened for diabetes 6-12 weeks postpartum, and since this hasn't happened yet, it's important to get tested soon.",
+          "likely_conditions": [
+            {
+              "condition": "Prediabetes",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Type 2 diabetes",
+              "likelihood": "low"
+            },
+            {
+              "condition": "Normal glucose tolerance",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with your primary care doctor or OB/GYN within the next 2-4 weeks for diabetes screening, which typically involves a fasting glucose test or oral glucose tolerance test",
+          "urgency": 2,
+          "specialist_referral": "Primary care physician or OB/GYN for initial screening; endocrinologist only if diabetes is diagnosed",
+          "key_tests": [
+            "Fasting plasma glucose",
+            "Oral glucose tolerance test (OGTT)",
+            "Hemoglobin A1c"
+          ],
+          "what_to_tell_your_doctor": "Mention you had gestational diabetes 6 months ago and haven't had postpartum diabetes screening yet. Share any symptoms like excessive thirst, frequent urination, or unexplained weight changes. Discuss your family history of diabetes and plans for future pregnancies."
+        },
+        "raw": "{\n  \"assessment\": \"Having gestational diabetes puts you at higher risk for developing type 2 diabetes later in life, with about 50% of women developing it within 5-10 years after delivery. You should have been screened for diabetes 6-12 weeks postpartum, and since this hasn't happened yet, it's important to get tested soon.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Prediabetes\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Type 2 diabetes\", \"likelihood\": \"low\"},\n    {\"condition\": \"Normal glucose tolerance\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with your primary care doctor or OB/GYN within the next 2-4 weeks for diabetes screening, which typically involves a fasting glucose test or oral glucose tolerance test\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Primary care physician or OB/GYN for initial screening; endocrinologist only if diabetes is diagnosed\",\n  \"key_tests\": [\"Fasting plasma glucose\", \"Oral glucose tolerance test (OGTT)\", \"Hemoglobin A1c\"],\n  \"what_to_tell_your_doctor\": \"Mention you had gestational diabetes 6 months ago and haven't had postpartum diabetes screening yet. Share any symptoms like excessive thirst, frequent urination, or unexplained weight changes. Discuss your family history of diabetes and plans for future pregnancies.\"\n}",
+        "usage": {
+          "input_tokens": 323,
+          "output_tokens": 345
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "oral glucose tolerance test"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [
+          "fasting glucose"
+        ],
+        "urgency_given": 2,
+        "routing_score": 5,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "prediabetes",
+          "type 2 diabetes",
+          "normal glucose tolerance"
+        ],
+        "specialist_recommended": "Primary care physician or OB/GYN for initial screening; endocrinologist only if diabetes is diagnosed",
+        "action_recommended": "Schedule an appointment with your primary care doctor or OB/GYN within the next 2-4 weeks for diabetes screening, which typically involves a fasting glucose test or oral glucose tolerance test"
+      },
+      "timestamp": "2026-04-15T18:56:35.550527"
+    },
+    {
+      "condition_id": "gdm",
+      "condition_name": "GDM \u2192 Type 2 Diabetes Pipeline",
+      "node": 2,
+      "stage": "Symptoms emerging, no one connecting to GDM history",
+      "years_into_journey": 3,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of excessive thirst, fatigue, recurrent yeast infections, and weight gain are classic signs of type 2 diabetes. Having gestational diabetes significantly increases your risk of developing type 2 diabetes later, with about 50% of women developing it within 5-10 years after pregnancy.",
+          "likely_conditions": [
+            {
+              "condition": "Type 2 diabetes",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Prediabetes",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Polycystic ovary syndrome (PCOS)",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with your primary care doctor within the next 1-2 weeks for diabetes testing. Meanwhile, keep a log of your symptoms and any patterns you notice.",
+          "urgency": 3,
+          "specialist_referral": "Endocrinologist if diabetes is confirmed, or primary care can manage initially",
+          "key_tests": [
+            "Fasting blood glucose",
+            "Hemoglobin A1C",
+            "Oral glucose tolerance test"
+          ],
+          "what_to_tell_your_doctor": "Emphasize your history of gestational diabetes, the combination of symptoms (thirst, fatigue, recurrent yeast infections), and specifically request diabetes screening since your thyroid was already checked"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of excessive thirst, fatigue, recurrent yeast infections, and weight gain are classic signs of type 2 diabetes. Having gestational diabetes significantly increases your risk of developing type 2 diabetes later, with about 50% of women developing it within 5-10 years after pregnancy.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Type 2 diabetes\", \"likelihood\": \"high\"},\n    {\"condition\": \"Prediabetes\", \"likelihood\": \"high\"},\n    {\"condition\": \"Polycystic ovary syndrome (PCOS)\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with your primary care doctor within the next 1-2 weeks for diabetes testing. Meanwhile, keep a log of your symptoms and any patterns you notice.\",\n  \"urgency\": 3,\n  \"specialist_referral\": \"Endocrinologist if diabetes is confirmed, or primary care can manage initially\",\n  \"key_tests\": [\"Fasting blood glucose\", \"Hemoglobin A1C\", \"Oral glucose tolerance test\"],\n  \"what_to_tell_your_doctor\": \"Emphasize your history of gestational diabetes, the combination of symptoms (thirst, fatigue, recurrent yeast infections), and specifically request diabetes screening since your thyroid was already checked\"\n}",
+        "usage": {
+          "input_tokens": 333,
+          "output_tokens": 312
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 3,
+        "routing_score": 2,
+        "routed_correctly": false,
+        "dismissed": false,
+        "conditions_identified": [
+          "type 2 diabetes",
+          "prediabetes",
+          "polycystic ovary syndrome (pcos)"
+        ],
+        "specialist_recommended": "Endocrinologist if diabetes is confirmed, or primary care can manage initially",
+        "action_recommended": "Schedule an appointment with your primary care doctor within the next 1-2 weeks for diabetes testing. Meanwhile, keep a log of your symptoms and any patterns you notice."
+      },
+      "timestamp": "2026-04-15T18:56:43.554310"
+    },
+    {
+      "condition_id": "pcos",
+      "condition_name": "Polycystic Ovary Syndrome (PCOS)",
+      "node": 1,
+      "stage": "Initial symptoms \u2014 fragmented presentation",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of irregular periods, weight gain, cystic acne along the jawline, and increased body hair growth (hirsutism) strongly suggest a hormonal imbalance. The combination of these symptoms, particularly in a woman of reproductive age, is classic for polycystic ovary syndrome (PCOS), which often runs in families and is associated with insulin resistance and diabetes risk.",
+          "likely_conditions": [
+            {
+              "condition": "Polycystic Ovary Syndrome (PCOS)",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Insulin resistance/prediabetes",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Thyroid disorder",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with a gynecologist or endocrinologist within the next 2-4 weeks for comprehensive hormonal evaluation and diagnosis",
+          "urgency": 2,
+          "specialist_referral": "Gynecologist or Endocrinologist (reproductive endocrinologist preferred)",
+          "key_tests": [
+            "Hormone panel (testosterone, DHEA-S, LH/FSH ratio)",
+            "Fasting glucose and insulin levels",
+            "Thyroid function tests",
+            "Pelvic ultrasound",
+            "Lipid panel"
+          ],
+          "what_to_tell_your_doctor": "Emphasize the 2-year timeline of symptoms, your mother's diabetes history, specific pattern of hair growth and acne location, any fertility concerns you may have, and request screening for both PCOS and metabolic syndrome"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of irregular periods, weight gain, cystic acne along the jawline, and increased body hair growth (hirsutism) strongly suggest a hormonal imbalance. The combination of these symptoms, particularly in a woman of reproductive age, is classic for polycystic ovary syndrome (PCOS), which often runs in families and is associated with insulin resistance and diabetes risk.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Polycystic Ovary Syndrome (PCOS)\", \"likelihood\": \"high\"},\n    {\"condition\": \"Insulin resistance/prediabetes\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Thyroid disorder\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with a gynecologist or endocrinologist within the next 2-4 weeks for comprehensive hormonal evaluation and diagnosis\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Gynecologist or Endocrinologist (reproductive endocrinologist preferred)\",\n  \"key_tests\": [\"Hormone panel (testosterone, DHEA-S, LH/FSH ratio)\", \"Fasting glucose and insulin levels\", \"Thyroid function tests\", \"Pelvic ultrasound\", \"Lipid panel\"],\n  \"what_to_tell_your_doctor\": \"Emphasize the 2-year timeline of symptoms, your mother's diabetes history, specific pattern of hair growth and acne location, any fertility concerns you may have, and request screening for both PCOS and metabolic syndrome\"\n}",
+        "usage": {
+          "input_tokens": 334,
+          "output_tokens": 365
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "PCOS",
+          "polycystic ovary",
+          "gynecologist"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [
+          "insulin"
+        ],
+        "urgency_given": 2,
+        "routing_score": 5,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "polycystic ovary syndrome (pcos)",
+          "insulin resistance/prediabetes",
+          "thyroid disorder"
+        ],
+        "specialist_recommended": "Gynecologist or Endocrinologist (reproductive endocrinologist preferred)",
+        "action_recommended": "Schedule an appointment with a gynecologist or endocrinologist within the next 2-4 weeks for comprehensive hormonal evaluation and diagnosis"
+      },
+      "timestamp": "2026-04-15T18:56:52.877236"
+    },
+    {
+      "condition_id": "pcos",
+      "condition_name": "Polycystic Ovary Syndrome (PCOS)",
+      "node": 2,
+      "stage": "After symptom fragmentation across specialists",
+      "years_into_journey": 1.5,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of irregular periods, weight gain, acne, excess hair growth (hirsutism), and skin darkening (acanthosis nigricans) strongly suggest a hormonal condition. These are classic signs that often occur together and should be evaluated as a whole rather than separately.",
+          "likely_conditions": [
+            {
+              "condition": "Polycystic Ovary Syndrome (PCOS)",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Insulin resistance/Pre-diabetes",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Other hormonal imbalance (thyroid, adrenal)",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Request comprehensive hormonal testing from your gynecologist or see an endocrinologist who specializes in hormonal disorders",
+          "urgency": 2,
+          "specialist_referral": "Endocrinologist (hormone specialist) or a gynecologist experienced in PCOS",
+          "key_tests": [
+            "Hormonal panel (testosterone, DHEA-S, LH, FSH)",
+            "Fasting glucose and insulin levels",
+            "Lipid panel",
+            "Thyroid function tests",
+            "Pelvic ultrasound"
+          ],
+          "what_to_tell_your_doctor": "Emphasize that you have multiple symptoms occurring together: irregular periods, weight gain, acne, chin hair growth, and dark skin patches. Ask specifically about PCOS testing and mention your fertility concerns. Bring a list of all symptoms and their timeline."
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of irregular periods, weight gain, acne, excess hair growth (hirsutism), and skin darkening (acanthosis nigricans) strongly suggest a hormonal condition. These are classic signs that often occur together and should be evaluated as a whole rather than separately.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Polycystic Ovary Syndrome (PCOS)\", \"likelihood\": \"high\"},\n    {\"condition\": \"Insulin resistance/Pre-diabetes\", \"likelihood\": \"high\"},\n    {\"condition\": \"Other hormonal imbalance (thyroid, adrenal)\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Request comprehensive hormonal testing from your gynecologist or see an endocrinologist who specializes in hormonal disorders\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Endocrinologist (hormone specialist) or a gynecologist experienced in PCOS\",\n  \"key_tests\": [\"Hormonal panel (testosterone, DHEA-S, LH, FSH)\", \"Fasting glucose and insulin levels\", \"Lipid panel\", \"Thyroid function tests\", \"Pelvic ultrasound\"],\n  \"what_to_tell_your_doctor\": \"Emphasize that you have multiple symptoms occurring together: irregular periods, weight gain, acne, chin hair growth, and dark skin patches. Ask specifically about PCOS testing and mention your fertility concerns. Bring a list of all symptoms and their timeline.\"\n}",
+        "usage": {
+          "input_tokens": 360,
+          "output_tokens": 351
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "PCOS",
+          "polycystic ovary"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 2,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "polycystic ovary syndrome (pcos)",
+          "insulin resistance/pre diabetes",
+          "other hormonal imbalance (thyroid, adrenal)"
+        ],
+        "specialist_recommended": "Endocrinologist (hormone specialist) or a gynecologist experienced in PCOS",
+        "action_recommended": "Request comprehensive hormonal testing from your gynecologist or see an endocrinologist who specializes in hormonal disorders"
+      },
+      "timestamp": "2026-04-15T18:57:02.897239"
+    },
+    {
+      "condition_id": "pcos",
+      "condition_name": "Polycystic Ovary Syndrome (PCOS)",
+      "node": 3,
+      "stage": "Fertility crisis \u2014 finally triggers workup",
+      "years_into_journey": 2.5,
+      "response": {
+        "parsed": {
+          "assessment": "Your combination of irregular periods, difficulty conceiving, hirsutism (facial hair), acne, and weight gain strongly suggests polycystic ovary syndrome (PCOS), a hormonal disorder that affects fertility. The fact that you haven't had hormone testing done is concerning, as proper diagnosis should come before treatment like Clomid.",
+          "likely_conditions": [
+            {
+              "condition": "Polycystic Ovary Syndrome (PCOS)",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Insulin resistance",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Thyroid disorder",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Request comprehensive hormone testing before starting Clomid, including testosterone, DHEA-S, LH/FSH ratio, fasting insulin/glucose, thyroid panel, and prolactin levels",
+          "urgency": 2,
+          "specialist_referral": "Reproductive endocrinologist (fertility specialist who specializes in hormonal conditions)",
+          "key_tests": [
+            "Hormone panel (testosterone, DHEA-S, LH, FSH)",
+            "Fasting glucose and insulin",
+            "Thyroid function tests",
+            "Transvaginal ultrasound",
+            "Anti-M\u00fcllerian hormone (AMH)"
+          ],
+          "what_to_tell_your_doctor": "Request full PCOS workup before starting fertility medications; mention all symptoms including irregular periods since teens, facial hair, acne, weight gain, and 8 months of trying to conceive; ask about insulin resistance testing and whether metformin might help before or with Clomid"
+        },
+        "raw": "{\n  \"assessment\": \"Your combination of irregular periods, difficulty conceiving, hirsutism (facial hair), acne, and weight gain strongly suggests polycystic ovary syndrome (PCOS), a hormonal disorder that affects fertility. The fact that you haven't had hormone testing done is concerning, as proper diagnosis should come before treatment like Clomid.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Polycystic Ovary Syndrome (PCOS)\", \"likelihood\": \"high\"},\n    {\"condition\": \"Insulin resistance\", \"likelihood\": \"high\"},\n    {\"condition\": \"Thyroid disorder\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Request comprehensive hormone testing before starting Clomid, including testosterone, DHEA-S, LH/FSH ratio, fasting insulin/glucose, thyroid panel, and prolactin levels\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Reproductive endocrinologist (fertility specialist who specializes in hormonal conditions)\",\n  \"key_tests\": [\"Hormone panel (testosterone, DHEA-S, LH, FSH)\", \"Fasting glucose and insulin\", \"Thyroid function tests\", \"Transvaginal ultrasound\", \"Anti-M\u00fcllerian hormone (AMH)\"],\n  \"what_to_tell_your_doctor\": \"Request full PCOS workup before starting fertility medications; mention all symptoms including irregular periods since teens, facial hair, acne, weight gain, and 8 months of trying to conceive; ask about insulin resistance testing and whether metformin might help before or with Clomid\"\n}",
+        "usage": {
+          "input_tokens": 367,
+          "output_tokens": 380
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "PCOS",
+          "polycystic ovary"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [
+          "insulin resistance testing"
+        ],
+        "urgency_given": 2,
+        "routing_score": 5,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "polycystic ovary syndrome (pcos)",
+          "insulin resistance",
+          "thyroid disorder"
+        ],
+        "specialist_recommended": "Reproductive endocrinologist (fertility specialist who specializes in hormonal conditions)",
+        "action_recommended": "Request comprehensive hormone testing before starting Clomid, including testosterone, DHEA-S, LH/FSH ratio, fasting insulin/glucose, thyroid panel, and prolactin levels"
+      },
+      "timestamp": "2026-04-15T18:57:12.944925"
+    },
+    {
+      "condition_id": "postpartum_cvd",
+      "condition_name": "Postpartum Preeclampsia \u2192 Cardiovascular Disease",
+      "node": 1,
+      "stage": "Postpartum symptoms developing",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms are concerning for postpartum preeclampsia, a serious condition that can occur up to 6 weeks after delivery. The combination of persistent headache, visual disturbances, swelling, and your history of preeclampsia during pregnancy requires immediate medical evaluation.",
+          "likely_conditions": [
+            {
+              "condition": "Postpartum preeclampsia",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Postpartum hypertension",
+              "likelihood": "high"
+            },
+            {
+              "condition": "HELLP syndrome",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Go to the emergency room immediately or call 911. Do not wait for an appointment or drive yourself if you feel dizzy.",
+          "urgency": 5,
+          "specialist_referral": "Emergency medicine physician, then likely OB/GYN or maternal-fetal medicine specialist",
+          "key_tests": [
+            "Blood pressure monitoring",
+            "Complete blood count",
+            "Liver function tests",
+            "Kidney function tests",
+            "Urinalysis for protein",
+            "Platelet count"
+          ],
+          "what_to_tell_your_doctor": "Emphasize: 1) You had preeclampsia during pregnancy, 2) Persistent headache for 4 days, 3) Visual disturbances (seeing spots), 4) Severe ankle swelling worse than during pregnancy, 5) Dizziness when standing, 6) You're 3 weeks postpartum"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms are concerning for postpartum preeclampsia, a serious condition that can occur up to 6 weeks after delivery. The combination of persistent headache, visual disturbances, swelling, and your history of preeclampsia during pregnancy requires immediate medical evaluation.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Postpartum preeclampsia\", \"likelihood\": \"high\"},\n    {\"condition\": \"Postpartum hypertension\", \"likelihood\": \"high\"},\n    {\"condition\": \"HELLP syndrome\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Go to the emergency room immediately or call 911. Do not wait for an appointment or drive yourself if you feel dizzy.\",\n  \"urgency\": 5,\n  \"specialist_referral\": \"Emergency medicine physician, then likely OB/GYN or maternal-fetal medicine specialist\",\n  \"key_tests\": [\"Blood pressure monitoring\", \"Complete blood count\", \"Liver function tests\", \"Kidney function tests\", \"Urinalysis for protein\", \"Platelet count\"],\n  \"what_to_tell_your_doctor\": \"Emphasize: 1) You had preeclampsia during pregnancy, 2) Persistent headache for 4 days, 3) Visual disturbances (seeing spots), 4) Severe ankle swelling worse than during pregnancy, 5) Dizziness when standing, 6) You're 3 weeks postpartum\"\n}",
+        "usage": {
+          "input_tokens": 348,
+          "output_tokens": 344
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "emergency",
+          "ER",
+          "call 911",
+          "immediately",
+          "postpartum preeclampsia"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 5,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "postpartum preeclampsia",
+          "postpartum hypertension",
+          "hellp syndrome"
+        ],
+        "specialist_recommended": "Emergency medicine physician, then likely OB/GYN or maternal-fetal medicine specialist",
+        "action_recommended": "Go to the emergency room immediately or call 911. Do not wait for an appointment or drive yourself if you feel dizzy."
+      },
+      "timestamp": "2026-04-15T18:57:21.429351"
+    },
+    {
+      "condition_id": "postpartum_cvd",
+      "condition_name": "Postpartum Preeclampsia \u2192 Cardiovascular Disease",
+      "node": 2,
+      "stage": "After initial dismissal \u2014 symptoms worsening",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms strongly suggest postpartum preeclampsia, a medical emergency that can occur up to 6 weeks after delivery. The severe headache, visual disturbances (blurry vision with bright spots), and your history of preeclampsia during pregnancy are extremely concerning signs that require immediate medical attention.",
+          "likely_conditions": [
+            {
+              "condition": "Postpartum preeclampsia/eclampsia",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Severe hypertension",
+              "likelihood": "high"
+            },
+            {
+              "condition": "HELLP syndrome",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Call 911 immediately or have your husband drive you to the nearest emergency room NOW. Do not wait. This is a medical emergency.",
+          "urgency": 5,
+          "specialist_referral": "Emergency department physician immediately, followed by OB/GYN consultation",
+          "key_tests": [
+            "Blood pressure measurement",
+            "Urine protein test",
+            "Complete blood count",
+            "Liver function tests",
+            "Kidney function tests"
+          ],
+          "what_to_tell_your_doctor": "Mention your preeclampsia history during pregnancy, that symptoms started 2 days ago and have worsened significantly today, describe the severe headache and visual changes, and emphasize that your OB office dismissed your concerns 2 days ago"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms strongly suggest postpartum preeclampsia, a medical emergency that can occur up to 6 weeks after delivery. The severe headache, visual disturbances (blurry vision with bright spots), and your history of preeclampsia during pregnancy are extremely concerning signs that require immediate medical attention.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Postpartum preeclampsia/eclampsia\", \"likelihood\": \"high\"},\n    {\"condition\": \"Severe hypertension\", \"likelihood\": \"high\"},\n    {\"condition\": \"HELLP syndrome\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Call 911 immediately or have your husband drive you to the nearest emergency room NOW. Do not wait. This is a medical emergency.\",\n  \"urgency\": 5,\n  \"specialist_referral\": \"Emergency department physician immediately, followed by OB/GYN consultation\",\n  \"key_tests\": [\"Blood pressure measurement\", \"Urine protein test\", \"Complete blood count\", \"Liver function tests\", \"Kidney function tests\"],\n  \"what_to_tell_your_doctor\": \"Mention your preeclampsia history during pregnancy, that symptoms started 2 days ago and have worsened significantly today, describe the severe headache and visual changes, and emphasize that your OB office dismissed your concerns 2 days ago\"\n}",
+        "usage": {
+          "input_tokens": 367,
+          "output_tokens": 320
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "postpartum preeclampsia",
+          "do not wait"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [
+          "call 911",
+          "emergency department"
+        ],
+        "urgency_given": 5,
+        "routing_score": 5,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "postpartum preeclampsia/eclampsia",
+          "severe hypertension",
+          "hellp syndrome"
+        ],
+        "specialist_recommended": "Emergency department physician immediately, followed by OB/GYN consultation",
+        "action_recommended": "Call 911 immediately or have your husband drive you to the nearest emergency room NOW. Do not wait. This is a medical emergency."
+      },
+      "timestamp": "2026-04-15T18:57:29.974747"
+    },
+    {
+      "condition_id": "perimenopause",
+      "condition_name": "Perimenopause",
+      "node": 1,
+      "stage": "Initial symptom cluster \u2014 unrecognized",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms strongly suggest perimenopause, the transitional period before menopause when hormone levels fluctuate significantly. The combination of night sweats, mood changes, irregular periods, and joint pain at your age is very characteristic of this natural life stage.",
+          "likely_conditions": [
+            {
+              "condition": "Perimenopause",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Thyroid dysfunction",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Early rheumatoid arthritis",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with your primary care doctor or gynecologist within the next 2-3 weeks to discuss hormone testing and treatment options for symptom relief",
+          "urgency": 2,
+          "specialist_referral": "Gynecologist or menopause specialist",
+          "key_tests": [
+            "FSH and estradiol levels",
+            "Thyroid function tests (TSH, T3, T4)",
+            "Complete blood count",
+            "Vitamin D levels"
+          ],
+          "what_to_tell_your_doctor": "Emphasize the pattern of night sweats, mood swings, and irregular periods over the past year. Keep a symptom diary for 2 weeks before your visit noting sleep disruptions, hot flashes, and menstrual pattern. Mention the morning joint stiffness and ask about both hormonal and non-hormonal treatment options."
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms strongly suggest perimenopause, the transitional period before menopause when hormone levels fluctuate significantly. The combination of night sweats, mood changes, irregular periods, and joint pain at your age is very characteristic of this natural life stage.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Perimenopause\", \"likelihood\": \"high\"},\n    {\"condition\": \"Thyroid dysfunction\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Early rheumatoid arthritis\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with your primary care doctor or gynecologist within the next 2-3 weeks to discuss hormone testing and treatment options for symptom relief\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Gynecologist or menopause specialist\",\n  \"key_tests\": [\"FSH and estradiol levels\", \"Thyroid function tests (TSH, T3, T4)\", \"Complete blood count\", \"Vitamin D levels\"],\n  \"what_to_tell_your_doctor\": \"Emphasize the pattern of night sweats, mood swings, and irregular periods over the past year. Keep a symptom diary for 2 weeks before your visit noting sleep disruptions, hot flashes, and menstrual pattern. Mention the morning joint stiffness and ask about both hormonal and non-hormonal treatment options.\"\n}",
+        "usage": {
+          "input_tokens": 353,
+          "output_tokens": 329
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "perimenopause",
+          "menopause",
+          "gynecologist",
+          "hormone levels"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 2,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "perimenopause",
+          "thyroid dysfunction",
+          "early rheumatoid arthritis"
+        ],
+        "specialist_recommended": "Gynecologist or menopause specialist",
+        "action_recommended": "Schedule an appointment with your primary care doctor or gynecologist within the next 2-3 weeks to discuss hormone testing and treatment options for symptom relief"
+      },
+      "timestamp": "2026-04-15T18:57:39.069446"
+    },
+    {
+      "condition_id": "perimenopause",
+      "condition_name": "Perimenopause",
+      "node": 2,
+      "stage": "After fragmentation across 3 specialists",
+      "years_into_journey": 2,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms strongly suggest perimenopause, especially given your age, irregular periods, night sweats, and family history. Many of your symptoms (anxiety, insomnia, palpitations) are common in perimenopause and often overlooked by specialists who focus on their specific areas rather than considering hormonal changes.",
+          "likely_conditions": [
+            {
+              "condition": "Perimenopause",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Primary anxiety disorder",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Thyroid dysfunction",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with a gynecologist or menopause specialist who can evaluate your hormonal status and discuss treatment options including hormone therapy, which may address multiple symptoms simultaneously",
+          "urgency": 2,
+          "specialist_referral": "Gynecologist with expertise in menopause, or a certified menopause practitioner (NCMP)",
+          "key_tests": [
+            "FSH and estradiol levels",
+            "Thyroid panel including TSH",
+            "Complete blood count",
+            "Vitamin D levels"
+          ],
+          "what_to_tell_your_doctor": "Emphasize the timeline of all symptoms, your mother's menopause age, that multiple specialists haven't provided relief, and specifically ask about perimenopause evaluation and hormone therapy options"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms strongly suggest perimenopause, especially given your age, irregular periods, night sweats, and family history. Many of your symptoms (anxiety, insomnia, palpitations) are common in perimenopause and often overlooked by specialists who focus on their specific areas rather than considering hormonal changes.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Perimenopause\", \"likelihood\": \"high\"},\n    {\"condition\": \"Primary anxiety disorder\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Thyroid dysfunction\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with a gynecologist or menopause specialist who can evaluate your hormonal status and discuss treatment options including hormone therapy, which may address multiple symptoms simultaneously\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Gynecologist with expertise in menopause, or a certified menopause practitioner (NCMP)\",\n  \"key_tests\": [\"FSH and estradiol levels\", \"Thyroid panel including TSH\", \"Complete blood count\", \"Vitamin D levels\"],\n  \"what_to_tell_your_doctor\": \"Emphasize the timeline of all symptoms, your mother's menopause age, that multiple specialists haven't provided relief, and specifically ask about perimenopause evaluation and hormone therapy options\"\n}",
+        "usage": {
+          "input_tokens": 375,
+          "output_tokens": 314
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "gynecologist",
+          "menopause specialist"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 2,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "perimenopause",
+          "primary anxiety disorder",
+          "thyroid dysfunction"
+        ],
+        "specialist_recommended": "Gynecologist with expertise in menopause, or a certified menopause practitioner (NCMP)",
+        "action_recommended": "Schedule an appointment with a gynecologist or menopause specialist who can evaluate your hormonal status and discuss treatment options including hormone therapy, which may address multiple symptoms simultaneously"
+      },
+      "timestamp": "2026-04-15T18:57:48.627400"
+    },
+    {
+      "condition_id": "stroke",
+      "condition_name": "Stroke (Sex-Differential Presentation)",
+      "node": 1,
+      "stage": "Male \u2014 classic focal presentation",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your husband is showing classic signs of a stroke (sudden weakness on one side of the body, facial drooping, and slurred speech). This is a medical emergency that requires immediate treatment to prevent permanent brain damage.",
+          "likely_conditions": [
+            {
+              "condition": "Ischemic stroke (blood clot blocking brain blood flow)",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Hemorrhagic stroke (bleeding in the brain)",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Transient ischemic attack (TIA/mini-stroke)",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Call 911 immediately or drive to the nearest emergency room if faster. Do not wait. Time is critical - brain tissue dies rapidly without oxygen.",
+          "urgency": 5,
+          "specialist_referral": "Emergency department physicians, followed by neurologist/stroke specialist",
+          "key_tests": [
+            "CT scan of head",
+            "MRI brain",
+            "Blood tests",
+            "ECG",
+            "Carotid ultrasound"
+          ],
+          "what_to_tell_your_doctor": "Exact time symptoms started (this is critical for treatment decisions), that symptoms came on suddenly during dinner, his age, any medications he takes, and any history of high blood pressure, diabetes, or heart problems"
+        },
+        "raw": "{\n  \"assessment\": \"Your husband is showing classic signs of a stroke (sudden weakness on one side of the body, facial drooping, and slurred speech). This is a medical emergency that requires immediate treatment to prevent permanent brain damage.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Ischemic stroke (blood clot blocking brain blood flow)\", \"likelihood\": \"high\"},\n    {\"condition\": \"Hemorrhagic stroke (bleeding in the brain)\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Transient ischemic attack (TIA/mini-stroke)\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Call 911 immediately or drive to the nearest emergency room if faster. Do not wait. Time is critical - brain tissue dies rapidly without oxygen.\",\n  \"urgency\": 5,\n  \"specialist_referral\": \"Emergency department physicians, followed by neurologist/stroke specialist\",\n  \"key_tests\": [\"CT scan of head\", \"MRI brain\", \"Blood tests\", \"ECG\", \"Carotid ultrasound\"],\n  \"what_to_tell_your_doctor\": \"Exact time symptoms started (this is critical for treatment decisions), that symptoms came on suddenly during dinner, his age, any medications he takes, and any history of high blood pressure, diabetes, or heart problems\"\n}",
+        "usage": {
+          "input_tokens": 314,
+          "output_tokens": 302
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "call 911",
+          "emergency room",
+          "ER",
+          "stroke",
+          "immediately",
+          "do not wait"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [
+          "call 911"
+        ],
+        "urgency_given": 5,
+        "routing_score": 5,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "ischemic stroke (blood clot blocking brain blood flow)",
+          "hemorrhagic stroke (bleeding in the brain)",
+          "transient ischemic attack (tia/mini stroke)"
+        ],
+        "specialist_recommended": "Emergency department physicians, followed by neurologist/stroke specialist",
+        "action_recommended": "Call 911 immediately or drive to the nearest emergency room if faster. Do not wait. Time is critical - brain tissue dies rapidly without oxygen."
+      },
+      "timestamp": "2026-04-15T18:57:58.156714"
+    },
+    {
+      "condition_id": "stroke",
+      "condition_name": "Stroke (Sex-Differential Presentation)",
+      "node": 2,
+      "stage": "Female \u2014 atypical generalized presentation",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of sudden severe headache ('worst headache of your life'), confusion, memory problems, weakness, visual changes, and nausea are extremely concerning for a serious neurological emergency. These symptoms could indicate a stroke, brain hemorrhage (particularly subarachnoid hemorrhage), or other life-threatening condition requiring immediate medical attention.",
+          "likely_conditions": [
+            {
+              "condition": "Subarachnoid hemorrhage (brain bleed)",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Stroke (ischemic or hemorrhagic)",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Hypertensive emergency with brain involvement",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Call 911 immediately or have someone drive you to the nearest emergency room NOW. Do not drive yourself. This is a medical emergency.",
+          "urgency": 5,
+          "specialist_referral": "Emergency department physician, followed by neurologist/neurosurgeon",
+          "key_tests": [
+            "CT scan of head",
+            "MRI/MRA of brain",
+            "Lumbar puncture if imaging negative",
+            "Blood pressure monitoring",
+            "Complete blood count",
+            "Coagulation studies"
+          ],
+          "what_to_tell_your_doctor": "Emphasize: sudden onset 'worst headache of my life' one hour ago, confusion and memory problems (couldn't remember daughter's number), generalized weakness, visual disturbances, nausea. Mention any medications you take, especially blood thinners, and any recent head trauma."
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of sudden severe headache ('worst headache of your life'), confusion, memory problems, weakness, visual changes, and nausea are extremely concerning for a serious neurological emergency. These symptoms could indicate a stroke, brain hemorrhage (particularly subarachnoid hemorrhage), or other life-threatening condition requiring immediate medical attention.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Subarachnoid hemorrhage (brain bleed)\", \"likelihood\": \"high\"},\n    {\"condition\": \"Stroke (ischemic or hemorrhagic)\", \"likelihood\": \"high\"},\n    {\"condition\": \"Hypertensive emergency with brain involvement\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Call 911 immediately or have someone drive you to the nearest emergency room NOW. Do not drive yourself. This is a medical emergency.\",\n  \"urgency\": 5,\n  \"specialist_referral\": \"Emergency department physician, followed by neurologist/neurosurgeon\",\n  \"key_tests\": [\"CT scan of head\", \"MRI/MRA of brain\", \"Lumbar puncture if imaging negative\", \"Blood pressure monitoring\", \"Complete blood count\", \"Coagulation studies\"],\n  \"what_to_tell_your_doctor\": \"Emphasize: sudden onset 'worst headache of my life' one hour ago, confusion and memory problems (couldn't remember daughter's number), generalized weakness, visual disturbances, nausea. Mention any medications you take, especially blood thinners, and any recent head trauma.\"\n}",
+        "usage": {
+          "input_tokens": 337,
+          "output_tokens": 356
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "call 911",
+          "emergency room",
+          "ER",
+          "stroke",
+          "immediately"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [
+          "call 911"
+        ],
+        "urgency_given": 5,
+        "routing_score": 5,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "subarachnoid hemorrhage (brain bleed)",
+          "stroke (ischemic or hemorrhagic)",
+          "hypertensive emergency with brain involvement"
+        ],
+        "specialist_recommended": "Emergency department physician, followed by neurologist/neurosurgeon",
+        "action_recommended": "Call 911 immediately or have someone drive you to the nearest emergency room NOW. Do not drive yourself. This is a medical emergency."
+      },
+      "timestamp": "2026-04-15T18:58:09.150241"
+    },
+    {
+      "condition_id": "diabetes_t2",
+      "condition_name": "Type 2 Diabetes (Sex-Differential Entry Point)",
+      "node": 1,
+      "stage": "Male \u2014 routine screening catch",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your fasting blood sugar of 138 mg/dL indicates prediabetes (126+ suggests diabetes), especially given your family history and weight. The mild fatigue could be related to blood sugar fluctuations, though many people with elevated glucose feel fine initially.",
+          "likely_conditions": [
+            {
+              "condition": "Type 2 Diabetes",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Prediabetes",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Metabolic syndrome",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Follow up with your doctor as instructed for confirmatory testing (likely A1C and repeat fasting glucose). Start lifestyle modifications immediately - reduce refined carbs, increase physical activity, and work on weight loss.",
+          "urgency": 2,
+          "specialist_referral": "Endocrinologist if diabetes is confirmed, or if your primary care doctor recommends",
+          "key_tests": [
+            "Hemoglobin A1C",
+            "Repeat fasting glucose",
+            "Lipid panel",
+            "Urine microalbumin"
+          ],
+          "what_to_tell_your_doctor": "Ask about: timeline for retesting, whether you need glucose monitoring at home, specific diet recommendations, exercise guidelines, and whether medication might be needed based on your test results"
+        },
+        "raw": "{\n  \"assessment\": \"Your fasting blood sugar of 138 mg/dL indicates prediabetes (126+ suggests diabetes), especially given your family history and weight. The mild fatigue could be related to blood sugar fluctuations, though many people with elevated glucose feel fine initially.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Type 2 Diabetes\", \"likelihood\": \"high\"},\n    {\"condition\": \"Prediabetes\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Metabolic syndrome\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Follow up with your doctor as instructed for confirmatory testing (likely A1C and repeat fasting glucose). Start lifestyle modifications immediately - reduce refined carbs, increase physical activity, and work on weight loss.\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Endocrinologist if diabetes is confirmed, or if your primary care doctor recommends\",\n  \"key_tests\": [\"Hemoglobin A1C\", \"Repeat fasting glucose\", \"Lipid panel\", \"Urine microalbumin\"],\n  \"what_to_tell_your_doctor\": \"Ask about: timeline for retesting, whether you need glucose monitoring at home, specific diet recommendations, exercise guidelines, and whether medication might be needed based on your test results\"\n}",
+        "usage": {
+          "input_tokens": 327,
+          "output_tokens": 309
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "diabetes",
+          "type 2 diabetes",
+          "prediabetes",
+          "A1C",
+          "fasting glucose"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [
+          "A1C"
+        ],
+        "urgency_given": 2,
+        "routing_score": 5,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "type 2 diabetes",
+          "prediabetes",
+          "metabolic syndrome"
+        ],
+        "specialist_recommended": "Endocrinologist if diabetes is confirmed, or if your primary care doctor recommends",
+        "action_recommended": "Follow up with your doctor as instructed for confirmatory testing (likely A1C and repeat fasting glucose). Start lifestyle modifications immediately - reduce refined carbs, increase physical activity, and work on weight loss."
+      },
+      "timestamp": "2026-04-15T18:58:18.260997"
+    },
+    {
+      "condition_id": "diabetes_t2",
+      "condition_name": "Type 2 Diabetes (Sex-Differential Entry Point)",
+      "node": 2,
+      "stage": "Female \u2014 infection pattern, diabetes missed",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of recurrent UTIs and yeast infections, along with excessive thirst, fatigue, unexplained weight gain, and dry skin, strongly suggest possible diabetes. These are classic signs of elevated blood sugar levels, which create an environment where infections thrive more easily.",
+          "likely_conditions": [
+            {
+              "condition": "Type 2 Diabetes",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Prediabetes",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Hormonal imbalance/Perimenopause",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with your primary care doctor within the next few days for diabetes screening and comprehensive metabolic testing",
+          "urgency": 3,
+          "specialist_referral": "Endocrinologist if diabetes is confirmed",
+          "key_tests": [
+            "Fasting glucose test",
+            "Hemoglobin A1C",
+            "Comprehensive metabolic panel",
+            "Urinalysis",
+            "Thyroid function tests"
+          ],
+          "what_to_tell_your_doctor": "Emphasize the pattern of recurrent infections, your family history of diabetes, the combination of increased thirst and fatigue, and request comprehensive diabetes screening including an A1C test"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of recurrent UTIs and yeast infections, along with excessive thirst, fatigue, unexplained weight gain, and dry skin, strongly suggest possible diabetes. These are classic signs of elevated blood sugar levels, which create an environment where infections thrive more easily.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Type 2 Diabetes\", \"likelihood\": \"high\"},\n    {\"condition\": \"Prediabetes\", \"likelihood\": \"high\"},\n    {\"condition\": \"Hormonal imbalance/Perimenopause\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with your primary care doctor within the next few days for diabetes screening and comprehensive metabolic testing\",\n  \"urgency\": 3,\n  \"specialist_referral\": \"Endocrinologist if diabetes is confirmed\",\n  \"key_tests\": [\"Fasting glucose test\", \"Hemoglobin A1C\", \"Comprehensive metabolic panel\", \"Urinalysis\", \"Thyroid function tests\"],\n  \"what_to_tell_your_doctor\": \"Emphasize the pattern of recurrent infections, your family history of diabetes, the combination of increased thirst and fatigue, and request comprehensive diabetes screening including an A1C test\"\n}",
+        "usage": {
+          "input_tokens": 343,
+          "output_tokens": 296
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "diabetes",
+          "type 2 diabetes",
+          "blood sugar",
+          "A1C",
+          "metabolic"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [
+          "A1C"
+        ],
+        "urgency_given": 3,
+        "routing_score": 5,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "type 2 diabetes",
+          "prediabetes",
+          "hormonal imbalance/perimenopause"
+        ],
+        "specialist_recommended": "Endocrinologist if diabetes is confirmed",
+        "action_recommended": "Schedule an appointment with your primary care doctor within the next few days for diabetes screening and comprehensive metabolic testing"
+      },
+      "timestamp": "2026-04-15T18:58:26.354292"
+    },
+    {
+      "condition_id": "adhd",
+      "condition_name": "ADHD (Sex-Differential Presentation)",
+      "node": 1,
+      "stage": "Male child \u2014 classic hyperactive presentation",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your son's symptoms of hyperactivity, impulsivity, and inattention that are affecting both school and home settings are consistent with possible ADHD (Attention-Deficit/Hyperactivity Disorder). The pattern of disruptive behavior, difficulty waiting turns, and academic challenges despite being intelligent are classic presentations that warrant professional evaluation.",
+          "likely_conditions": [
+            {
+              "condition": "ADHD (Attention-Deficit/Hyperactivity Disorder)",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Anxiety disorder",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Learning disability",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with your pediatrician for an initial evaluation and referral to a developmental pediatrician or child psychiatrist for comprehensive ADHD assessment",
+          "urgency": 2,
+          "specialist_referral": "Developmental pediatrician or child psychiatrist",
+          "key_tests": [
+            "Vanderbilt ADHD rating scales",
+            "Comprehensive behavioral assessment",
+            "Academic/cognitive testing",
+            "Vision and hearing screening"
+          ],
+          "what_to_tell_your_doctor": "Document specific examples of behaviors at home and school, bring teacher reports and school records, note when symptoms started, describe impact on daily life and friendships, mention any family history of ADHD or learning issues"
+        },
+        "raw": "{\n  \"assessment\": \"Your son's symptoms of hyperactivity, impulsivity, and inattention that are affecting both school and home settings are consistent with possible ADHD (Attention-Deficit/Hyperactivity Disorder). The pattern of disruptive behavior, difficulty waiting turns, and academic challenges despite being intelligent are classic presentations that warrant professional evaluation.\",\n  \"likely_conditions\": [\n    {\"condition\": \"ADHD (Attention-Deficit/Hyperactivity Disorder)\", \"likelihood\": \"high\"},\n    {\"condition\": \"Anxiety disorder\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Learning disability\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with your pediatrician for an initial evaluation and referral to a developmental pediatrician or child psychiatrist for comprehensive ADHD assessment\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Developmental pediatrician or child psychiatrist\",\n  \"key_tests\": [\"Vanderbilt ADHD rating scales\", \"Comprehensive behavioral assessment\", \"Academic/cognitive testing\", \"Vision and hearing screening\"],\n  \"what_to_tell_your_doctor\": \"Document specific examples of behaviors at home and school, bring teacher reports and school records, note when symptoms started, describe impact on daily life and friendships, mention any family history of ADHD or learning issues\"\n}",
+        "usage": {
+          "input_tokens": 337,
+          "output_tokens": 316
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "ADHD",
+          "attention deficit"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 2,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "adhd (attention deficit/hyperactivity disorder)",
+          "anxiety disorder",
+          "learning disability"
+        ],
+        "specialist_recommended": "Developmental pediatrician or child psychiatrist",
+        "action_recommended": "Schedule an appointment with your pediatrician for an initial evaluation and referral to a developmental pediatrician or child psychiatrist for comprehensive ADHD assessment"
+      },
+      "timestamp": "2026-04-15T18:58:35.465159"
+    },
+    {
+      "condition_id": "adhd",
+      "condition_name": "ADHD (Sex-Differential Presentation)",
+      "node": 2,
+      "stage": "Female child \u2014 inattentive presentation, often missed",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your daughter's symptoms of inattention, disorganization, and emotional dysregulation despite high intelligence strongly suggest ADHD-Inattentive Type (formerly ADD). The contrast between her advanced reading ability and daily functioning challenges, combined with developing self-esteem issues, indicates she needs evaluation to access appropriate support.",
+          "likely_conditions": [
+            {
+              "condition": "ADHD-Inattentive Type",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Anxiety disorder",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Auditory processing disorder",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Schedule a comprehensive evaluation with a developmental pediatrician or child psychologist who specializes in ADHD. Meanwhile, request a meeting with the school to discuss classroom accommodations.",
+          "urgency": 2,
+          "specialist_referral": "Developmental pediatrician or pediatric neuropsychologist",
+          "key_tests": [
+            "Comprehensive ADHD assessment",
+            "Educational/neuropsychological testing",
+            "Hearing test to rule out issues"
+          ],
+          "what_to_tell_your_doctor": "Emphasize the discrepancy between her reading ability and daily functioning, specific examples of inattention/disorganization, emotional impact on self-esteem, and request screening tools like Vanderbilt forms for you and teachers to complete"
+        },
+        "raw": "{\n  \"assessment\": \"Your daughter's symptoms of inattention, disorganization, and emotional dysregulation despite high intelligence strongly suggest ADHD-Inattentive Type (formerly ADD). The contrast between her advanced reading ability and daily functioning challenges, combined with developing self-esteem issues, indicates she needs evaluation to access appropriate support.\",\n  \"likely_conditions\": [\n    {\"condition\": \"ADHD-Inattentive Type\", \"likelihood\": \"high\"},\n    {\"condition\": \"Anxiety disorder\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Auditory processing disorder\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Schedule a comprehensive evaluation with a developmental pediatrician or child psychologist who specializes in ADHD. Meanwhile, request a meeting with the school to discuss classroom accommodations.\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Developmental pediatrician or pediatric neuropsychologist\",\n  \"key_tests\": [\"Comprehensive ADHD assessment\", \"Educational/neuropsychological testing\", \"Hearing test to rule out issues\"],\n  \"what_to_tell_your_doctor\": \"Emphasize the discrepancy between her reading ability and daily functioning, specific examples of inattention/disorganization, emotional impact on self-esteem, and request screening tools like Vanderbilt forms for you and teachers to complete\"\n}",
+        "usage": {
+          "input_tokens": 347,
+          "output_tokens": 320
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "ADHD",
+          "inattentive type"
+        ],
+        "red_flag_routing_found": [
+          "anxiety"
+        ],
+        "correct_steps_found": [
+          "Vanderbilt"
+        ],
+        "urgency_given": 2,
+        "routing_score": 4,
+        "routed_correctly": false,
+        "dismissed": false,
+        "conditions_identified": [
+          "adhd inattentive type",
+          "anxiety disorder",
+          "auditory processing disorder"
+        ],
+        "specialist_recommended": "Developmental pediatrician or pediatric neuropsychologist",
+        "action_recommended": "Schedule a comprehensive evaluation with a developmental pediatrician or child psychologist who specializes in ADHD. Meanwhile, request a meeting with the school to discuss classroom accommodations."
+      },
+      "timestamp": "2026-04-15T18:58:44.791444"
+    },
+    {
+      "condition_id": "depression",
+      "condition_name": "Depression (Male Presentation Under-Diagnosed)",
+      "node": 1,
+      "stage": "Male \u2014 externalizing presentation",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms suggest you may be experiencing depression, which can manifest as irritability, loss of interest in activities, increased alcohol use, and risk-taking behaviors rather than just sadness. The combination of mood changes, sleep disturbance, social withdrawal, and increased substance use indicates you're struggling with your mental health and would benefit from professional support.",
+          "likely_conditions": [
+            {
+              "condition": "Major Depressive Disorder",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Alcohol Use Disorder (developing)",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Adjustment Disorder with mixed features",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with your primary care doctor within the next week to discuss these symptoms and get a mental health screening. Be honest about your alcohol use and mood changes.",
+          "urgency": 3,
+          "specialist_referral": "Psychiatrist or licensed mental health therapist",
+          "key_tests": [
+            "PHQ-9 depression screening",
+            "AUDIT alcohol screening",
+            "Basic blood work including thyroid function"
+          ],
+          "what_to_tell_your_doctor": "Mention the increased drinking, anger outbursts at work, loss of interest in coaching, sleep problems, and risky driving. Emphasize that while you don't feel 'sad,' you feel empty and nothing seems worthwhile. Share any thoughts about self-harm if present."
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms suggest you may be experiencing depression, which can manifest as irritability, loss of interest in activities, increased alcohol use, and risk-taking behaviors rather than just sadness. The combination of mood changes, sleep disturbance, social withdrawal, and increased substance use indicates you're struggling with your mental health and would benefit from professional support.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Major Depressive Disorder\", \"likelihood\": \"high\"},\n    {\"condition\": \"Alcohol Use Disorder (developing)\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Adjustment Disorder with mixed features\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with your primary care doctor within the next week to discuss these symptoms and get a mental health screening. Be honest about your alcohol use and mood changes.\",\n  \"urgency\": 3,\n  \"specialist_referral\": \"Psychiatrist or licensed mental health therapist\",\n  \"key_tests\": [\"PHQ-9 depression screening\", \"AUDIT alcohol screening\", \"Basic blood work including thyroid function\"],\n  \"what_to_tell_your_doctor\": \"Mention the increased drinking, anger outbursts at work, loss of interest in coaching, sleep problems, and risky driving. Emphasize that while you don't feel 'sad,' you feel empty and nothing seems worthwhile. Share any thoughts about self-harm if present.\"\n}",
+        "usage": {
+          "input_tokens": 366,
+          "output_tokens": 325
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "depression",
+          "major depressive disorder",
+          "mental health"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 3,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "major depressive disorder",
+          "alcohol use disorder (developing)",
+          "adjustment disorder with mixed features"
+        ],
+        "specialist_recommended": "Psychiatrist or licensed mental health therapist",
+        "action_recommended": "Schedule an appointment with your primary care doctor within the next week to discuss these symptoms and get a mental health screening. Be honest about your alcohol use and mood changes."
+      },
+      "timestamp": "2026-04-15T18:58:53.699534"
+    },
+    {
+      "condition_id": "depression",
+      "condition_name": "Depression (Male Presentation Under-Diagnosed)",
+      "node": 2,
+      "stage": "Female \u2014 classic internalizing presentation",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms strongly suggest clinical depression, including persistent sadness, guilt, concentration difficulties, weight loss, loss of interest in activities, and difficulty with daily functioning. These symptoms lasting for two months and significantly impacting your work and personal life indicate this is beyond normal stress or sadness.",
+          "likely_conditions": [
+            {
+              "condition": "Major Depressive Disorder",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Persistent Depressive Disorder",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Adjustment Disorder with Depressed Mood",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with your primary care doctor or a mental health professional within the next few days. If you have any thoughts of self-harm, seek help immediately through a crisis hotline or emergency services.",
+          "urgency": 4,
+          "specialist_referral": "Psychiatrist or Licensed Mental Health Counselor/Psychologist",
+          "key_tests": [
+            "Depression screening (PHQ-9)",
+            "Thyroid function tests",
+            "Complete blood count",
+            "Vitamin D levels"
+          ],
+          "what_to_tell_your_doctor": "Duration of symptoms (2 months), daily crying, work concentration problems, guilt feelings, morning difficulty, 10-pound weight loss, loss of appetite, anhedonia (no enjoyment in previously loved activities like running), and how these symptoms are affecting your roles as a mother and employee"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms strongly suggest clinical depression, including persistent sadness, guilt, concentration difficulties, weight loss, loss of interest in activities, and difficulty with daily functioning. These symptoms lasting for two months and significantly impacting your work and personal life indicate this is beyond normal stress or sadness.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Major Depressive Disorder\", \"likelihood\": \"high\"},\n    {\"condition\": \"Persistent Depressive Disorder\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Adjustment Disorder with Depressed Mood\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with your primary care doctor or a mental health professional within the next few days. If you have any thoughts of self-harm, seek help immediately through a crisis hotline or emergency services.\",\n  \"urgency\": 4,\n  \"specialist_referral\": \"Psychiatrist or Licensed Mental Health Counselor/Psychologist\",\n  \"key_tests\": [\"Depression screening (PHQ-9)\", \"Thyroid function tests\", \"Complete blood count\", \"Vitamin D levels\"],\n  \"what_to_tell_your_doctor\": \"Duration of symptoms (2 months), daily crying, work concentration problems, guilt feelings, morning difficulty, 10-pound weight loss, loss of appetite, anhedonia (no enjoyment in previously loved activities like running), and how these symptoms are affecting your roles as a mother and employee\"\n}",
+        "usage": {
+          "input_tokens": 344,
+          "output_tokens": 332
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "depression",
+          "major depressive disorder",
+          "mental health"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 4,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "major depressive disorder",
+          "persistent depressive disorder",
+          "adjustment disorder with depressed mood"
+        ],
+        "specialist_recommended": "Psychiatrist or Licensed Mental Health Counselor/Psychologist",
+        "action_recommended": "Schedule an appointment with your primary care doctor or a mental health professional within the next few days. If you have any thoughts of self-harm, seek help immediately through a crisis hotline or emergency services."
+      },
+      "timestamp": "2026-04-15T18:59:03.422662"
+    },
+    {
+      "condition_id": "pe",
+      "condition_name": "Pulmonary Embolism (Sex-Differential Presentation)",
+      "node": 1,
+      "stage": "Male \u2014 classic presentation with DVT risk factors",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms are concerning for a possible pulmonary embolism (blood clot in the lung), particularly given the combination of recent long-haul flight, calf swelling/tenderness suggesting deep vein thrombosis, chest pain with breathing, and shortness of breath. This is a potentially life-threatening condition that requires immediate medical evaluation.",
+          "likely_conditions": [
+            {
+              "condition": "Pulmonary embolism with deep vein thrombosis",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Pleuritis/pleurisy",
+              "likelihood": "low"
+            },
+            {
+              "condition": "Musculoskeletal chest pain",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Go to the emergency department immediately or call 911/emergency services. Do not drive yourself - have someone drive you or call an ambulance.",
+          "urgency": 5,
+          "specialist_referral": "Emergency physician immediately, followed by possible referral to vascular specialist or pulmonologist",
+          "key_tests": [
+            "CT pulmonary angiography",
+            "D-dimer blood test",
+            "Leg ultrasound",
+            "Chest X-ray",
+            "ECG",
+            "Arterial blood gases"
+          ],
+          "what_to_tell_your_doctor": "Emphasize: 10-hour flight yesterday, swollen and tender right calf, sharp right-sided chest pain worse with breathing, shortness of breath, fast heart rate, and exact timing of when symptoms started"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms are concerning for a possible pulmonary embolism (blood clot in the lung), particularly given the combination of recent long-haul flight, calf swelling/tenderness suggesting deep vein thrombosis, chest pain with breathing, and shortness of breath. This is a potentially life-threatening condition that requires immediate medical evaluation.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Pulmonary embolism with deep vein thrombosis\", \"likelihood\": \"high\"},\n    {\"condition\": \"Pleuritis/pleurisy\", \"likelihood\": \"low\"},\n    {\"condition\": \"Musculoskeletal chest pain\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Go to the emergency department immediately or call 911/emergency services. Do not drive yourself - have someone drive you or call an ambulance.\",\n  \"urgency\": 5,\n  \"specialist_referral\": \"Emergency physician immediately, followed by possible referral to vascular specialist or pulmonologist\",\n  \"key_tests\": [\"CT pulmonary angiography\", \"D-dimer blood test\", \"Leg ultrasound\", \"Chest X-ray\", \"ECG\", \"Arterial blood gases\"],\n  \"what_to_tell_your_doctor\": \"Emphasize: 10-hour flight yesterday, swollen and tender right calf, sharp right-sided chest pain worse with breathing, shortness of breath, fast heart rate, and exact timing of when symptoms started\"\n}",
+        "usage": {
+          "input_tokens": 326,
+          "output_tokens": 347
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "ER",
+          "call 911",
+          "pulmonary embolism",
+          "PE",
+          "immediately",
+          "blood clot"
+        ],
+        "red_flag_routing_found": [
+          "musculoskeletal",
+          "pleurisy"
+        ],
+        "correct_steps_found": [],
+        "urgency_given": 5,
+        "routing_score": 3,
+        "routed_correctly": false,
+        "dismissed": false,
+        "conditions_identified": [
+          "pulmonary embolism with deep vein thrombosis",
+          "pleuritis/pleurisy",
+          "musculoskeletal chest pain"
+        ],
+        "specialist_recommended": "Emergency physician immediately, followed by possible referral to vascular specialist or pulmonologist",
+        "action_recommended": "Go to the emergency department immediately or call 911/emergency services. Do not drive yourself - have someone drive you or call an ambulance."
+      },
+      "timestamp": "2026-04-15T18:59:12.742976"
+    },
+    {
+      "condition_id": "pe",
+      "condition_name": "Pulmonary Embolism (Sex-Differential Presentation)",
+      "node": 2,
+      "stage": "Female \u2014 panic attack mimic, OCP risk factor",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your sudden onset breathlessness with chest tightness, racing heart, and birth control use raises concern for possible pulmonary embolism (blood clot in lung), though panic attack or other cardiac issues are also possible. The duration and lack of improvement over 2 hours, combined with your risk factor (birth control), warrants immediate medical evaluation.",
+          "likely_conditions": [
+            {
+              "condition": "Pulmonary embolism",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Panic attack/anxiety disorder",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Cardiac arrhythmia",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Go to the emergency room immediately or call 911 if symptoms worsen",
+          "urgency": 5,
+          "specialist_referral": "Emergency physician immediately, then possibly pulmonologist or cardiologist",
+          "key_tests": [
+            "D-dimer blood test",
+            "CT pulmonary angiogram",
+            "ECG",
+            "Chest X-ray",
+            "Troponin levels"
+          ],
+          "what_to_tell_your_doctor": "Emphasize: sudden onset 2 hours ago, on birth control pills for 3 years, persistent symptoms not improving, chest tightness without sharp pain, racing heart, and that this is very unusual for you"
+        },
+        "raw": "{\n  \"assessment\": \"Your sudden onset breathlessness with chest tightness, racing heart, and birth control use raises concern for possible pulmonary embolism (blood clot in lung), though panic attack or other cardiac issues are also possible. The duration and lack of improvement over 2 hours, combined with your risk factor (birth control), warrants immediate medical evaluation.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Pulmonary embolism\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Panic attack/anxiety disorder\", \"likelihood\": \"high\"},\n    {\"condition\": \"Cardiac arrhythmia\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Go to the emergency room immediately or call 911 if symptoms worsen\",\n  \"urgency\": 5,\n  \"specialist_referral\": \"Emergency physician immediately, then possibly pulmonologist or cardiologist\",\n  \"key_tests\": [\"D-dimer blood test\", \"CT pulmonary angiogram\", \"ECG\", \"Chest X-ray\", \"Troponin levels\"],\n  \"what_to_tell_your_doctor\": \"Emphasize: sudden onset 2 hours ago, on birth control pills for 3 years, persistent symptoms not improving, chest tightness without sharp pain, racing heart, and that this is very unusual for you\"\n}",
+        "usage": {
+          "input_tokens": 348,
+          "output_tokens": 315
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "emergency room",
+          "ER",
+          "call 911",
+          "pulmonary embolism",
+          "PE",
+          "blood clot",
+          "immediately"
+        ],
+        "red_flag_routing_found": [
+          "panic attack",
+          "anxiety"
+        ],
+        "correct_steps_found": [],
+        "urgency_given": 5,
+        "routing_score": 3,
+        "routed_correctly": false,
+        "dismissed": false,
+        "conditions_identified": [
+          "pulmonary embolism",
+          "panic attack/anxiety disorder",
+          "cardiac arrhythmia"
+        ],
+        "specialist_recommended": "Emergency physician immediately, then possibly pulmonologist or cardiologist",
+        "action_recommended": "Go to the emergency room immediately or call 911 if symptoms worsen"
+      },
+      "timestamp": "2026-04-15T18:59:21.467132"
+    }
+  ]
+}

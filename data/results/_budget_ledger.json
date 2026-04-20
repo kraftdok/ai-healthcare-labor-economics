@@ -1,0 +1,596 @@
+{
+  "total_usd": 3.810210000000001,
+  "input_tokens": 28599,
+  "output_tokens": 45083,
+  "call_count": 98,
+  "runs": [
+    {
+      "label": "condlib:bottleneck:msk_back",
+      "in": 662,
+      "out": 303,
+      "cost_usd": 0.03266
+    },
+    {
+      "label": "condlib:routing:msk_back",
+      "in": 148,
+      "out": 375,
+      "cost_usd": 0.03035
+    },
+    {
+      "label": "condlib:bottleneck:post_mi_rehab",
+      "in": 635,
+      "out": 277,
+      "cost_usd": 0.0303
+    },
+    {
+      "label": "condlib:routing:post_mi_rehab",
+      "in": 137,
+      "out": 355,
+      "cost_usd": 0.02868
+    },
+    {
+      "label": "condlib:bottleneck:mdd",
+      "in": 647,
+      "out": 285,
+      "cost_usd": 0.03108
+    },
+    {
+      "label": "condlib:routing:mdd",
+      "in": 133,
+      "out": 337,
+      "cost_usd": 0.02727
+    },
+    {
+      "label": "condlib:bottleneck:endo",
+      "in": 618,
+      "out": 280,
+      "cost_usd": 0.03027
+    },
+    {
+      "label": "condlib:routing:endo",
+      "in": 115,
+      "out": 282,
+      "cost_usd": 0.02288
+    },
+    {
+      "label": "condlib:bottleneck:caregiving_ad",
+      "in": 637,
+      "out": 256,
+      "cost_usd": 0.02875
+    },
+    {
+      "label": "condlib:routing:caregiving_ad",
+      "in": 134,
+      "out": 468,
+      "cost_usd": 0.03711
+    },
+    {
+      "label": "enterprise:prior_auth",
+      "in": 270,
+      "out": 1024,
+      "cost_usd": 0.08085
+    },
+    {
+      "label": "enterprise:clinical_documentation",
+      "in": 345,
+      "out": 895,
+      "cost_usd": 0.0723
+    },
+    {
+      "label": "enterprise:care_coordination",
+      "in": 342,
+      "out": 1024,
+      "cost_usd": 0.08193
+    },
+    {
+      "label": "patient_ehr:perimenopausal_a1c",
+      "in": 187,
+      "out": 467,
+      "cost_usd": 0.03783
+    },
+    {
+      "label": "patient_ehr:post_mi_meds",
+      "in": 208,
+      "out": 660,
+      "cost_usd": 0.05262
+    },
+    {
+      "label": "patient_ehr:hrt_decision",
+      "in": 191,
+      "out": 552,
+      "cost_usd": 0.04426
+    },
+    {
+      "label": "patient_ehr:depression_tx_choice",
+      "in": 163,
+      "out": 455,
+      "cost_usd": 0.03657
+    },
+    {
+      "label": "patient_ehr:endo_fertility",
+      "in": 176,
+      "out": 505,
+      "cost_usd": 0.04051
+    },
+    {
+      "label": "consensus:hrt_at_65:clinician:r0",
+      "in": 171,
+      "out": 600,
+      "cost_usd": 0.04756
+    },
+    {
+      "label": "consensus:hrt_at_65:clinician:r1",
+      "in": 171,
+      "out": 580,
+      "cost_usd": 0.04606
+    },
+    {
+      "label": "consensus:hrt_at_65:patient:r0",
+      "in": 136,
+      "out": 459,
+      "cost_usd": 0.03646
+    },
+    {
+      "label": "consensus:hrt_at_65:patient:r1",
+      "in": 136,
+      "out": 430,
+      "cost_usd": 0.03429
+    },
+    {
+      "label": "consensus:hrt_at_65:second_opinion:r0",
+      "in": 142,
+      "out": 347,
+      "cost_usd": 0.02815
+    },
+    {
+      "label": "consensus:hrt_at_65:second_opinion:r1",
+      "in": 142,
+      "out": 462,
+      "cost_usd": 0.03678
+    },
+    {
+      "label": "consensus:mammogram_age:clinician:r0",
+      "in": 159,
+      "out": 382,
+      "cost_usd": 0.03104
+    },
+    {
+      "label": "consensus:mammogram_age:clinician:r1",
+      "in": 159,
+      "out": 380,
+      "cost_usd": 0.03089
+    },
+    {
+      "label": "consensus:mammogram_age:patient:r0",
+      "in": 124,
+      "out": 405,
+      "cost_usd": 0.03223
+    },
+    {
+      "label": "consensus:mammogram_age:patient:r1",
+      "in": 124,
+      "out": 307,
+      "cost_usd": 0.02488
+    },
+    {
+      "label": "consensus:mammogram_age:second_opinion:r0",
+      "in": 130,
+      "out": 340,
+      "cost_usd": 0.02745
+    },
+    {
+      "label": "consensus:mammogram_age:second_opinion:r1",
+      "in": 130,
+      "out": 266,
+      "cost_usd": 0.0219
+    },
+    {
+      "label": "consensus:endo_excision_vs_ablation:clinician:r0",
+      "in": 173,
+      "out": 488,
+      "cost_usd": 0.0392
+    },
+    {
+      "label": "consensus:endo_excision_vs_ablation:clinician:r1",
+      "in": 173,
+      "out": 507,
+      "cost_usd": 0.04062
+    },
+    {
+      "label": "consensus:endo_excision_vs_ablation:patient:r0",
+      "in": 138,
+      "out": 391,
+      "cost_usd": 0.03139
+    },
+    {
+      "label": "consensus:endo_excision_vs_ablation:patient:r1",
+      "in": 138,
+      "out": 408,
+      "cost_usd": 0.03267
+    },
+    {
+      "label": "consensus:endo_excision_vs_ablation:second_opinion:r0",
+      "in": 144,
+      "out": 378,
+      "cost_usd": 0.03051
+    },
+    {
+      "label": "consensus:endo_excision_vs_ablation:second_opinion:r1",
+      "in": 144,
+      "out": 369,
+      "cost_usd": 0.02984
+    },
+    {
+      "label": "consensus:gdm_thresholds:clinician:r0",
+      "in": 161,
+      "out": 381,
+      "cost_usd": 0.03099
+    },
+    {
+      "label": "consensus:gdm_thresholds:clinician:r1",
+      "in": 161,
+      "out": 421,
+      "cost_usd": 0.03399
+    },
+    {
+      "label": "consensus:gdm_thresholds:patient:r0",
+      "in": 126,
+      "out": 424,
+      "cost_usd": 0.03369
+    },
+    {
+      "label": "consensus:gdm_thresholds:patient:r1",
+      "in": 126,
+      "out": 363,
+      "cost_usd": 0.02911
+    },
+    {
+      "label": "consensus:gdm_thresholds:second_opinion:r0",
+      "in": 132,
+      "out": 412,
+      "cost_usd": 0.03288
+    },
+    {
+      "label": "consensus:gdm_thresholds:second_opinion:r1",
+      "in": 132,
+      "out": 396,
+      "cost_usd": 0.03168
+    },
+    {
+      "label": "consensus:subclinical_hypothyroid_pregnancy:clinician:r0",
+      "in": 177,
+      "out": 575,
+      "cost_usd": 0.04578
+    },
+    {
+      "label": "consensus:subclinical_hypothyroid_pregnancy:clinician:r1",
+      "in": 177,
+      "out": 483,
+      "cost_usd": 0.03888
+    },
+    {
+      "label": "consensus:subclinical_hypothyroid_pregnancy:patient:r0",
+      "in": 142,
+      "out": 457,
+      "cost_usd": 0.0364
+    },
+    {
+      "label": "consensus:subclinical_hypothyroid_pregnancy:patient:r1",
+      "in": 142,
+      "out": 390,
+      "cost_usd": 0.03138
+    },
+    {
+      "label": "consensus:subclinical_hypothyroid_pregnancy:second_opinion:r0",
+      "in": 148,
+      "out": 449,
+      "cost_usd": 0.0359
+    },
+    {
+      "label": "consensus:subclinical_hypothyroid_pregnancy:second_opinion:r1",
+      "in": 148,
+      "out": 449,
+      "cost_usd": 0.0359
+    },
+    {
+      "label": "consensus:statin_primary_prevention:clinician:r0",
+      "in": 179,
+      "out": 600,
+      "cost_usd": 0.04768
+    },
+    {
+      "label": "consensus:statin_primary_prevention:clinician:r1",
+      "in": 179,
+      "out": 598,
+      "cost_usd": 0.04754
+    },
+    {
+      "label": "consensus:statin_primary_prevention:patient:r0",
+      "in": 144,
+      "out": 456,
+      "cost_usd": 0.03636
+    },
+    {
+      "label": "consensus:statin_primary_prevention:patient:r1",
+      "in": 144,
+      "out": 416,
+      "cost_usd": 0.03336
+    },
+    {
+      "label": "consensus:statin_primary_prevention:second_opinion:r0",
+      "in": 150,
+      "out": 429,
+      "cost_usd": 0.03443
+    },
+    {
+      "label": "consensus:statin_primary_prevention:second_opinion:r1",
+      "in": 150,
+      "out": 437,
+      "cost_usd": 0.03503
+    },
+    {
+      "label": "consensus:psa_screening:clinician:r0",
+      "in": 159,
+      "out": 457,
+      "cost_usd": 0.03666
+    },
+    {
+      "label": "consensus:psa_screening:clinician:r1",
+      "in": 159,
+      "out": 369,
+      "cost_usd": 0.03006
+    },
+    {
+      "label": "consensus:psa_screening:patient:r0",
+      "in": 124,
+      "out": 344,
+      "cost_usd": 0.02766
+    },
+    {
+      "label": "consensus:psa_screening:patient:r1",
+      "in": 124,
+      "out": 315,
+      "cost_usd": 0.02549
+    },
+    {
+      "label": "consensus:psa_screening:second_opinion:r0",
+      "in": 130,
+      "out": 358,
+      "cost_usd": 0.0288
+    },
+    {
+      "label": "consensus:psa_screening:second_opinion:r1",
+      "in": 130,
+      "out": 332,
+      "cost_usd": 0.02685
+    },
+    {
+      "label": "consensus:antidepressant_first_line_mild:clinician:r0",
+      "in": 176,
+      "out": 500,
+      "cost_usd": 0.04014
+    },
+    {
+      "label": "consensus:antidepressant_first_line_mild:clinician:r1",
+      "in": 176,
+      "out": 446,
+      "cost_usd": 0.03609
+    },
+    {
+      "label": "consensus:antidepressant_first_line_mild:patient:r0",
+      "in": 141,
+      "out": 464,
+      "cost_usd": 0.03691
+    },
+    {
+      "label": "consensus:antidepressant_first_line_mild:patient:r1",
+      "in": 141,
+      "out": 411,
+      "cost_usd": 0.03294
+    },
+    {
+      "label": "consensus:antidepressant_first_line_mild:second_opinion:r0",
+      "in": 147,
+      "out": 403,
+      "cost_usd": 0.03243
+    },
+    {
+      "label": "consensus:antidepressant_first_line_mild:second_opinion:r1",
+      "in": 147,
+      "out": 367,
+      "cost_usd": 0.02973
+    },
+    {
+      "label": "consensus:bariatric_bmi32:clinician:r0",
+      "in": 173,
+      "out": 520,
+      "cost_usd": 0.0416
+    },
+    {
+      "label": "consensus:bariatric_bmi32:clinician:r1",
+      "in": 173,
+      "out": 554,
+      "cost_usd": 0.04415
+    },
+    {
+      "label": "consensus:bariatric_bmi32:patient:r0",
+      "in": 138,
+      "out": 456,
+      "cost_usd": 0.03627
+    },
+    {
+      "label": "consensus:bariatric_bmi32:patient:r1",
+      "in": 138,
+      "out": 420,
+      "cost_usd": 0.03357
+    },
+    {
+      "label": "consensus:bariatric_bmi32:second_opinion:r0",
+      "in": 144,
+      "out": 407,
+      "cost_usd": 0.03269
+    },
+    {
+      "label": "consensus:bariatric_bmi32:second_opinion:r1",
+      "in": 144,
+      "out": 408,
+      "cost_usd": 0.03276
+    },
+    {
+      "label": "consensus:anticoag_unprovoked_pe:clinician:r0",
+      "in": 178,
+      "out": 523,
+      "cost_usd": 0.0419
+    },
+    {
+      "label": "consensus:anticoag_unprovoked_pe:clinician:r1",
+      "in": 178,
+      "out": 551,
+      "cost_usd": 0.04399
+    },
+    {
+      "label": "consensus:anticoag_unprovoked_pe:patient:r0",
+      "in": 143,
+      "out": 503,
+      "cost_usd": 0.03987
+    },
+    {
+      "label": "consensus:anticoag_unprovoked_pe:patient:r1",
+      "in": 143,
+      "out": 473,
+      "cost_usd": 0.03762
+    },
+    {
+      "label": "consensus:anticoag_unprovoked_pe:second_opinion:r0",
+      "in": 149,
+      "out": 442,
+      "cost_usd": 0.03538
+    },
+    {
+      "label": "consensus:anticoag_unprovoked_pe:second_opinion:r1",
+      "in": 149,
+      "out": 460,
+      "cost_usd": 0.03674
+    },
+    {
+      "label": "pa_generate:cardiac_rehab_post_mi:female",
+      "in": 258,
+      "out": 800,
+      "cost_usd": 0.06387
+    },
+    {
+      "label": "pa_review:cardiac_rehab_post_mi",
+      "in": 1080,
+      "out": 219,
+      "cost_usd": 0.03263
+    },
+    {
+      "label": "pa_generate:cardiac_rehab_post_mi:male",
+      "in": 257,
+      "out": 800,
+      "cost_usd": 0.06386
+    },
+    {
+      "label": "pa_review:cardiac_rehab_post_mi",
+      "in": 1078,
+      "out": 219,
+      "cost_usd": 0.03259
+    },
+    {
+      "label": "pa_generate:glp1_obesity_t2dm:female",
+      "in": 299,
+      "out": 800,
+      "cost_usd": 0.06449
+    },
+    {
+      "label": "pa_review:glp1_obesity_t2dm",
+      "in": 1115,
+      "out": 221,
+      "cost_usd": 0.0333
+    },
+    {
+      "label": "pa_generate:glp1_obesity_t2dm:male",
+      "in": 298,
+      "out": 800,
+      "cost_usd": 0.06447
+    },
+    {
+      "label": "pa_review:glp1_obesity_t2dm",
+      "in": 1114,
+      "out": 225,
+      "cost_usd": 0.03359
+    },
+    {
+      "label": "pa_generate:biologic_ra:female",
+      "in": 300,
+      "out": 800,
+      "cost_usd": 0.0645
+    },
+    {
+      "label": "pa_review:biologic_ra",
+      "in": 1103,
+      "out": 214,
+      "cost_usd": 0.03259
+    },
+    {
+      "label": "pa_generate:biologic_ra:male",
+      "in": 299,
+      "out": 799,
+      "cost_usd": 0.06441
+    },
+    {
+      "label": "pa_review:biologic_ra",
+      "in": 1102,
+      "out": 208,
+      "cost_usd": 0.03213
+    },
+    {
+      "label": "pa_generate:advanced_imaging_headache:female",
+      "in": 274,
+      "out": 800,
+      "cost_usd": 0.06411
+    },
+    {
+      "label": "pa_review:advanced_imaging_headache",
+      "in": 1094,
+      "out": 233,
+      "cost_usd": 0.03388
+    },
+    {
+      "label": "pa_generate:advanced_imaging_headache:male",
+      "in": 273,
+      "out": 800,
+      "cost_usd": 0.06409
+    },
+    {
+      "label": "pa_review:advanced_imaging_headache",
+      "in": 1094,
+      "out": 185,
+      "cost_usd": 0.03028
+    },
+    {
+      "label": "pa_generate:continuous_glucose_monitor:female",
+      "in": 314,
+      "out": 800,
+      "cost_usd": 0.06471
+    },
+    {
+      "label": "pa_review:continuous_glucose_monitor",
+      "in": 1115,
+      "out": 212,
+      "cost_usd": 0.03263
+    },
+    {
+      "label": "pa_generate:continuous_glucose_monitor:male",
+      "in": 313,
+      "out": 800,
+      "cost_usd": 0.0647
+    },
+    {
+      "label": "pa_review:continuous_glucose_monitor",
+      "in": 1115,
+      "out": 230,
+      "cost_usd": 0.03398
+    }
+  ]
+}

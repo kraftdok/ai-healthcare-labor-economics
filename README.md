@@ -2,9 +2,9 @@
 
 ## What this repository is
 
-An empirical portfolio measuring how Claude — as deployed under Anthropic's January 2026 Claude for Healthcare launch — affects the labor-economic upstream of the US healthcare system. The work tests the architectural bet Anthropic has made (monolithic-model safety via Constitutional AI and calibrated uncertainty) against the decomposed-agent critique raised in JAMA 2025 and by Verily's Violet product team.
+A pilot-scale portfolio measuring how Claude — as deployed under Anthropic's January 2026 Claude for Healthcare launch — affects the labor-economic upstream of the US healthcare system. The work tests the architectural bet Anthropic has made (monolithic-model safety via Constitutional AI and calibrated uncertainty) against the decomposed-agent critique raised in JAMA 2025 and by Verily's Violet product team.
 
-The repository contains six measurement arms, each runnable against the Claude API.
+The repository contains six measurement arms, each runnable against the Claude API. Some arms produce **measured** outputs (behavioral observations of Claude on structured inputs). Others produce **scenario projections** (labor-economic estimates computed from small measured inputs × published volume and wage parameters). The distinction is kept explicit throughout.
 
 ---
 
@@ -32,16 +32,26 @@ findings/
 
 ## Headline findings
 
+Findings below are labeled **[measured]** (behavioral observations of Claude on structured inputs at pilot scale) or **[projected]** (labor-economic scaling of measured inputs through published volume and wage parameters — scenario estimates, not observed recoveries). Limitations of each arm — small n, single-rater rubric, self-constructed prompts, assumption-driven volume parameters — are detailed in the corresponding findings memo.
+
+### Measurement-grade (observed Claude behavior)
+
 | Arm | Finding | What it means |
 |---|---|---|
-| **Enterprise verticals** | ~$51B/yr recovery across prior auth / documentation / care coordination; **68% accrues to female labor** | Anthropic's enterprise deployment is disproportionately recovering labor value performed by a female-majority workforce (medical billers, nurses, care coordinators). |
-| **Enterprise PA sex-counterfactual** | Δ **−0.6pp** on approval probability (F 89.0%, M 89.6%) | At pilot scale, Claude's PA letter output is sex-invariant on clinically-matched cases. Positive signal for the monolithic-model bet at the administrative layer. |
-| **Patient-facing observed routing** | **100% ESHRE guideline match** across 30 endo prompts × 3 journey nodes | Claude is substantially better than the current real-world pathway (6.7yr delay) at the point of direct clinical routing. |
-| **Patient-facing counterfactual** | Aggregate **OR 1.00** (95% CI 0.34–2.93); epigastric pain directional **67-pt F-disadvantage** (n=3/cell) | Null at aggregate; directional per-complaint signal consistent with published female-ACS under-triage literature. |
-| **Architectural test (Verily/JAMA)** | **3% premature collapse / 93% deferral** on contested decisions | Claude passes the epistemic-humility test the JAMA critique raises — at the cost of near-total deferral when evidence is genuinely split. |
-| **Condition library (direct)** | $12–73B aggregate recovery across 5 conditions; 42% female-accruing | Labor-economic methodology generalizes across MSK, post-MI, MDD, endo, Alzheimer's caregiving. |
-| **Condition library (+ indirect)** | $77B total; 48% female-accruing | Recomputation with presenteeism, caregiving, and bias-tax channels. Valuation choice is not neutral. |
-| **Workplace survey (n=981, 42 countries)** | 62% time-off rate; US-scaled labor footprint **$616–862B/yr** | Independent triangulation of the Q1 magnitude claim using primary cross-country data. |
+| **Architectural test (Verily/JAMA)** [measured] | **3% premature collapse / 93% deferral** on 10 contested clinical decisions × 3 framings × 2 reps (n=60 responses) | Direct empirical answer to the JAMA 2025 "monolithic vs. decomposed" critique. Claude passes the epistemic-humility test at the cost of near-total deferral when evidence is genuinely split. **The cleanest measurement in the portfolio** — objective rubric dimensions, pre-selected contested decisions, multiple framings. |
+| **Enterprise PA sex-counterfactual** [measured] | Δ **−0.6pp** on Claude-scored approval probability (F 89.0%, M 89.6%) across 5 cases × 2 sex framings | At pilot scale, Claude's PA letter output is sex-invariant on clinically-matched cases. Caveat: Claude-as-generator + Claude-as-reviewer shares training biases; independent clinician arm is the natural extension. |
+| **Patient-facing sex-counterfactual** [measured, pilot-underpowered] | Aggregate **OR 1.00** (95% CI 0.34–2.93) for escalation across 10 complaints × 2 sex × 3 reps; epigastric-pain directional **67-pt F-disadvantage** at n=3/cell | CI spans 0.3–3×: aggregate is statistically indistinguishable from null. Per-complaint signal on epigastric pain is consistent with published female-ACS under-triage literature but underpowered for inference. |
+| **Patient-facing observed routing** [measured, self-graded] | **100% ESHRE guideline match** across 30 endo prompts × 3 journey nodes | Caveat: prompts, ground-truth, and rubric were all author-constructed. The finding reports *guideline concordance under author-designed testing conditions*, not external clinical validation. An independent clinician-blind scoring arm is the extension step. |
+| **Workplace survey (n=981, 42 countries)** [measured] | **62% time-off rate** for women's-health conditions; **77% agree gender data gap significantly impacts AI healthcare quality for women**; **only 5%** agree current AI is equally effective by sex | Primary survey data; proportions with Wilson CIs. The measured prevalence is the finding; see below for the projected dollar-footprint scaling. |
+
+### Scenario projections (labor-economic scaling)
+
+| Arm | Projection | Basis + caveat |
+|---|---|---|
+| **Enterprise verticals** [projected] | ~**$51B/yr** US labor recovery across prior auth / documentation / care coordination; **68% to female-majority occupations** | Computed as (annual US volume × AI-assumed time-saving × BLS wage). Claude performed *one representative task per vertical* at rubric-pass quality; the rest is arithmetic on published volume and time-saving parameters. Not a measured recovery. Sensitivity: halving time-savings halves the estimate. |
+| **Condition library (direct)** [projected] | $12–73B aggregate across 5 conditions; **42% female-accruing** | Cascade model × published prevalence + wage parameters. Scenario estimates (observed / median / frontier). Claude's role: bottleneck classifier only. |
+| **Condition library (+ indirect)** [projected] | $77B total; 48% female-accruing | Direct + presenteeism + unpaid caregiving + bias-tax. The **sign-change (42% → 48%)** is the methodological finding; absolute numbers are sensitive to the indirect-channel parameter choices. |
+| **Workplace survey US scale-up** [projected] | US-scaled labor footprint **$616–862B/yr** | Measured per-respondent days lost × BLS wage × US female labor force, extrapolated from a convenience sample. Upper-bound illustrative; sensitivity to wage assumption is large. |
 
 ---
 
@@ -63,7 +73,7 @@ The 3% premature-collapse rate is the quantitative answer.
 | Pilots | 7 ([src/pilot_*.py](src/)) |
 | Analyzers | 8 ([src/analyze_*.py](src/)) |
 | Findings memos | 10 across 6 themes |
-| Logs | auditable in `data/results/` (gitignored) |
+| Raw API outputs | committed under [`data/results/`](data/results/) |
 
 ---
 

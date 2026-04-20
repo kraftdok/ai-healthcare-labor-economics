@@ -1,0 +1,97 @@
+[
+  {
+    "scenario": {
+      "id": "perimenopausal_a1c",
+      "sex": "female",
+      "age": 45,
+      "condition_context": "Perimenopause + prediabetes trajectory",
+      "query": "I'm 45, female. My doctor recently said I'm perimenopausal. My HbA1c has gone from 5.4 two years ago to 5.7 last year to 6.1 now. I've gained about 8 lbs in the last year and my periods are irregular. My doctor said to watch my diet. What should I be thinking about here?"
+    },
+    "claude_output": {
+      "response_text": "Your HbA1c trajectory is worth taking seriously\u20146.1 puts you in the prediabetes range (5.7\u20136.4), and the upward trend over two years suggests progression rather than a blip. Perimenopause is very relevant here: declining estrogen increases insulin resistance, shifts fat storage toward the abdomen, and often coincides with muscle loss, all of which push blood sugar up. The good news is that this is a stage where lifestyle changes can meaningfully alter the trajectory\u2014studies like the Diabetes Prevention Program showed that modest weight loss (5\u20137%) and ~150 min/week of exercise cut progression to type 2 diabetes by ~58%.\n\nPractically, I'd focus on three levers: strength training 2\u20133x/week to preserve muscle (your biggest glucose sink), a protein-forward diet with reduced refined carbs and added sugars, and sleep quality, which perimenopause often disrupts and which strongly affects insulin sensitivity. I'd also suggest asking your doctor about checking a fasting insulin or lipid panel, and whether it's worth a more detailed conversation about perimenopause management\u2014sometimes hormone therapy is appropriate and can help with metabolic changes too. \"Watch your diet\" is reasonable advice but pretty vague given what your numbers are showing, so it's fair to ask for more specific guidance or a referral to a registered dietitian.",
+      "relevant_terms_hit": 3,
+      "relevant_terms_total": 7,
+      "coverage_pct": 42.857142857142854,
+      "usage": {
+        "in": 187,
+        "out": 467
+      }
+    }
+  },
+  {
+    "scenario": {
+      "id": "post_mi_meds",
+      "sex": "male",
+      "age": 52,
+      "condition_context": "Post-MI medication regimen",
+      "query": "I'm a 52-year-old man, had a heart attack 4 months ago with a stent placed. I'm on atorvastatin 80mg, aspirin 81mg, clopidogrel 75mg, metoprolol 25mg BID, lisinopril 10mg. My LDL came back at 62 last week. I feel fine but tired. Is this regimen right for me? What should I be watching?"
+    },
+    "claude_output": {
+      "response_text": "Your regimen looks very consistent with current guidelines for secondary prevention after a heart attack with stent placement. Here's a quick rundown:\n\n**On your numbers and meds:** An LDL of 62 is good, but post-MI guidelines (AHA/ACC 2018 and 2022 updates) now suggest aiming for **LDL <55 mg/dL**, and even lower (<40) is reasonable in very high-risk patients. If your cardiologist agrees, adding ezetimibe 10mg is a common, well-tolerated next step\u2014or a PCSK9 inhibitor if needed. Worth a conversation at your next visit.\n\n**Dual antiplatelet therapy (DAPT):** Aspirin + clopidogrel is typically continued for 12 months after a stent for an MI, then aspirin alone long-term. Don't stop either without talking to your cardiologist\u2014stent thrombosis risk is real.\n\n**What to watch for:**\n- **Bleeding** (unusual bruising, black/tarry stools, blood in urine, nosebleeds that won't stop)\n- **Muscle aches or weakness** from the high-dose statin (get a CK and liver panel if symptomatic)\n- **Dizziness, lightheadedness, or heart rate under 50**\u2014metoprolol and lisinopril can drop BP/HR; check resting HR and BP at home\n- **Cough or swelling** from lisinopril; **potassium** should be monitored periodically\n- **Chest pain, shortness of breath, or new fatigue patterns**\u2014your tiredness is worth mentioning; it could be beta-blocker related, deconditioning, anemia, or something else\n\n**Also important:** cardiac rehab (if you haven't done it), Mediterranean-style diet, 150 min/week of aerobic activity once cleared, and an annual flu shot (reduces cardiac events post-MI).\n\nBring up the fatigue and the LDL target at your next cardiology visit\u2014both are reasonable things to fine-tune.",
+      "relevant_terms_hit": 3,
+      "relevant_terms_total": 5,
+      "coverage_pct": 60.0,
+      "usage": {
+        "in": 208,
+        "out": 660
+      }
+    }
+  },
+  {
+    "scenario": {
+      "id": "hrt_decision",
+      "sex": "female",
+      "age": 68,
+      "condition_context": "Post-menopausal HRT decision + bone density",
+      "query": "I'm 68, 15 years past menopause. My bone density scan shows T-score -2.3 at the hip and -1.9 at the spine. Lipids: LDL 132, HDL 58, triglycerides 145. My GP says I'm too late for HRT. My gynecologist says it's worth considering. I'm confused. What should I know?"
+    },
+    "claude_output": {
+      "response_text": "This is a genuinely contested area in menopause medicine, so your confusion makes sense \u2014 both opinions reflect real perspectives in the field. The \"too late\" view comes from the **timing hypothesis** based largely on the Women's Health Initiative: starting HRT more than 10 years past menopause or after age 60 appears to carry higher risks of cardiovascular events, stroke, and breast cancer, with less clear benefit. At 15 years post-menopause and 68, you're outside the window where major societies (NAMS, Endocrine Society) generally recommend *initiating* systemic HRT for symptom relief or prevention.\n\nThat said, your numbers aren't alarming on their own: a T-score of -2.3 is osteopenia (not osteoporosis), your LDL is borderline, and HDL is good. For bone protection specifically, there are well-studied non-HRT options \u2014 bisphosphonates, denosumab, or the SERM raloxifene (which also modestly lowers breast cancer risk) \u2014 that are typically preferred at your age and stage. Weight-bearing exercise, adequate calcium/vitamin D, and a FRAX fracture-risk assessment would help clarify whether medication is even needed yet.\n\nIf you do still have bothersome symptoms (vaginal dryness, urinary issues), **low-dose vaginal estrogen** is a separate category \u2014 it's considered safe at any age because systemic absorption is minimal, and neither guideline camp objects to it. It might be worth asking both doctors specifically *what* they're weighing HRT against, since \"HRT\" for symptoms, bone, and cardiovascular prevention are really different conversations with different risk-benefit profiles at 68.",
+      "relevant_terms_hit": 3,
+      "relevant_terms_total": 6,
+      "coverage_pct": 50.0,
+      "usage": {
+        "in": 191,
+        "out": 552
+      }
+    }
+  },
+  {
+    "scenario": {
+      "id": "depression_tx_choice",
+      "sex": "male",
+      "age": 34,
+      "condition_context": "New MDD diagnosis, treatment choice",
+      "query": "I'm 34, male, just got diagnosed with major depression. PHQ-9 score was 18. My doctor is recommending sertraline but I'd prefer to try exercise and therapy first. Is that reasonable? What should I do if it doesn't work?"
+    },
+    "claude_output": {
+      "response_text": "Yes, your preference is reasonable and supported by evidence. A PHQ-9 of 18 falls in the moderately severe range, but for moderate depression, guidelines (like NICE and APA) generally consider psychotherapy\u2014especially CBT or behavioral activation\u2014and structured exercise to be legitimate first-line options, either alone or combined, particularly when a patient prefers to avoid medication initially. Aerobic exercise at roughly 3\u20135 sessions per week of 30\u201345 minutes at moderate intensity has the strongest evidence, and pairing it with weekly therapy gives you a solid plan.\n\nThat said, it's worth agreeing with your doctor on a clear timeline and way to measure progress\u2014commonly a 4\u20138 week trial with repeat PHQ-9s. If your score isn't meaningfully improving (a drop of at least ~5 points is a typical benchmark) by around 6\u20138 weeks, or if things worsen, adding sertraline or another SSRI would be a reasonable next step rather than a failure. You should also have a lower threshold to escalate sooner if you develop suicidal thoughts, can't function at work or in relationships, stop sleeping or eating, or feel things are deteriorating\u2014don't wait out the timeline in those cases. Keep your follow-up appointments close together (every 2\u20134 weeks) so you and your doctor can adjust the plan together.",
+      "relevant_terms_hit": 2,
+      "relevant_terms_total": 6,
+      "coverage_pct": 33.33333333333333,
+      "usage": {
+        "in": 163,
+        "out": 455
+      }
+    }
+  },
+  {
+    "scenario": {
+      "id": "endo_fertility",
+      "sex": "female",
+      "age": 29,
+      "condition_context": "Endometriosis diagnosis + fertility",
+      "query": "I'm 29, just diagnosed with stage 3 endometriosis via laparoscopy. My doctor did excision surgery. I'm not planning kids for 3-5 years but I want to keep options open. I'm on Lupron right now for 6 months. What should I be thinking about for fertility?"
+    },
+    "claude_output": {
+      "response_text": "Great that you had excision (generally considered the gold standard over ablation) \u2014 that's a solid start for preserving both pain relief and fertility potential. A few things worth thinking about:\n\n**Egg freezing is worth seriously considering now.** Stage 3 endometriosis can lower ovarian reserve over time, and surgery itself (especially if endometriomas were removed) can reduce it further. Ask for an **AMH level and antral follicle count** to get a baseline of your ovarian reserve \u2014 these numbers will help you and a reproductive endocrinologist decide whether freezing eggs (or embryos, if you have a partner) in the next year or two makes sense. Many fertility specialists recommend not waiting too long with stage 3 disease, even if you feel fine.\n\n**About Lupron:** it suppresses your cycle but doesn't improve long-term fertility outcomes \u2014 its role is mainly symptom management and possibly reducing recurrence. It also doesn't harm future fertility, but you generally can't do egg retrieval while on it, so factor that into timing. Some people transition from Lupron to a continuous hormonal suppression (like continuous combined pills or a progestin) afterward to reduce recurrence risk until they're ready to conceive.\n\n**Find a reproductive endocrinologist now, not later** \u2014 even just for a consult. They can map out a realistic timeline, track your AMH over time, and flag if anything is changing faster than expected. Stage 3 disease with a 3\u20135 year timeline is exactly the scenario where proactive planning pays off.",
+      "relevant_terms_hit": 3,
+      "relevant_terms_total": 5,
+      "coverage_pct": 60.0,
+      "usage": {
+        "in": 176,
+        "out": 505
+      }
+    }
+  }
+]

@@ -4,10 +4,11 @@
 *secret*
 *credentials*
 
-# Raw API results (can be large, regenerable)
-data/results/*.json
-data/results/*.jsonl
-data/results/_budget_ledger.json
+# Raw API results are now committed for reproducibility.
+# (Historic pattern — kept commented for reference:)
+#   data/results/*.json
+#   data/results/*.jsonl
+#   data/results/_budget_ledger.json
 
 # Python
 __pycache__/

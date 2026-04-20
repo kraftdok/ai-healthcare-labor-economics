@@ -1,0 +1,707 @@
+{
+  "study": "AI Pathway Economics",
+  "model": "claude-opus-4-20250514",
+  "timestamp": "2026-04-15T14:41:51.848407",
+  "results": [
+    {
+      "condition_id": "endo",
+      "condition_name": "Endometriosis",
+      "node": 1,
+      "stage": "Initial symptoms",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of severe menstrual pain (dysmenorrhea) that's worse than typical and cramping between periods could indicate an underlying gynecological condition. While some menstrual discomfort is normal, pain that significantly impacts your life or occurs outside your period warrants medical evaluation.",
+          "likely_conditions": [
+            {
+              "condition": "Endometriosis",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Primary dysmenorrhea",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Uterine fibroids",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with a gynecologist within the next 2-4 weeks to discuss your symptoms and get a proper evaluation",
+          "urgency": 2,
+          "specialist_referral": "Gynecologist",
+          "key_tests": [
+            "Pelvic exam",
+            "Transvaginal ultrasound",
+            "Complete menstrual history"
+          ],
+          "what_to_tell_your_doctor": "Describe the severity of pain on a scale of 1-10, when the pain occurs (during period vs between), what makes it better or worse, any other symptoms like heavy bleeding or digestive issues, and how it impacts your daily activities"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of severe menstrual pain (dysmenorrhea) that's worse than typical and cramping between periods could indicate an underlying gynecological condition. While some menstrual discomfort is normal, pain that significantly impacts your life or occurs outside your period warrants medical evaluation.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Endometriosis\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Primary dysmenorrhea\", \"likelihood\": \"high\"},\n    {\"condition\": \"Uterine fibroids\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with a gynecologist within the next 2-4 weeks to discuss your symptoms and get a proper evaluation\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Gynecologist\",\n  \"key_tests\": [\"Pelvic exam\", \"Transvaginal ultrasound\", \"Complete menstrual history\"],\n  \"what_to_tell_your_doctor\": \"Describe the severity of pain on a scale of 1-10, when the pain occurs (during period vs between), what makes it better or worse, any other symptoms like heavy bleeding or digestive issues, and how it impacts your daily activities\"\n}",
+        "usage": {
+          "input_tokens": 299,
+          "output_tokens": 293
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "gynecologist"
+        ],
+        "red_flag_routing_found": [
+          "normal"
+        ],
+        "correct_steps_found": [],
+        "urgency_given": 2,
+        "routing_score": 3,
+        "routed_correctly": false,
+        "dismissed": false,
+        "conditions_identified": [
+          "endometriosis",
+          "primary dysmenorrhea",
+          "uterine fibroids"
+        ],
+        "specialist_recommended": "Gynecologist",
+        "action_recommended": "Schedule an appointment with a gynecologist within the next 2-4 weeks to discuss your symptoms and get a proper evaluation"
+      },
+      "timestamp": "2026-04-15T14:40:16.869995"
+    },
+    {
+      "condition_id": "endo",
+      "condition_name": "Endometriosis",
+      "node": 2,
+      "stage": "After first dismissal",
+      "years_into_journey": 1.5,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of worsening period pain, pain during intercourse, and abdominal pain despite treatment suggest a condition beyond typical menstrual cramps. The progression of symptoms and their impact on your daily life warrants further investigation, particularly for conditions like endometriosis or adenomyosis.",
+          "likely_conditions": [
+            {
+              "condition": "Endometriosis",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Adenomyosis",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Pelvic inflammatory disease",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with a gynecologist as soon as possible, or return to your primary care doctor and firmly advocate for a referral to a specialist",
+          "urgency": 3,
+          "specialist_referral": "Gynecologist, preferably one with experience in pelvic pain or endometriosis",
+          "key_tests": [
+            "Pelvic ultrasound",
+            "MRI if ultrasound is inconclusive",
+            "CA-125 blood test"
+          ],
+          "what_to_tell_your_doctor": "Emphasize that pain has worsened despite treatment, you now have pain during intercourse (dyspareunia), you've missed work due to pain severity, and that this is significantly impacting your quality of life. Request specific investigations for endometriosis or other pelvic conditions, not just symptom management."
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of worsening period pain, pain during intercourse, and abdominal pain despite treatment suggest a condition beyond typical menstrual cramps. The progression of symptoms and their impact on your daily life warrants further investigation, particularly for conditions like endometriosis or adenomyosis.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Endometriosis\", \"likelihood\": \"high\"},\n    {\"condition\": \"Adenomyosis\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Pelvic inflammatory disease\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with a gynecologist as soon as possible, or return to your primary care doctor and firmly advocate for a referral to a specialist\",\n  \"urgency\": 3,\n  \"specialist_referral\": \"Gynecologist, preferably one with experience in pelvic pain or endometriosis\",\n  \"key_tests\": [\"Pelvic ultrasound\", \"MRI if ultrasound is inconclusive\", \"CA-125 blood test\"],\n  \"what_to_tell_your_doctor\": \"Emphasize that pain has worsened despite treatment, you now have pain during intercourse (dyspareunia), you've missed work due to pain severity, and that this is significantly impacting your quality of life. Request specific investigations for endometriosis or other pelvic conditions, not just symptom management.\"\n}",
+        "usage": {
+          "input_tokens": 342,
+          "output_tokens": 335
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "gynecologist",
+          "endometriosis",
+          "advocate"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 3,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "endometriosis",
+          "adenomyosis",
+          "pelvic inflammatory disease"
+        ],
+        "specialist_recommended": "Gynecologist, preferably one with experience in pelvic pain or endometriosis",
+        "action_recommended": "Schedule an appointment with a gynecologist as soon as possible, or return to your primary care doctor and firmly advocate for a referral to a specialist"
+      },
+      "timestamp": "2026-04-15T14:40:26.494976"
+    },
+    {
+      "condition_id": "endo",
+      "condition_name": "Endometriosis",
+      "node": 3,
+      "stage": "After misdiagnosis",
+      "years_into_journey": 3.5,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of pelvic pain that worsens with menstruation, painful intercourse, and fatigue, combined with IBS-like symptoms that don't respond to typical treatments, strongly suggest a gynecological condition like endometriosis. Endometriosis is often misdiagnosed as IBS because it can cause similar digestive symptoms, and the two conditions can coexist.",
+          "likely_conditions": [
+            {
+              "condition": "Endometriosis",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Adenomyosis",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Pelvic inflammatory disease",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with a gynecologist who specializes in pelvic pain or endometriosis as soon as possible. Request a thorough evaluation including discussion of all your symptoms, not just the digestive ones.",
+          "urgency": 3,
+          "specialist_referral": "Gynecologist with expertise in endometriosis or chronic pelvic pain",
+          "key_tests": [
+            "Transvaginal ultrasound",
+            "Pelvic MRI",
+            "CA-125 blood test"
+          ],
+          "what_to_tell_your_doctor": "Emphasize that your pain follows your menstrual cycle, you have pain during intercourse, IBS treatments haven't helped, and you suspect endometriosis. Bring a symptom diary tracking pain levels, timing with your cycle, and digestive symptoms. Ask specifically about endometriosis evaluation."
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of pelvic pain that worsens with menstruation, painful intercourse, and fatigue, combined with IBS-like symptoms that don't respond to typical treatments, strongly suggest a gynecological condition like endometriosis. Endometriosis is often misdiagnosed as IBS because it can cause similar digestive symptoms, and the two conditions can coexist.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Endometriosis\", \"likelihood\": \"high\"},\n    {\"condition\": \"Adenomyosis\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Pelvic inflammatory disease\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with a gynecologist who specializes in pelvic pain or endometriosis as soon as possible. Request a thorough evaluation including discussion of all your symptoms, not just the digestive ones.\",\n  \"urgency\": 3,\n  \"specialist_referral\": \"Gynecologist with expertise in endometriosis or chronic pelvic pain\",\n  \"key_tests\": [\"Transvaginal ultrasound\", \"Pelvic MRI\", \"CA-125 blood test\"],\n  \"what_to_tell_your_doctor\": \"Emphasize that your pain follows your menstrual cycle, you have pain during intercourse, IBS treatments haven't helped, and you suspect endometriosis. Bring a symptom diary tracking pain levels, timing with your cycle, and digestive symptoms. Ask specifically about endometriosis evaluation.\"\n}",
+        "usage": {
+          "input_tokens": 359,
+          "output_tokens": 362
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "endometriosis",
+          "gynecologist"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [
+          "endometriosis evaluation"
+        ],
+        "urgency_given": 3,
+        "routing_score": 5,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "endometriosis",
+          "adenomyosis",
+          "pelvic inflammatory disease"
+        ],
+        "specialist_recommended": "Gynecologist with expertise in endometriosis or chronic pelvic pain",
+        "action_recommended": "Schedule an appointment with a gynecologist who specializes in pelvic pain or endometriosis as soon as possible. Request a thorough evaluation including discussion of all your symptoms, not just the digestive ones."
+      },
+      "timestamp": "2026-04-15T14:40:36.125246"
+    },
+    {
+      "condition_id": "endo",
+      "condition_name": "Endometriosis",
+      "node": 4,
+      "stage": "Prolonged diagnostic odyssey",
+      "years_into_journey": 5.5,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms are highly consistent with endometriosis, a condition where tissue similar to the uterine lining grows outside the uterus. The combination of severe menstrual pain, painful intercourse, painful bowel movements during periods, and chronic fatigue are classic signs that warrant proper investigation.",
+          "likely_conditions": [
+            {
+              "condition": "Endometriosis",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Adenomyosis",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Pelvic inflammatory disease",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Request a referral to a gynecologist who specializes in endometriosis or pelvic pain. If your current doctor dismisses your concerns, seek a second opinion immediately. Consider finding an endometriosis specialist through the Nancy's Nook Facebook group or similar resources.",
+          "urgency": 3,
+          "specialist_referral": "Gynecologist with expertise in endometriosis/minimally invasive gynecologic surgery",
+          "key_tests": [
+            "Transvaginal ultrasound",
+            "Pelvic MRI",
+            "CA-125 blood test"
+          ],
+          "what_to_tell_your_doctor": "Document your pain levels (1-10 scale) daily, list all symptoms including those affecting work attendance, explicitly ask about endometriosis evaluation, request diagnostic imaging, and bring a written symptom diary. Be firm that previous diagnoses haven't helped and you need further investigation."
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms are highly consistent with endometriosis, a condition where tissue similar to the uterine lining grows outside the uterus. The combination of severe menstrual pain, painful intercourse, painful bowel movements during periods, and chronic fatigue are classic signs that warrant proper investigation.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Endometriosis\", \"likelihood\": \"high\"},\n    {\"condition\": \"Adenomyosis\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Pelvic inflammatory disease\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Request a referral to a gynecologist who specializes in endometriosis or pelvic pain. If your current doctor dismisses your concerns, seek a second opinion immediately. Consider finding an endometriosis specialist through the Nancy's Nook Facebook group or similar resources.\",\n  \"urgency\": 3,\n  \"specialist_referral\": \"Gynecologist with expertise in endometriosis/minimally invasive gynecologic surgery\",\n  \"key_tests\": [\"Transvaginal ultrasound\", \"Pelvic MRI\", \"CA-125 blood test\"],\n  \"what_to_tell_your_doctor\": \"Document your pain levels (1-10 scale) daily, list all symptoms including those affecting work attendance, explicitly ask about endometriosis evaluation, request diagnostic imaging, and bring a written symptom diary. Be firm that previous diagnoses haven't helped and you need further investigation.\"\n}",
+        "usage": {
+          "input_tokens": 375,
+          "output_tokens": 351
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "endometriosis specialist",
+          "gynecologist",
+          "referral"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [
+          "endometriosis evaluation"
+        ],
+        "urgency_given": 3,
+        "routing_score": 5,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "endometriosis",
+          "adenomyosis",
+          "pelvic inflammatory disease"
+        ],
+        "specialist_recommended": "Gynecologist with expertise in endometriosis/minimally invasive gynecologic surgery",
+        "action_recommended": "Request a referral to a gynecologist who specializes in endometriosis or pelvic pain. If your current doctor dismisses your concerns, seek a second opinion immediately. Consider finding an endometriosis specialist through the Nancy's Nook Facebook group or similar resources."
+      },
+      "timestamp": "2026-04-15T14:40:45.562401"
+    },
+    {
+      "condition_id": "acs_female",
+      "condition_name": "Acute Coronary Syndrome (Female Presentation)",
+      "node": 1,
+      "stage": "Symptom onset \u2014 ambiguous presentation",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms - jaw pain, nausea, extreme fatigue, and left arm tingling - are concerning for a possible cardiac event. Women often experience heart attacks differently than men, with symptoms like jaw pain, nausea, and fatigue being common presentations rather than classic chest pain.",
+          "likely_conditions": [
+            {
+              "condition": "Heart attack (myocardial infarction)",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Unstable angina",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Anxiety/panic attack",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Call 911 immediately or have someone drive you to the nearest emergency room right now. Do not drive yourself. Take an aspirin (325mg) if you have one available and are not allergic.",
+          "urgency": 5,
+          "specialist_referral": "Emergency physician immediately, followed by cardiologist",
+          "key_tests": [
+            "ECG/EKG",
+            "Troponin levels",
+            "Chest X-ray",
+            "Complete blood count"
+          ],
+          "what_to_tell_your_doctor": "Emphasize the combination of jaw pain, nausea, extreme fatigue, and left arm tingling. Mention the exact time symptoms started and any activities you were doing when they began. List all medications you take and any cardiac risk factors (diabetes, high blood pressure, family history)."
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms - jaw pain, nausea, extreme fatigue, and left arm tingling - are concerning for a possible cardiac event. Women often experience heart attacks differently than men, with symptoms like jaw pain, nausea, and fatigue being common presentations rather than classic chest pain.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Heart attack (myocardial infarction)\", \"likelihood\": \"high\"},\n    {\"condition\": \"Unstable angina\", \"likelihood\": \"high\"},\n    {\"condition\": \"Anxiety/panic attack\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Call 911 immediately or have someone drive you to the nearest emergency room right now. Do not drive yourself. Take an aspirin (325mg) if you have one available and are not allergic.\",\n  \"urgency\": 5,\n  \"specialist_referral\": \"Emergency physician immediately, followed by cardiologist\",\n  \"key_tests\": [\"ECG/EKG\", \"Troponin levels\", \"Chest X-ray\", \"Complete blood count\"],\n  \"what_to_tell_your_doctor\": \"Emphasize the combination of jaw pain, nausea, extreme fatigue, and left arm tingling. Mention the exact time symptoms started and any activities you were doing when they began. List all medications you take and any cardiac risk factors (diabetes, high blood pressure, family history).\"\n}",
+        "usage": {
+          "input_tokens": 343,
+          "output_tokens": 328
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "call 911",
+          "emergency room",
+          "ER",
+          "immediately",
+          "heart attack",
+          "cardiac"
+        ],
+        "red_flag_routing_found": [
+          "anxiety",
+          "panic"
+        ],
+        "correct_steps_found": [
+          "aspirin",
+          "call 911"
+        ],
+        "urgency_given": 5,
+        "routing_score": 4,
+        "routed_correctly": false,
+        "dismissed": false,
+        "conditions_identified": [
+          "heart attack (myocardial infarction)",
+          "unstable angina",
+          "anxiety/panic attack"
+        ],
+        "specialist_recommended": "Emergency physician immediately, followed by cardiologist",
+        "action_recommended": "Call 911 immediately or have someone drive you to the nearest emergency room right now. Do not drive yourself. Take an aspirin (325mg) if you have one available and are not allergic."
+      },
+      "timestamp": "2026-04-15T14:40:54.891337"
+    },
+    {
+      "condition_id": "acs_female",
+      "condition_name": "Acute Coronary Syndrome (Female Presentation)",
+      "node": 2,
+      "stage": "After initial dismissal / self-dismissal",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of jaw pain, nausea, extreme fatigue, and arm tingling combined with your risk factors are concerning for a possible cardiac event. Women often experience atypical heart attack symptoms that differ from the classic chest pain, and your presentation fits this pattern.",
+          "likely_conditions": [
+            {
+              "condition": "Acute coronary syndrome/heart attack",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Unstable angina",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Severe acid reflux",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Call 911 immediately or have someone drive you to the nearest emergency room right now. Do not drive yourself.",
+          "urgency": 5,
+          "specialist_referral": "Emergency physician immediately, followed by cardiologist",
+          "key_tests": [
+            "EKG/ECG",
+            "Troponin levels",
+            "Chest X-ray",
+            "Complete blood count"
+          ],
+          "what_to_tell_your_doctor": "Emphasize all symptoms including jaw pain, arm tingling, nausea, and fatigue lasting 6 hours. Mention your high blood pressure and family history of heart attack. Note that symptoms haven't improved with antacids."
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of jaw pain, nausea, extreme fatigue, and arm tingling combined with your risk factors are concerning for a possible cardiac event. Women often experience atypical heart attack symptoms that differ from the classic chest pain, and your presentation fits this pattern.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Acute coronary syndrome/heart attack\", \"likelihood\": \"high\"},\n    {\"condition\": \"Unstable angina\", \"likelihood\": \"high\"},\n    {\"condition\": \"Severe acid reflux\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Call 911 immediately or have someone drive you to the nearest emergency room right now. Do not drive yourself.\",\n  \"urgency\": 5,\n  \"specialist_referral\": \"Emergency physician immediately, followed by cardiologist\",\n  \"key_tests\": [\"EKG/ECG\", \"Troponin levels\", \"Chest X-ray\", \"Complete blood count\"],\n  \"what_to_tell_your_doctor\": \"Emphasize all symptoms including jaw pain, arm tingling, nausea, and fatigue lasting 6 hours. Mention your high blood pressure and family history of heart attack. Note that symptoms haven't improved with antacids.\"\n}",
+        "usage": {
+          "input_tokens": 357,
+          "output_tokens": 292
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [
+          "call 911"
+        ],
+        "urgency_given": 5,
+        "routing_score": 3,
+        "routed_correctly": false,
+        "dismissed": false,
+        "conditions_identified": [
+          "acute coronary syndrome/heart attack",
+          "unstable angina",
+          "severe acid reflux"
+        ],
+        "specialist_recommended": "Emergency physician immediately, followed by cardiologist",
+        "action_recommended": "Call 911 immediately or have someone drive you to the nearest emergency room right now. Do not drive yourself."
+      },
+      "timestamp": "2026-04-15T14:41:03.521025"
+    },
+    {
+      "condition_id": "fibro",
+      "condition_name": "Fibromyalgia",
+      "node": 1,
+      "stage": "Initial widespread pain",
+      "years_into_journey": 0,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of widespread, migrating pain combined with fatigue and cognitive difficulties ('brain fog') suggest a systemic condition affecting multiple body systems. The combination of musculoskeletal pain, fatigue, and concentration issues in a woman your age warrants evaluation for conditions like fibromyalgia, early autoimmune disorders, or hormonal imbalances.",
+          "likely_conditions": [
+            {
+              "condition": "Fibromyalgia",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Early rheumatoid arthritis or other autoimmune condition",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Thyroid disorder (hypothyroidism)",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with your primary care physician within the next 1-2 weeks for a comprehensive evaluation including physical exam and blood work",
+          "urgency": 2,
+          "specialist_referral": "Rheumatologist, after initial evaluation by primary care physician",
+          "key_tests": [
+            "Complete blood count (CBC)",
+            "Thyroid function tests (TSH, T4)",
+            "Inflammatory markers (ESR, CRP)",
+            "Rheumatoid factor and anti-CCP antibodies",
+            "Vitamin D levels"
+          ],
+          "what_to_tell_your_doctor": "Document and describe: 1) Pattern of pain movement and specific locations, 2) Pain severity on 1-10 scale, 3) What makes it better/worse, 4) Impact on daily activities, 5) Sleep quality details, 6) Any morning stiffness, 7) Family history of autoimmune conditions"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of widespread, migrating pain combined with fatigue and cognitive difficulties ('brain fog') suggest a systemic condition affecting multiple body systems. The combination of musculoskeletal pain, fatigue, and concentration issues in a woman your age warrants evaluation for conditions like fibromyalgia, early autoimmune disorders, or hormonal imbalances.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Fibromyalgia\", \"likelihood\": \"high\"},\n    {\"condition\": \"Early rheumatoid arthritis or other autoimmune condition\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Thyroid disorder (hypothyroidism)\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with your primary care physician within the next 1-2 weeks for a comprehensive evaluation including physical exam and blood work\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Rheumatologist, after initial evaluation by primary care physician\",\n  \"key_tests\": [\"Complete blood count (CBC)\", \"Thyroid function tests (TSH, T4)\", \"Inflammatory markers (ESR, CRP)\", \"Rheumatoid factor and anti-CCP antibodies\", \"Vitamin D levels\"],\n  \"what_to_tell_your_doctor\": \"Document and describe: 1) Pattern of pain movement and specific locations, 2) Pain severity on 1-10 scale, 3) What makes it better/worse, 4) Impact on daily activities, 5) Sleep quality details, 6) Any morning stiffness, 7) Family history of autoimmune conditions\"\n}",
+        "usage": {
+          "input_tokens": 331,
+          "output_tokens": 379
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "primary care",
+          "fibromyalgia",
+          "physical exam"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 2,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "fibromyalgia",
+          "early rheumatoid arthritis or other autoimmune condition",
+          "thyroid disorder (hypothyroidism)"
+        ],
+        "specialist_recommended": "Rheumatologist, after initial evaluation by primary care physician",
+        "action_recommended": "Schedule an appointment with your primary care physician within the next 1-2 weeks for a comprehensive evaluation including physical exam and blood work"
+      },
+      "timestamp": "2026-04-15T14:41:12.989158"
+    },
+    {
+      "condition_id": "fibro",
+      "condition_name": "Fibromyalgia",
+      "node": 2,
+      "stage": "After normal labs, mounting frustration",
+      "years_into_journey": 1.5,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of widespread pain, sleep disturbance, fatigue, and cognitive difficulties lasting over a year with normal blood tests strongly suggest fibromyalgia. This condition is often diagnosed after ruling out other causes and doesn't show up on standard blood tests, which explains why your tests were normal.",
+          "likely_conditions": [
+            {
+              "condition": "Fibromyalgia",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Chronic fatigue syndrome/ME",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Central sensitization syndrome",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Request a referral to a pain specialist or rheumatologist experienced in fibromyalgia for proper evaluation using the 2016 fibromyalgia diagnostic criteria",
+          "urgency": 2,
+          "specialist_referral": "Pain management specialist or rheumatologist with fibromyalgia expertise",
+          "key_tests": [
+            "Widespread Pain Index (WPI) assessment",
+            "Symptom Severity Scale (SSS) evaluation",
+            "Sleep study if sleep apnea suspected"
+          ],
+          "what_to_tell_your_doctor": "Emphasize that the pain is in multiple body areas, persists despite antidepressant treatment, and significantly impacts your daily function and work capacity. Ask specifically about fibromyalgia evaluation and request documentation of tender points or use of the WPI/SSS criteria."
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of widespread pain, sleep disturbance, fatigue, and cognitive difficulties lasting over a year with normal blood tests strongly suggest fibromyalgia. This condition is often diagnosed after ruling out other causes and doesn't show up on standard blood tests, which explains why your tests were normal.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Fibromyalgia\", \"likelihood\": \"high\"},\n    {\"condition\": \"Chronic fatigue syndrome/ME\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Central sensitization syndrome\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Request a referral to a pain specialist or rheumatologist experienced in fibromyalgia for proper evaluation using the 2016 fibromyalgia diagnostic criteria\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Pain management specialist or rheumatologist with fibromyalgia expertise\",\n  \"key_tests\": [\"Widespread Pain Index (WPI) assessment\", \"Symptom Severity Scale (SSS) evaluation\", \"Sleep study if sleep apnea suspected\"],\n  \"what_to_tell_your_doctor\": \"Emphasize that the pain is in multiple body areas, persists despite antidepressant treatment, and significantly impacts your daily function and work capacity. Ask specifically about fibromyalgia evaluation and request documentation of tender points or use of the WPI/SSS criteria.\"\n}",
+        "usage": {
+          "input_tokens": 385,
+          "output_tokens": 332
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "fibromyalgia",
+          "central sensitization"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 2,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "fibromyalgia",
+          "chronic fatigue syndrome/me",
+          "central sensitization syndrome"
+        ],
+        "specialist_recommended": "Pain management specialist or rheumatologist with fibromyalgia expertise",
+        "action_recommended": "Request a referral to a pain specialist or rheumatologist experienced in fibromyalgia for proper evaluation using the 2016 fibromyalgia diagnostic criteria"
+      },
+      "timestamp": "2026-04-15T14:41:22.299760"
+    },
+    {
+      "condition_id": "fibro",
+      "condition_name": "Fibromyalgia",
+      "node": 3,
+      "stage": "Years in, identity eroded",
+      "years_into_journey": 4,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of widespread chronic pain, unrefreshing sleep, cognitive difficulties ('fibro fog'), and normal lab results are indeed highly consistent with fibromyalgia. This is a real medical condition affecting the central nervous system's pain processing, not something 'in your head.'",
+          "likely_conditions": [
+            {
+              "condition": "Fibromyalgia",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Chronic fatigue syndrome/ME",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Central sensitization syndrome",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Request a formal fibromyalgia evaluation using the 2016 diagnostic criteria from your rheumatologist or find a specialist experienced in fibromyalgia treatment",
+          "urgency": 2,
+          "specialist_referral": "Rheumatologist with fibromyalgia expertise or pain management specialist familiar with central sensitization disorders",
+          "key_tests": [
+            "Widespread Pain Index (WPI)",
+            "Symptom Severity Scale (SSS)",
+            "Tender point examination",
+            "Rule out thyroid, vitamin D, B12 deficiencies"
+          ],
+          "what_to_tell_your_doctor": "Document your pain locations on a body diagram, describe your sleep quality and cognitive symptoms in detail, mention how symptoms impact daily activities, specifically request evaluation for fibromyalgia using current diagnostic criteria, and ask about multimodal treatment approaches including low-dose naltrexone, gabapentinoids, and graded exercise therapy"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of widespread chronic pain, unrefreshing sleep, cognitive difficulties ('fibro fog'), and normal lab results are indeed highly consistent with fibromyalgia. This is a real medical condition affecting the central nervous system's pain processing, not something 'in your head.'\",\n  \"likely_conditions\": [\n    {\"condition\": \"Fibromyalgia\", \"likelihood\": \"high\"},\n    {\"condition\": \"Chronic fatigue syndrome/ME\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Central sensitization syndrome\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Request a formal fibromyalgia evaluation using the 2016 diagnostic criteria from your rheumatologist or find a specialist experienced in fibromyalgia treatment\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Rheumatologist with fibromyalgia expertise or pain management specialist familiar with central sensitization disorders\",\n  \"key_tests\": [\"Widespread Pain Index (WPI)\", \"Symptom Severity Scale (SSS)\", \"Tender point examination\", \"Rule out thyroid, vitamin D, B12 deficiencies\"],\n  \"what_to_tell_your_doctor\": \"Document your pain locations on a body diagram, describe your sleep quality and cognitive symptoms in detail, mention how symptoms impact daily activities, specifically request evaluation for fibromyalgia using current diagnostic criteria, and ask about multimodal treatment approaches including low-dose naltrexone, gabapentinoids, and graded exercise therapy\"\n}",
+        "usage": {
+          "input_tokens": 406,
+          "output_tokens": 355
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [
+          "multimodal treatment"
+        ],
+        "urgency_given": 2,
+        "routing_score": 3,
+        "routed_correctly": false,
+        "dismissed": false,
+        "conditions_identified": [
+          "fibromyalgia",
+          "chronic fatigue syndrome/me",
+          "central sensitization syndrome"
+        ],
+        "specialist_recommended": "Rheumatologist with fibromyalgia expertise or pain management specialist familiar with central sensitization disorders",
+        "action_recommended": "Request a formal fibromyalgia evaluation using the 2016 diagnostic criteria from your rheumatologist or find a specialist experienced in fibromyalgia treatment"
+      },
+      "timestamp": "2026-04-15T14:41:32.022630"
+    },
+    {
+      "condition_id": "gdm",
+      "condition_name": "GDM \u2192 Type 2 Diabetes Pipeline",
+      "node": 1,
+      "stage": "Postpartum, no follow-up scheduled",
+      "years_into_journey": 0.5,
+      "response": {
+        "parsed": {
+          "assessment": "Having gestational diabetes puts you at significantly higher risk of developing type 2 diabetes in the future - about 50% of women with gestational diabetes develop type 2 diabetes within 5-10 years. You should have been tested for diabetes 6-12 weeks after delivery, and since you're now 6 months postpartum, it's important to get screened soon.",
+          "likely_conditions": [
+            {
+              "condition": "Prediabetes",
+              "likelihood": "medium"
+            },
+            {
+              "condition": "Type 2 diabetes",
+              "likelihood": "low"
+            },
+            {
+              "condition": "Normal glucose tolerance",
+              "likelihood": "medium"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with your primary care doctor within the next 2-4 weeks for diabetes screening. Continue breastfeeding as it actually helps reduce your diabetes risk.",
+          "urgency": 2,
+          "specialist_referral": "Primary care physician first; endocrinologist only if test results are abnormal",
+          "key_tests": [
+            "Fasting glucose test",
+            "Hemoglobin A1C",
+            "Oral glucose tolerance test (OGTT)"
+          ],
+          "what_to_tell_your_doctor": "Mention you had gestational diabetes 6 months ago, haven't been tested postpartum yet, are currently breastfeeding, and want to establish a screening schedule. Ask about lifestyle modifications to reduce diabetes risk and how often you should be screened going forward."
+        },
+        "raw": "{\n  \"assessment\": \"Having gestational diabetes puts you at significantly higher risk of developing type 2 diabetes in the future - about 50% of women with gestational diabetes develop type 2 diabetes within 5-10 years. You should have been tested for diabetes 6-12 weeks after delivery, and since you're now 6 months postpartum, it's important to get screened soon.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Prediabetes\", \"likelihood\": \"medium\"},\n    {\"condition\": \"Type 2 diabetes\", \"likelihood\": \"low\"},\n    {\"condition\": \"Normal glucose tolerance\", \"likelihood\": \"medium\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with your primary care doctor within the next 2-4 weeks for diabetes screening. Continue breastfeeding as it actually helps reduce your diabetes risk.\",\n  \"urgency\": 2,\n  \"specialist_referral\": \"Primary care physician first; endocrinologist only if test results are abnormal\",\n  \"key_tests\": [\"Fasting glucose test\", \"Hemoglobin A1C\", \"Oral glucose tolerance test (OGTT)\"],\n  \"what_to_tell_your_doctor\": \"Mention you had gestational diabetes 6 months ago, haven't been tested postpartum yet, are currently breastfeeding, and want to establish a screening schedule. Ask about lifestyle modifications to reduce diabetes risk and how often you should be screened going forward.\"\n}",
+        "usage": {
+          "input_tokens": 323,
+          "output_tokens": 342
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 2,
+        "routing_score": 2,
+        "routed_correctly": false,
+        "dismissed": false,
+        "conditions_identified": [
+          "prediabetes",
+          "type 2 diabetes",
+          "normal glucose tolerance"
+        ],
+        "specialist_recommended": "Primary care physician first; endocrinologist only if test results are abnormal",
+        "action_recommended": "Schedule an appointment with your primary care doctor within the next 2-4 weeks for diabetes screening. Continue breastfeeding as it actually helps reduce your diabetes risk."
+      },
+      "timestamp": "2026-04-15T14:41:40.956837"
+    },
+    {
+      "condition_id": "gdm",
+      "condition_name": "GDM \u2192 Type 2 Diabetes Pipeline",
+      "node": 2,
+      "stage": "Symptoms emerging, no one connecting to GDM history",
+      "years_into_journey": 3,
+      "response": {
+        "parsed": {
+          "assessment": "Your symptoms of excessive thirst, fatigue, recurrent yeast infections, and weight gain are classic signs of type 2 diabetes. Having gestational diabetes significantly increases your risk of developing type 2 diabetes later, with about 50% of women developing it within 5-10 years after pregnancy.",
+          "likely_conditions": [
+            {
+              "condition": "Type 2 diabetes",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Prediabetes",
+              "likelihood": "high"
+            },
+            {
+              "condition": "Polycystic ovary syndrome (PCOS)",
+              "likelihood": "low"
+            }
+          ],
+          "recommended_action": "Schedule an appointment with your primary care doctor within the next week to request diabetes testing, specifically a fasting glucose test and HbA1c",
+          "urgency": 3,
+          "specialist_referral": "Endocrinologist if diabetes is confirmed, or primary care can manage initially",
+          "key_tests": [
+            "Fasting blood glucose",
+            "HbA1c (hemoglobin A1c)",
+            "Oral glucose tolerance test"
+          ],
+          "what_to_tell_your_doctor": "Emphasize your history of gestational diabetes, current symptoms of excessive thirst and recurrent yeast infections, and request comprehensive diabetes screening since these weren't checked when thyroid was tested"
+        },
+        "raw": "{\n  \"assessment\": \"Your symptoms of excessive thirst, fatigue, recurrent yeast infections, and weight gain are classic signs of type 2 diabetes. Having gestational diabetes significantly increases your risk of developing type 2 diabetes later, with about 50% of women developing it within 5-10 years after pregnancy.\",\n  \"likely_conditions\": [\n    {\"condition\": \"Type 2 diabetes\", \"likelihood\": \"high\"},\n    {\"condition\": \"Prediabetes\", \"likelihood\": \"high\"},\n    {\"condition\": \"Polycystic ovary syndrome (PCOS)\", \"likelihood\": \"low\"}\n  ],\n  \"recommended_action\": \"Schedule an appointment with your primary care doctor within the next week to request diabetes testing, specifically a fasting glucose test and HbA1c\",\n  \"urgency\": 3,\n  \"specialist_referral\": \"Endocrinologist if diabetes is confirmed, or primary care can manage initially\",\n  \"key_tests\": [\"Fasting blood glucose\", \"HbA1c (hemoglobin A1c)\", \"Oral glucose tolerance test\"],\n  \"what_to_tell_your_doctor\": \"Emphasize your history of gestational diabetes, current symptoms of excessive thirst and recurrent yeast infections, and request comprehensive diabetes screening since these weren't checked when thyroid was tested\"\n}",
+        "usage": {
+          "input_tokens": 333,
+          "output_tokens": 311
+        },
+        "error": null
+      },
+      "score": {
+        "valid": true,
+        "correct_routing_found": [
+          "A1C",
+          "fasting glucose"
+        ],
+        "red_flag_routing_found": [],
+        "correct_steps_found": [],
+        "urgency_given": 3,
+        "routing_score": 4,
+        "routed_correctly": true,
+        "dismissed": false,
+        "conditions_identified": [
+          "type 2 diabetes",
+          "prediabetes",
+          "polycystic ovary syndrome (pcos)"
+        ],
+        "specialist_recommended": "Endocrinologist if diabetes is confirmed, or primary care can manage initially",
+        "action_recommended": "Schedule an appointment with your primary care doctor within the next week to request diabetes testing, specifically a fasting glucose test and HbA1c"
+      },
+      "timestamp": "2026-04-15T14:41:51.543114"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "vertical": {
+      "id": "prior_auth",
+      "name": "Prior authorization",
+      "baseline_cost": {
+        "us_annual_admin_cost_B": 35,
+        "avg_minutes_per_request": 16,
+        "avg_requests_per_physician_per_week": 41,
+        "female_share_of_admin_labor_pct": 75,
+        "peer_labor_pool_M": 2.0
+      },
+      "task_system": "You are a clinical administrative assistant helping a cardiology practice draft a prior-authorization request to an insurer. Produce a concise, professional draft letter suitable for the insurer's clinical review board. Include the specific clinical justification. Respond in under 400 words.",
+      "task_prompt": "Patient: 62-year-old male, new MI diagnosis 3 weeks ago, LVEF 38%, NYHA class II symptoms. We are requesting prior authorization for cardiac rehabilitation (CPT 93798) for 36 sessions over 12 weeks, based on AHA/ACC 2019 guidelines for post-MI cardiac rehab enrollment. Insurer: standard commercial PPO.\n\nDraft the prior-auth request letter. Include medical necessity justification with specific guideline citation.",
+      "quality_rubric": {
+        "mentions_specific_guideline": "AHA/ACC",
+        "mentions_CPT_code": "93798",
+        "mentions_LVEF_or_NYHA": true,
+        "estimated_time_manual_min": 16,
+        "estimated_time_with_ai_min": 3
+      }
+    },
+    "output": {
+      "response_text": "[Practice Letterhead]\n[Date]\n\nUtilization Management / Clinical Review Board\n[Insurer Name]\nRe: Prior Authorization Request \u2013 Cardiac Rehabilitation (CPT 93798)\n\nPatient Name: [Patient Name]\nDOB: [DOB]\nMember ID: [ID]\nGroup #: [Group]\nDiagnosis: Recent ST/NSTEMI myocardial infarction (ICD-10: I21.9); Heart failure with reduced ejection fraction (I50.22)\nRequesting Provider: [Physician Name], MD \u2013 Cardiology (NPI: [NPI])\n\nDear Medical Reviewer:\n\nI am writing to request prior authorization for a supervised outpatient cardiac rehabilitation program (CPT 93798) for the above-referenced patient, consisting of 36 sessions over 12 weeks.\n\n**Clinical Summary:**\nThe patient is a 62-year-old male who sustained an acute myocardial infarction three weeks ago. Post-event echocardiography demonstrates a left ventricular ejection fraction of 38%, consistent with moderately reduced systolic function. He currently reports NYHA Class II symptoms, with dyspnea and fatigue on moderate exertion. He is medically stable on guideline-directed medical therapy and cleared for supervised exercise.\n\n**Medical Necessity and Guideline Support:**\nCardiac rehabilitation is strongly indicated in this post-MI patient with reduced ejection fraction. The 2019 ACC/AHA Guideline on the Primary Prevention of Cardiovascular Disease, as well as the longstanding AHA/ACC/AACVPR performance measures, give a Class I recommendation for referral to a comprehensive outpatient cardiac rehabilitation program following acute MI. Enrollment has been shown to reduce cardiovascular mortality, recurrent MI, and hospital readmissions, while improving functional capacity and quality of life.\n\nThe requested 36-session course aligns with the CMS-recognized and nationally accepted standard duration for post-MI cardiac rehabilitation and is consistent with the patient's covered indication under standard commercial PPO benefits. Supervised rehabilitation will also allow for monitored exercise prescription, risk factor modification, medication titration, and psychosocial support \u2014 elements particularly important given his reduced LVEF and elevated risk for adverse remodeling and recurrent events.\n\n**Requested Services:**\n- CPT 93798 \u2013 Physician/QHP-supervised cardiac rehabilitation with continuous ECG monitoring\n- 36 sessions over 12 weeks (3 sessions/week)\n- Start date: [Proposed Date]\n- Facility: [Rehab Facility Name]\n\nSupporting documentation, including the discharge summary, cardiac catheterization report, and echocardiogram, is enclosed.\n\nPlease contact our office at [Phone] with any questions or to expedite review. Thank you for your prompt consideration of this medically necessary service.\n\nSincerely,\n\n[Physician Name], M",
+      "usage": {
+        "in": 270,
+        "out": 1024
+      }
+    },
+    "quality": {
+      "mentions_specific_guideline": true,
+      "mentions_CPT_code": true,
+      "mentions_LVEF_or_NYHA": true,
+      "estimated_time_manual_min": 16,
+      "estimated_time_with_ai_min": 3
+    }
+  },
+  {
+    "vertical": {
+      "id": "clinical_documentation",
+      "name": "Clinical documentation (ambient note generation)",
+      "baseline_cost": {
+        "us_annual_admin_cost_B": 90,
+        "ratio_documentation_to_care": 2.0,
+        "avg_minutes_per_encounter_note": 15,
+        "encounters_per_physician_per_day": 20,
+        "female_share_of_admin_labor_pct": 50,
+        "peer_labor_pool_M": 1.1
+      },
+      "task_system": "You are a clinical documentation assistant. Given a transcribed patient encounter, produce a structured SOAP note suitable for entry into an EHR. Respond with a full SOAP note under 350 words.",
+      "task_prompt": "Transcript:\n\nDoctor: What brings you in today?\nPatient: I've had this chest tightness for about a week. It comes and goes, usually when I'm walking up stairs. Maybe lasts a couple minutes. Goes away with rest.\nDoctor: Any shortness of breath? Sweating?\nPatient: A little short of breath. Not really sweating.\nDoctor: Any history of heart problems? Family history?\nPatient: No. My dad had a heart attack at 68 though.\nDoctor: You're 55, right? And you smoke?\nPatient: Yeah, half a pack a day for 25 years.\nDoctor: BP is 148/92 today. Heart rate 78. Let's get an EKG and troponin. I'm also ordering a stress test.\nPatient: OK.\n\nGenerate the SOAP note.",
+      "quality_rubric": {
+        "includes_S_O_A_P": true,
+        "captures_chief_complaint": "chest tightness / exertional",
+        "captures_relevant_hx": "smoking, family cardiac hx",
+        "captures_plan": "EKG, troponin, stress test",
+        "estimated_time_manual_min": 15,
+        "estimated_time_with_ai_min": 2
+      }
+    },
+    "output": {
+      "response_text": "# SOAP Note\n\n**Patient:** 55-year-old male\n**Date:** [Date of encounter]\n\n---\n\n## Subjective\n\n**Chief Complaint:** Intermittent chest tightness x 1 week.\n\n**History of Present Illness:**\n55-year-old male presents with a one-week history of exertional chest tightness. Episodes are triggered by climbing stairs, last approximately 2 minutes, and resolve with rest. Associated with mild dyspnea on exertion. Denies diaphoresis, nausea, palpitations, radiation, or chest pain at rest.\n\n**Past Medical History:** No known cardiac history.\n\n**Family History:** Father had myocardial infarction at age 68.\n\n**Social History:** Active smoker, 0.5 pack per day x 25 years (12.5 pack-years).\n\n---\n\n## Objective\n\n**Vital Signs:**\n- Blood Pressure: 148/92 mmHg (hypertensive)\n- Heart Rate: 78 bpm\n\n**Physical Exam:** Patient appears in no acute distress. Additional exam findings not documented in this encounter.\n\n**Diagnostics Ordered:**\n- 12-lead EKG\n- Troponin level\n- Stress test\n\n---\n\n## Assessment\n\n55-year-old male with multiple cardiovascular risk factors (age, male sex, active tobacco use, family history of premature CAD, untreated hypertension) presenting with exertional chest tightness and dyspnea consistent with a classic anginal pattern.\n\n1. **Chest pain, suspected stable angina / possible coronary artery disease** \u2014 exertional symptoms relieved by rest in a high-risk patient warrant urgent cardiac workup to rule out acute coronary syndrome.\n2. **Hypertension, newly noted** \u2014 BP 148/92; requires confirmation and management.\n3. **Tobacco use disorder** \u2014 significant cardiovascular risk factor.\n\n---\n\n## Plan\n\n1. **Cardiac workup:**\n   - EKG today\n   - Serum troponin\n   - Outpatient stress test as ordered\n   - Return immediately or call 911 for worsening chest pain, rest pain, dyspnea, diaphoresis, or syncope.\n\n2. **Hypertension:** Recheck BP; consider initiating antihypertensive therapy pending repeat measurements and workup.\n\n3. **Risk reduction:**\n   - Smoking cessation counseling provided; offer pharmacologic support at follow-up.\n   - Discuss lipid panel and consider statin therapy.\n   - Consider initiating aspirin 81 mg daily pending workup.\n\n4. **Follow-up:** Return to clinic after stress test results; sooner if symptoms worsen.",
+      "usage": {
+        "in": 345,
+        "out": 895
+      }
+    },
+    "quality": {
+      "includes_S_O_A_P": true,
+      "captures_chief_complaint": true,
+      "captures_relevant_hx": true,
+      "captures_plan": true,
+      "estimated_time_manual_min": 15,
+      "estimated_time_with_ai_min": 2
+    }
+  },
+  {
+    "vertical": {
+      "id": "care_coordination",
+      "name": "Care coordination (complex chronic)",
+      "baseline_cost": {
+        "us_annual_admin_cost_B": 50,
+        "avg_hours_per_complex_patient_per_month": 6,
+        "complex_chronic_patients_M": 40,
+        "female_share_of_admin_labor_pct": 90,
+        "peer_labor_pool_M": 0.7
+      },
+      "task_system": "You are a care coordinator helping a patient with multiple chronic conditions plan their next 30 days of care. Given their condition list and current medications, produce a structured 30-day care plan with specific appointments, labs, self-monitoring tasks, and flags for the patient's clinician. Respond in under 500 words.",
+      "task_prompt": "Patient: 67-year-old woman. Conditions: type-2 diabetes (HbA1c 8.2), heart failure with preserved ejection fraction, chronic kidney disease stage 3a (eGFR 48), osteoarthritis. Medications: metformin 1000mg BID, empagliflozin 10mg daily, lisinopril 20mg daily, furosemide 40mg daily, atorvastatin 40mg daily, celecoxib 100mg BID. Recent: A1c up from 7.4 last quarter, slight weight gain of 4 lbs in 2 weeks.\n\nProduce a 30-day care plan: appointments, labs, self-monitoring, and clinician flags.",
+      "quality_rubric": {
+        "flags_hf_decompensation_risk": "weight gain + furosemide",
+        "flags_ckd_nsaid_risk": "celecoxib + eGFR 48",
+        "flags_a1c_rise": true,
+        "provides_appointments": true,
+        "provides_labs": true,
+        "estimated_time_manual_min": 90,
+        "estimated_time_with_ai_min": 10
+      }
+    },
+    "output": {
+      "response_text": "# 30-Day Care Plan\n\n## \ud83d\udea9 Priority Clinician Flags (Address This Week)\n1. **Celecoxib + CKD 3a + HFpEF + lisinopril/furosemide**: NSAID use is high-risk in this combination \u2014 worsens kidney function, blunts diuretic effect, promotes fluid retention. Likely contributor to 4 lb weight gain. **Recommend review for discontinuation/alternative pain management.**\n2. **4 lb gain in 2 weeks + HFpEF**: possible volume overload. Assess for decompensation; furosemide dose may need adjustment.\n3. **A1c rise 7.4 \u2192 8.2**: consider intensification (e.g., GLP-1 RA, which also benefits HFpEF and weight).\n4. **Empagliflozin + eGFR 48**: appropriate and beneficial, but monitor renal function and volume status.\n\n## \ud83d\udcc5 Appointments\n- **Days 1\u20133**: Primary care / cardiology visit (telehealth acceptable) \u2014 address weight gain, NSAID, medication review.\n- **Day 7\u201310**: Diabetes educator or pharmacist visit \u2014 review A1c trend, diet, glucose logs.\n- **Day 14**: Nurse check-in (phone) \u2014 weight, BP, symptoms.\n- **Day 21\u201328**: Follow-up with PCP \u2014 review labs, adjust plan.\n- **Within 30 days**: PT referral for osteoarthritis (non-pharmacologic pain strategies); consider podiatry if not seen in past year; annual eye exam if overdue.\n\n## \ud83e\uddea Labs (Week 1)\n- Basic metabolic panel (Cr, eGFR, K+, Na+)\n- HbA1c repeat not needed; use CGM/fingersticks\n- NT-proBNP (baseline for HFpEF monitoring)\n- Urine albumin-to-creatinine ratio\n- Lipid panel if >6 months\n- LFTs (statin monitoring) if due\n\n## \ud83d\udcca Daily Self-Monitoring\n- **Weight**: same time each morning, after voiding. **Call clinician if \u22652 lb in 1 day or \u22653 lb in 1 week.**\n- **Blood pressure**: daily; target 120\u2013130/<80. Flag SBP <100 or >140.\n- **Blood glucose**: fasting + 1 post-meal daily; log trends. Flag fasting >180 or any <70.\n- **Symptoms**: shortness of breath, leg/ankle swelling, orthopnea, fatigue, dizziness \u2014 report promptly.\n- **Fluid intake**: limit to ~1.5\u20132 L/day; low-sodium diet (<2 g/day).\n\n## \ud83d\udc8a Medication Actions\n- **Hold celecoxib** pending clinician review; use acetaminophen \u22643 g/day + topical diclofenac/capsaicin, heat, and PT for OA pain.\n- Continue metformin, empagliflozin, lisinopril, furosemide, atorvastatin as prescribed.\n- Ensure s",
+      "usage": {
+        "in": 342,
+        "out": 1024
+      }
+    },
+    "quality": {
+      "flags_hf_decompensation_risk": true,
+      "flags_ckd_nsaid_risk": true,
+      "flags_a1c_rise": true,
+      "provides_appointments": true,
+      "provides_labs": true,
+      "estimated_time_manual_min": 90,
+      "estimated_time_with_ai_min": 10
+    }
+  }
+]

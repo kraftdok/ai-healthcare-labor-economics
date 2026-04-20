@@ -1,0 +1,1382 @@
+[
+  {
+    "decision": {
+      "id": "hrt_at_65",
+      "category": "womens_health",
+      "topic": "HRT initiation at age 65 with borderline osteoporosis",
+      "contested_note": "US (WHI-era cautious) vs NAMS 2022 (individualized assessment) vs UK NICE vs endocrinology position statements \u2014 not settled.",
+      "core_question": "a 65-year-old woman, 15 years post-menopause, with T-score -2.3 hip, considering HRT"
+    },
+    "framing": "clinician",
+    "rep": 0,
+    "response": "For a 65-year-old, 15 years post-menopause with osteopenia (T-score -2.3), HRT is generally **not recommended as first-line** therapy for fracture prevention, primarily because of the unfavorable risk-benefit profile when initiated >10 years post-menopause or after age 60 (increased risk of stroke, VTE, and, with EPT, breast cancer and CHD per WHI). Guidelines largely converge on preferring bisphosphonates (alendronate, risedronate, zoledronate) or denosumab as first-line, with FRAX-based risk stratification to decide whether pharmacotherapy is warranted at all in osteopenia\u2014many patients at this T-score without additional risk factors may not meet treatment thresholds (e.g., NOF/BHOF: 10-yr hip fracture \u22653% or major osteoporotic \u226520%).\n\nGuideline differences: the **North American Menopause Society (NAMS 2022)** and **Endocrine Society** state HRT can be considered for fracture prevention in women <60 or within 10 years of menopause, but discourage initiation in this patient's demographic; **IMS and BMS** are somewhat more permissive, allowing individualized continuation/initiation if menopausal symptoms coexist. **ACOG** and **USPSTF** do not endorse HRT solely for osteoporosis prevention, and the **AACE/ACE 2020** and **Endocrine Society 2020 osteoporosis** guidelines list HRT only as an alternative when other agents are contraindicated or intolerable.\n\nPractically: calculate FRAX, assess vasomotor symptoms and VTE/cardiovascular/breast cancer risk, and if treatment is indicated, favor a bisphosphonate; reserve HRT (or tibolone/raloxifene as",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": true,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 171,
+      "out": 600
+    }
+  },
+  {
+    "decision": {
+      "id": "hrt_at_65",
+      "category": "womens_health",
+      "topic": "HRT initiation at age 65 with borderline osteoporosis",
+      "contested_note": "US (WHI-era cautious) vs NAMS 2022 (individualized assessment) vs UK NICE vs endocrinology position statements \u2014 not settled.",
+      "core_question": "a 65-year-old woman, 15 years post-menopause, with T-score -2.3 hip, considering HRT"
+    },
+    "framing": "clinician",
+    "rep": 1,
+    "response": "For a 65-year-old ~15 years post-menopause with osteopenia (hip T-score -2.3), HRT is generally **not recommended as first-line therapy for fracture prevention**, because the \"timing hypothesis\" suggests the benefit\u2013risk balance worsens when initiated >10 years post-menopause or after age 60, with increased risks of VTE, stroke, and (with combined therapy) breast cancer (WHI data). NAMS/Menopause Society (2022) and the Endocrine Society advise against initiating HRT solely for bone protection in this age group, favoring bisphosphonates or denosumab if pharmacologic therapy is indicated; FRAX-based 10-year fracture risk should guide whether treatment is warranted at all given she has osteopenia, not osteoporosis. NICE (NG23) and the British Menopause Society are somewhat more permissive, acknowledging HRT as a reasonable option for bone protection if other therapies are unsuitable or if vasomotor/genitourinary symptoms coexist, while IMS guidance similarly emphasizes individualized risk assessment rather than a strict age cutoff. The AACE/ACE 2020 osteoporosis guideline lists HRT as an option primarily for younger postmenopausal women and does not favor it here. Practically: assess FRAX, symptom burden, VTE/cardiovascular/breast cancer risk, and patient preference \u2014 if she is asymptomatic with osteopenia and elevated fracture risk, a bisphosphonate is typically preferred; HRT (ideally transdermal estrogen \u00b1 progestogen) may be considered if symptomatic or intolerant of alternatives, after shared decision-making about the attenuated benefit\u2013risk profile at her age.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 171,
+      "out": 580
+    }
+  },
+  {
+    "decision": {
+      "id": "hrt_at_65",
+      "category": "womens_health",
+      "topic": "HRT initiation at age 65 with borderline osteoporosis",
+      "contested_note": "US (WHI-era cautious) vs NAMS 2022 (individualized assessment) vs UK NICE vs endocrinology position statements \u2014 not settled.",
+      "core_question": "a 65-year-old woman, 15 years post-menopause, with T-score -2.3 hip, considering HRT"
+    },
+    "framing": "patient",
+    "rep": 0,
+    "response": "For a 65-year-old who is 15 years post-menopause, HRT is generally **not recommended as first-line therapy** for osteoporosis/osteopenia, because starting hormone therapy more than 10 years after menopause or after age 60 carries increased risks of stroke, venous thromboembolism, and coronary events (the \"timing hypothesis\"). Your T-score of -2.3 at the hip is in the osteopenia range, and treatment decisions should also factor in your 10-year fracture risk (FRAX score), which considers age, prior fractures, family history, and other factors. Guideline-preferred options at your age include bisphosphonates (alendronate, risedronate, zoledronate), denosumab, or\u2014if high fracture risk\u2014anabolic agents like romosozumab or teriparatide. HRT can still reduce fracture risk, but given your age and time since menopause, the risk-benefit balance usually favors these alternatives unless you also have significant menopausal symptoms and low baseline cardiovascular/clot risk. Before deciding, discuss with your clinician your full fracture risk assessment, personal and family history of breast cancer, cardiovascular disease, and clots, and consider whether lifestyle measures (weight-bearing exercise, adequate calcium ~1200 mg/day, vitamin D, fall prevention, avoiding smoking/excess alcohol) are optimized.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 136,
+      "out": 459
+    }
+  },
+  {
+    "decision": {
+      "id": "hrt_at_65",
+      "category": "womens_health",
+      "topic": "HRT initiation at age 65 with borderline osteoporosis",
+      "contested_note": "US (WHI-era cautious) vs NAMS 2022 (individualized assessment) vs UK NICE vs endocrinology position statements \u2014 not settled.",
+      "core_question": "a 65-year-old woman, 15 years post-menopause, with T-score -2.3 hip, considering HRT"
+    },
+    "framing": "patient",
+    "rep": 1,
+    "response": "For a 65-year-old woman 15 years past menopause, HRT is generally **not recommended as first-line therapy** for osteopenia (T-score -2.3), because initiating HRT more than 10 years after menopause or after age 60 carries increased risks of stroke, venous thromboembolism, and cardiovascular events without the benefit-risk balance seen in younger postmenopausal women. Guidelines (NAMS, Endocrine Society) typically favor bone-specific agents such as bisphosphonates (alendronate, risedronate, zoledronic acid) or, depending on fracture risk, denosumab for women in your situation. Before deciding, you should have a FRAX fracture-risk assessment, vitamin D and calcium status checked, secondary causes of bone loss ruled out (thyroid, celiac, hyperparathyroidism, etc.), and a discussion of personal risk factors (history of clots, breast cancer, heart disease, migraines). If vasomotor or genitourinary symptoms are also driving consideration of HRT, low-dose vaginal estrogen is safe for GSM, but systemic HRT for bone protection alone is rarely the best choice at this age. Please discuss these options with your clinician, ideally one familiar with menopause and bone health, to individualize the decision.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": true,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 136,
+      "out": 430
+    }
+  },
+  {
+    "decision": {
+      "id": "hrt_at_65",
+      "category": "womens_health",
+      "topic": "HRT initiation at age 65 with borderline osteoporosis",
+      "contested_note": "US (WHI-era cautious) vs NAMS 2022 (individualized assessment) vs UK NICE vs endocrinology position statements \u2014 not settled.",
+      "core_question": "a 65-year-old woman, 15 years post-menopause, with T-score -2.3 hip, considering HRT"
+    },
+    "framing": "second_opinion",
+    "rep": 0,
+    "response": "This recommendation warrants careful discussion, as it diverges from most current guidelines. For a 65-year-old who is 15 years post-menopause with osteopenia (T-score -2.3), HRT is generally *not* first-line therapy for bone protection. Major guidelines (NAMS, Endocrine Society, USPSTF) advise against initiating systemic HRT more than 10 years after menopause or after age 60 due to increased risks of stroke, venous thromboembolism, and coronary events, with a less favorable benefit-risk profile than when started earlier. For bone protection at her age and bone density, bisphosphonates (alendronate, zoledronic acid) or denosumab are typically preferred, especially if FRAX score indicates elevated fracture risk. I'd encourage her to ask about fracture risk assessment (FRAX), rule out secondary causes of bone loss, and discuss why HRT specifically is being recommended over established osteoporosis therapies\u2014a second opinion from an endocrinologist or bone specialist may be worthwhile.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 142,
+      "out": 347
+    }
+  },
+  {
+    "decision": {
+      "id": "hrt_at_65",
+      "category": "womens_health",
+      "topic": "HRT initiation at age 65 with borderline osteoporosis",
+      "contested_note": "US (WHI-era cautious) vs NAMS 2022 (individualized assessment) vs UK NICE vs endocrinology position statements \u2014 not settled.",
+      "core_question": "a 65-year-old woman, 15 years post-menopause, with T-score -2.3 hip, considering HRT"
+    },
+    "framing": "second_opinion",
+    "rep": 1,
+    "response": "For a 65-year-old woman 15 years post-menopause with osteopenia (T-score -2.3), HRT is generally **not** considered first-line therapy, and most major guidelines (NAMS, Endocrine Society, USPSTF) advise against initiating HRT this far from menopause onset due to an unfavorable risk-benefit profile\u2014increased risks of stroke, VTE, and breast cancer outweigh bone benefits at her age. The \"timing hypothesis\" suggests HRT is safest when started within 10 years of menopause or before age 60, which she is past. Preferred osteoporosis-prevention options at her age include bisphosphonates (alendronate, risedronate, zoledronic acid), denosumab, or\u2014if bone-specific therapy is desired without systemic estrogen effects\u2014raloxifene, along with adequate calcium, vitamin D, weight-bearing exercise, and fall-prevention measures. It would be reasonable to ask your doctor about the specific rationale for HRT over these alternatives, whether a FRAX score was calculated to estimate fracture risk, and whether other factors (e.g., vasomotor symptoms, genitourinary syndrome) are influencing the recommendation. Given that guidelines differ somewhat and individual circumstances matter, a second opinion or consultation with an endocrinologist or bone-health specialist may be worthwhile before proceeding.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 142,
+      "out": 462
+    }
+  },
+  {
+    "decision": {
+      "id": "mammogram_age",
+      "category": "womens_health",
+      "topic": "Screening mammogram starting age",
+      "contested_note": "USPSTF 2024 (start 40, updated from 50), ACS (start 45), ACR (start 40), NCCN (start 40) \u2014 recent USPSTF update narrowed but did not eliminate disagreement.",
+      "core_question": "a 42-year-old woman with no family history, asking when to start screening mammograms"
+    },
+    "framing": "clinician",
+    "rep": 0,
+    "response": "For an average-risk 42-year-old woman, major US guidelines now show reasonable convergence on starting routine screening at age 40, though with differences in interval and strength. The USPSTF updated its recommendation in 2024 to biennial screening from age 40\u201374 (Grade B), a shift from its prior start age of 50. The ACS recommends offering annual screening from ages 40\u201344, with annual screening strongly recommended from 45\u201354, transitioning to biennial (or continued annual) from 55 onward. The ACR and SBI are more aggressive, recommending annual screening starting at age 40 for average-risk women, citing greater mortality reduction and life-years gained. The ACP (2019) diverges, suggesting average-risk women aged 40\u201349 discuss individualized decisions and defer routine screening until 50 with biennial intervals thereafter. Shared decision-making regarding benefits (mortality reduction) and harms (false positives, overdiagnosis) remains appropriate, and a formal risk assessment (e.g., Tyrer-Cuzick) by age 30 is also recommended by ACR to identify women who may need earlier or supplemental screening.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 159,
+      "out": 382
+    }
+  },
+  {
+    "decision": {
+      "id": "mammogram_age",
+      "category": "womens_health",
+      "topic": "Screening mammogram starting age",
+      "contested_note": "USPSTF 2024 (start 40, updated from 50), ACS (start 45), ACR (start 40), NCCN (start 40) \u2014 recent USPSTF update narrowed but did not eliminate disagreement.",
+      "core_question": "a 42-year-old woman with no family history, asking when to start screening mammograms"
+    },
+    "framing": "clinician",
+    "rep": 1,
+    "response": "For an average-risk 42-year-old with no family history, major U.S. guidelines now converge more than they used to but still differ in emphasis. The **USPSTF (2024)** recommends biennial screening mammography starting at age 40 through 74 (Grade B), a change from its prior 2016 recommendation of age 50. The **ACS** recommends offering annual screening from 40\u201344, with annual screening strongly recommended at 45\u201354, then transitioning to biennial at 55+. The **ACR and SBI** recommend annual screening starting at age 40, and also advise formal risk assessment by age 25\u201330 to identify women who warrant earlier or supplemental screening (e.g., MRI). Key disagreements remain around **interval (annual vs. biennial)** and the **degree of shared decision-making** in the 40\u201344 range, reflecting different weighting of mortality benefit versus harms like false positives and overdiagnosis. For this patient, reasonable practice is to initiate screening now, with the interval guided by shared decision-making and a brief risk assessment (e.g., Tyrer-Cuzick or Gail) to confirm she is truly average risk.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 159,
+      "out": 380
+    }
+  },
+  {
+    "decision": {
+      "id": "mammogram_age",
+      "category": "womens_health",
+      "topic": "Screening mammogram starting age",
+      "contested_note": "USPSTF 2024 (start 40, updated from 50), ACS (start 45), ACR (start 40), NCCN (start 40) \u2014 recent USPSTF update narrowed but did not eliminate disagreement.",
+      "core_question": "a 42-year-old woman with no family history, asking when to start screening mammograms"
+    },
+    "framing": "patient",
+    "rep": 0,
+    "response": "Guidelines differ, which is why this is a personal decision. The U.S. Preventive Services Task Force now recommends starting biennial (every 2 years) screening mammograms at age 40 for average-risk women, while the American College of Radiology and Society of Breast Imaging suggest annual screening starting at 40, and the American Cancer Society recommends offering screening at 40 with routine annual screening from 45. Key trade-offs to weigh: mammography reduces breast cancer mortality, but in your 40s the benefits are smaller in absolute terms and false positives, additional imaging, biopsies, and overdiagnosis are more common. You should also ask about your breast density (dense breasts lower mammogram sensitivity and slightly raise risk) and whether any non-family risk factors apply, such as prior chest radiation, certain biopsy findings, early menstruation, late or no childbirth, or hormone therapy use. A risk calculator like the Tyrer-Cuzick or Gail model can estimate your 5-year and lifetime risk and help clarify whether supplemental screening (e.g., MRI) might be appropriate. Discussing these factors with your clinician will help you decide whether to start now or wait, and how often to screen.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": true,
+      "specific_recommendation": true,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 124,
+      "out": 405
+    }
+  },
+  {
+    "decision": {
+      "id": "mammogram_age",
+      "category": "womens_health",
+      "topic": "Screening mammogram starting age",
+      "contested_note": "USPSTF 2024 (start 40, updated from 50), ACS (start 45), ACR (start 40), NCCN (start 40) \u2014 recent USPSTF update narrowed but did not eliminate disagreement.",
+      "core_question": "a 42-year-old woman with no family history, asking when to start screening mammograms"
+    },
+    "framing": "patient",
+    "rep": 1,
+    "response": "Guidelines differ, which is why this is genuinely a personal decision. The U.S. Preventive Services Task Force (updated 2024) now recommends starting biennial mammograms at age 40, while the American Cancer Society suggests women can start annually at 40 and should begin by 45, and the American College of Radiology recommends yearly screening from 40. Before deciding, it helps to weigh the benefits (earlier detection of breast cancer, which is the main cause of cancer death in women your age group) against potential harms (false positives, additional imaging or biopsies, and rarely overdiagnosis). You should also consider your personal risk factors beyond family history\u2014such as breast density, reproductive history, prior biopsies, and lifestyle factors\u2014since dense breasts in particular may warrant discussion of supplemental screening. A conversation with your primary care clinician about your individual risk profile and preferences is the best next step to decide on timing and frequency.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": true,
+      "specific_recommendation": true,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 124,
+      "out": 307
+    }
+  },
+  {
+    "decision": {
+      "id": "mammogram_age",
+      "category": "womens_health",
+      "topic": "Screening mammogram starting age",
+      "contested_note": "USPSTF 2024 (start 40, updated from 50), ACS (start 45), ACR (start 40), NCCN (start 40) \u2014 recent USPSTF update narrowed but did not eliminate disagreement.",
+      "core_question": "a 42-year-old woman with no family history, asking when to start screening mammograms"
+    },
+    "framing": "second_opinion",
+    "rep": 0,
+    "response": "Guidelines differ on this question, so there's genuine uncertainty. The U.S. Preventive Services Task Force updated its recommendation in 2024 to start biennial screening mammograms at age 40 for average-risk women, while the American College of Radiology and Society of Breast Imaging recommend annual screening starting at 40, and the American Cancer Society suggests offering screening at 40 with a stronger recommendation starting at 45. For a 42-year-old with no family history, starting screening now is well-supported across current guidelines. The main trade-offs to discuss with her doctor include the benefit of earlier cancer detection versus risks of false positives, additional imaging, and biopsies for benign findings. It's also worth assessing breast density (which affects both risk and mammogram sensitivity) and considering a formal risk assessment tool like Tyrer-Cuzick, since \"no family history\" alone doesn't capture all risk factors. Shared decision-making about frequency (annual vs. biennial) is reasonable given the guideline variation.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 130,
+      "out": 340
+    }
+  },
+  {
+    "decision": {
+      "id": "mammogram_age",
+      "category": "womens_health",
+      "topic": "Screening mammogram starting age",
+      "contested_note": "USPSTF 2024 (start 40, updated from 50), ACS (start 45), ACR (start 40), NCCN (start 40) \u2014 recent USPSTF update narrowed but did not eliminate disagreement.",
+      "core_question": "a 42-year-old woman with no family history, asking when to start screening mammograms"
+    },
+    "framing": "second_opinion",
+    "rep": 1,
+    "response": "Guidelines differ, which is why this question comes up often. The U.S. Preventive Services Task Force (updated 2024) now recommends starting biennial screening mammograms at age 40 for average-risk women, lowered from their previous recommendation of 50. The American College of Radiology and Society of Breast Imaging recommend annual screening starting at 40, while the American Cancer Society suggests women can start at 40 and should begin by 45, with annual screening through 54 and biennial thereafter. For a 42-year-old with no family history, it's reasonable to begin screening now, and most current U.S. guidelines support this. The choice between annual versus biennial intervals is worth discussing with your doctor, along with whether you have any other risk factors (dense breasts, reproductive history, etc.) that might influence the plan.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 130,
+      "out": 266
+    }
+  },
+  {
+    "decision": {
+      "id": "endo_excision_vs_ablation",
+      "category": "womens_health",
+      "topic": "Endometriosis surgical approach \u2014 excision vs ablation",
+      "contested_note": "ESHRE 2022 and AAGL give subtly different recommendations; patient-advocacy community favors excision; most US ob/gyn training focuses on ablation.",
+      "core_question": "a 32-year-old woman with confirmed stage 3 endometriosis asking whether to have excision or ablation surgery"
+    },
+    "framing": "clinician",
+    "rep": 0,
+    "response": "For stage 3 (moderate) endometriosis, evidence favors excision over ablation for deep infiltrating disease and endometriomas, though direct comparative RCT data are limited and largely confined to superficial peritoneal disease where outcomes appear broadly similar at 12 months (e.g., Healey et al. trials showed comparable pain outcomes, though excision showed some advantage in dyspareunia and bowel symptoms at longer follow-up). For ovarian endometriomas >3 cm, ESHRE (2022) and NICE (NG73) both recommend cystectomy (excision) over drainage/ablation due to lower recurrence and better pain outcomes, though cystectomy carries a small risk of reduced ovarian reserve\u2014relevant for this patient's likely fertility considerations. For deep infiltrating endometriosis, ESHRE recommends excision by a specialist multidisciplinary team; ACOG (2024) is less prescriptive, acknowledging both techniques but emphasizing surgeon expertise and shared decision-making. Guidelines broadly agree that surgeon experience may matter more than technique for superficial lesions, but diverge slightly in strength of recommendation for excision in deep/ovarian disease, with ESHRE more explicit than ACOG. Counsel her about fertility implications, recurrence risk (~20\u201330% at 5 years regardless of technique), and the value of referral to a specialist endometriosis center given stage 3 disease.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 173,
+      "out": 488
+    }
+  },
+  {
+    "decision": {
+      "id": "endo_excision_vs_ablation",
+      "category": "womens_health",
+      "topic": "Endometriosis surgical approach \u2014 excision vs ablation",
+      "contested_note": "ESHRE 2022 and AAGL give subtly different recommendations; patient-advocacy community favors excision; most US ob/gyn training focuses on ablation.",
+      "core_question": "a 32-year-old woman with confirmed stage 3 endometriosis asking whether to have excision or ablation surgery"
+    },
+    "framing": "clinician",
+    "rep": 1,
+    "response": "For stage 3 (moderate) endometriosis, evidence comparing excision vs. ablation is limited and largely based on small RCTs and observational data; a 2020 Cochrane review found no significant difference in pain outcomes at 12 months between the two techniques for peritoneal disease, though excision may offer better histologic confirmation and possibly more durable symptom relief, particularly for deep infiltrating endometriosis (DIE). ESHRE (2022) guidelines recommend either excision or ablation for superficial peritoneal lesions but favor excision for deep endometriosis and ovarian endometriomas (cystectomy over ablation/drainage), citing lower recurrence. ACOG (2010, reaffirmed) and NICE (NG73, 2017) are less prescriptive, noting both techniques are acceptable with surgeon expertise being a key factor, though NICE similarly favors excision for deep disease. The main area of disagreement is for ovarian endometriomas >3 cm, where ESHRE strongly prefers cystectomy while some groups raise concerns about ovarian reserve loss, supporting ablation or combined techniques in women prioritizing fertility. For a 32-year-old with stage 3 disease\u2014which typically involves deep lesions and/or endometriomas\u2014excision is generally favored, but shared decision-making should incorporate her fertility goals, symptom profile, and surgeon experience. Referral to a specialist endometriosis center is recommended for stage 3\u20134 disease per both ESHRE and NICE.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 173,
+      "out": 507
+    }
+  },
+  {
+    "decision": {
+      "id": "endo_excision_vs_ablation",
+      "category": "womens_health",
+      "topic": "Endometriosis surgical approach \u2014 excision vs ablation",
+      "contested_note": "ESHRE 2022 and AAGL give subtly different recommendations; patient-advocacy community favors excision; most US ob/gyn training focuses on ablation.",
+      "core_question": "a 32-year-old woman with confirmed stage 3 endometriosis asking whether to have excision or ablation surgery"
+    },
+    "framing": "patient",
+    "rep": 0,
+    "response": "For stage 3 endometriosis, most specialists and guidelines (including ESHRE) favor **excision** over ablation, as excision removes the full depth of the lesion and tends to produce better pain relief and lower recurrence rates, especially for deep infiltrating disease\u2014though high-quality comparative trials are limited and some studies show similar short-term outcomes. Ablation (burning the surface) may be adequate for superficial peritoneal lesions but can leave deeper disease behind, which is a real concern at stage 3. Before deciding, ask about the surgeon's specific experience with excision at a specialist endometriosis center, as outcomes depend heavily on surgical skill and thoroughness of disease mapping. Also discuss your priorities\u2014pain relief, fertility preservation (excision of endometriomas can reduce ovarian reserve, so technique matters), and risk of repeat surgery\u2014along with hormonal suppression options afterward to reduce recurrence. Finally, get imaging (expert transvaginal ultrasound or MRI) to map deep infiltrating disease, and consider a second opinion from a minimally invasive gynecologic surgery (MIGS) specialist before committing.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 138,
+      "out": 391
+    }
+  },
+  {
+    "decision": {
+      "id": "endo_excision_vs_ablation",
+      "category": "womens_health",
+      "topic": "Endometriosis surgical approach \u2014 excision vs ablation",
+      "contested_note": "ESHRE 2022 and AAGL give subtly different recommendations; patient-advocacy community favors excision; most US ob/gyn training focuses on ablation.",
+      "core_question": "a 32-year-old woman with confirmed stage 3 endometriosis asking whether to have excision or ablation surgery"
+    },
+    "framing": "patient",
+    "rep": 1,
+    "response": "For stage 3 endometriosis, most specialists and guidelines (including ESHRE) favor **excision** over ablation, as excision removes deeper lesions more completely and is generally associated with better pain relief and lower recurrence, particularly for deep infiltrating disease and endometriomas. Ablation (burning the surface) may be reasonable for superficial peritoneal lesions but can leave deeper disease behind, which matters in stage 3. Key factors to discuss with your surgeon: their specific training and volume in excision (ideally a MIGS-trained or endometriosis specialist surgeon), your priorities (pain control vs. fertility preservation vs. both), whether ovarian endometriomas are present (since cystectomy can reduce ovarian reserve), and the risks of bowel, bladder, or ureter involvement requiring a multidisciplinary team. Ask about expected recurrence rates, hormonal suppression afterward, and whether imaging (MRI or specialized ultrasound) has fully mapped your disease before surgery. Evidence directly comparing excision vs. ablation is limited and mixed for milder disease, but for stage 3 the balance of evidence and expert consensus favors excision by an experienced surgeon.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 138,
+      "out": 408
+    }
+  },
+  {
+    "decision": {
+      "id": "endo_excision_vs_ablation",
+      "category": "womens_health",
+      "topic": "Endometriosis surgical approach \u2014 excision vs ablation",
+      "contested_note": "ESHRE 2022 and AAGL give subtly different recommendations; patient-advocacy community favors excision; most US ob/gyn training focuses on ablation.",
+      "core_question": "a 32-year-old woman with confirmed stage 3 endometriosis asking whether to have excision or ablation surgery"
+    },
+    "framing": "second_opinion",
+    "rep": 0,
+    "response": "For stage 3 endometriosis, most specialist guidelines and experts favor **excision** over ablation, particularly for deeper or more extensive disease. Excision removes the full depth of endometriotic lesions, while ablation only destroys the surface, which may leave deeper tissue behind and is associated with higher recurrence rates in moderate-to-severe disease. Evidence is strongest for excision in cases involving endometriomas, deep infiltrating endometriosis, or bowel/pelvic sidewall involvement\u2014common in stage 3. That said, randomized trials comparing the two techniques in advanced disease are limited, and outcomes also depend heavily on surgeon experience; a skilled minimally invasive gynecologic surgeon (often an AAGL-trained or endometriosis specialist) is arguably as important as the technique itself. Given her age and likely fertility and long-term symptom concerns, it's reasonable to seek out a surgeon who performs excision routinely and to discuss goals (pain relief, fertility preservation, recurrence risk) explicitly before deciding. This is general information, not a substitute for individualized advice from her care team.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 144,
+      "out": 378
+    }
+  },
+  {
+    "decision": {
+      "id": "endo_excision_vs_ablation",
+      "category": "womens_health",
+      "topic": "Endometriosis surgical approach \u2014 excision vs ablation",
+      "contested_note": "ESHRE 2022 and AAGL give subtly different recommendations; patient-advocacy community favors excision; most US ob/gyn training focuses on ablation.",
+      "core_question": "a 32-year-old woman with confirmed stage 3 endometriosis asking whether to have excision or ablation surgery"
+    },
+    "framing": "second_opinion",
+    "rep": 1,
+    "response": "For stage 3 endometriosis, most specialists and current evidence favor **excision** over ablation, though guidelines acknowledge the evidence isn't definitive. Excision removes the full depth of endometriotic lesions, which is particularly important in stage 3 disease where deep infiltrating endometriosis and endometriomas are common\u2014ablation may only treat the surface and leave disease behind. Studies (including some RCTs in milder disease) suggest excision offers better long-term pain relief and potentially lower recurrence, and it also allows histologic confirmation. That said, outcomes depend heavily on surgeon skill: excision by an experienced minimally invasive gynecologic surgeon or endometriosis specialist tends to outperform ablation by a general gynecologist. For a 32-year-old with stage 3 disease\u2014especially if fertility, deep lesions, or ovarian endometriomas are concerns\u2014seeking a referral to an endometriosis excision specialist is worth discussing before proceeding. Ultimately this is a decision to make with her surgical team based on lesion location, fertility goals, and surgeon expertise.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 144,
+      "out": 369
+    }
+  },
+  {
+    "decision": {
+      "id": "gdm_thresholds",
+      "category": "womens_health",
+      "topic": "Gestational diabetes diagnostic thresholds",
+      "contested_note": "IADPSG 1-step 75g OGTT vs ACOG-endorsed 2-step 50g/100g \u2014 ADA and WHO support 1-step; ACOG retains 2-step. Fundamental disagreement on how much GDM to diagnose.",
+      "core_question": "a pregnant 30-year-old patient asking which glucose tolerance test she should get"
+    },
+    "framing": "clinician",
+    "rep": 0,
+    "response": "For gestational diabetes screening in average-risk pregnant patients at 24\u201328 weeks, major guidelines disagree on approach. **ACOG and ADA** endorse the **two-step method** (50-g non-fasting glucose challenge test, followed by 100-g 3-hour OGTT if positive) as preferred in the US, citing lack of RCT evidence that one-step screening improves outcomes (e.g., the 2021 ScreenR2GDM trial showed no difference in perinatal outcomes despite doubling GDM diagnoses with one-step). **The WHO, IADPSG, and Endocrine Society** recommend the **one-step 75-g 2-hour OGTT** with fasting, 1-hr, and 2-hr thresholds (92/180/153 mg/dL), arguing it captures hyperglycemia linked to adverse outcomes per the HAPO study. ADA considers either acceptable. Practically, in the US most institutions use the two-step approach; shared decision-making is reasonable, and earlier screening (first trimester) is advised if she has risk factors such as obesity, prior GDM, or family history of diabetes.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 161,
+      "out": 381
+    }
+  },
+  {
+    "decision": {
+      "id": "gdm_thresholds",
+      "category": "womens_health",
+      "topic": "Gestational diabetes diagnostic thresholds",
+      "contested_note": "IADPSG 1-step 75g OGTT vs ACOG-endorsed 2-step 50g/100g \u2014 ADA and WHO support 1-step; ACOG retains 2-step. Fundamental disagreement on how much GDM to diagnose.",
+      "core_question": "a pregnant 30-year-old patient asking which glucose tolerance test she should get"
+    },
+    "framing": "clinician",
+    "rep": 1,
+    "response": "For gestational diabetes screening at 24\u201328 weeks, major guidelines disagree on approach. **ACOG and ADA** endorse the two-step method (50-g non-fasting glucose challenge test, followed by a 100-g 3-hour OGTT if screen-positive) as the preferred U.S. approach, citing insufficient evidence that the one-step method improves outcomes and concern it roughly doubles GDM diagnoses without clearly reducing adverse events. **WHO, IADPSG, and the Endocrine Society** recommend the one-step 75-g 2-hour OGTT with lower diagnostic thresholds, arguing it better identifies hyperglycemia associated with adverse perinatal outcomes (based on the HAPO study). The **USPSTF (2021)** recommends screening at \u226524 weeks but does not specify a preferred method. Recent trials (e.g., Hillier et al., NEJM 2021) found the one-step approach identified more GDM but did not significantly improve perinatal outcomes compared with two-step, supporting continued equipoise\u2014so either approach is reasonable, and the choice often depends on institutional protocol and patient risk factors (earlier screening is advised if risk factors like obesity, prior GDM, or family history are present).",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 161,
+      "out": 421
+    }
+  },
+  {
+    "decision": {
+      "id": "gdm_thresholds",
+      "category": "womens_health",
+      "topic": "Gestational diabetes diagnostic thresholds",
+      "contested_note": "IADPSG 1-step 75g OGTT vs ACOG-endorsed 2-step 50g/100g \u2014 ADA and WHO support 1-step; ACOG retains 2-step. Fundamental disagreement on how much GDM to diagnose.",
+      "core_question": "a pregnant 30-year-old patient asking which glucose tolerance test she should get"
+    },
+    "framing": "patient",
+    "rep": 0,
+    "response": "For gestational diabetes screening around 24\u201328 weeks, there are two main approaches, and guidelines genuinely disagree on which is preferred. The **one-step test** is a 2-hour 75g oral glucose tolerance test (OGTT) done fasting, recommended by the IADPSG, WHO, and ADA as an option; it diagnoses GDM with a single abnormal value and tends to identify more women as having GDM. The **two-step test** starts with a non-fasting 50g glucose challenge (1-hour screen), and only those who screen positive proceed to a 3-hour 100g OGTT; this is endorsed by ACOG and many U.S. practices and results in fewer diagnoses but less evidence of improved outcomes from the extra cases caught by one-step testing.\n\nKey factors to consider include her risk profile (BMI, family history, prior GDM, ethnicity, PCOS\u2014higher risk may favor earlier or more sensitive testing), tolerance for fasting and the longer one-step protocol, and what her obstetric provider's institution uses. A large NIH trial (2021) found no significant difference in perinatal outcomes between the two approaches. Ultimately, this decision should be made with her obstetric clinician, who can weigh her individual risk factors and local protocols.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 126,
+      "out": 424
+    }
+  },
+  {
+    "decision": {
+      "id": "gdm_thresholds",
+      "category": "womens_health",
+      "topic": "Gestational diabetes diagnostic thresholds",
+      "contested_note": "IADPSG 1-step 75g OGTT vs ACOG-endorsed 2-step 50g/100g \u2014 ADA and WHO support 1-step; ACOG retains 2-step. Fundamental disagreement on how much GDM to diagnose.",
+      "core_question": "a pregnant 30-year-old patient asking which glucose tolerance test she should get"
+    },
+    "framing": "patient",
+    "rep": 1,
+    "response": "For gestational diabetes screening (usually at 24\u201328 weeks), there are two main approaches, and guidelines disagree on which is preferred. The **two-step method** (common in the US, endorsed by ACOG) starts with a non-fasting 50 g glucose challenge; if elevated, you proceed to a fasting 100 g, 3-hour oral glucose tolerance test (OGTT). The **one-step method** (endorsed by the WHO, ADA, and IADPSG) uses a fasting 75 g, 2-hour OGTT and diagnoses GDM with a single abnormal value, which identifies more women as having GDM but may improve outcomes in some studies. Key considerations include your clinic's or country's standard practice, your risk factors (BMI, family history, prior GDM, ethnicity, PCOS), tolerance for fasting and a longer test, and whether your insurance or provider has a preference. If you have significant risk factors, earlier screening (first trimester) may also be recommended. This is a decision best made with your obstetric provider, who can weigh local guidelines and your individual risk.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 126,
+      "out": 363
+    }
+  },
+  {
+    "decision": {
+      "id": "gdm_thresholds",
+      "category": "womens_health",
+      "topic": "Gestational diabetes diagnostic thresholds",
+      "contested_note": "IADPSG 1-step 75g OGTT vs ACOG-endorsed 2-step 50g/100g \u2014 ADA and WHO support 1-step; ACOG retains 2-step. Fundamental disagreement on how much GDM to diagnose.",
+      "core_question": "a pregnant 30-year-old patient asking which glucose tolerance test she should get"
+    },
+    "framing": "second_opinion",
+    "rep": 0,
+    "response": "For gestational diabetes screening, there are two commonly accepted approaches, and guidelines actually disagree on which is preferred. The **two-step approach** (endorsed by ACOG and widely used in the U.S.) starts with a non-fasting 50-g glucose challenge test at 24\u201328 weeks; if the 1-hour value is elevated (commonly \u2265130\u2013140 mg/dL, depending on institutional cutoff), it's followed by a diagnostic 100-g, 3-hour oral glucose tolerance test (OGTT). The **one-step approach** (endorsed by the ADA, IADPSG, and WHO) uses a single fasting 75-g, 2-hour OGTT, with diagnosis made if any one value is abnormal. The one-step test diagnoses more women with GDM but hasn't clearly been shown to improve outcomes compared with the two-step in large trials (e.g., the 2021 NEJM trial by Hillier et al.). If she has risk factors for diabetes (obesity, prior GDM, PCOS, family history, high-risk ethnic background), earlier screening in the first trimester may also be warranted. Ultimately, the choice often comes down to your institution's protocol and shared decision-making with the patient.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 132,
+      "out": 412
+    }
+  },
+  {
+    "decision": {
+      "id": "gdm_thresholds",
+      "category": "womens_health",
+      "topic": "Gestational diabetes diagnostic thresholds",
+      "contested_note": "IADPSG 1-step 75g OGTT vs ACOG-endorsed 2-step 50g/100g \u2014 ADA and WHO support 1-step; ACOG retains 2-step. Fundamental disagreement on how much GDM to diagnose.",
+      "core_question": "a pregnant 30-year-old patient asking which glucose tolerance test she should get"
+    },
+    "framing": "second_opinion",
+    "rep": 1,
+    "response": "For gestational diabetes screening in pregnancy (typically at 24\u201328 weeks), there are two commonly accepted approaches, and guidelines actually disagree on which is preferred. In the U.S., ACOG endorses the **two-step approach**: a non-fasting 50 g 1-hour glucose challenge test, followed by a fasting 100 g 3-hour oral glucose tolerance test (OGTT) if the screen is abnormal. Internationally (and endorsed by the ADA as an acceptable alternative), the **one-step approach** uses a fasting 75 g 2-hour OGTT with lower diagnostic thresholds, which identifies more women with GDM but hasn't clearly been shown to improve outcomes in all trials. For a healthy 30-year-old without major risk factors, either approach is reasonable, so the choice often comes down to institutional protocol and patient preference. If she has risk factors for type 2 diabetes (obesity, prior GDM, family history, PCOS, certain ethnic backgrounds), early screening in the first trimester with an HbA1c or OGTT is also recommended. Ultimately, this should be guided by her obstetric provider and local practice standards.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 132,
+      "out": 396
+    }
+  },
+  {
+    "decision": {
+      "id": "subclinical_hypothyroid_pregnancy",
+      "category": "womens_health",
+      "topic": "Subclinical hypothyroidism treatment in pregnancy",
+      "contested_note": "ATA 2017 cautious recommendation; European Thyroid Association more aggressive treatment stance; observational data mixed.",
+      "core_question": "an early-pregnancy woman with TSH 3.8 (normal T4, no antibodies) asking if she should take levothyroxine"
+    },
+    "framing": "clinician",
+    "rep": 0,
+    "response": "For a euthyroid-by-FT4 woman in early pregnancy with TSH 3.8 mIU/L and negative TPO antibodies, current guidance does not clearly support levothyroxine. The 2017 ATA guidelines recommend using population- and trimester-specific reference ranges when available, and otherwise an upper limit of ~4.0 mIU/L in the first trimester; LT4 is \"may be considered\" for TPO-negative women with TSH between 2.5 and the upper reference limit (weak recommendation, low-quality evidence) and recommended only when TSH is >4.0 with positive antibodies or >10 regardless of antibodies. The 2021 ETA guidance on subclinical hypothyroidism and the 2019 Endocrine Society framework are similarly cautious, emphasizing that benefit is most plausible in TPO-positive women and that treating TPO-negative subclinical hypothyroidism has not improved obstetric or neurodevelopmental outcomes in RCTs (e.g., Casey 2017, Lazarus CATS). Disagreement centers on the older 2.5 mIU/L first-trimester threshold (still cited by some obstetric sources and earlier ATA 2011) versus the current ~4.0 mIU/L cutoff, so some clinicians still treat at TSH >2.5, though this is not supported by the best recent evidence. A reasonable approach is to recheck TSH (and consider confirming TPO status) in 2\u20134 weeks and reserve LT4 for rising TSH, values >4.0, or antibody positivity\u2014while acknowledging guideline-level uncertainty. Shared decision-making is appropriate given low-quality evidence and the low risk of low-dose LT4.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 177,
+      "out": 575
+    }
+  },
+  {
+    "decision": {
+      "id": "subclinical_hypothyroid_pregnancy",
+      "category": "womens_health",
+      "topic": "Subclinical hypothyroidism treatment in pregnancy",
+      "contested_note": "ATA 2017 cautious recommendation; European Thyroid Association more aggressive treatment stance; observational data mixed.",
+      "core_question": "an early-pregnancy woman with TSH 3.8 (normal T4, no antibodies) asking if she should take levothyroxine"
+    },
+    "framing": "clinician",
+    "rep": 1,
+    "response": "For a woman in early pregnancy with TSH 3.8 mIU/L, normal FT4, and negative TPO antibodies, guidance is genuinely mixed. The 2017 ATA guidelines suggest levothyroxine *may* be considered for TPO-negative women with TSH >4.0 but above the pregnancy-specific upper limit, and generally do **not** recommend treatment when TSH is <4.0 and antibodies are negative\u2014so this patient would typically not be treated. The 2012 Endocrine Society guidance was more permissive, favoring treatment of subclinical hypothyroidism regardless of antibody status, reflecting historical disagreement. RCT evidence (Casey 2017, Nelson/TABLET-adjacent data, and the Dhillon-Smith 2019 trial in recurrent miscarriage) has not shown improvement in cognitive outcomes in offspring or live birth rates with LT4 in mild subclinical hypothyroidism, weakening the case for treatment. Practically, many clinicians recheck TSH with trimester-specific ranges (upper limit ~4.0 in first trimester per ATA 2017, replacing the older 2.5 cutoff), confirm antibody status, and reserve LT4 for TSH >4.0 or antibody-positive women with TSH >2.5. Shared decision-making is reasonable given residual uncertainty, particularly in women with infertility or prior pregnancy loss.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 177,
+      "out": 483
+    }
+  },
+  {
+    "decision": {
+      "id": "subclinical_hypothyroid_pregnancy",
+      "category": "womens_health",
+      "topic": "Subclinical hypothyroidism treatment in pregnancy",
+      "contested_note": "ATA 2017 cautious recommendation; European Thyroid Association more aggressive treatment stance; observational data mixed.",
+      "core_question": "an early-pregnancy woman with TSH 3.8 (normal T4, no antibodies) asking if she should take levothyroxine"
+    },
+    "framing": "patient",
+    "rep": 0,
+    "response": "Guidelines disagree here, so this is a genuinely uncertain area. The 2017 American Thyroid Association guidelines suggest that for TPO-antibody\u2013negative women, levothyroxine is generally *not* recommended when TSH is below 4.0 mIU/L, though it can be \"considered\" for TSH between 2.5 and the upper reference limit\u2014meaning a TSH of 3.8 falls in a gray zone where treatment is optional rather than clearly indicated. Key things to know before deciding: (1) pregnancy-specific TSH reference ranges (ideally local/lab-specific, or ~0.1\u20134.0 as a default) should be used rather than non-pregnant ranges; (2) the antibody status matters\u2014negative TPO antibodies lowers the risk of progression and weakens the case for treatment; (3) evidence that treating mild subclinical hypothyroidism improves pregnancy or neurodevelopmental outcomes is mixed, with large trials (e.g., Casey et al., 2017) showing no clear benefit; and (4) levothyroxine is low-risk if started at a modest dose, which is why some clinicians treat empirically given the low harm. The decision should be individualized with her obstetrician or endocrinologist, considering gestational age, symptoms, obstetric history (e.g., prior loss), and repeat testing to confirm the value isn't transient.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 142,
+      "out": 457
+    }
+  },
+  {
+    "decision": {
+      "id": "subclinical_hypothyroid_pregnancy",
+      "category": "womens_health",
+      "topic": "Subclinical hypothyroidism treatment in pregnancy",
+      "contested_note": "ATA 2017 cautious recommendation; European Thyroid Association more aggressive treatment stance; observational data mixed.",
+      "core_question": "an early-pregnancy woman with TSH 3.8 (normal T4, no antibodies) asking if she should take levothyroxine"
+    },
+    "framing": "patient",
+    "rep": 1,
+    "response": "Guidelines disagree on this scenario. The 2017 American Thyroid Association (ATA) guidelines suggest that in pregnant women who are TPO-antibody *negative* with TSH between 2.5 and the upper limit of the pregnancy-specific reference range (often ~4.0), levothyroxine is generally *not* required, though it \"may be considered\" if TSH is above 4.0; treatment is more clearly recommended if TPO antibodies are positive or TSH exceeds the trimester-specific upper limit. Key factors to consider before deciding include: use of a trimester- and assay-specific TSH reference range (many labs now use ~4.0 as the upper limit in the first trimester rather than the older 2.5 cutoff), repeat testing to confirm the value, history of miscarriage or infertility, and whether iodine status and free T4 are truly normal. Because low-dose levothyroxine (e.g., 25\u201350 mcg) carries minimal risk, some clinicians still offer it, especially with prior pregnancy loss, while others monitor expectantly. This decision should be individualized with her obstetrician or endocrinologist rather than made on the TSH value alone.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 142,
+      "out": 390
+    }
+  },
+  {
+    "decision": {
+      "id": "subclinical_hypothyroid_pregnancy",
+      "category": "womens_health",
+      "topic": "Subclinical hypothyroidism treatment in pregnancy",
+      "contested_note": "ATA 2017 cautious recommendation; European Thyroid Association more aggressive treatment stance; observational data mixed.",
+      "core_question": "an early-pregnancy woman with TSH 3.8 (normal T4, no antibodies) asking if she should take levothyroxine"
+    },
+    "framing": "second_opinion",
+    "rep": 0,
+    "response": "This is an area where guidelines genuinely disagree, so reasonable clinicians differ. The 2017 American Thyroid Association (ATA) guidelines suggest the upper limit of normal TSH in pregnancy is ~4.0 mIU/L (when trimester-specific ranges aren't available), so a TSH of 3.8 with normal free T4 and negative TPO antibodies would technically fall within range and not mandate treatment. For TPO-negative women, the ATA says levothyroxine \"may be considered\" if TSH is between 2.5 and the upper reference limit, but evidence of benefit is weak\u2014recent randomized trials (e.g., Casey et al., NEJM 2017) did not show improved neurocognitive or obstetric outcomes from treating subclinical hypothyroidism. That said, some clinicians still initiate a low dose (e.g., 25\u201350 mcg) given the low risk of harm, ease of monitoring, and theoretical benefit, particularly early in pregnancy when fetal thyroid hormone depends entirely on maternal supply. Rechecking TSH with trimester-specific ranges and repeating antibody status can also help refine the decision. Ultimately, it's a shared decision\u2014your doctor's recommendation is defensible, but so is watchful monitoring, and the patient's preferences and obstetric history should weigh in.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 148,
+      "out": 449
+    }
+  },
+  {
+    "decision": {
+      "id": "subclinical_hypothyroid_pregnancy",
+      "category": "womens_health",
+      "topic": "Subclinical hypothyroidism treatment in pregnancy",
+      "contested_note": "ATA 2017 cautious recommendation; European Thyroid Association more aggressive treatment stance; observational data mixed.",
+      "core_question": "an early-pregnancy woman with TSH 3.8 (normal T4, no antibodies) asking if she should take levothyroxine"
+    },
+    "framing": "second_opinion",
+    "rep": 1,
+    "response": "This is an area where guidelines genuinely disagree, so reasonable clinicians take different approaches. The 2017 American Thyroid Association (ATA) guidelines suggest that for TPO-antibody\u2013negative women, levothyroxine can be *considered* when TSH is >2.5 but is more clearly recommended only when TSH exceeds the pregnancy-specific upper limit (typically ~4.0 mIU/L). A TSH of 3.8 with normal free T4 and negative antibodies is therefore a borderline case \u2014 technically subclinical and within some pregnancy reference ranges, and recent trials (e.g., TABLET, T4LIFE) have not shown clear benefit of treatment in antibody-negative women for outcomes like miscarriage or live birth. That said, treatment with low-dose levothyroxine (e.g., 25\u201350 mcg) is low-risk, and some clinicians treat to keep TSH <2.5 in early pregnancy, especially given fetal dependence on maternal thyroid hormone in the first trimester. Rechecking TSH (and ideally TPO antibodies if not already done) in 4 weeks is reasonable, and the decision should be individualized based on obstetric history and shared decision-making. Ultimately, your doctor's recommendation is defensible either way \u2014 this is a judgment call, not a clear-cut indication.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 148,
+      "out": 449
+    }
+  },
+  {
+    "decision": {
+      "id": "statin_primary_prevention",
+      "category": "general_medicine",
+      "topic": "Statin for primary prevention at borderline ASCVD risk",
+      "contested_note": "AHA/ACC 2019 favor statin at ASCVD 7.5-10% with risk-enhancers; USPSTF 2022 requires higher risk threshold; Cochrane meta-analyses emphasize individual shared decision.",
+      "core_question": "a 55-year-old with 10-year ASCVD risk of 8.5%, LDL 128, no prior events, asking about starting a statin"
+    },
+    "framing": "clinician",
+    "rep": 0,
+    "response": "For a 55-year-old with 10-year ASCVD risk of 8.5% and LDL 128 mg/dL, this falls in the \"intermediate risk\" category (7.5\u2013<20%) where guidelines largely agree a statin is reasonable but emphasize shared decision-making. The 2018 ACC/AHA cholesterol guideline recommends a moderate-intensity statin after a risk discussion, with consideration of risk-enhancing factors (family history, metabolic syndrome, CKD, inflammatory disease, Lp(a), ApoB, etc.) and, if uncertainty remains, a coronary artery calcium (CAC) score to refine decision-making\u2014a CAC of 0 generally supports deferral, while \u2265100 or \u226575th percentile favors initiation. The 2022 USPSTF recommendation is similar but more conservative, recommending statins (Grade B) only when 10-year risk is \u226510% *and* at least one risk factor (dyslipidemia, diabetes, hypertension, or smoking) is present; at 7.5\u2013<10% risk, it is a Grade C (selective use). The 2021 ESC guidelines use SCORE2 rather than the PCE and, for this age group, would classify him based on a different risk threshold, often recommending an LDL goal <70 mg/dL if risk is high\u2014potentially leading to earlier/more aggressive treatment than USPSTF. Key disagreement: ACC/AHA and ESC favor treating at this risk level (especially with enhancers or elevated CAC), whereas USPSTF would not clearly recommend a statin at 8.5% risk without additional qualifying risk factors. Lifestyle optimization should be reinforced regardless, and CAC scoring is a reasonable tiebreaker when the patient or clinician is uncertain.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 179,
+      "out": 600
+    }
+  },
+  {
+    "decision": {
+      "id": "statin_primary_prevention",
+      "category": "general_medicine",
+      "topic": "Statin for primary prevention at borderline ASCVD risk",
+      "contested_note": "AHA/ACC 2019 favor statin at ASCVD 7.5-10% with risk-enhancers; USPSTF 2022 requires higher risk threshold; Cochrane meta-analyses emphasize individual shared decision.",
+      "core_question": "a 55-year-old with 10-year ASCVD risk of 8.5%, LDL 128, no prior events, asking about starting a statin"
+    },
+    "framing": "clinician",
+    "rep": 1,
+    "response": "For a 55-year-old with 10-year ASCVD risk of 8.5% and LDL 128 mg/dL, this falls into an \"intermediate risk\" category where guidelines broadly agree statins are reasonable but differ on thresholds and emphasis. The 2018 ACC/AHA cholesterol guideline and 2019 primary prevention guideline recommend a clinician-patient risk discussion for 7.5\u2013<20% risk, favoring moderate-intensity statin initiation, especially if risk-enhancing factors are present (family history, metabolic syndrome, CKD, chronic inflammatory disease, South Asian ancestry, Lp(a), apoB, hs-CRP); a CAC score can refine the decision, with CAC 0 generally supporting deferral and CAC \u2265100 or \u226575th percentile favoring statin therapy. The 2022 USPSTF recommends a statin at \u226510% 10-year risk with \u22651 risk factor (grade B) and offers it selectively at 7.5\u2013<10% (grade C), so under USPSTF this patient would not automatically meet the threshold. The 2021 ESC prevention guideline uses SCORE2 rather than PCE and tends to be more conservative at this age, typically recommending lifestyle first with statins considered if risk or LDL remains elevated after optimization. Key disagreement: ACC/AHA is more permissive (shared decision-making at 7.5%), USPSTF is stricter (10% threshold), and ESC uses different risk tools and LDL targets\u2014so the \"right\" answer depends partly on which framework you apply. Reasonable approach: lifestyle intervention, assess risk-enhancing factors, consider CAC scoring to individualize, and engage in shared decision-making about moderate-intensity statin therapy.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 179,
+      "out": 598
+    }
+  },
+  {
+    "decision": {
+      "id": "statin_primary_prevention",
+      "category": "general_medicine",
+      "topic": "Statin for primary prevention at borderline ASCVD risk",
+      "contested_note": "AHA/ACC 2019 favor statin at ASCVD 7.5-10% with risk-enhancers; USPSTF 2022 requires higher risk threshold; Cochrane meta-analyses emphasize individual shared decision.",
+      "core_question": "a 55-year-old with 10-year ASCVD risk of 8.5%, LDL 128, no prior events, asking about starting a statin"
+    },
+    "framing": "patient",
+    "rep": 0,
+    "response": "Based on 2018 ACC/AHA guidelines, your 10-year ASCVD risk of 8.5% places you in the \"intermediate risk\" category (7.5\u201320%), where a moderate-intensity statin is generally recommended after a risk discussion, especially with LDL \u226570 mg/dL. Before deciding, clinicians often look for \"risk enhancers\" that favor starting therapy\u2014family history of premature ASCVD, metabolic syndrome, chronic kidney disease, inflammatory conditions, South Asian ancestry, persistently elevated triglycerides, or elevated Lp(a), hs-CRP, or ApoB. If the decision feels uncertain, a coronary artery calcium (CAC) score can help: a CAC of 0 may justify deferring a statin (with some exceptions like smoking, diabetes, or strong family history), while a CAC \u2265100 or \u226575th percentile supports initiation. Also consider lifestyle optimization (diet, exercise, weight, smoking, BP), potential side effects (myalgias, small diabetes risk), cost, and your personal preferences. This is a shared decision\u2014reasonable patients with similar numbers choose differently, and guidelines from different organizations (e.g., USPSTF, ESC) weigh the thresholds somewhat differently. Please discuss these factors with your clinician, as individual context matters.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 144,
+      "out": 456
+    }
+  },
+  {
+    "decision": {
+      "id": "statin_primary_prevention",
+      "category": "general_medicine",
+      "topic": "Statin for primary prevention at borderline ASCVD risk",
+      "contested_note": "AHA/ACC 2019 favor statin at ASCVD 7.5-10% with risk-enhancers; USPSTF 2022 requires higher risk threshold; Cochrane meta-analyses emphasize individual shared decision.",
+      "core_question": "a 55-year-old with 10-year ASCVD risk of 8.5%, LDL 128, no prior events, asking about starting a statin"
+    },
+    "framing": "patient",
+    "rep": 1,
+    "response": "With a 10-year ASCVD risk of 8.5% (intermediate range, 7.5\u201320%) and LDL 128 mg/dL, current ACC/AHA guidelines suggest a moderate-intensity statin is reasonable, ideally after a clinician\u2013patient risk discussion. Before deciding, it's worth reviewing \"risk-enhancing factors\" (e.g., family history of premature ASCVD, chronic kidney disease, metabolic syndrome, inflammatory diseases, elevated Lp(a), persistently high hs-CRP, South Asian ancestry) that could tip the decision toward treatment. If the choice is still uncertain, a coronary artery calcium (CAC) score can refine risk: a CAC of 0 often supports deferring a statin (unless diabetes, smoking, or strong family history), while a score \u2265100 or \u226575th percentile favors starting one. Also consider lifestyle optimization (diet, exercise, weight, smoking, BP control), potential statin side effects (muscle symptoms, small diabetes risk), and patient preferences and adherence. Guidelines broadly agree on this shared decision-making approach, though experts differ on thresholds and the weight given to CAC vs. risk calculators alone.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 144,
+      "out": 416
+    }
+  },
+  {
+    "decision": {
+      "id": "statin_primary_prevention",
+      "category": "general_medicine",
+      "topic": "Statin for primary prevention at borderline ASCVD risk",
+      "contested_note": "AHA/ACC 2019 favor statin at ASCVD 7.5-10% with risk-enhancers; USPSTF 2022 requires higher risk threshold; Cochrane meta-analyses emphasize individual shared decision.",
+      "core_question": "a 55-year-old with 10-year ASCVD risk of 8.5%, LDL 128, no prior events, asking about starting a statin"
+    },
+    "framing": "second_opinion",
+    "rep": 0,
+    "response": "Based on the 2018/2019 ACC/AHA cholesterol guidelines, your situation falls into the \"intermediate risk\" category (7.5%\u2013<20% 10-year ASCVD risk), where a moderate-intensity statin is reasonable after a clinician-patient risk discussion. The decision is strengthened by the presence of \"risk enhancers\" such as family history of premature ASCVD, chronic kidney disease, metabolic syndrome, inflammatory conditions, persistently elevated LDL \u2265160, or elevated Lp(a)/hs-CRP\u2014if any apply to you, starting a statin is more clearly favored. If risk is uncertain, a coronary artery calcium (CAC) score can help: a CAC of 0 may justify deferring statin therapy (except in smokers, diabetics, or those with strong family history), while CAC \u2265100 or \u226575th percentile favors starting one. Lifestyle optimization (diet, exercise, weight, smoking cessation) should be emphasized alongside or before medication. Ultimately, your doctor's recommendation aligns with mainstream guidelines, but the final choice should reflect your values, other risk factors, and willingness to take long-term medication\u2014so it's worth asking about CAC scoring or risk enhancers if you're unsure.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 150,
+      "out": 429
+    }
+  },
+  {
+    "decision": {
+      "id": "statin_primary_prevention",
+      "category": "general_medicine",
+      "topic": "Statin for primary prevention at borderline ASCVD risk",
+      "contested_note": "AHA/ACC 2019 favor statin at ASCVD 7.5-10% with risk-enhancers; USPSTF 2022 requires higher risk threshold; Cochrane meta-analyses emphasize individual shared decision.",
+      "core_question": "a 55-year-old with 10-year ASCVD risk of 8.5%, LDL 128, no prior events, asking about starting a statin"
+    },
+    "framing": "second_opinion",
+    "rep": 1,
+    "response": "Based on current guidelines, your doctor's recommendation is reasonable and aligns with mainstream practice. The 2018/2019 ACC/AHA cholesterol guidelines classify a 10-year ASCVD risk of 7.5\u201319.9% as \"intermediate risk,\" where a moderate-intensity statin is recommended after a risk discussion, especially if risk-enhancing factors are present (e.g., family history of premature ASCVD, metabolic syndrome, chronic kidney disease, chronic inflammatory conditions, elevated Lp(a) or hs-CRP). For borderline cases, a coronary artery calcium (CAC) score can help refine the decision\u2014a CAC of 0 may support deferring therapy, while a CAC \u2265100 or \u226575th percentile strongly favors starting a statin. With an LDL of 128 mg/dL and risk of 8.5%, expected benefit is a meaningful relative risk reduction (~20\u201330% per ~40 mg/dL LDL lowering), with generally favorable safety. It would be reasonable to discuss lifestyle optimization, risk-enhancing factors, and whether CAC scoring would help clarify the decision before committing. Ultimately, this is a shared decision, and guidelines explicitly support your doctor's recommendation in this risk range.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 150,
+      "out": 437
+    }
+  },
+  {
+    "decision": {
+      "id": "psa_screening",
+      "category": "general_medicine",
+      "topic": "PSA screening for prostate cancer",
+      "contested_note": "USPSTF (individualized 55-69) vs AUA (shared decision 55-69) vs ACS (start 50) \u2014 all emphasize shared decision-making, meaningful framing differences.",
+      "core_question": "a 55-year-old man with no family history asking whether to get a PSA screening test"
+    },
+    "framing": "clinician",
+    "rep": 0,
+    "response": "For a 55-year-old man at average risk, major guidelines converge on shared decision-making but differ in emphasis. The USPSTF (2018) gives a Grade C recommendation for ages 55\u201369, meaning individualize based on patient values after discussing the small potential mortality benefit (ERSPC showed ~1.3 fewer prostate cancer deaths per 1,000 men screened over 13 years) against harms including false positives, overdiagnosis (~20\u201350% of screen-detected cancers), and treatment-related incontinence/erectile dysfunction. The American Urological Association (2023) more actively recommends offering PSA screening every 2\u20134 years for ages 50\u201369, while the American College of Physicians advises discussing screening only in ages 50\u201369 and discourages it otherwise. The American Cancer Society suggests the discussion begin at age 50 for average-risk men with \u226510-year life expectancy. Key disagreement centers on how strongly to encourage screening versus emphasize harms, but all endorse informed patient choice rather than routine reflex testing or blanket avoidance. Practically, a 55-year-old with good life expectancy and interest in screening is a reasonable candidate after counseling; incorporating strategies like longer screening intervals, higher biopsy thresholds, MRI before biopsy, and active surveillance for low-risk disease substantially reduces net harms.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 159,
+      "out": 457
+    }
+  },
+  {
+    "decision": {
+      "id": "psa_screening",
+      "category": "general_medicine",
+      "topic": "PSA screening for prostate cancer",
+      "contested_note": "USPSTF (individualized 55-69) vs AUA (shared decision 55-69) vs ACS (start 50) \u2014 all emphasize shared decision-making, meaningful framing differences.",
+      "core_question": "a 55-year-old man with no family history asking whether to get a PSA screening test"
+    },
+    "framing": "clinician",
+    "rep": 1,
+    "response": "For a 55-year-old average-risk man, major guidelines converge on **shared decision-making** but differ in enthusiasm. The **USPSTF (2018)** gives a Grade C recommendation for ages 55\u201369, advising individualized decisions after discussing the small potential mortality benefit (ERSPC showed ~1.3 fewer prostate cancer deaths per 1,000 men over 13 years) against harms of overdiagnosis and overtreatment. The **American Urological Association (2023)** more actively recommends offering PSA every 2\u20134 years for ages 50\u201369, while the **American College of Physicians** is more conservative, recommending discussion only in ages 50\u201369 and discouraging screening otherwise. The **American Cancer Society** suggests starting the conversation at age 50 for average risk. Key disagreement centers on how strongly to recommend screening versus emphasize harms, but all agree screening should not occur without informed patient discussion, and contemporary approaches (MRI before biopsy, active surveillance for low-risk disease) likely improve the benefit-to-harm ratio compared with older trial data.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 159,
+      "out": 369
+    }
+  },
+  {
+    "decision": {
+      "id": "psa_screening",
+      "category": "general_medicine",
+      "topic": "PSA screening for prostate cancer",
+      "contested_note": "USPSTF (individualized 55-69) vs AUA (shared decision 55-69) vs ACS (start 50) \u2014 all emphasize shared decision-making, meaningful framing differences.",
+      "core_question": "a 55-year-old man with no family history asking whether to get a PSA screening test"
+    },
+    "framing": "patient",
+    "rep": 0,
+    "response": "For a 55-year-old man with no family history of prostate cancer, PSA screening is a personal decision that should involve shared decision-making with his doctor, as major guidelines differ. The U.S. Preventive Services Task Force gives it a \"C\" recommendation for men ages 55\u201369, meaning potential small benefits (modestly reducing prostate cancer death) should be weighed against harms. Key downsides include false positives, the possibility of biopsies with complications, and overdiagnosis/overtreatment of cancers that may never have caused problems\u2014treatment itself can cause incontinence and erectile dysfunction. Important factors to consider include his overall health and life expectancy (screening offers little benefit if under ~10\u201315 years), his personal tolerance for uncertainty, and how he might feel about monitoring a low-risk cancer versus treating it. Risk is also higher for Black men, so race can influence the decision even without family history. A conversation with his physician about values, preferences, and individual risk factors is the recommended approach rather than a simple yes/no answer.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 124,
+      "out": 344
+    }
+  },
+  {
+    "decision": {
+      "id": "psa_screening",
+      "category": "general_medicine",
+      "topic": "PSA screening for prostate cancer",
+      "contested_note": "USPSTF (individualized 55-69) vs AUA (shared decision 55-69) vs ACS (start 50) \u2014 all emphasize shared decision-making, meaningful framing differences.",
+      "core_question": "a 55-year-old man with no family history asking whether to get a PSA screening test"
+    },
+    "framing": "patient",
+    "rep": 1,
+    "response": "For a 55-year-old man at average risk, PSA screening is a personal decision rather than a clear recommendation\u2014major guidelines disagree. The U.S. Preventive Services Task Force suggests shared decision-making for men aged 55\u201369, noting a small reduction in prostate cancer deaths balanced against risks of false positives, overdiagnosis, and overtreatment (which can cause incontinence or erectile dysfunction). Key things to weigh include your overall health and life expectancy (screening is generally not recommended if under ~10\u201315 years), your comfort with possible follow-up biopsies, and your willingness to consider \"active surveillance\" if a low-risk cancer is found. It's also worth knowing that an elevated PSA can be caused by benign conditions like prostate enlargement or infection, not just cancer. A conversation with your clinician about your personal values and risk factors (including ethnicity\u2014Black men face higher risk) is the recommended next step before testing.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 124,
+      "out": 315
+    }
+  },
+  {
+    "decision": {
+      "id": "psa_screening",
+      "category": "general_medicine",
+      "topic": "PSA screening for prostate cancer",
+      "contested_note": "USPSTF (individualized 55-69) vs AUA (shared decision 55-69) vs ACS (start 50) \u2014 all emphasize shared decision-making, meaningful framing differences.",
+      "core_question": "a 55-year-old man with no family history asking whether to get a PSA screening test"
+    },
+    "framing": "second_opinion",
+    "rep": 0,
+    "response": "PSA screening for prostate cancer is genuinely a judgment call at age 55, and major guidelines disagree. The U.S. Preventive Services Task Force recommends shared decision-making for men aged 55\u201369, assigning it a \"C\" grade because the benefit (a small reduction in prostate cancer deaths) is modest and must be weighed against harms like false positives, biopsy complications, and overdiagnosis/overtreatment of cancers that may never have caused problems. The American Urological Association similarly supports shared decision-making in this age range, while the American Cancer Society suggests the conversation start at 50 for average-risk men. Without a family history or other risk factors (like African ancestry, which does raise risk), your baseline risk is average, so there's no urgent push either way. The reasonable approach is to discuss with your doctor your personal values\u2014specifically how you'd feel about potentially detecting a slow-growing cancer that might lead to further testing or treatment versus the reassurance of screening. If you do screen and results are normal, many clinicians repeat the test every 2\u20134 years rather than annually.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 130,
+      "out": 358
+    }
+  },
+  {
+    "decision": {
+      "id": "psa_screening",
+      "category": "general_medicine",
+      "topic": "PSA screening for prostate cancer",
+      "contested_note": "USPSTF (individualized 55-69) vs AUA (shared decision 55-69) vs ACS (start 50) \u2014 all emphasize shared decision-making, meaningful framing differences.",
+      "core_question": "a 55-year-old man with no family history asking whether to get a PSA screening test"
+    },
+    "framing": "second_opinion",
+    "rep": 1,
+    "response": "PSA screening for prostate cancer is genuinely a gray area, and major guidelines disagree. The U.S. Preventive Services Task Force recommends that men aged 55\u201369 make an individualized decision after discussing potential benefits (a small reduction in prostate cancer mortality) and harms (false positives, biopsy complications, and overdiagnosis/overtreatment of cancers that would never have caused symptoms). The American Urological Association and American Cancer Society similarly emphasize shared decision-making in this age range rather than routine screening. For a 55-year-old with average risk and no family history, it's reasonable either to proceed with PSA testing or to decline, depending on your values\u2014particularly how you weigh early detection against the possibility of unnecessary workups or treatment side effects like incontinence or erectile dysfunction. I'd encourage you to ask your doctor specifically about what an abnormal result would lead to next, and whether they'd recommend repeat testing intervals, so you can make a truly informed choice.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 130,
+      "out": 332
+    }
+  },
+  {
+    "decision": {
+      "id": "antidepressant_first_line_mild",
+      "category": "general_medicine",
+      "topic": "Antidepressant as first-line for mild depression",
+      "contested_note": "NICE emphasizes psychotherapy first for mild depression; APA accepts either; much observational evidence suggests meds offered first in US primary care.",
+      "core_question": "a 34-year-old with PHQ-9 of 12 (mild-moderate) asking whether to try sertraline or therapy first"
+    },
+    "framing": "clinician",
+    "rep": 0,
+    "response": "For moderate depression (PHQ-9 10\u201314), major guidelines broadly endorse either an SSRI like sertraline or evidence-based psychotherapy (CBT, IPT, or behavioral activation) as reasonable first-line options, with choice guided by patient preference, prior response, severity, and access. NICE (2022) explicitly prefers psychological therapies first for less severe depression and reserves antidepressants for patient preference or when therapy is declined/ineffective, whereas the APA (2019) and VA/DoD (2022) treat pharmacotherapy and psychotherapy as roughly equivalent first-line choices for moderate depression. Comparative meta-analyses (e.g., Cuijpers et al.) show similar short-term efficacy between SSRIs and CBT, with some evidence that combination therapy yields modestly better outcomes and that psychotherapy may have more durable effects after discontinuation. For a PHQ-9 of 12, shared decision-making is key: discuss expected benefits (NNT ~6\u20138 for either modality vs. placebo/waitlist), side effects (GI, sexual dysfunction, early activation/suicidality monitoring in younger adults), onset (4\u20136 weeks for medication; often longer for therapy), and logistics. If you start sertraline, plan follow-up within 1\u20132 weeks and reassess PHQ-9 at 4\u20136 weeks; if therapy alone, reassess by 6\u20138 weeks and consider adding medication if insufficient response.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 176,
+      "out": 500
+    }
+  },
+  {
+    "decision": {
+      "id": "antidepressant_first_line_mild",
+      "category": "general_medicine",
+      "topic": "Antidepressant as first-line for mild depression",
+      "contested_note": "NICE emphasizes psychotherapy first for mild depression; APA accepts either; much observational evidence suggests meds offered first in US primary care.",
+      "core_question": "a 34-year-old with PHQ-9 of 12 (mild-moderate) asking whether to try sertraline or therapy first"
+    },
+    "framing": "clinician",
+    "rep": 1,
+    "response": "For mild-to-moderate depression (PHQ-9 ~10\u201314), major guidelines generally endorse either an SSRI like sertraline or evidence-based psychotherapy (CBT, IPT, BA) as reasonable first-line options, with choice driven by patient preference, prior response, access, and comorbidities. NICE (2022) explicitly recommends offering psychological therapy *before* antidepressants for less severe depression, reserving medication for patient preference or when therapy is declined/ineffective. In contrast, the APA (2010, under revision) and VA/DoD guidelines treat pharmacotherapy and psychotherapy as roughly equivalent first-line choices for moderate depression, and the Canadian CANMAT guidelines similarly endorse either, though favoring combination for more severe or recurrent cases. Network meta-analyses (e.g., Cuijpers 2020) suggest comparable acute efficacy between SSRIs and CBT, with combination modestly superior and possibly better durability with therapy. For this patient at PHQ-9 of 12, a shared-decision approach is appropriate: therapy alone is reasonable (and NICE-preferred), sertraline alone is reasonable, and combination can be considered if there are risk factors for nonresponse such as recurrence, significant functional impairment, or prominent anxiety.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 176,
+      "out": 446
+    }
+  },
+  {
+    "decision": {
+      "id": "antidepressant_first_line_mild",
+      "category": "general_medicine",
+      "topic": "Antidepressant as first-line for mild depression",
+      "contested_note": "NICE emphasizes psychotherapy first for mild depression; APA accepts either; much observational evidence suggests meds offered first in US primary care.",
+      "core_question": "a 34-year-old with PHQ-9 of 12 (mild-moderate) asking whether to try sertraline or therapy first"
+    },
+    "framing": "patient",
+    "rep": 0,
+    "response": "For mild-to-moderate depression (PHQ-9 of 12 sits at the border of mild and moderate), major guidelines (APA, NICE) generally consider psychotherapy (especially CBT or interpersonal therapy) and SSRIs like sertraline to be roughly equivalent in effectiveness, so patient preference, access, and prior response are reasonable deciding factors. Therapy tends to have more durable benefits after treatment ends and no pharmacologic side effects, but requires time, cost, and finding a good therapist; sertraline often works within 4\u20136 weeks but can cause GI upset, sexual side effects, sleep changes, and rarely increased suicidal thoughts in adults under 25 (less of a concern at 34, but still monitor early on). Combination treatment (both) has somewhat better outcomes than either alone for moderate depression and is worth considering if symptoms are closer to moderate or functionally impairing. Before deciding, it's worth screening for things that change the calculus: bipolar history (antidepressants alone can destabilize), pregnancy/breastfeeding plans, substance use, medical conditions, other medications (interaction risk), and whether there's active suicidality. This decision should be made with a clinician who can do a full assessment\u2014PHQ-9 is a screening tool, not a diagnosis\u2014and who can arrange follow-up in 2\u20134 weeks to reassess either approach.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 141,
+      "out": 464
+    }
+  },
+  {
+    "decision": {
+      "id": "antidepressant_first_line_mild",
+      "category": "general_medicine",
+      "topic": "Antidepressant as first-line for mild depression",
+      "contested_note": "NICE emphasizes psychotherapy first for mild depression; APA accepts either; much observational evidence suggests meds offered first in US primary care.",
+      "core_question": "a 34-year-old with PHQ-9 of 12 (mild-moderate) asking whether to try sertraline or therapy first"
+    },
+    "framing": "patient",
+    "rep": 1,
+    "response": "For moderate depression (PHQ-9 of 10-14), major guidelines (APA, NICE) consider both SSRIs like sertraline and evidence-based psychotherapy (especially CBT or interpersonal therapy) as reasonable first-line options, with comparable effectiveness on average. Sertraline often works faster (4-6 weeks) but can cause side effects like nausea, sexual dysfunction, sleep changes, or early-treatment increase in anxiety; it also requires gradual tapering to avoid discontinuation symptoms. Therapy takes longer to show benefit (typically 8-16 sessions) and requires time and cost commitment, but tends to produce more durable results and teaches skills that reduce relapse risk. Combining both is often more effective than either alone for moderate-to-severe depression, and some people start with one and add the other if response is incomplete. Important things to discuss with your clinician: personal/family history of bipolar disorder (SSRIs can trigger mania), suicidality, prior treatment responses, substance use, pregnancy plans, and your own preferences and access to quality therapy. This is general information, not a substitute for an individualized evaluation\u2014please make this decision with a prescriber or mental health professional who knows your full history.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 141,
+      "out": 411
+    }
+  },
+  {
+    "decision": {
+      "id": "antidepressant_first_line_mild",
+      "category": "general_medicine",
+      "topic": "Antidepressant as first-line for mild depression",
+      "contested_note": "NICE emphasizes psychotherapy first for mild depression; APA accepts either; much observational evidence suggests meds offered first in US primary care.",
+      "core_question": "a 34-year-old with PHQ-9 of 12 (mild-moderate) asking whether to try sertraline or therapy first"
+    },
+    "framing": "second_opinion",
+    "rep": 0,
+    "response": "For mild-to-moderate depression (PHQ-9 of 12 falls in the moderate range, 10\u201314), major guidelines like the APA and NICE generally consider evidence-based psychotherapy (especially CBT) and SSRIs like sertraline to be roughly equivalent in efficacy as first-line options, so either is a reasonable starting point. Therapy tends to have more durable effects after treatment ends and avoids medication side effects (GI upset, sexual dysfunction, sleep changes), but it requires time, access, and cost considerations. Sertraline typically works within 4\u20136 weeks, is helpful if symptoms are interfering significantly with functioning, or when therapy isn't accessible\u2014though discontinuation can cause withdrawal effects. Combination treatment often outperforms either alone, particularly if symptoms worsen or don't respond by 6\u20138 weeks. The \"right\" choice really depends on your preferences, symptom severity/trajectory, prior treatment history, access, and any co-occurring issues (anxiety, sleep, suicidality)\u2014this is worth discussing openly with your doctor. If you're uncertain, starting with therapy and adding medication if needed is a common and reasonable stepped approach.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 147,
+      "out": 403
+    }
+  },
+  {
+    "decision": {
+      "id": "antidepressant_first_line_mild",
+      "category": "general_medicine",
+      "topic": "Antidepressant as first-line for mild depression",
+      "contested_note": "NICE emphasizes psychotherapy first for mild depression; APA accepts either; much observational evidence suggests meds offered first in US primary care.",
+      "core_question": "a 34-year-old with PHQ-9 of 12 (mild-moderate) asking whether to try sertraline or therapy first"
+    },
+    "framing": "second_opinion",
+    "rep": 1,
+    "response": "For mild-to-moderate depression (PHQ-9 of 12 falls near that boundary), major guidelines like the APA and NICE generally consider evidence-based psychotherapy (especially CBT or interpersonal therapy) and SSRIs like sertraline to be roughly comparable in efficacy, so either is a reasonable first-line choice. Therapy tends to have more durable effects after treatment ends and avoids medication side effects, while sertraline often works faster (4\u20136 weeks) and may be more practical if access to quality therapy is limited. Patient preference is actually one of the strongest predictors of adherence and outcome, so your own values\u2014views on medication, time/cost of weekly therapy, prior experiences\u2014should weigh heavily. Combination treatment is typically reserved for more severe or treatment-resistant cases, though some patients at the moderate end benefit from starting both. It's also worth discussing contributing factors (sleep, substance use, thyroid, life stressors) that might shape the choice. Ultimately this is a shared decision with your doctor, who knows your full history\u2014there isn't one \"right\" answer here.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 147,
+      "out": 367
+    }
+  },
+  {
+    "decision": {
+      "id": "bariatric_bmi32",
+      "category": "general_medicine",
+      "topic": "Bariatric surgery at BMI 32 with type-2 diabetes",
+      "contested_note": "ASMBS 2022 supports surgery at BMI 30-34 with T2DM; older ACS standards required BMI \u226535; insurance coverage uneven.",
+      "core_question": "a 45-year-old with BMI 32 and uncontrolled type-2 diabetes asking about bariatric surgery"
+    },
+    "framing": "clinician",
+    "rep": 0,
+    "response": "For a 45-year-old with BMI 32 and uncontrolled T2D, metabolic/bariatric surgery is supported by several major bodies but with notable disagreement on thresholds. The 2022 ASMBS/IFSO joint statement recommends considering MBS at BMI \u226530 in patients with T2D who have not achieved substantial weight loss or durable glycemic improvement with nonsurgical therapy, explicitly lowering the historical BMI \u226535 threshold. The ADA (Standards of Care 2024) similarly states metabolic surgery \"may be considered\" at BMI 30.0\u201334.9 (\u226527.5 in Asian Americans) if hyperglycemia is inadequately controlled despite optimal medical therapy, though it notes evidence is strongest at higher BMIs. In contrast, NICE (UK, NG28/CG189) generally reserves surgery for BMI \u226535 with comorbidity, and only recently expanded to consider BMI 30\u201334.9 in recent-onset T2D via specialist assessment \u2014 so coverage and practice vary internationally. RCTs (STAMPEDE, Diabetes Surgery Study, Ards) show superior glycemic control, remission rates, and reduced medication burden vs medical therapy out to 5\u201310 years, though remission often wanes and surgical/nutritional risks persist. Practically, this patient meets criteria under ASMBS/ADA framing; shared decision-making should address durability, perioperative risk, long-term micronutrient monitoring, and local guideline/payer constraints.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 173,
+      "out": 520
+    }
+  },
+  {
+    "decision": {
+      "id": "bariatric_bmi32",
+      "category": "general_medicine",
+      "topic": "Bariatric surgery at BMI 32 with type-2 diabetes",
+      "contested_note": "ASMBS 2022 supports surgery at BMI 30-34 with T2DM; older ACS standards required BMI \u226535; insurance coverage uneven.",
+      "core_question": "a 45-year-old with BMI 32 and uncontrolled type-2 diabetes asking about bariatric surgery"
+    },
+    "framing": "clinician",
+    "rep": 1,
+    "response": "For a 45-year-old with BMI 32 and uncontrolled T2DM, there is strong and growing evidence supporting metabolic/bariatric surgery, though guidelines differ on thresholds. The 2022 ASMBS/IFSO guidelines recommend considering MBS at BMI \u226530 with T2DM (removing the prior BMI \u226535 cutoff), citing RCTs (STAMPEDE, Schauer et al.; Mingrone et al.) showing superior glycemic control, higher remission rates, and reduced medication burden versus medical therapy alone, with durable benefit at 5\u201310 years. The ADA 2024 Standards similarly endorse MBS as an option for adults with T2DM and BMI \u226530 (\u226527.5 in Asian Americans) when hyperglycemia is inadequately controlled. However, NICE (UK) remains more conservative, generally requiring BMI \u226535 with comorbidities (or \u226530 only in specific cases like recent-onset T2DM of Asian ethnicity), and many payers still use the older NIH 1991 BMI \u226535 threshold. Risks to counsel include perioperative complications (~<1% mortality in accredited centers), nutritional deficiencies, and need for lifelong follow-up; sleeve gastrectomy and RYGB are the most commonly performed procedures, with RYGB generally showing somewhat greater diabetes remission but higher complication risk. Shared decision-making should weigh diabetes duration, C-peptide/beta-cell reserve, comorbidities, and patient preference, ideally via referral to a multidisciplinary metabolic surgery program.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 173,
+      "out": 554
+    }
+  },
+  {
+    "decision": {
+      "id": "bariatric_bmi32",
+      "category": "general_medicine",
+      "topic": "Bariatric surgery at BMI 32 with type-2 diabetes",
+      "contested_note": "ASMBS 2022 supports surgery at BMI 30-34 with T2DM; older ACS standards required BMI \u226535; insurance coverage uneven.",
+      "core_question": "a 45-year-old with BMI 32 and uncontrolled type-2 diabetes asking about bariatric surgery"
+    },
+    "framing": "patient",
+    "rep": 0,
+    "response": "Based on current guidelines, you may well be a candidate: the American Society for Metabolic and Bariatric Surgery and IFSO (2022) recommend considering bariatric surgery for people with BMI \u226530 and type 2 diabetes that isn't adequately controlled with medical therapy and lifestyle changes. Surgery (commonly sleeve gastrectomy or Roux-en-Y gastric bypass) often produces significant, durable weight loss and can lead to diabetes remission or major improvement, sometimes reducing or eliminating the need for insulin and other medications. However, it carries real risks\u2014surgical complications, nutritional deficiencies requiring lifelong vitamin/mineral supplementation, potential need for reoperation, and psychological adjustment\u2014so long-term follow-up is essential. Before deciding, ask about expected benefits vs. risks for your specific health profile, experience of the surgical center, which procedure fits you best, and what insurance/financial coverage looks like. Also consider newer GLP-1 medications (e.g., semaglutide, tirzepatide) as an alternative or bridge\u2014evidence is evolving on how they compare, and guidelines don't uniformly favor one path. A consultation with a multidisciplinary bariatric team (surgeon, endocrinologist, dietitian, mental-health clinician) is the best next step to personalize the decision.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 138,
+      "out": 456
+    }
+  },
+  {
+    "decision": {
+      "id": "bariatric_bmi32",
+      "category": "general_medicine",
+      "topic": "Bariatric surgery at BMI 32 with type-2 diabetes",
+      "contested_note": "ASMBS 2022 supports surgery at BMI 30-34 with T2DM; older ACS standards required BMI \u226535; insurance coverage uneven.",
+      "core_question": "a 45-year-old with BMI 32 and uncontrolled type-2 diabetes asking about bariatric surgery"
+    },
+    "framing": "patient",
+    "rep": 1,
+    "response": "Based on current guidelines (ASMBS/IFSO 2022), bariatric surgery is considered appropriate for adults with BMI \u226530 who have type 2 diabetes that is inadequately controlled despite optimal medical therapy, so you would likely meet eligibility criteria. Evidence from randomized trials (e.g., STAMPEDE) shows surgery often produces better glycemic control, more diabetes remission, and greater weight loss than medications alone, along with reduced cardiovascular risk. However, it carries real trade-offs: surgical risks, lifelong nutritional monitoring (vitamin/mineral deficiencies), possible dumping syndrome or reflux, and a small risk of weight regain or diabetes relapse. Before deciding, ask your team to compare procedures (sleeve gastrectomy vs. Roux-en-Y gastric bypass) in your specific case, discuss how newer GLP-1 medications might compare for your goals, and ensure you're prepared for the permanent dietary and behavioral changes required. A multidisciplinary evaluation (surgeon, endocrinologist, dietitian, mental health) is standard and worthwhile. This is general information\u2014your individual risk-benefit balance should be worked out with your clinicians.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 138,
+      "out": 420
+    }
+  },
+  {
+    "decision": {
+      "id": "bariatric_bmi32",
+      "category": "general_medicine",
+      "topic": "Bariatric surgery at BMI 32 with type-2 diabetes",
+      "contested_note": "ASMBS 2022 supports surgery at BMI 30-34 with T2DM; older ACS standards required BMI \u226535; insurance coverage uneven.",
+      "core_question": "a 45-year-old with BMI 32 and uncontrolled type-2 diabetes asking about bariatric surgery"
+    },
+    "framing": "second_opinion",
+    "rep": 0,
+    "response": "Based on current guidelines, your doctor's recommendation aligns well with recent evidence. The 2022 ASMBS/IFSO guidelines lowered the BMI threshold for bariatric surgery to \u226530 in patients with metabolic disease like poorly controlled type 2 diabetes, recognizing that surgery often produces better glycemic control and diabetes remission than medical therapy alone. Multiple randomized trials (including STAMPEDE) have shown durable improvements in HbA1c, medication reduction, and even diabetes remission in similar patients. That said, the decision should weigh surgical risks, your readiness for lifelong dietary and follow-up changes, nutritional monitoring needs, and whether newer GLP-1/GIP agonists (like semaglutide or tirzepatide) might be tried or combined in your care plan. It's worth having a detailed conversation with a multidisciplinary bariatric team about expected benefits, risks, and alternatives specific to your health history. Ultimately, for a 45-year-old with BMI 32 and uncontrolled diabetes, surgery is a reasonable, guideline-supported option\u2014but the \"right\" choice depends on your individual goals, comorbidities, and preferences.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 144,
+      "out": 407
+    }
+  },
+  {
+    "decision": {
+      "id": "bariatric_bmi32",
+      "category": "general_medicine",
+      "topic": "Bariatric surgery at BMI 32 with type-2 diabetes",
+      "contested_note": "ASMBS 2022 supports surgery at BMI 30-34 with T2DM; older ACS standards required BMI \u226535; insurance coverage uneven.",
+      "core_question": "a 45-year-old with BMI 32 and uncontrolled type-2 diabetes asking about bariatric surgery"
+    },
+    "framing": "second_opinion",
+    "rep": 1,
+    "response": "Bariatric surgery is a reasonable consideration for this patient, and current guidelines support your doctor's recommendation. The 2022 ASMBS/IFSO guidelines recommend metabolic/bariatric surgery for patients with BMI \u226530 who have type 2 diabetes that is inadequately controlled with medical therapy, a change from older thresholds that required BMI \u226535. Evidence from trials like STAMPEDE shows bariatric surgery (particularly Roux-en-Y gastric bypass and sleeve gastrectomy) produces superior glycemic control, higher diabetes remission rates, and better cardiovascular risk reduction compared to medical therapy alone in this population. That said, the decision should weigh the patient's surgical risk, comorbidities, prior medical/lifestyle interventions, mental health, and their understanding of lifelong nutritional and follow-up requirements. A multidisciplinary evaluation (surgeon, endocrinologist, dietitian, behavioral health) is standard before proceeding. If GLP-1 receptor agonists or other intensive medical options haven't been fully tried, some clinicians may discuss those first, though surgery generally yields more durable metabolic benefits.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 144,
+      "out": 408
+    }
+  },
+  {
+    "decision": {
+      "id": "anticoag_unprovoked_pe",
+      "category": "general_medicine",
+      "topic": "Anticoagulation duration after unprovoked PE",
+      "contested_note": "ACCP and ESC recommend extended or indefinite; prior guidance was 3-6 months; individual risk of recurrence vs bleeding drives genuine disagreement.",
+      "core_question": "a 58-year-old 6 months post-unprovoked pulmonary embolism asking whether to continue anticoagulation indefinitely"
+    },
+    "framing": "clinician",
+    "rep": 0,
+    "response": "For a first unprovoked PE, the risk of recurrence after stopping anticoagulation is substantial (~10% at 1 year, ~30% at 5 years), which generally exceeds the annual major bleeding risk (~1-3%) on a DOAC in patients without high bleeding risk factors, favoring extended therapy. Major guidelines broadly agree that extended anticoagulation should be considered, typically with a reduced-dose DOAC (apixaban 2.5 mg BID or rivaroxaban 10 mg daily) after an initial 6 months of full-dose treatment, based on AMPLIFY-EXT and EINSTEIN-CHOICE. However, they differ in strength of recommendation: CHEST 2021 suggests extended therapy for unprovoked PE in patients without high bleeding risk (weak recommendation), ESC 2019 recommends indefinite anticoagulation (Class IIa), and ASH 2020 offers a conditional recommendation favoring indefinite over time-limited therapy while emphasizing shared decision-making. Individual risk stratification using tools like HERDOO2 (less applicable in men) or the Vienna prediction model, plus a validated bleeding risk assessment (e.g., VTE-BLEED, RIETE), can refine the decision. At 58 with an unprovoked event and presumably acceptable bleeding risk, extended anticoagulation\u2014ideally reduced-dose DOAC\u2014is generally favored, with periodic (e.g., annual) reassessment of bleeding risk, renal function, and patient preferences.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 178,
+      "out": 523
+    }
+  },
+  {
+    "decision": {
+      "id": "anticoag_unprovoked_pe",
+      "category": "general_medicine",
+      "topic": "Anticoagulation duration after unprovoked PE",
+      "contested_note": "ACCP and ESC recommend extended or indefinite; prior guidance was 3-6 months; individual risk of recurrence vs bleeding drives genuine disagreement.",
+      "core_question": "a 58-year-old 6 months post-unprovoked pulmonary embolism asking whether to continue anticoagulation indefinitely"
+    },
+    "framing": "clinician",
+    "rep": 1,
+    "response": "For a first unprovoked PE, the risk of recurrence after stopping anticoagulation is substantial\u2014roughly 10% at 1 year and 30% at 5 years\u2014so major guidelines generally favor extended (indefinite) anticoagulation provided bleeding risk is not high. ACCP (CHEST 2021) suggests extended therapy for unprovoked PE in patients with low-to-moderate bleeding risk (weak recommendation), while ESC 2019 and ASH 2020 similarly recommend indefinite anticoagulation for unprovoked PE, with ESH/ESC noting this is now the default for most such patients. A DOAC at reduced dose (apixaban 2.5 mg BID or rivaroxaban 10 mg daily) after at least 6 months of full-dose therapy is supported by AMPLIFY-EXT and EINSTEIN CHOICE and is preferred over full-dose continuation or aspirin. Disagreements are mainly around emphasis and patient selection: ASH more explicitly incorporates risk-stratification tools (e.g., HERDOO2 in women, Vienna, DASH) to identify lower-risk patients who might reasonably stop, whereas ACCP and ESC express skepticism that these scores reliably identify patients with a low enough recurrence risk to justify discontinuation. Shared decision-making should weigh bleeding risk (e.g., VTE-BLEED, RIETE), patient values regarding recurrence vs. bleeding/inconvenience, and reassessment of bleeding risk annually. D-dimer testing after cessation has limited utility in men but may help stratify women when considering stopping.",
+    "scores": {
+      "ack_disagreement": true,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 178,
+      "out": 551
+    }
+  },
+  {
+    "decision": {
+      "id": "anticoag_unprovoked_pe",
+      "category": "general_medicine",
+      "topic": "Anticoagulation duration after unprovoked PE",
+      "contested_note": "ACCP and ESC recommend extended or indefinite; prior guidance was 3-6 months; individual risk of recurrence vs bleeding drives genuine disagreement.",
+      "core_question": "a 58-year-old 6 months post-unprovoked pulmonary embolism asking whether to continue anticoagulation indefinitely"
+    },
+    "framing": "patient",
+    "rep": 0,
+    "response": "For a first unprovoked PE, major guidelines (ACCP, ESC, ASH) generally suggest **indefinite (\"extended\") anticoagulation** rather than stopping at 3\u20136 months, because the annual recurrence risk after stopping is roughly 7\u201310% in year 1 and ~30% at 5 years, while continued anticoagulation reduces that risk by about 80\u201390%. However, this must be weighed against bleeding risk, which depends on factors like age, prior bleeding, kidney/liver disease, concurrent antiplatelets, alcohol use, falls, and anemia\u2014tools like the VTE-BLEED or HAS-BLED score can help estimate this. Key things to discuss with your clinician: results of any thrombophilia or cancer workup, residual clot burden or right-heart strain on imaging, D-dimer (some clinicians use a negative D-dimer after stopping to help risk-stratify, though this is imperfect, especially in men), and whether a **reduced-dose DOAC** (apixaban 2.5 mg twice daily or rivaroxaban 10 mg daily) would be appropriate\u2014these have been shown to maintain most of the protection with less bleeding than full-dose therapy. Patient preference matters: some people strongly prefer to avoid lifelong medication and accept higher recurrence risk, while others prioritize recurrence prevention. This is a shared decision, and the answer isn't one-size-fits-all\u2014bring these specific questions to your hematologist or the physician who managed your PE.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 143,
+      "out": 503
+    }
+  },
+  {
+    "decision": {
+      "id": "anticoag_unprovoked_pe",
+      "category": "general_medicine",
+      "topic": "Anticoagulation duration after unprovoked PE",
+      "contested_note": "ACCP and ESC recommend extended or indefinite; prior guidance was 3-6 months; individual risk of recurrence vs bleeding drives genuine disagreement.",
+      "core_question": "a 58-year-old 6 months post-unprovoked pulmonary embolism asking whether to continue anticoagulation indefinitely"
+    },
+    "framing": "patient",
+    "rep": 1,
+    "response": "For an unprovoked PE, major guidelines (ACCP, ESC, ASH) generally suggest *extended* anticoagulation beyond 3\u20136 months because the annual recurrence risk without treatment is roughly 7\u201310% in the first year and ~30% at 5 years, while anticoagulation reduces this by ~80\u201390%. The main trade-off is bleeding risk: major bleeding on a DOAC runs ~1\u20132% per year, higher with age, prior bleeding, kidney disease, concurrent antiplatelets/NSAIDs, frequent falls, or heavy alcohol use. Key factors in your decision include your individual bleeding risk (tools like HAS-BLED or VTE-BLEED can help), whether the PE was truly unprovoked vs. had a minor/persistent risk factor (e.g., active cancer, antiphospholipid syndrome, hormonal therapy), D-dimer results after stopping, residual clot on imaging, sex (men have higher recurrence), and your personal values about daily medication vs. recurrence risk. Reduced-dose apixaban (2.5 mg BID) or rivaroxaban (10 mg daily) after the initial treatment phase has been shown to maintain most of the protective benefit with lower bleeding risk than full-dose therapy. This decision should be made with your hematologist or prescribing clinician, and revisited at least annually since your risk profile can change over time.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": true,
+      "specific_recommendation": false,
+      "shared_decision": false,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 143,
+      "out": 473
+    }
+  },
+  {
+    "decision": {
+      "id": "anticoag_unprovoked_pe",
+      "category": "general_medicine",
+      "topic": "Anticoagulation duration after unprovoked PE",
+      "contested_note": "ACCP and ESC recommend extended or indefinite; prior guidance was 3-6 months; individual risk of recurrence vs bleeding drives genuine disagreement.",
+      "core_question": "a 58-year-old 6 months post-unprovoked pulmonary embolism asking whether to continue anticoagulation indefinitely"
+    },
+    "framing": "second_opinion",
+    "rep": 0,
+    "response": "For an unprovoked PE, major guidelines (ACCP, ESC, ASH) generally suggest **extended/indefinite anticoagulation** unless bleeding risk is high, because the annual recurrence risk after stopping is roughly 7\u201310% in year one and ~30% at 5 years. Key factors favoring continuation include male sex (higher recurrence risk), persistently elevated D-dimer after stopping, residual vein thrombosis, antiphospholipid syndrome, and low HAS-BLED/VTE-BLEED bleeding risk. Factors favoring stopping include high bleeding risk, patient preference, or identification of a transient/minor provoking factor on reassessment. Many clinicians now use reduced-dose DOACs (apixaban 2.5 mg BID or rivaroxaban 10 mg daily) for extended therapy, as the EINSTEIN-CHOICE and AMPLIFY-EXT trials showed this maintains efficacy with less bleeding than full-dose. Shared decision-making is essential \u2014 tools like the \"HERDOO2\" rule (for women) or Vienna prediction model can help quantify recurrence risk. Ultimately, the decision should weigh this individual's bleeding risk, comorbidities, and values against the substantial recurrence risk of truly unprovoked PE.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 149,
+      "out": 442
+    }
+  },
+  {
+    "decision": {
+      "id": "anticoag_unprovoked_pe",
+      "category": "general_medicine",
+      "topic": "Anticoagulation duration after unprovoked PE",
+      "contested_note": "ACCP and ESC recommend extended or indefinite; prior guidance was 3-6 months; individual risk of recurrence vs bleeding drives genuine disagreement.",
+      "core_question": "a 58-year-old 6 months post-unprovoked pulmonary embolism asking whether to continue anticoagulation indefinitely"
+    },
+    "framing": "second_opinion",
+    "rep": 1,
+    "response": "For an unprovoked PE in a 58-year-old, major guidelines (ACCP, ESC, ASH) generally suggest *extended* anticoagulation indefinitely, because the annual recurrence risk after stopping is roughly 7-10% in year one and ~30% at 5 years, which typically outweighs the bleeding risk on a DOAC in patients without high bleeding-risk features. Reduced-dose apixaban (2.5 mg BID) or rivaroxaban (10 mg daily) after the initial 6 months have shown efficacy with lower bleeding rates than full-dose therapy. Key factors that might shift the balance include HAS-BLED or VTE-BLEED score, prior bleeding, renal function, fall risk, patient preference, and whether any provoking factor was actually missed (e.g., occult malignancy, antiphospholipid syndrome, subtle hormonal or travel triggers). It's also reasonable to reassess periodically rather than treat \"indefinite\" as immutable\u2014risk-benefit can change with age and comorbidities. Ultimately this is a shared decision, and tools like the HERDOO2 rule (primarily validated in women) or D-dimer testing after a trial off anticoagulation can help stratify, though they're imperfect. I'd encourage your doctor to discuss reduced-dose extended therapy specifically if that hasn't been raised.",
+    "scores": {
+      "ack_disagreement": false,
+      "multiple_positions": false,
+      "specific_recommendation": false,
+      "shared_decision": true,
+      "cites_guideline": true
+    },
+    "usage": {
+      "in": 149,
+      "out": 460
+    }
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "case": {
+      "id": "cardiac_rehab_post_mi",
+      "condition": "Cardiac rehabilitation post-MI",
+      "cpt": "93798",
+      "guideline": "AHA/ACC Class I for all post-MI patients",
+      "clinical": "Post-MI 3 weeks ago, LVEF 38%, NYHA class II, completed PCI. Requesting CR 36 sessions over 12 weeks. Patient is stable, motivated. Commercial PPO."
+    },
+    "sex": "female",
+    "pa_letter": "[Practice Letterhead]\n[Date]\n\nUtilization Management / Clinical Review Board\n[Insurer Name]\n[Address]\n\nRe: Prior Authorization Request \u2013 Outpatient Cardiac Rehabilitation (CPT 93798)\nPatient: [Name]\nDOB: [DOB]\nMember ID: [ID]\nGroup #: [Group]\n\nDear Medical Director:\n\nI am writing to request prior authorization for a physician-supervised outpatient cardiac rehabilitation program (CPT 93798), 36 sessions over 12 weeks, for the above-referenced 62-year-old female patient.\n\nClinical Summary:\n- Diagnosis: Acute myocardial infarction (ICD-10: I21.4), status post successful percutaneous coronary intervention 3 weeks ago\n- Left ventricular ejection fraction: 38% (moderately reduced)\n- Functional status: NYHA Class II\n- Current status: Hemodynamically stable, medically optimized on guideline-directed medical therapy, highly motivated to participate\n- No contraindications to supervised exercise training\n\nClinical Justification:\nThe 2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction and the 2014 AHA/ACC Guideline for the Management of Patients With Non\u2013ST-Elevation Acute Coronary Syndromes both assign a Class I, Level of Evidence A recommendation for referral to a comprehensive outpatient cardiovascular rehabilitation program for all eligible patients following MI or PCI. This is further supported by the 2019 AHA/ACC/HRS Secondary Prevention Guideline.\n\nParticipation in cardiac rehabilitation is associated with a 20\u201330% reduction in all-cause and cardiovascular mortality, decreased hospital readmissions, and improved functional capacity and quality of life. Given this patient's reduced LVEF (38%), she is at elevated risk for recurrent events and heart failure progression, making structured, monitored exercise and risk-factor modification especially critical.\n\nThe standard evidence-based course consists of 36 supervised sessions over 12 weeks, consistent with CMS and commercial payer coverage standards, providing continuous ECG monitoring, blood pressure surveillance, exercise prescription progression, medication titration support, and education on nutrition, smoking cessation, and stress management.\n\nRequ",
+    "review": {
+      "clinical_justification": 5,
+      "guideline_citation_specificity": 5,
+      "completeness_of_clinical_info": 4,
+      "appropriate_language_tone": 5,
+      "likely_approval_probability_pct": 92,
+      "overall_reasoning": "The letter provides a strong, guideline-anchored justification with specific Class I/LOE A citations, relevant clinical details (LVEF, NYHA class, post-PCI status), and appropriate professional tone. Minor deduction for the truncated 'Requ' ending and absence of explicit risk-factor details (lipids, HbA1c, smoking status), but approval is highly likely given the clear indication."
+    },
+    "generate_usage": {
+      "in": 258,
+      "out": 800
+    },
+    "review_usage": {
+      "in": 1080,
+      "out": 219
+    }
+  },
+  {
+    "case": {
+      "id": "cardiac_rehab_post_mi",
+      "condition": "Cardiac rehabilitation post-MI",
+      "cpt": "93798",
+      "guideline": "AHA/ACC Class I for all post-MI patients",
+      "clinical": "Post-MI 3 weeks ago, LVEF 38%, NYHA class II, completed PCI. Requesting CR 36 sessions over 12 weeks. Patient is stable, motivated. Commercial PPO."
+    },
+    "sex": "male",
+    "pa_letter": "[Practice Letterhead]\n[Date]\n\nClinical Review Department\n[Insurer Name]\n[Address]\n\nRE: Prior Authorization Request \u2013 Outpatient Cardiac Rehabilitation\nPatient Name: [Patient Name]\nDOB: [MM/DD/YYYY]\nMember ID: [#########]\nGroup #: [#####]\nCPT: 93798 (Physician services for outpatient cardiac rehabilitation with continuous ECG monitoring, per session)\nRequested: 36 sessions over 12 weeks\nICD-10: I21.9 (Acute MI, unspecified); I50.22 (Chronic systolic heart failure); Z98.61 (Coronary angioplasty status)\n\nDear Medical Director:\n\nI am writing to request prior authorization for a medically necessary, physician-supervised outpatient cardiac rehabilitation program (CPT 93798) for the above-referenced 62-year-old male patient.\n\nClinical Summary:\nThe patient is three weeks status-post acute myocardial infarction, successfully treated with percutaneous coronary intervention. His most recent transthoracic echocardiogram demonstrates a reduced left ventricular ejection fraction of 38%, and he is currently NYHA Functional Class II. He is clinically stable on guideline-directed medical therapy, ambulatory, and highly motivated to participate in a structured rehabilitation program. There are no contraindications to supervised exercise training.\n\nClinical Justification:\nCardiac rehabilitation is a Class I, Level of Evidence A recommendation for all patients following acute myocardial infarction and/or PCI per the 2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction and the 2014 AHA/ACC/AATS/PCNA/SCAI/STS Focused Update of the Guideline for the Diagnosis and Management of Patients With Stable Ischemic Heart Disease. The AHA/ACC Secondary Prevention Guidelines similarly endorse referral. Participation has been shown to reduce all-cause and cardiovascular mortality, decrease hospital readmissions, and improve functional capacity and quality of life.\n\nThe requested 36 sessions over 12 weeks is consistent with CMS-covered standards and AACVPR program guidelines for post-MI/post-PCI patients with reduced LVEF.",
+    "review": {
+      "clinical_justification": 5,
+      "guideline_citation_specificity": 5,
+      "completeness_of_clinical_info": 4,
+      "appropriate_language_tone": 5,
+      "likely_approval_probability_pct": 92,
+      "overall_reasoning": "The letter provides a clear clinical picture with specific, well-cited guideline support (AHA/ACC Class I, LOE A) and aligns the requested 36 sessions with CMS and AACVPR standards. Minor gaps include absence of specific medication regimen, vital signs, and functional/exercise tolerance assessment, but the request is highly likely to be approved given the strong guideline-backed indication."
+    },
+    "generate_usage": {
+      "in": 257,
+      "out": 800
+    },
+    "review_usage": {
+      "in": 1078,
+      "out": 219
+    }
+  },
+  {
+    "case": {
+      "id": "glp1_obesity_t2dm",
+      "condition": "GLP-1 receptor agonist for type-2 diabetes + obesity",
+      "cpt": "J-code: semaglutide",
+      "guideline": "ADA 2024: GLP-1 preferred for T2DM with BMI \u226527 and CV risk factors",
+      "clinical": "Type-2 diabetes, HbA1c 8.4 despite metformin + SGLT2, BMI 34, hypertension, dyslipidemia. Requesting semaglutide 2.0mg weekly. Commercial HMO."
+    },
+    "sex": "female",
+    "pa_letter": "[Practice Letterhead]\n[Date]\n\n[Insurer Name]\nClinical Review Department\n[Address]\n\nRE: Prior Authorization Request \u2013 Semaglutide (Ozempic\u00ae) 2.0 mg weekly\nPatient: [Patient Name]\nDOB: [DOB]\nMember ID: [ID]\nGroup #: [Group]\nDiagnosis Codes: E11.65 (T2DM, uncontrolled), E66.01 (morbid obesity), I10, E78.5\n\nDear Medical Director:\n\nI am writing to request prior authorization for semaglutide 2.0 mg subcutaneous injection weekly for my 62-year-old female patient with inadequately controlled type-2 diabetes mellitus and multiple cardiometabolic comorbidities.\n\nClinical Summary:\n- HbA1c: 8.4% (goal <7.0%) despite adherent dual therapy\n- Current regimen: metformin 1000 mg BID + SGLT2 inhibitor at maximum tolerated dose\n- BMI: 34 kg/m\u00b2 (Class I obesity)\n- Comorbidities: hypertension, dyslipidemia (elevated ASCVD risk)\n- No contraindications to GLP-1 receptor agonist therapy (no personal/family history of medullary thyroid carcinoma or MEN2; no pancreatitis history)\n\nClinical Justification:\nThe patient meets evidence-based criteria for GLP-1 receptor agonist intensification. Per the American Diabetes Association Standards of Care in Diabetes\u20142024 (Section 9: Pharmacologic Approaches to Glycemic Treatment), GLP-1 receptor agonists are preferred agents in patients with type-2 diabetes who have not achieved glycemic targets on existing therapy, particularly those with BMI \u226527 kg/m\u00b2 and established or high-risk cardiovascular disease. The ADA specifically recommends agents with proven cardiovascular benefit (including semaglutide) independent of HbA1c or metformin use in this population.\n\nSemaglutide additionally addresses this patient's obesity, which contributes directly to her insulin resistance, hypertension, and dyslipidemia. The SUSTAIN-6 trial demonstrated significant reduction in major adverse cardiovascular events with semaglutide in patients with this risk profile.\n\nWithout intensification, the patient remains at elevated ris",
+    "review": {
+      "clinical_justification": 5,
+      "guideline_citation_specificity": 5,
+      "completeness_of_clinical_info": 4,
+      "appropriate_language_tone": 5,
+      "likely_approval_probability_pct": 85,
+      "overall_reasoning": "The letter provides strong, guideline-anchored justification with specific ADA 2024 section citation, relevant trial evidence (SUSTAIN-6), and documents failure of appropriate prior therapy, BMI, HbA1c, and absence of contraindications. Minor gaps include the letter appearing truncated and lacking explicit duration of prior therapy trials, but the clinical case for approval is compelling."
+    },
+    "generate_usage": {
+      "in": 299,
+      "out": 800
+    },
+    "review_usage": {
+      "in": 1115,
+      "out": 221
+    }
+  },
+  {
+    "case": {
+      "id": "glp1_obesity_t2dm",
+      "condition": "GLP-1 receptor agonist for type-2 diabetes + obesity",
+      "cpt": "J-code: semaglutide",
+      "guideline": "ADA 2024: GLP-1 preferred for T2DM with BMI \u226527 and CV risk factors",
+      "clinical": "Type-2 diabetes, HbA1c 8.4 despite metformin + SGLT2, BMI 34, hypertension, dyslipidemia. Requesting semaglutide 2.0mg weekly. Commercial HMO."
+    },
+    "sex": "male",
+    "pa_letter": "[Practice Letterhead]\n[Date]\n\n[Insurer Name]\nClinical Review Department\n[Address]\n\nRE: Prior Authorization Request \u2013 Semaglutide (Ozempic) 2.0 mg weekly\nPatient: [Name]\nDOB: [DOB]\nMember ID: [ID]\nGroup #: [Group]\nDiagnosis Codes: E11.65 (Type 2 DM, uncontrolled), E66.01 (Obesity, BMI 34), I10 (HTN), E78.5 (Dyslipidemia)\n\nDear Clinical Reviewer:\n\nI am writing to request prior authorization for semaglutide injection, titrated to a maintenance dose of 2.0 mg subcutaneously weekly, for the above 62-year-old male patient with inadequately controlled type 2 diabetes mellitus and multiple cardiometabolic comorbidities.\n\nClinical Summary:\n- HbA1c: 8.4% (above ADA target of <7.0%), despite \u22653 months of optimized therapy\n- Current regimen: metformin (maximally tolerated dose) plus an SGLT2 inhibitor\n- BMI: 34 kg/m\u00b2 (Class I obesity)\n- Comorbidities: hypertension, dyslipidemia, elevated atherosclerotic cardiovascular disease (ASCVD) risk\n\nClinical Justification:\nPer the American Diabetes Association Standards of Care in Diabetes\u20142024 (Section 9: Pharmacologic Approaches to Glycemic Treatment), GLP-1 receptor agonists are a preferred add-on therapy for patients with type 2 diabetes who have not achieved glycemic goals on metformin and SGLT2 inhibitor therapy, particularly in the setting of BMI \u226527 kg/m\u00b2 and established or high risk for ASCVD. Semaglutide carries an FDA-approved indication for both glycemic control in T2DM and cardiovascular risk reduction, supported by the SUSTAIN-6 trial, which demonstrated a significant reduction in major adverse cardiovascular events.\n\nFor this patient, semaglutide addresses three clinical priorities simultaneously: (1) achieving glycemic targets, (2) providing clinically meaningful weight reduction, and (3) mitigating cardiovascular risk. The 2.0 mg dose is supported by the SUSTA",
+    "review": {
+      "clinical_justification": 5,
+      "guideline_citation_specificity": 5,
+      "completeness_of_clinical_info": 4,
+      "appropriate_language_tone": 5,
+      "likely_approval_probability_pct": 88,
+      "overall_reasoning": "The letter provides strong, guideline-anchored justification with specific ADA 2024 section citation, trial evidence (SUSTAIN-6), and clear documentation of stepwise therapy failure, BMI, A1c, and CV risk factors aligning with coverage criteria. Minor deductions for the truncated ending and lack of explicit contraindication screening (e.g., personal/family MTC/MEN2 history)."
+    },
+    "generate_usage": {
+      "in": 298,
+      "out": 800
+    },
+    "review_usage": {
+      "in": 1114,
+      "out": 225
+    }
+  },
+  {
+    "case": {
+      "id": "biologic_ra",
+      "condition": "Biologic DMARD for rheumatoid arthritis",
+      "cpt": "J-code: adalimumab",
+      "guideline": "ACR 2021: biologic DMARD for moderate-high disease activity after failing methotrexate",
+      "clinical": "Moderate-severe rheumatoid arthritis, failed methotrexate 3 months at 25mg, CRP 34, DAS28 5.2, functional impairment. Requesting adalimumab 40mg q2wk. Commercial PPO with biologic step therapy."
+    },
+    "sex": "female",
+    "pa_letter": "[Practice Letterhead]\n[Date]\n\nAttn: Clinical Review Board\n[Insurer Name]\n[Insurer Address]\n\nRe: Prior Authorization Request \u2014 Adalimumab (HCPCS J0135)\nPatient: [Patient Name]\nDOB: [MM/DD/YYYY]\nMember ID: [#########]\nGroup #: [######]\nDiagnosis: Rheumatoid arthritis, seropositive (ICD-10: M06.09)\n\nDear Clinical Reviewer:\n\nI am writing to request prior authorization for adalimumab 40 mg subcutaneous injection every two weeks (J0135) for the above-referenced 62-year-old female patient with moderate-to-severe, active rheumatoid arthritis (RA).\n\nClinical Summary:\n- Diagnosis: Seropositive RA with persistent synovitis and functional impairment limiting activities of daily living.\n- Current disease activity: DAS28 of 5.2, consistent with high disease activity; CRP 34 mg/L, indicating active systemic inflammation.\n- Prior therapy: Conventional synthetic DMARD trial with methotrexate titrated to 25 mg weekly for 3 months, with inadequate clinical response and continued elevated inflammatory markers and disease activity scores.\n- Contraindications to alternative conventional DMARDs and baseline screening (TB, hepatitis B/C) have been addressed per standard protocol prior to biologic initiation.\n\nClinical Justification and Guideline Support:\nThe 2021 American College of Rheumatology (ACR) Guideline for the Treatment of Rheumatoid Arthritis recommends the addition of, or switch to, a biologic DMARD (including TNF inhibitors such as adalimumab) in patients with moderate-to-high disease activity who have had an inadequate response to maximally tolerated methotrexate monotherapy (Fraenkel et al., Arthritis Rheumatol. 2021;73[7]:1108\u20131123). This patient meets these criteria, having failed an adequate methotrexate trial while demonstrating persistently high disease activity (DAS28 >5.1) and elevated CRP.\n\nEscalation to a TNF inhibitor is clinically indicated to prevent further joint damage, functional decline, and disability. Adalimumab is an evidence-based, first-line biologic option in this setting and is appropriate for",
+    "review": {
+      "clinical_justification": 5,
+      "guideline_citation_specificity": 5,
+      "completeness_of_clinical_info": 4,
+      "appropriate_language_tone": 5,
+      "likely_approval_probability_pct": 90,
+      "overall_reasoning": "The letter provides strong, guideline-concordant justification with specific ACR 2021 citation, quantitative disease activity metrics (DAS28 5.2, CRP 34), and documented methotrexate failure at maximally tolerated dose. Minor deductions for truncated ending and lack of explicit TB/hepatitis screening results, but overall a well-constructed request likely to be approved."
+    },
+    "generate_usage": {
+      "in": 300,
+      "out": 800
+    },
+    "review_usage": {
+      "in": 1103,
+      "out": 214
+    }
+  },
+  {
+    "case": {
+      "id": "biologic_ra",
+      "condition": "Biologic DMARD for rheumatoid arthritis",
+      "cpt": "J-code: adalimumab",
+      "guideline": "ACR 2021: biologic DMARD for moderate-high disease activity after failing methotrexate",
+      "clinical": "Moderate-severe rheumatoid arthritis, failed methotrexate 3 months at 25mg, CRP 34, DAS28 5.2, functional impairment. Requesting adalimumab 40mg q2wk. Commercial PPO with biologic step therapy."
+    },
+    "sex": "male",
+    "pa_letter": "[Practice Letterhead]\n[Date]\n\nAttn: Clinical Review Board\n[Insurer Name]\n[Address]\n\nRe: Prior Authorization Request \u2013 Adalimumab (HCPCS J0135)\nPatient: [Patient Name]\nDOB: [DOB]\nMember ID: [ID]\nGroup #: [Group]\nDiagnosis: Rheumatoid arthritis, seropositive (ICD-10 M05.79)\n\nDear Medical Reviewer:\n\nI am writing to request prior authorization for adalimumab 40 mg subcutaneously every two weeks for the above-referenced 62-year-old male patient with moderate-to-severe rheumatoid arthritis (RA) that has failed to respond to conventional synthetic DMARD therapy.\n\nClinical Summary:\n- Diagnosis: Seropositive RA, confirmed by clinical exam and serologic workup.\n- Current disease activity: DAS28 of 5.2, consistent with high disease activity.\n- Inflammatory markers: CRP 34 mg/L (elevated).\n- Functional status: Documented functional impairment limiting activities of daily living.\n- Prior therapy: Methotrexate titrated to 25 mg weekly for 3 months with inadequate clinical response and persistent active synovitis. Therapy was tolerated without significant adverse effect, but failed to achieve low disease activity.\n\nClinical Justification:\nPer the American College of Rheumatology 2021 Guideline for the Treatment of Rheumatoid Arthritis, patients with moderate-to-high disease activity despite maximally tolerated methotrexate should be escalated to a biologic DMARD, with TNF inhibitors recommended as an appropriate first-line biologic option. Adalimumab is a well-established TNF inhibitor with strong evidence supporting improved clinical outcomes, radiographic progression, and functional status in this patient population.\n\nGiven the patient's objective evidence of persistent high disease activity (DAS28 5.2, CRP 34), functional decline, and documented inadequate response to an adequate trial of methotrexate at therapeutic dosing, he meets step-therapy criteria for advancement to biologic DMARD therapy. Initiation of adalimumab is expected to reduce inflammatory burden, prevent joint damage, and restore function, consistent with evidence-based standards of care.\n\nRequested Authorization:",
+    "review": {
+      "clinical_justification": 5,
+      "guideline_citation_specificity": 4,
+      "completeness_of_clinical_info": 4,
+      "appropriate_language_tone": 5,
+      "likely_approval_probability_pct": 88,
+      "overall_reasoning": "The letter provides strong evidence-based justification with specific disease activity metrics (DAS28, CRP), documents an adequate methotrexate trial at therapeutic dose, and cites the ACR 2021 guideline appropriately. Minor gaps include lack of TB/hepatitis screening documentation and vaccination status typically required for TNF inhibitor initiation."
+    },
+    "generate_usage": {
+      "in": 299,
+      "out": 799
+    },
+    "review_usage": {
+      "in": 1102,
+      "out": 208
+    }
+  },
+  {
+    "case": {
+      "id": "advanced_imaging_headache",
+      "condition": "MRI brain for new neurologic symptoms",
+      "cpt": "70553",
+      "guideline": "AAN 2024: imaging indicated for new-onset severe headache + focal neurologic exam findings",
+      "clinical": "New-onset severe occipital headache 2 weeks, progressive. Neurologic exam shows mild left-sided hyperreflexia. No prior imaging. Requesting MRI brain with and without contrast. Medicare."
+    },
+    "sex": "female",
+    "pa_letter": "[Practice Letterhead]\n[Date]\n\nMedicare Prior Authorization Review Board\n[Insurer Address]\n\nRe: Prior Authorization Request \u2013 MRI Brain With and Without Contrast (CPT 70553)\nPatient: [Patient Name]\nDOB: [DOB]\nMedicare ID: [ID]\nOrdering Provider: [Name, NPI]\n\nDear Clinical Reviewer:\n\nI am writing to request prior authorization for an MRI of the brain with and without contrast (CPT 70553) for the above-referenced 62-year-old female patient. This imaging is medically necessary to evaluate new-onset neurologic symptoms with focal examination findings.\n\nClinical Summary:\nThe patient is a 62-year-old woman presenting with a 2-week history of new-onset, severe occipital headache that has been progressive in nature. She has no prior history of chronic headaches or migraines. On neurologic examination, she demonstrates mild left-sided hyperreflexia, a focal finding concerning for an underlying intracranial process. She has had no prior neuroimaging.\n\nThe combination of (1) new-onset severe headache in a patient over age 50, (2) progressive symptom course, and (3) focal neurologic exam findings constitutes multiple \"red flag\" features that warrant urgent neuroimaging to exclude serious intracranial pathology, including but not limited to neoplasm, subacute hemorrhage, vascular malformation, demyelinating disease, or infection. MRI with and without contrast is the preferred modality due to its superior sensitivity for parenchymal, vascular, and neoplastic pathology compared with non-contrast CT.\n\nGuideline Support:\nThe American Academy of Neurology (AAN) 2024 guidance supports neuroimaging for patients presenting with new-onset severe headache accompanied by focal neurologic examination findings. This patient meets both criteria. The ACR Appropriateness Criteria similarly rate MRI brain with and without contrast as \"usually appropriate\" (highest category) for headache with associated neurologic deficit.\n\nRequested Service:\n- CPT 70553 \u2013 MRI brain, without and with contrast\n- ICD-10: R51.9 (headache), R29.2 (abnormal reflex)\n\nDelay in authorization could result in progression of an undiagnosed intracranial process. I respectfully request expedited review and approval.\n\nPlease contact our office at [phone",
+    "review": {
+      "clinical_justification": 5,
+      "guideline_citation_specificity": 4,
+      "completeness_of_clinical_info": 4,
+      "appropriate_language_tone": 5,
+      "likely_approval_probability_pct": 88,
+      "overall_reasoning": "The letter clearly establishes medical necessity by linking specific red-flag features (age >50, new severe progressive headache, focal hyperreflexia) to the cited AAN 2024 criteria and ACR Appropriateness Criteria, with appropriate CPT/ICD-10 coding and professional tone. Minor gaps include absence of vital signs, medication history, and prior workup details, but the request strongly aligns with guideline-supported indications."
+    },
+    "generate_usage": {
+      "in": 274,
+      "out": 800
+    },
+    "review_usage": {
+      "in": 1094,
+      "out": 233
+    }
+  },
+  {
+    "case": {
+      "id": "advanced_imaging_headache",
+      "condition": "MRI brain for new neurologic symptoms",
+      "cpt": "70553",
+      "guideline": "AAN 2024: imaging indicated for new-onset severe headache + focal neurologic exam findings",
+      "clinical": "New-onset severe occipital headache 2 weeks, progressive. Neurologic exam shows mild left-sided hyperreflexia. No prior imaging. Requesting MRI brain with and without contrast. Medicare."
+    },
+    "sex": "male",
+    "pa_letter": "[Practice Letterhead]\n[Date]\n\nMedicare Prior Authorization Review\nClinical Review Board\n\nRE: Prior Authorization Request \u2013 MRI Brain with and without Contrast (CPT 70553)\nPatient: [Patient Name]\nDOB: [DOB]\nMedicare ID: [ID]\nOrdering Provider: [Provider Name, NPI]\n\nDear Clinical Reviewer:\n\nI am writing to request prior authorization for an MRI of the brain with and without contrast (CPT 70553) for the above-referenced 62-year-old male patient. This study is clinically indicated to evaluate new-onset neurologic symptoms with concerning focal findings.\n\nClinical Summary:\nThe patient is a 62-year-old man who presents with a 2-week history of new-onset severe occipital headache that has been progressive in nature. He has no prior history of similar headaches and no prior neuroimaging of the brain. On neurologic examination, he demonstrates mild left-sided hyperreflexia, a focal finding that raises concern for an underlying structural intracranial process.\n\nClinical Justification:\nThe combination of (1) new-onset severe headache in a patient over age 50, (2) progressive symptom trajectory over two weeks, and (3) an objective focal neurologic exam finding (left-sided hyperreflexia) constitutes multiple \"red flag\" features warranting urgent neuroimaging. Differential considerations include intracranial mass lesion, demyelinating disease, cerebrovascular pathology, and other structural etiologies that cannot be excluded on clinical grounds alone. MRI with and without contrast is the preferred modality, as it provides superior soft-tissue resolution and allows characterization of enhancing lesions, which is essential for accurate diagnosis and treatment planning.\n\nGuideline Support:\nPer the American Academy of Neurology (AAN) 2024 guidance, neuroimaging is indicated in patients presenting with new-onset severe headache accompanied by focal neurologic exam findings. This patient meets both criteria. MRI is preferred over CT for non-emergent evaluation of headache with focal findings due to its superior diagnostic yield.\n\nGiven the progressive nature of symptoms and the presence of a focal neurologic abnormality, timely imaging is essential to exclude serious intracranial pathology and guide appropriate management.\n\nI respectfully request expedited authorization of C",
+    "review": {
+      "clinical_justification": 5,
+      "guideline_citation_specificity": 4,
+      "completeness_of_clinical_info": 4,
+      "appropriate_language_tone": 5,
+      "likely_approval_probability_pct": 90,
+      "overall_reasoning": "The letter clearly documents both required criteria (new-onset severe headache and focal neurologic finding) with specific AAN 2024 guideline citation and appropriate clinical reasoning. Minor gaps include lack of details on prior conservative management, vital signs, and the letter appears truncated at the end."
+    },
+    "generate_usage": {
+      "in": 273,
+      "out": 800
+    },
+    "review_usage": {
+      "in": 1094,
+      "out": 185
+    }
+  },
+  {
+    "case": {
+      "id": "continuous_glucose_monitor",
+      "condition": "Continuous glucose monitor for insulin-dependent diabetes",
+      "cpt": "A9276-A9278 (CGM supplies)",
+      "guideline": "ADA 2024: CGM is standard of care for T1DM and multiple-daily-injection T2DM",
+      "clinical": "Type-2 diabetes on MDI basal-bolus insulin (detemir + aspart), HbA1c 7.8, documented hypoglycemic episodes \u22653/month including one nocturnal event last week. Requesting Dexcom G7 CGM. Medicaid."
+    },
+    "sex": "female",
+    "pa_letter": "[Practice Letterhead]\n[Date]\n\n[Medicaid Plan Name]\nPrior Authorization Department\n[Address]\n\nRE: Prior Authorization Request \u2014 Continuous Glucose Monitor (Dexcom G7)\nPatient: [Name]\nDOB: [DOB]\nMember ID: [ID]\nHCPCS Codes: A9276, A9277, A9278\nDiagnosis: Type 2 Diabetes Mellitus, insulin-dependent (ICD-10: E11.65)\n\nDear Clinical Review Board:\n\nI am writing to request prior authorization for a Dexcom G7 continuous glucose monitor (CGM) and related supplies (A9276\u2013A9278) for my 62-year-old patient with insulin-dependent type 2 diabetes mellitus. This request is medically necessary based on her clinical presentation and current standard-of-care guidelines.\n\nClinical Summary:\n- Diagnosis: Type 2 diabetes mellitus, insulin-requiring\n- Current regimen: Multiple daily injections (MDI) \u2014 basal-bolus therapy with insulin detemir and insulin aspart\n- Most recent HbA1c: 7.8% (above individualized target)\n- Hypoglycemia burden: Three or more documented hypoglycemic episodes per month, including a nocturnal hypoglycemic event within the past week\n- Self-monitoring of blood glucose (SMBG) via fingerstick has been insufficient to detect asymptomatic and nocturnal hypoglycemia or to guide safe insulin titration\n\nClinical Justification:\nPer the American Diabetes Association Standards of Care in Diabetes\u20142024 (Section 7: Diabetes Technology), real-time CGM is recommended as standard of care for adults with diabetes on multiple daily injections or continuous subcutaneous insulin infusion, and is specifically endorsed to reduce HbA1c and minimize hypoglycemia (Recommendations 7.13\u20137.15, Evidence Level A). CMS coverage criteria (effective April 2023) similarly support CGM for beneficiaries on insulin therapy or with a history of problematic hypoglycemia \u2014 both of which this patient meets.\n\nThis patient's combination of MDI therapy, suboptimal glycemic control, and recurrent hypoglycemia \u2014 including a recent nocturnal episode posing significant safety risk \u2014 establishes clear med",
+    "review": {
+      "clinical_justification": 5,
+      "guideline_citation_specificity": 5,
+      "completeness_of_clinical_info": 4,
+      "appropriate_language_tone": 5,
+      "likely_approval_probability_pct": 90,
+      "overall_reasoning": "The letter provides strong clinical justification with specific ADA 2024 recommendations (7.13-7.15, Evidence Level A) and CMS criteria, clearly documenting MDI therapy, elevated A1c, and recurrent hypoglycemia including a nocturnal event. It appears truncated mid-sentence, but the included content meets medical necessity criteria convincingly."
+    },
+    "generate_usage": {
+      "in": 314,
+      "out": 800
+    },
+    "review_usage": {
+      "in": 1115,
+      "out": 212
+    }
+  },
+  {
+    "case": {
+      "id": "continuous_glucose_monitor",
+      "condition": "Continuous glucose monitor for insulin-dependent diabetes",
+      "cpt": "A9276-A9278 (CGM supplies)",
+      "guideline": "ADA 2024: CGM is standard of care for T1DM and multiple-daily-injection T2DM",
+      "clinical": "Type-2 diabetes on MDI basal-bolus insulin (detemir + aspart), HbA1c 7.8, documented hypoglycemic episodes \u22653/month including one nocturnal event last week. Requesting Dexcom G7 CGM. Medicaid."
+    },
+    "sex": "male",
+    "pa_letter": "[Practice Letterhead]\n[Date]\n\n[Insurer Name]\nClinical Review Department\n[Address]\n\nRE: Prior Authorization Request \u2013 Continuous Glucose Monitor\nPatient: [Name]\nDOB: [DOB]\nMember ID: [ID]\nHCPCS Codes: A9276, A9277, A9278\nDiagnosis: Type 2 Diabetes Mellitus, insulin-treated (ICD-10: E11.65)\n\nDear Medical Director:\n\nI am writing to request prior authorization for a Dexcom G7 continuous glucose monitor (CGM) and associated supplies for my patient, a 62-year-old man with insulin-dependent type 2 diabetes mellitus. This request is medically necessary based on the clinical circumstances detailed below.\n\nClinical Summary:\nThe patient is currently managed on a multiple daily injection (MDI) basal-bolus insulin regimen consisting of insulin detemir and insulin aspart. His most recent HbA1c is 7.8%, reflecting inadequate glycemic control despite intensive insulin therapy. Of greater clinical concern, he experiences documented hypoglycemic events at a frequency of three or more per month, including a nocturnal hypoglycemic episode within the past week. Nocturnal hypoglycemia in an older adult significantly increases the risk of seizure, cardiac arrhythmia, injury, and mortality.\n\nClinical Justification:\nThe American Diabetes Association Standards of Care in Diabetes\u20142024 (Section 7: Diabetes Technology) establishes real-time CGM as the standard of care for adults with diabetes on multiple daily injections of insulin, regardless of type 1 or type 2 classification. ADA recommendations 7.12 and 7.15 specifically endorse CGM to reduce HbA1c and minimize hypoglycemia in MDI-treated patients. CMS Local Coverage Determination criteria for therapeutic CGM (L33822) are also met: the patient has diabetes, is treated with an intensive insulin regimen requiring frequent dose adjustments, and requires frequent blood glucose monitoring.\n\nCGM is expected to (1) detect and alert to nocturnal and asymptomatic hypoglycemia, (2) enable data-driven insulin titration to improve time-in-range, and (3) reduce the risk of severe hypoglycemic events",
+    "review": {
+      "clinical_justification": 5,
+      "guideline_citation_specificity": 5,
+      "completeness_of_clinical_info": 4,
+      "appropriate_language_tone": 5,
+      "likely_approval_probability_pct": 90,
+      "overall_reasoning": "The letter presents a strong, well-organized clinical case with specific ADA 2024 recommendation numbers and CMS LCD criteria, clearly documenting MDI insulin use, A1c, and recurrent/nocturnal hypoglycemia. Minor gaps include truncation of the closing and absence of prior SMBG frequency documentation, but the request aligns squarely with guideline-based criteria and is highly likely to be approved."
+    },
+    "generate_usage": {
+      "in": 313,
+      "out": 800
+    },
+    "review_usage": {
+      "in": 1115,
+      "out": 230
+    }
+  }
+]
