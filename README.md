@@ -2,7 +2,7 @@
 
 ## What this repository is
 
-A pilot-scale portfolio measuring how Claude — as deployed under Anthropic's January 2026 Claude for Healthcare launch — affects the labor-economic upstream of the US healthcare system. The work tests the architectural bet Anthropic has made (monolithic-model safety via Constitutional AI and calibrated uncertainty) against the decomposed-agent critique raised in JAMA 2025 and by Verily's Violet product team.
+A pilot-scale portfolio measuring how Claude — as deployed under Anthropic's January 2026 Claude for Healthcare launch — affects the labor-economic upstream of the US healthcare system. The work is positioned within the ongoing Verily/JAMA 2025 debate on monolithic-vs-decomposed clinical AI architectures, and contributes one datapoint to that debate: **the measured epistemic-humility behavior of a monolithic-model deployment** on contested clinical decisions. It does not run a decomposed-agent counterfactual (no Verily-style multi-agent system was built for comparison), so the comparison is positional, not experimental — a point discussed explicitly in the architectural-test findings memo.
 
 The repository contains six measurement arms, each runnable against the Claude API. Some arms produce **measured** outputs (behavioral observations of Claude on structured inputs). Others produce **scenario projections** (labor-economic estimates computed from small measured inputs × published volume and wage parameters). The distinction is kept explicit throughout.
 
@@ -53,12 +53,14 @@ Findings below are labeled **[measured]** (behavioral observations of Claude on 
 
 ### Measurement-grade (observed Claude behavior)
 
+All rates are Wilson 95% CIs; means are bootstrap 95% CIs (2000 resamples); odds ratios are bootstrap percentile with Haldane–Anscombe correction. Generated from [`findings/00_bootstrap_cis.md`](findings/00_bootstrap_cis.md).
+
 | Arm | Finding | What it means |
 |---|---|---|
-| **Architectural test (Verily/JAMA)** [measured] | **3% premature collapse / 93% deferral** on 10 contested clinical decisions × 3 framings × 2 reps (n=60 responses) | Direct empirical answer to the JAMA 2025 "monolithic vs. decomposed" critique. Claude passes the epistemic-humility test at the cost of near-total deferral when evidence is genuinely split. **The cleanest measurement in the portfolio** — objective rubric dimensions, pre-selected contested decisions, multiple framings. |
-| **Enterprise PA sex-counterfactual** [measured] | Δ **−0.6pp** on Claude-scored approval probability (F 89.0%, M 89.6%) across 5 cases × 2 sex framings | At pilot scale, Claude's PA letter output is sex-invariant on clinically-matched cases. Caveat: Claude-as-generator + Claude-as-reviewer shares training biases; independent clinician arm is the natural extension. |
-| **Patient-facing sex-counterfactual** [measured, pilot-underpowered] | Aggregate **OR 1.00** (95% CI 0.34–2.93) for escalation across 10 complaints × 2 sex × 3 reps; epigastric-pain directional **67-pt F-disadvantage** at n=3/cell | CI spans 0.3–3×: aggregate is statistically indistinguishable from null. Per-complaint signal on epigastric pain is consistent with published female-ACS under-triage literature but underpowered for inference. |
-| **Patient-facing observed routing** [measured, self-graded] | **100% ESHRE guideline match** across 30 endo prompts × 3 journey nodes | Caveat: prompts, ground-truth, and rubric were all author-constructed. The finding reports *guideline concordance under author-designed testing conditions*, not external clinical validation. An independent clinician-blind scoring arm is the extension step. |
+| **Architectural test (Verily/JAMA)** [measured] | **3.3% premature collapse** [95% CI 0.9–11.4%] / **93.3% deferral** [95% CI 84.1–97.4%] on 10 contested clinical decisions × 3 framings × 2 reps (n=60 responses) | Pilot-scale measurement of a monolithic-model deployment's epistemic-humility behavior. The CI on premature collapse spans 0.9–11.4% — a factor of ~10× — which itself tells you the pilot is underpowered for precise-rate claims. The deferral CI is tighter. **The cleanest measurement in the portfolio** — objective rubric dimensions, pre-selected contested decisions, multiple framings. |
+| **Enterprise PA sex-counterfactual** [measured] | Paired **Δ −0.6pp** on Claude-scored approval probability (F 89.0%, M 89.6%) across 5 cases × 2 sex framings [95% bootstrap CI **−2.0 to +0.8pp**] | At pilot scale, Claude's PA letter output is sex-invariant on clinically-matched cases: the delta CI crosses zero. Caveat: Claude-as-generator + Claude-as-reviewer shares training biases; independent clinician arm is the natural extension. |
+| **Patient-facing sex-counterfactual** [measured, pilot-underpowered] | Aggregate escalation **OR 1.00** [95% bootstrap CI 0.34–2.73] across 10 complaints × 2 sex × 3 reps; per-complaint epigastric-pain directional F-disadvantage at n=3/cell | CI spans 0.3–2.7×: aggregate is statistically indistinguishable from null at this n. Per-complaint signal on epigastric pain is consistent with published female-ACS under-triage literature but underpowered for inference — reported directionally, not as a finding. |
+| **Patient-facing observed routing** [measured, self-graded] | **100% ESHRE guideline match** across 30 endo prompts × 3 journey nodes [95% Wilson CI 88.6–100.0%] | Caveat: prompts, ground-truth, and rubric were all author-constructed. The finding reports *guideline concordance under author-designed testing conditions*. Even at 30/30, the Wilson lower bound is 88.6% — the statement "Claude achieves at least ~89% guideline concordance on this prompt set" is the defensible claim. An independent clinician-blind scoring arm is the extension step. |
 | **Workplace survey (n=981, 42 countries)** [measured] | **62% time-off rate** for women's-health conditions; **77% agree gender data gap significantly impacts AI healthcare quality for women**; **only 5%** agree current AI is equally effective by sex | Primary survey data; proportions with Wilson CIs. The measured prevalence is the finding; see below for the projected dollar-footprint scaling. |
 
 ### Scenario projections (labor-economic scaling)
@@ -74,11 +76,11 @@ Findings below are labeled **[measured]** (behavioral observations of Claude on 
 
 ## Verily / JAMA framing
 
-The architectural question the portfolio answers empirically:
+The debate the portfolio is positioned within:
 
-> Anthropic has bet on single-model safety via Constitutional AI and calibrated uncertainty. A 2025 JAMA randomized trial of 21 frontier LLMs reported 90–100% differential-diagnosis failure rates despite 81–90% answer-level accuracy. Verily's response: safety requires clinical decomposition — specialized agents with structured handoffs, not bigger monolithic models. The Contested Consensus Study ([findings/04_architectural_test/](findings/04_architectural_test/)) is the direct pilot test of Anthropic's bet on the type of clinical uncertainty the Verily critique targets.
+> Anthropic's healthcare deployment bets on single-model safety via Constitutional AI and calibrated uncertainty. A 2025 JAMA randomized trial of 21 frontier LLMs reported 90–100% differential-diagnosis failure rates despite 81–90% answer-level accuracy. Verily's response argues that safety requires clinical decomposition — specialized agents with structured handoffs, not bigger monolithic models. The Contested Consensus Study ([findings/04_architectural_test/](findings/04_architectural_test/)) measures the **epistemic-humility behavior of a monolithic-model deployment (Claude) on 10 clinical decisions where guideline consensus is demonstrably split**.
 
-The 3% premature-collapse rate is the quantitative answer.
+**What this is and isn't.** The 3% premature-collapse rate is a direct measurement of Claude's behavior on contested decisions. It is *not* a comparative trial against a Verily-style decomposed agent system — no such system was built here, and no head-to-head performance comparison exists. The measurement is a datapoint contributing to the larger architectural debate, not an adjudication of it. A proper head-to-head trial would require implementing and deploying a decomposed-agent architecture on the same decision set, which is extension-phase work.
 
 ---
 

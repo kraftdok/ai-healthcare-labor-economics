@@ -8,15 +8,15 @@
 
 ## Comparison table
 
-| Condition | Sex skew | Annual labor footprint | Claude's primary bottleneck classification | Claude AI-addressability | Claude guideline-match | Scenario recovery (obs / med / frontier) |
+| Condition | Sex skew | Annual labor footprint | Claude bottleneck | AI-addressability | Theoretical max recovery (obs / med / frontier) | **Realistic probable (× 0.09 funnel)** |
 |---|---|---|---|---|---|---|
-| Chronic low-back pain / musculoskeletal disability | Male-dominant (55–60% male in SSDI MSK category) | $78.0B | ONGOING_MANAGEMENT | HIGH | ✓ (escalate_specialist) | $6.2 / $19.5 / $35.1B |
-| Post-MI cardiovascular disability | Male-dominant (MI incidence 60%+ male in working-age) | $11.6B | TREATMENT_ACCESS | MEDIUM | ✓ (escalate_specialist) | $1.2 / $3.5 / $5.8B |
-| Major depressive disorder / anxiety disability | Mixed (~60% female prevalence; but represents the largest single non-fatal disability driver globally) | $36.8B | TREATMENT_ACCESS | HIGH | ✓ (escalate_specialist) | $2.2 / $7.4 / $14.7B |
-| Endometriosis / chronic pelvic pain | Female (reproductive-age women only) | $4.4B | DIAGNOSTIC_COMPRESSION | HIGH | ✓ (escalate_specialist) | $0.5 / $1.6 / $2.7B |
-| Alzheimer's-care-related workforce exit | Mixed (60% female caregivers, 40% male) | $42.2B | CAREGIVING_SUBSTITUTION | MEDIUM | ✓ (escalate_specialist) | $2.1 / $7.6 / $14.8B |
+| Chronic low-back pain / musculoskeletal disability | Male-dominant (55–60% male in SSDI MSK category) | $78.0B | ONGOING_MANAGEMENT | HIGH | $6.2 / $19.5 / $35.1B | **$0.6 / $1.8 / $3.2B** |
+| Post-MI cardiovascular disability | Male-dominant (MI incidence 60%+ male in working-age) | $11.6B | TREATMENT_ACCESS | MEDIUM | $1.2 / $3.5 / $5.8B | **$0.1 / $0.3 / $0.5B** |
+| Major depressive disorder / anxiety disability | Mixed (~60% female prevalence) | $36.8B | TREATMENT_ACCESS | HIGH | $2.2 / $7.4 / $14.7B | **$0.2 / $0.7 / $1.3B** |
+| Endometriosis / chronic pelvic pain | Female (reproductive-age women only) | $4.4B | DIAGNOSTIC_COMPRESSION | HIGH | $0.5 / $1.6 / $2.7B | **$0.05 / $0.15 / $0.25B** |
+| Alzheimer's-care-related workforce exit | Mixed (60% female caregivers, 40% male) | $42.2B | CAREGIVING_SUBSTITUTION | MEDIUM | $2.1 / $7.6 / $14.8B | **$0.2 / $0.7 / $1.3B** |
 
-**Aggregate across five conditions:** annual labor footprint ~$173B; AI-recoverable scenario range **$12.3B (observed) — $39.5B (median) — $73.1B (frontier)**.
+**Aggregate across five chronic conditions** (ACS and other acute events excluded): annual labor footprint ~$173B; AI-recoverable **theoretical max** $12.3B (observed) — $39.5B (median) — $73.1B (frontier); **realistic probable** (× 0.09 funnel midpoint) $1.1B (obs) — $3.6B (median) — $6.6B (frontier).
 
 These five conditions represent roughly 25–40% of the top-10 AI-addressable workforce-exit drivers in scope for the larger analysis. Extrapolating the observed-to-frontier range to the full top-10 produces aggregate US labor-recovery scenarios in the $40–200B range, which is consistent with the $100–300B range estimated independently from the WEF/McKinsey $1T global figure scaled to US.
 

@@ -12,13 +12,13 @@ This pilot uses Claude Opus 4.7 to perform a representative task in each vertica
 
 ## Comparison table
 
-| Vertical | Annual US volume | Time-saving per task (manual → AI) | Quality rubric pass | Annual labor-value recovered | Accruing to female labor |
-|---|---|---|---|---|---|
-| Prior authorization | ~850M events | 16→3 min (81% reduction) | 100% | $5.5B | $4.1B (75%) |
-| Clinical documentation (ambient note generation) | ~4100M events | 15→2 min (87% reduction) | 100% | $26.4B | $13.2B (50%) |
-| Care coordination (complex chronic) | ~480M events | 90→10 min (89% reduction) | 100% | $19.0B | $17.1B (90%) |
+| Vertical | Annual US volume | Time-saving per task (manual → AI) | Quality rubric pass | Theoretical max labor-value | **Realistic probable (× 0.18 funnel discount)** | Accruing to female labor (theoretical) |
+|---|---|---|---|---|---|---|
+| Prior authorization | ~850M events | 16→3 min (81% reduction) | 100% | $5.5B | **$1.0B** | $4.1B (75%) |
+| Clinical documentation (ambient note generation) | ~4100M events | 15→2 min (87% reduction) | 100% | $26.4B | **$4.8B** | $13.2B (50%) |
+| Care coordination (complex chronic) | ~480M events | 90→10 min (89% reduction) | 100% | $19.0B | **$3.4B** | $17.1B (90%) |
 
-**Aggregate annual labor-value recovery across all three verticals: ~$51B/year (projected).** Roughly **68%** ($34B) accrues to the labor pool of medical billers, office administrators, nurses, and care coordinators — work that is disproportionately performed by women (BLS occupational demographics). This is the specific empirical channel through which Claude-for-Healthcare has a sex-asymmetric labor-economic footprint, even though the vertical targets (providers, payers, health systems) are not themselves sex-specific.
+**Aggregate: theoretical max ~$51B/year (projected) · realistic probable ~$9.2B/year (with 0.18 funnel discount).** Roughly **68%** ($34B) accrues to the labor pool of medical billers, office administrators, nurses, and care coordinators — work that is disproportionately performed by women (BLS occupational demographics). This is the specific empirical channel through which Claude-for-Healthcare has a sex-asymmetric labor-economic footprint, even though the vertical targets (providers, payers, health systems) are not themselves sex-specific.
 
 > [!IMPORTANT]
 > **The $51B/year figure is a scenario projection, not a measured recovery.** Claude performed one representative task per vertical (total n=3 measured tasks). The annualization multiplies that pilot-scale quality signal by published US annual volumes and literature-derived time-saving parameters. The measured inputs are: (a) Claude produced rubric-passing output on each representative task (100% pass rate), and (b) published time-saving estimates for AI-scribe and AI-prior-auth adoption from the named reference studies. The projection assumes those time-savings generalize to production deployment at the stated volumes, and that recovered time converts fully to alternative productive work. Both assumptions are sensitivity-driving: halving the time-saving parameter halves the estimate, and discounting for administrative-slack reabsorption at, say, 30% reduces the figure to ~$36B. An extension-phase study would measure real deployment time-savings at enterprise partners rather than assume them.

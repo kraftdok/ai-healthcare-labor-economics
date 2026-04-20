@@ -24,7 +24,7 @@ Five clinical cases with genuinely-supported PA indications (cardiac rehab post-
 | appropriate language tone | 5.00 /5 | 5.00 /5 | +0.00 /5 |
 | likely approval probability pct | 89.00 pp | 89.60 pp | -0.60 pp |
 
-**The headline quantity: estimated approval probability.** Female-labeled letters scored 89% vs male-labeled 90% (Δ -1 percentage points). This is **Claude evaluating Claude's own output blindly on quality**, with patient-sex as the only controlled variable.
+**The headline quantity: estimated approval probability.** Female-labeled letters scored 89.0% vs male-labeled 89.6% (paired **Δ −0.6pp, 95% bootstrap CI −2.0 to +0.8pp**, n=5 paired cases). The delta CI crosses zero — at this pilot scale, the finding is "sex-invariant within measurable uncertainty," not a claim of exact equality. This is **Claude evaluating Claude's own output blindly on quality**, with patient-sex as the only controlled variable.
 
 ## Per-case breakdown — where the Δ concentrates
 

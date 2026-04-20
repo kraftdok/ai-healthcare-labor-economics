@@ -1,16 +1,24 @@
 # The Contested Consensus Study — Claude's Behavior on Clinically Split Decisions
 
-*An empirical test of Anthropic's monolithic-model architectural bet on clinical uncertainty, framed against the Verily / JAMA 2025 decomposed-agent architectural critique.*
+*A measurement of the epistemic-humility behavior of a monolithic-model deployment (Claude Opus 4.7) on contested clinical decisions. Positioned within — but not an adjudication of — the Verily / JAMA 2025 debate on monolithic-vs-decomposed clinical AI architectures.*
 
 **Author:** Oriana Kraft | **Date:** 2026-04-17 | **Model:** claude-opus-4-7 | **Sample:** 60 responses (10 decisions × 3 framings × 2 reps)
 
-## The architectural question
+## What this measures — and what it does not
 
 A 2025 JAMA randomized trial of 21 frontier LLMs reported a 90–100% differential-diagnosis failure rate despite 81–90% answer-level accuracy. The stated conclusion: off-the-shelf LLMs **cannot yet be trusted in frontline decision-making**, not because they can't land on right answers, but because they reason unsafely through uncertainty. Verily's response is an architectural thesis: healthcare AI safety is not achievable through better monolithic models; it requires **clinical decomposition** — specialized agents with structured handoffs, diverse reasoning with conservative consensus, multi-stage emergency detection, explicit eligibility rules, and mandatory structured rationale.
 
-Anthropic's Claude for Healthcare makes the opposite architectural bet: safety via Constitutional AI training and calibrated uncertainty behavior, within a single model. Whether that bet holds up on clinical uncertainty is an empirical question.
+Anthropic's Claude for Healthcare deployment takes a different approach: safety via Constitutional AI training and calibrated uncertainty behavior, within a single model. **Whether *monolithic models can exhibit safe epistemic-humility behavior on contested clinical decisions* is an empirical question — and this study measures exactly that quantity on Claude.**
 
-This study tests that bet on 10 clinical decisions where guideline consensus is demonstrably split.
+### What this study is
+
+- A direct measurement of Claude's own behavior (rate of premature collapse, rate of deferral, rate of citing guidelines, rate of presenting multiple positions) on 10 decisions where guidelines demonstrably disagree.
+- A pilot-scale test (n=60 responses) with a pre-registered rubric mapped to the four Verily-named failure modes.
+
+### What this study is NOT
+
+- **It is not a head-to-head comparison against a decomposed-agent system.** No Verily-style multi-agent architecture was implemented or benchmarked in this repository. The comparison is positional (does Claude appear to satisfy the epistemic-humility criteria Verily names as necessary for safe deployment?) and not experimental (does Claude outperform Verily's architecture on matched inputs?).
+- **It is not a settlement of the monolithic-vs-decomposed debate.** It is one datapoint contributing to that debate. Settling it would require building and benchmarking the decomposed architecture on the same decision set. That is extension-phase work and is called out explicitly in the limitations.
 
 ## Mapping rubric to Verily's four failure modes
 
@@ -51,7 +59,7 @@ The **safety-aligned behavior profile** is high `ack_disagreement` + high `multi
 | Confident recommendation *without* acknowledged disagreement (potential premature collapse) | 2 | 3% |
 | No specific recommendation (deferral) | 56 | 93% |
 
-**The fraction of responses showing potential premature-collapse behavior is 3%.** This is the number to weigh against Verily's 90–100% DDx failure-rate finding: when evidence is genuinely contested and Claude nonetheless recommends without acknowledging the disagreement, it exhibits the exact reasoning failure the JAMA study warns about. Scaling to n≥30 per decision × per framing with inter-rater human scoring is the extension phase.
+**The fraction of responses showing potential premature-collapse behavior is 3.3% [95% Wilson CI 0.9–11.4%].** This is the number to weigh against Verily's 90–100% DDx failure-rate finding: when evidence is genuinely contested and Claude nonetheless recommends without acknowledging the disagreement, it exhibits the exact reasoning failure the JAMA study warns about. **The CI spans ~10× (0.9% to 11.4%)**, which is the honest statement about what a 2/60 pilot-scale measurement can support — a directional safety signal, not a precise rate estimate. Scaling to n≥30 per decision × per framing with inter-rater human scoring is the extension phase.
 
 ## Women's health vs general medicine — is deference asymmetric?
 
