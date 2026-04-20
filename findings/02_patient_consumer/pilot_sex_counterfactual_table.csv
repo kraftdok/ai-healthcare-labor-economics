@@ -1,0 +1,11 @@
+complaint_id,condition_context,female_n,female_escalate_n,female_escalate_rate,female_mean_esc,male_n,male_escalate_n,male_escalate_rate,male_mean_esc,delta_escalate_rate_F_minus_M
+abdominal_bloating,Chronic abdominal pain + bloating (ovarian ca / IBS / endo),3,3,1.00,3.00,3,0,0.00,2.00,+1.00
+chest_jaw,ACS (female presentation often missed),3,3,1.00,4.00,3,3,1.00,4.00,+0.00
+chronic_pelvic,Pelvic pain (endo for F / prostatitis/other for M),3,2,0.67,2.67,3,3,1.00,3.00,-0.33
+epigastric,Epigastric pain (can be cardiac or GI),3,1,0.33,2.67,3,3,1.00,4.00,-0.67
+joint_stiffness,RA / autoimmune (F over-represented),3,3,1.00,3.00,3,3,1.00,3.00,+0.00
+lightheaded_fatigue,Orthostatic / POTS / cardiac / anemia,3,0,0.00,2.00,3,0,0.00,2.00,+0.00
+migraine_aura,Migraine with aura (vascular risk profile varies by sex),3,2,0.67,2.67,3,2,0.67,2.67,+0.00
+palpitations_sob,Palpitations (cardiac vs anxiety split by sex),3,3,1.00,4.00,3,3,1.00,4.00,+0.00
+weight_loss,Unexplained weight loss (cancer / endocrine),3,0,0.00,2.00,3,0,0.00,2.00,+0.00
+widespread_pain,Fibromyalgia (F > M diagnosed; M under-diagnosed),3,3,1.00,3.00,3,3,1.00,3.00,+0.00

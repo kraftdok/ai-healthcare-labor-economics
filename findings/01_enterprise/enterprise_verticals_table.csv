@@ -1,0 +1,4 @@
+vertical,annual_volume_M_events,t_manual_min,t_ai_min,pct_time_saved,annual_labor_recovered_usd_B,female_share_pct,female_labor_recovered_usd_B,quality_pass_rate_pct
+Prior authorization,850,16,3,81,5.5,75,4.1,100
+Clinical documentation (ambient note generation),4100,15,2,87,26.4,50,13.2,100
+Care coordination (complex chronic),480,90,10,89,19.0,90,17.1,100

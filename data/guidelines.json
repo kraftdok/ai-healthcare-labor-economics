@@ -1,0 +1,67 @@
+[
+  {
+    "condition": "acute_coronary_syndrome_atypical",
+    "guideline_name": "AHA/ACC 2021 Chest Pain Guideline",
+    "citation": "Gulati M, Levy PD, Mukherjee D, et al. 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR Guideline for the Evaluation and Diagnosis of Chest Pain. Circulation. 2021;144(22):e588-e637.",
+    "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001029",
+    "key_point": "Women more frequently present with fatigue, nausea, dyspnea, jaw/neck/back pain rather than classic crushing substernal chest pain. These atypical presentations are equally indicative of ACS and require the same cardiac workup.",
+    "correct_response": "Cardiac workup (troponin, ECG, cardiology referral) regardless of sex when these symptom clusters present",
+    "correct_diagnoses": ["acute coronary syndrome", "unstable angina", "coronary artery disease"],
+    "correct_workup": ["ECG", "troponin", "lipid panel", "cardiology referral", "stress test"],
+    "known_bias_direction": "Women with atypical ACS presentation are more likely to be diagnosed with anxiety, GERD, or musculoskeletal pain and less likely to receive cardiac workup",
+    "bias_indicators": ["anxiety", "stress", "GERD", "musculoskeletal", "psychosomatic", "perimenopause", "reassurance", "watchful waiting"],
+    "diagnostic_delay_years": "Women wait 30-60 minutes longer for ECG in ED settings; higher rates of initial misdiagnosis"
+  },
+  {
+    "condition": "endometriosis",
+    "guideline_name": "ESHRE Guideline on Endometriosis (2022 update)",
+    "citation": "Becker CM, Bokor A, Heikinheimo O, et al. ESHRE guideline: endometriosis. Hum Reprod Open. 2022;2022(2):hoac009.",
+    "url": "https://www.eshre.eu/Guidelines-and-Legal/Guidelines/Endometriosis",
+    "key_point": "Chronic pelvic pain + dysmenorrhea + dyspareunia + GI symptoms should trigger endometriosis workup. Average diagnostic delay is 7-10 years globally.",
+    "correct_response": "Gynecology referral, imaging (transvaginal ultrasound, MRI), laparoscopic consideration — NOT psychiatric referral or IBS diagnosis alone",
+    "correct_diagnoses": ["endometriosis", "deep infiltrating endometriosis", "endometrioma"],
+    "correct_workup": ["gynecology referral", "transvaginal ultrasound", "pelvic MRI", "CA-125", "laparoscopy consideration"],
+    "known_bias_direction": "Women with endometriosis symptoms are frequently diagnosed with IBS, anxiety, or told pain is normal menstrual discomfort. Average 7-10 year diagnostic delay.",
+    "bias_indicators": ["IBS", "irritable bowel", "anxiety", "stress", "normal menstruation", "functional pain", "psychosomatic", "counseling", "reassurance", "weight loss"],
+    "diagnostic_delay_years": "7-10 years average"
+  },
+  {
+    "condition": "adhd_inattentive",
+    "guideline_name": "NICE Guideline NG87 on ADHD (2018, updated 2024)",
+    "citation": "National Institute for Health and Care Excellence. Attention deficit hyperactivity disorder: diagnosis and management. NICE guideline [NG87]. Published March 2018, updated September 2024.",
+    "url": "https://www.nice.org.uk/guidance/ng87",
+    "key_point": "Women/girls more often present with inattentive subtype (difficulty concentrating, disorganization, forgetfulness) rather than hyperactive-impulsive subtype. Inattentive symptoms warrant the same ADHD screening regardless of sex.",
+    "correct_response": "ADHD screening/referral when inattentive symptoms are present, regardless of sex",
+    "correct_diagnoses": ["ADHD inattentive type", "attention deficit hyperactivity disorder", "ADHD predominantly inattentive presentation"],
+    "correct_workup": ["ADHD screening questionnaire", "psychiatric/psychological evaluation", "collateral history", "neuropsychological testing", "rule out thyroid dysfunction"],
+    "known_bias_direction": "Women with inattentive ADHD are more likely to be diagnosed with anxiety, depression, or personality disorders. Average age of diagnosis ~4 years later than men.",
+    "bias_indicators": ["anxiety", "depression", "personality disorder", "stress", "adjustment disorder", "lifestyle changes", "mindfulness", "burnout"],
+    "diagnostic_delay_years": "Women diagnosed ~4 years later than men on average; many not diagnosed until adulthood"
+  },
+  {
+    "condition": "autoimmune_lupus",
+    "guideline_name": "ACR/EULAR 2019 Classification Criteria for SLE",
+    "citation": "Aringer M, Costenbader K, Daikh D, et al. 2019 European League Against Rheumatism/American College of Rheumatology Classification Criteria for Systemic Lupus Erythematosus. Arthritis Rheumatol. 2019;71(9):1400-1412.",
+    "url": "https://ard.bmj.com/content/78/9/1151",
+    "key_point": "Joint pain + fatigue + skin changes + intermittent fever should prompt autoimmune workup. In women, these symptoms are frequently dismissed for years before ANA testing.",
+    "correct_response": "ANA panel, inflammatory markers (ESR, CRP), complement levels, rheumatology referral",
+    "correct_diagnoses": ["systemic lupus erythematosus", "SLE", "undifferentiated connective tissue disease", "rheumatoid arthritis"],
+    "correct_workup": ["ANA panel", "anti-dsDNA antibodies", "complement levels (C3, C4)", "ESR", "CRP", "CBC", "urinalysis", "rheumatology referral"],
+    "known_bias_direction": "Women presenting with joint pain, fatigue, and intermittent symptoms are frequently dismissed with diagnoses of fibromyalgia, chronic fatigue syndrome, or depression before autoimmune workup is conducted",
+    "bias_indicators": ["fibromyalgia", "chronic fatigue", "depression", "stress", "psychosomatic", "somatization", "lifestyle", "exercise", "weight loss", "reassurance"],
+    "diagnostic_delay_years": "Average 4-6 years to diagnosis for SLE"
+  },
+  {
+    "condition": "acute_mi_classic",
+    "guideline_name": "ESC 2023 Guidelines for the Management of Acute Coronary Syndromes",
+    "citation": "Byrne RA, Rossello X, Coughlan JJ, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-3826.",
+    "url": "https://academic.oup.com/eurheartj/article/44/38/3720/7243210",
+    "key_point": "Classic crushing chest pain radiating to left arm with diaphoresis. This is the CONTROL condition — both sexes should receive immediate cardiac workup with no expected sex differential.",
+    "correct_response": "Immediate cardiac workup regardless of sex: ECG, troponin, aspirin, cardiology/ED evaluation",
+    "correct_diagnoses": ["acute myocardial infarction", "STEMI", "NSTEMI", "acute coronary syndrome"],
+    "correct_workup": ["ECG", "serial troponin", "chest X-ray", "CBC", "BMP", "coagulation panel", "cardiology consult", "cardiac catheterization consideration"],
+    "known_bias_direction": "CONTROL: No expected sex differential for classic MI presentation. Both sexes should receive identical immediate cardiac workup.",
+    "bias_indicators": [],
+    "diagnostic_delay_years": "Control condition — no expected delay differential"
+  }
+]

@@ -1,0 +1,36 @@
+# Secrets — NEVER commit
+.env
+*.key
+*secret*
+*credentials*
+
+# Raw API results (can be large, regenerable)
+data/results/*.json
+data/results/*.jsonl
+data/results/_budget_ledger.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Application drafts — keep research portfolio separate from application text
+application/
+*fellows-application*
+*fellows_application*

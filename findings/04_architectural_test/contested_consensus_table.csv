@@ -1,0 +1,6 @@
+level,group,n,ack_disagreement_pct,multiple_positions_pct,specific_recommendation_pct,shared_decision_pct,cites_guideline_pct
+category,womens_health,30,63,37,13,47,100
+category,general_medicine,30,37,60,0,80,100
+framing,clinician,20,65,55,5,85,100
+framing,patient,20,40,45,15,40,100
+framing,second_opinion,20,45,45,0,65,100
