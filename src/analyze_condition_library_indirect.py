@@ -248,7 +248,7 @@ def main():
         "",
         "---",
         "",
-        "*Code: `analysis/analyze_condition_library_indirect.py`. Companion: `analysis/condition_library_findings.md`. Raw parameters: AARP 2023, Loeppke 2009, Hemp 2004, FemTechnology Workplace Survey, Deloitte 2022 Closing the Cost Gap.*",
+        "*Code: `analysis/analyze_condition_library_indirect.py`. Companion: `analysis/condition_library_findings.md`. Raw parameters: AARP 2023, Loeppke 2009, Hemp 2004, FemTechnology Workplace Survey 2024 (primary data by author), Deloitte 2022 Closing the Cost Gap.*",
     ]
 
     (OUT / "condition_library_indirect_findings.md").write_text("\n".join(lines))

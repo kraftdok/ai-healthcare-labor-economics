@@ -88,7 +88,7 @@ def main():
         "",
         "### (4) Demand-side grounding from the workplace survey",
         "",
-        "981 respondents across 42 countries (FemTechnology Workplace Survey): 62% have taken time off for a women's-health-related condition; mean 4.7 days lost annually per respondent; mean 2.7 productivity-impacted days per month. Estimated US-scaled annual labor-value footprint of $616–862B. Critically, 77% agree the gender data gap significantly impacts healthcare AI quality for women, and 70% want their organizations to collect more representative health data — meaning the consumer-facing population most affected by women's-health-related workforce disruption is also the population most articulated in their concerns about AI quality.",
+        "981 respondents across 42 countries (FemTechnology Workplace Survey 2024, primary data by author): 62% have taken time off for a women's-health-related condition; mean 4.7 days lost annually per respondent; mean 2.7 productivity-impacted days per month. Estimated US-scaled annual labor-value footprint of $616–862B. Critically, 77% agree the gender data gap significantly impacts healthcare AI quality for women, and 70% want their organizations to collect more representative health data — meaning the consumer-facing population most affected by women's-health-related workforce disruption is also the population most articulated in their concerns about AI quality.",
         "",
         "*Source: `analysis/workforce_survey_findings.md`*",
         "",

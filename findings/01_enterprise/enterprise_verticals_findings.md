@@ -23,6 +23,20 @@ This pilot uses Claude Opus 4.7 to perform a representative task in each vertica
 > [!IMPORTANT]
 > **The $51B/year figure is a scenario projection, not a measured recovery.** Claude performed one representative task per vertical (total n=3 measured tasks). The annualization multiplies that pilot-scale quality signal by published US annual volumes and literature-derived time-saving parameters. The measured inputs are: (a) Claude produced rubric-passing output on each representative task (100% pass rate), and (b) published time-saving estimates for AI-scribe and AI-prior-auth adoption from the named reference studies. The projection assumes those time-savings generalize to production deployment at the stated volumes, and that recovered time converts fully to alternative productive work. Both assumptions are sensitivity-driving: halving the time-saving parameter halves the estimate, and discounting for administrative-slack reabsorption at, say, 30% reduces the figure to ~$36B. An extension-phase study would measure real deployment time-savings at enterprise partners rather than assume them.
 
+### Funnel assumptions
+
+The labor-value projection assumes a 100% conversion rate at each stage of the causal chain from AI output to realized recovery:
+
+| Funnel stage | Assumed rate in this projection | Realistic range |
+|---|---|---|
+| Claude produces rubric-passing output | **100%** (measured at pilot scale) | 80–100% |
+| Output is adopted into the production workflow | 100% | 40–80% |
+| Adopted workflow actually reduces clinician/biller time | 100% | 50–90% |
+| Recovered time converts to alternative productive labor (not absorbed as slack) | 100% | 30–80% |
+| Labor-value translation captures the economic effect correctly | 100% | 70–100% |
+
+Multiplying realistic-range midpoints through the chain (0.9 × 0.6 × 0.7 × 0.55 × 0.85 ≈ **0.18**) produces an expected-value discount of ~80% on the aggregate. Under that funnel, the $51B projection becomes roughly **$9–12B** of realized recovery — still large, but an order of magnitude below the headline. The projection is therefore an **upper bound**; modeling each conversion rate explicitly, with published adoption/compliance parameters where they exist, is the primary extension work.
+
 ## Quality detail
 
 **Prior authorization** — rubric pass rate 100%

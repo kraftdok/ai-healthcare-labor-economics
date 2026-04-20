@@ -228,6 +228,28 @@ def compute_all_cascades() -> dict:
         presenteeism_factor=1.2,
     )
 
+    # -------------------------------------------------------------------------
+    # ACS (acute coronary syndrome) — KNOWN METHODOLOGICAL COMPROMISE
+    #
+    # ACS does not fit the chronic diagnostic-delay cascade this function
+    # implements. For chronic conditions, the cascade computes labor recovery
+    # as (diagnosis-acceleration years × annual productivity/healthcare
+    # parameters). For ACS, the relevant cost is the acute event itself (PCI
+    # delay, post-MI disability deferral), which is a one-time event, not an
+    # annualized flow.
+    #
+    # This pilot inserts ACS using an acute-event override rather than
+    # building a separate acute-event model. The override parameters below
+    # are sourced from AHA post-MI rehab guidelines (~45-day recovery median)
+    # and published PCI-delay cost literature (~$20K excess healthcare cost
+    # for delayed vs. timely intervention). The cascade-model output is
+    # overwritten post-hoc.
+    #
+    # Readers should treat the ACS projection as ILLUSTRATIVE ONLY. A proper
+    # acute-event cost model (chained with probability of progression to
+    # disability) is extension-phase work. This override is called out in
+    # the README's "Known limitations" section.
+    # -------------------------------------------------------------------------
     cascades["acs_female"] = compute_cascade(
         condition_name="ACS — Female Presentation (Acute)",
         diagnosis_acceleration_years=0.03,  # ~12 hours saved (measured in year fraction)
@@ -238,7 +260,7 @@ def compute_all_cascades() -> dict:
         avg_disability_acceleration_years=10,
         presenteeism_factor=1.0,
     )
-    # Override ACS with acute economics (not annual delay model)
+    # Override ACS with acute-event economics (cascade model does not apply — see header block).
     cascades["acs_female"]["per_patient"]["healthcare_saved"] = 20_000  # delayed vs. timely PCI
     cascades["acs_female"]["per_patient"]["total_lifetime_economic_value"] = (
         20_000 +  # healthcare
@@ -251,6 +273,11 @@ def compute_all_cascades() -> dict:
     )
     cascades["acs_female"]["population"]["total_billions"] = round(
         cascades["acs_female"]["population"]["total_economic_impact"] / 1e9, 2
+    )
+    cascades["acs_female"]["notes"] = (
+        "Override: cascade model does not apply to acute events; parameters sourced "
+        "from AHA post-MI rehab guidelines + published PCI-delay cost literature. "
+        "Treat as illustrative only. See header comment block above."
     )
 
     cascades["pcos"] = compute_cascade(

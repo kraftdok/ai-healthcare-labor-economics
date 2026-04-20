@@ -4,7 +4,7 @@
 
 **Author:** Oriana Kraft
 **Date:** April 2026
-**Dataset:** FemTechnology Workplace Survey (proprietary), N = 981 respondents across 42 countries.
+**Dataset:** FemTechnology Workplace Survey 2024 (primary data by author, N=981 respondents across 42 countries; public summary: [workplace.femtechnology.org](https://workplace.femtechnology.org)).
 
 ---
 
@@ -131,4 +131,4 @@ This is a demand-side signal: the same population reporting workforce disruption
 
 ---
 
-*Analysis script: `analysis/analyze_workforce_survey.py`. Raw table: `analysis/workforce_survey_table.csv`. Figure: `analysis/workforce_survey_figure.png`. Source: FemTechnology Workplace Survey (2024), proprietary.*
+*Analysis script: `analysis/analyze_workforce_survey.py`. Raw table: `analysis/workforce_survey_table.csv`. Figure: `analysis/workforce_survey_figure.png`. Source: FemTechnology Workplace Survey 2024 (primary data by author; public summary: workplace.femtechnology.org).*

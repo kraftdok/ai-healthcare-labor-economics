@@ -8,6 +8,23 @@ The repository contains six measurement arms, each runnable against the Claude A
 
 ---
 
+## Known limitations and extension work
+
+This is a pilot, not a completed study. The following limitations are foregrounded rather than hidden:
+
+- **Single-model evaluation.** The repository tests Claude only (claude-opus-4-7, plus Claude in a PA-reviewer role). Extension work includes GPT-5, Gemini 2.5, and one open-source model on the same prompts.
+- **Single-rater rubric classification.** Response classification uses author-written regex-based keyword scoring. No inter-rater reliability or blinded clinician arm. Extension work adds a clinician-blind second rater on ≥50 responses per arm with Cohen's kappa reporting.
+- **Author-constructed prompts and ground truth.** All clinical vignettes and guideline-match rubrics were written by the author. Extension work swaps in a standardized benchmark (OSCE / MedQA / AMBOSS) as an external reference.
+- **Small n.** Each arm runs 30–60 API calls. Extension work scales to n≥30 per cell with bootstrap CIs.
+- **Funnel leakage not modeled.** Correct Claude routing ≠ patient acts on routing ≠ system compliance ≠ treatment initiation ≠ sustained outcome. Each conversion rate is assumed = 1.0 in the current projections. See *Funnel assumptions* in [`01_enterprise/enterprise_verticals_findings.md`](findings/01_enterprise/enterprise_verticals_findings.md) and [`03_condition_library/condition_library_findings.md`](findings/03_condition_library/condition_library_findings.md).
+- **Temperature = 1.0** (see [`config.py`](config.py)). Default production-realistic variability. Temperature sensitivity is not tested in this pilot; extension work includes temp ∈ {0.0, 0.3, 0.7, 1.0} to measure variance under deterministic vs. stochastic decoding.
+- **Primary data citations.** The FemTechnology Workplace Survey (N=981 across 42 countries, 2024) is primary data collected by the author, cited alongside peer-reviewed sources. Public summary: [workplace.femtechnology.org](https://workplace.femtechnology.org). Raw instrument and methodology documentation are held by FemTechnology and available on request for extension-phase validation.
+- **ACS condition is outside the cascade model.** The `acs_female` condition in `economic_model.py` uses a manual override because the chronic diagnostic-delay cascade does not fit acute coronary events. See the commented block in the code; a proper acute-event model is extension work.
+
+These are the primary gaps an extension-phase study would close.
+
+---
+
 ## Core question
 
 > When Claude enters clinical pathways, how much of the ~$600B annual labor-economic footprint of health-related workforce exit is recoverable, and for whom?

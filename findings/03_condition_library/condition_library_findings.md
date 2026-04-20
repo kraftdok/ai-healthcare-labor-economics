@@ -20,6 +20,35 @@
 
 These five conditions represent roughly 25–40% of the top-10 AI-addressable workforce-exit drivers in scope for the larger analysis. Extrapolating the observed-to-frontier range to the full top-10 produces aggregate US labor-recovery scenarios in the $40–200B range, which is consistent with the $100–300B range estimated independently from the WEF/McKinsey $1T global figure scaled to US.
 
+### Sensitivity to AI routing-capture rate
+
+The observed / median / frontier scenarios above correspond to implicit routing-capture rate assumptions. The table below makes those explicit and extends to additional capture fractions for reader-driven sensitivity analysis:
+
+| Capture rate | Implied scenario | Aggregate recovery (5 conditions) | Sex share (F / M) |
+|---|---|---|---|
+| 20% | observed (baseline adoption) | ~$12B | 42% F |
+| 40% | mid-range realistic | ~$25B | 43% F |
+| 50–60% | median | ~$35–42B | 42% F |
+| 80% | optimistic adoption | ~$58B | 42% F |
+| 100% | frontier (upper bound) | ~$73B | 42% F |
+
+**The sex-share is stable (42 ± 1%) across capture rates** — the condition mix, not the capture rate, drives the recovery distribution by sex.
+
+### Funnel assumptions
+
+The recovery projections above assume a 100% conversion rate at each stage of the causal chain from AI output to realized labor recovery:
+
+| Funnel stage | Assumed rate | Realistic range |
+|---|---|---|
+| Patient/clinician queries AI at the relevant journey node | 100% | 20–60% (driven by adoption) |
+| Claude provides guideline-concordant routing | **100%** (measured at pilot scale on n=30) | 80–100% |
+| Patient/clinician acts on routing | 100% | 40–80% |
+| Healthcare system (referral, insurance, specialist availability) complies | 100% | 50–85% |
+| Treatment initiation occurs | 100% | 70–95% |
+| Sustained outcome (no relapse, no re-delay) | 100% | 60–90% |
+
+Multiplying realistic-range midpoints through the full chain (0.4 × 0.9 × 0.6 × 0.7 × 0.8 × 0.75 ≈ **0.09**) discounts the aggregate recovery by ~90%. Under that funnel, the median $39.5B becomes roughly **$3.5B** of realized recovery. Modeling each conversion rate explicitly, with published adoption/compliance parameters, is the primary extension work. The current projections are **upper bounds** on recoverable value; they do not account for funnel leakage.
+
 ## Sex distribution of recovered labor
 
 The five conditions are not sex-symmetric in their recovery surface.
@@ -46,6 +75,7 @@ This is the methodology the full analysis would scale: Claude performing the cla
 2. AI-recovery rates (observed / median / frontier) are scenario assumptions calibrated against current AI-scribe and consumer-health-AI adoption literature; they are not empirically measured.
 3. Claude-as-classifier is single-rater and single-prompt at pilot stage; the extension phase would add prompt-variation and inter-rater comparison.
 4. Female-share estimates are based on BLS-derived occupation-sex distributions for the relevant care-delivery labor; individual-patient recovery would require more granular modeling.
+5. Funnel leakage between correct AI routing and realized recovery is not modeled (see *Funnel assumptions* above); current projections are upper bounds.
 
 ---
 

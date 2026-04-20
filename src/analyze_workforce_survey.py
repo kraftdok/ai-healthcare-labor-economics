@@ -160,7 +160,7 @@ with (OUT / "workforce_survey_findings.md").open("w") as f:
 
 **Author:** Oriana Kraft
 **Date:** April 2026
-**Dataset:** FemTechnology Workplace Survey (proprietary), N = {N} respondents across {len(countries)} countries.
+**Dataset:** FemTechnology Workplace Survey (primary data, N=981 × 42 countries; public summary: workplace.femtechnology.org), N = {N} respondents across {len(countries)} countries.
 
 ---
 
@@ -283,7 +283,7 @@ This is a demand-side signal: the same population reporting workforce disruption
 
 ---
 
-*Analysis script: `analysis/analyze_workforce_survey.py`. Raw table: `analysis/workforce_survey_table.csv`. Figure: `analysis/workforce_survey_figure.png`. Source: FemTechnology Workplace Survey (2024), proprietary.*
+*Analysis script: `analysis/analyze_workforce_survey.py`. Raw table: `analysis/workforce_survey_table.csv`. Figure: `analysis/workforce_survey_figure.png`. Source: FemTechnology Workplace Survey 2024 (primary data by author; public summary: workplace.femtechnology.org).*
 """)
 
 print("Wrote workforce_survey_findings.md")

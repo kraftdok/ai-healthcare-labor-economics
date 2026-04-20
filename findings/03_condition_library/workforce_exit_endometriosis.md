@@ -25,7 +25,7 @@ All parameters from published sources. No original data required at pilot stage.
 | US prevalence (reproductive-age women) | ~6.5M | ACOG; Soliman 2018 |
 | Severe / moderate-severe subset | ~15–20% of diagnosed | Nnoaham, *Fertil Steril* 2011 |
 | Diagnostic delay (US) | 6.7 years | Soliman, *Adv Ther* 2018 |
-| Annual productivity loss (severe cases) | 10.8 hrs/week; ~45 work days/year | Nnoaham 2011; FemTech Workplace Survey 2024 |
+| Annual productivity loss (severe cases) | 10.8 hrs/week; ~45 work days/year | Nnoaham 2011; FemTechnology Workplace Survey 2024 (primary data) |
 | Share reporting work disruption | 30–50% among severe | Nnoaham 2011; Hansen 2013 |
 | Share reporting extended career disruption / LF exit | 5–10% among severe (lower-bound estimate) | Culley 2013 qualitative; extrapolated from UK / EU workplace studies |
 | Median female working-age earnings (US, 2024) | ~$52,000 | BLS CES |

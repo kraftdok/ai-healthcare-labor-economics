@@ -66,7 +66,7 @@ PATHWAYS = {
         "productivity_data": {
             "days_lost_per_month": 3.8,
             "days_lost_per_year": 45.6,
-            "source": "Nnoaham KE et al., Fertil Steril 2011; FemTechnology Workplace Survey 2024",
+            "source": "Nnoaham KE et al., Fertil Steril 2011; FemTechnology Workplace Survey 2024 (primary data)",
             "presenteeism_factor": 1.4,  # additional productivity loss while at work
         },
 
@@ -585,7 +585,7 @@ PATHWAYS = {
             "days_lost_per_month": 2.5,
             "days_lost_per_year": 30,
             "early_disability_rate": 0.08,
-            "source": "FemTechnology Workplace Survey 2024; Ding T et al., 2018",
+            "source": "FemTechnology Workplace Survey 2024 (primary data); Ding T et al., 2018",
         },
 
         "journey_nodes": [
@@ -826,7 +826,7 @@ PATHWAYS = {
             "days_lost_per_month": 2.8,
             "days_lost_per_year": 33.6,
             "early_disability_rate": 0.05,
-            "source": "Faubion SS et al., 2023; FemTechnology Workplace Survey 2024",
+            "source": "Faubion SS et al., 2023; FemTechnology Workplace Survey 2024 (primary data)",
         },
 
         "journey_nodes": [
