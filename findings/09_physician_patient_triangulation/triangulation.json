@@ -1,0 +1,324 @@
+{
+  "patient_data_source": "FemTechnology Workplace Survey 2024, N=981 \u00d7 42 countries (primary data by author)",
+  "physician_data_source": "Roche/HBA/FemTechnology Women's Health Physician Survey 2024, N=200 \u00d7 6 countries (primary data by author)",
+  "triangulation_mapping": [
+    {
+      "patient_theme": "cardiovascular_female_presentation",
+      "patient_primary_pct": 3.3,
+      "patient_any_pct": 4.5,
+      "physician_conditions": [
+        "heart_attack_female",
+        "heart_failure",
+        "stroke"
+      ],
+      "physician_avg_across_countries_pct": 74.9,
+      "category": "convergent"
+    },
+    {
+      "patient_theme": "endometriosis_pcos_fibroids",
+      "patient_primary_pct": 1.8,
+      "patient_any_pct": 3.6,
+      "physician_conditions": [
+        "pcos"
+      ],
+      "physician_avg_across_countries_pct": 91.7,
+      "category": "convergent"
+    },
+    {
+      "patient_theme": "cancer_female_specific",
+      "patient_primary_pct": 0.6,
+      "patient_any_pct": 2.4,
+      "physician_conditions": [
+        "breast_cancer",
+        "ovarian_cancer",
+        "cervical_cancer",
+        "endometrial_cancer"
+      ],
+      "physician_avg_across_countries_pct": 66.8,
+      "category": "convergent"
+    },
+    {
+      "patient_theme": "menopause_perimenopause",
+      "patient_primary_pct": 10.0,
+      "patient_any_pct": 10.0,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "medical_dismissal_gaslighting",
+      "patient_primary_pct": 1.2,
+      "patient_any_pct": 1.8,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "autoimmune",
+      "patient_primary_pct": 0.6,
+      "patient_any_pct": 1.2,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "mental_health_neurodiversity",
+      "patient_primary_pct": 1.2,
+      "patient_any_pct": 3.6,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "pharmacokinetics_dosing",
+      "patient_primary_pct": 1.8,
+      "patient_any_pct": 3.6,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "pain_management",
+      "patient_primary_pct": 1.2,
+      "patient_any_pct": 3.0,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "fertility_pregnancy_postpartum",
+      "patient_primary_pct": 3.0,
+      "patient_any_pct": 5.5,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "caregiver_burden_maternal_load",
+      "patient_primary_pct": 0.6,
+      "patient_any_pct": 0.9,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "clinical_trials_representation",
+      "patient_primary_pct": 2.4,
+      "patient_any_pct": 3.6,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "intersectional_woc_lmic_age",
+      "patient_primary_pct": 2.7,
+      "patient_any_pct": 3.3,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "symptoms_presentation",
+      "patient_primary_pct": 29.4,
+      "patient_any_pct": 36.7,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    }
+  ],
+  "patient_only_themes_no_physician_specialty": [
+    {
+      "patient_theme": "menopause_perimenopause",
+      "patient_primary_pct": 10.0,
+      "patient_any_pct": 10.0,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "medical_dismissal_gaslighting",
+      "patient_primary_pct": 1.2,
+      "patient_any_pct": 1.8,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "autoimmune",
+      "patient_primary_pct": 0.6,
+      "patient_any_pct": 1.2,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "mental_health_neurodiversity",
+      "patient_primary_pct": 1.2,
+      "patient_any_pct": 3.6,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "pharmacokinetics_dosing",
+      "patient_primary_pct": 1.8,
+      "patient_any_pct": 3.6,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "pain_management",
+      "patient_primary_pct": 1.2,
+      "patient_any_pct": 3.0,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "fertility_pregnancy_postpartum",
+      "patient_primary_pct": 3.0,
+      "patient_any_pct": 5.5,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "caregiver_burden_maternal_load",
+      "patient_primary_pct": 0.6,
+      "patient_any_pct": 0.9,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "clinical_trials_representation",
+      "patient_primary_pct": 2.4,
+      "patient_any_pct": 3.6,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "intersectional_woc_lmic_age",
+      "patient_primary_pct": 2.7,
+      "patient_any_pct": 3.3,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    },
+    {
+      "patient_theme": "symptoms_presentation",
+      "patient_primary_pct": 29.4,
+      "patient_any_pct": 36.7,
+      "physician_conditions": null,
+      "physician_avg_across_countries_pct": null,
+      "category": "patient_only_no_physician_track"
+    }
+  ],
+  "convergent_themes": [
+    {
+      "patient_theme": "cardiovascular_female_presentation",
+      "patient_primary_pct": 3.3,
+      "patient_any_pct": 4.5,
+      "physician_conditions": [
+        "heart_attack_female",
+        "heart_failure",
+        "stroke"
+      ],
+      "physician_avg_across_countries_pct": 74.9,
+      "category": "convergent"
+    },
+    {
+      "patient_theme": "endometriosis_pcos_fibroids",
+      "patient_primary_pct": 1.8,
+      "patient_any_pct": 3.6,
+      "physician_conditions": [
+        "pcos"
+      ],
+      "physician_avg_across_countries_pct": 91.7,
+      "category": "convergent"
+    },
+    {
+      "patient_theme": "cancer_female_specific",
+      "patient_primary_pct": 0.6,
+      "patient_any_pct": 2.4,
+      "physician_conditions": [
+        "breast_cancer",
+        "ovarian_cancer",
+        "cervical_cancer",
+        "endometrial_cancer"
+      ],
+      "physician_avg_across_countries_pct": 66.8,
+      "category": "convergent"
+    }
+  ],
+  "physician_identified_condition_priorities_no_direct_patient_theme": [
+    {
+      "physician_condition": "amd_eye",
+      "specialty": "ophthalmology",
+      "avg_pct_across_countries": 86.0
+    },
+    {
+      "physician_condition": "osteoporosis_endo",
+      "specialty": "endocrinology",
+      "avg_pct_across_countries": 83.3
+    },
+    {
+      "physician_condition": "alzheimers_neurology",
+      "specialty": "neurology",
+      "avg_pct_across_countries": 80.0
+    },
+    {
+      "physician_condition": "ms_neurology",
+      "specialty": "neurology",
+      "avg_pct_across_countries": 76.0
+    },
+    {
+      "physician_condition": "diabetic_retinopathy",
+      "specialty": "ophthalmology",
+      "avg_pct_across_countries": 74.0
+    },
+    {
+      "physician_condition": "uveitis",
+      "specialty": "ophthalmology",
+      "avg_pct_across_countries": 70.0
+    },
+    {
+      "physician_condition": "hypertension_cv",
+      "specialty": "cardiology",
+      "avg_pct_across_countries": 63.0
+    },
+    {
+      "physician_condition": "rvo_eye",
+      "specialty": "ophthalmology",
+      "avg_pct_across_countries": 58.0
+    },
+    {
+      "physician_condition": "lung_cancer",
+      "specialty": "oncology",
+      "avg_pct_across_countries": 48.0
+    },
+    {
+      "physician_condition": "diabetes_type2",
+      "specialty": "endocrinology",
+      "avg_pct_across_countries": 46.7
+    },
+    {
+      "physician_condition": "dme_eye",
+      "specialty": "ophthalmology",
+      "avg_pct_across_countries": 46.0
+    },
+    {
+      "physician_condition": "epilepsy",
+      "specialty": "neurology",
+      "avg_pct_across_countries": 44.0
+    },
+    {
+      "physician_condition": "hematological_cancer",
+      "specialty": "oncology",
+      "avg_pct_across_countries": 26.3
+    }
+  ],
+  "design_blind_spot_note": "The physician survey did not include tier-1 tracks for OB/GYN (covering menstrual, reproductive, menopause), Psychiatry (covering women's mental health, ADHD in women), Rheumatology (covering autoimmune, fibromyalgia), or Primary Care. This means entire clinical domains that patients prioritize are not represented in the physician-side data."
+}

@@ -1,0 +1,70 @@
+{
+  "source": "Women's Health Physician Survey — Detailed Country Report (Roche / HBA / FemTechnology). Primary data by author, co-produced with Roche Diagnostics and the Healthcare Businesswomen's Association. N = 200 physicians; 6 countries; 5 therapy areas; 40 respondents per therapy area; fielded August–October 2024.",
+  "methodology_note": "Physicians asked: 'Which [condition category] in women do you believe require more research?' — select all that apply. Values are % of physicians in that country × specialty cell who selected the condition. Tier-1 specialties surveyed: Oncology, Endocrinology, Cardiology, Neurology, Ophthalmology. OB/GYN, Psychiatry, Rheumatology, Primary Care were NOT surveyed in tier 1 (design blind spot).",
+  "sample_size_per_cell": {
+    "high_income": 10,
+    "middle_low_income": 5
+  },
+  "countries": {
+    "US": {"income_tier": "high", "n": 50},
+    "Germany": {"income_tier": "high", "n": 50},
+    "Brazil": {"income_tier": "upper_middle", "n": 25},
+    "Thailand": {"income_tier": "upper_middle", "n": 25},
+    "Morocco": {"income_tier": "low_middle", "n": 25},
+    "Egypt": {"income_tier": "low_middle", "n": 25}
+  },
+  "specialties_surveyed_tier_1": ["oncology", "endocrinology", "cardiology", "neurology", "ophthalmology"],
+  "specialties_NOT_surveyed_tier_1": ["obgyn", "psychiatry", "rheumatology", "primary_care"],
+  "data": {
+    "oncology_conditions_needing_more_research_pct": {
+      "US":       {"breast": 100, "ovarian": 100, "endometrial": 70, "cervical": 70, "lung": 50, "hematological": 30},
+      "Germany":  {"breast": 90,  "ovarian": 90,  "endometrial": 70, "cervical": 50, "lung": 50, "hematological": 40},
+      "Brazil":   {"breast": 16,  "ovarian": 16,  "endometrial": 16, "cervical": 16, "lung": 8,  "hematological": 8,  "_note": "Brazil pattern is anomalous — may reflect different response interpretation or survey translation"},
+      "Thailand": {"breast": 40,  "ovarian": 40,  "endometrial": 0,  "cervical": 20, "lung": 80, "hematological": 20},
+      "Egypt":    {"breast": 100, "ovarian": 100, "endometrial": 100, "cervical": 100, "lung": 40, "hematological": 60},
+      "Morocco":  {"breast": 100, "ovarian": 100, "endometrial": 100, "cervical": 100, "lung": 60, "hematological": 0}
+    },
+    "endocrinology_conditions_needing_more_research_pct": {
+      "US":       {"pcos": 90,  "osteoporosis": 80,  "thyroid": 70,  "diabetes": 20},
+      "Germany":  {"pcos": 100, "osteoporosis": 60,  "thyroid": 40,  "diabetes": 60},
+      "Brazil":   {"pcos": 100, "osteoporosis": 80,  "thyroid": 60,  "diabetes": 60},
+      "Thailand": {"pcos": 80,  "osteoporosis": 80,  "thyroid": 80,  "diabetes": 0},
+      "Egypt":    {"pcos": 80,  "osteoporosis": 100, "thyroid": 80,  "diabetes": 100},
+      "Morocco":  {"pcos": 100, "osteoporosis": 100, "thyroid": 100, "diabetes": 40}
+    },
+    "cardiology_conditions_needing_more_research_pct": {
+      "US":       {"stroke": 100, "heart_failure": 89, "heart_attack_symptoms": 89, "hypertension": 78},
+      "Germany":  {"stroke": 30,  "heart_failure": 80, "heart_attack_symptoms": 80, "hypertension": 40},
+      "Brazil":   {"stroke": 60,  "heart_failure": 40, "heart_attack_symptoms": 100, "hypertension": 20},
+      "Thailand": {"stroke": 100, "heart_failure": 40, "heart_attack_symptoms": 80, "hypertension": 100},
+      "Egypt":    {"stroke": 80,  "heart_failure": 100, "heart_attack_symptoms": 100, "hypertension": 40},
+      "Morocco":  {"stroke": 40,  "heart_failure": 60, "heart_attack_symptoms": 80, "hypertension": 100}
+    },
+    "neurology_conditions_needing_more_research_pct": {
+      "Germany":  {"migraines": 90,  "stroke": 80, "ms": 60,  "epilepsy": 60, "alzheimers": 60},
+      "Brazil":   {"migraines": 100, "stroke": 60, "ms": 40,  "epilepsy": 40, "alzheimers": 60},
+      "Thailand": {"migraines": 40,  "stroke": 40, "ms": 80,  "epilepsy": 0,  "alzheimers": 80},
+      "Egypt":    {"migraines": 100, "stroke": 20, "ms": 100, "epilepsy": 60, "alzheimers": 100},
+      "Morocco":  {"migraines": 100, "stroke": 20, "ms": 100, "epilepsy": 60, "alzheimers": 100}
+    },
+    "ophthalmology_conditions_needing_more_research_pct": {
+      "Germany":  {"amd": 90,  "dr": 70,  "dme": 70,  "rvo": 70, "uveitis": 70},
+      "Brazil":   {"amd": 100, "dr": 40,  "dme": 20,  "rvo": 20, "uveitis": 40},
+      "Thailand": {"amd": 100, "dr": 100, "dme": 0,   "rvo": 60, "uveitis": 60},
+      "Egypt":    {"amd": 80,  "dr": 100, "dme": 100, "rvo": 80, "uveitis": 80},
+      "Morocco":  {"amd": 60,  "dr": 60,  "dme": 40,  "rvo": 60, "uveitis": 100}
+    },
+    "cross_cutting_insights_by_country": {
+      "US": "Significant gaps identified across all therapy areas. Stroke (100%), ovarian/breast (100%), PCOS (90%) top.",
+      "Germany": "Similar pattern — PCOS (100%), breast/ovarian (90%), migraines (90%), AMD (90%).",
+      "Brazil": "Outlier: oncology responses low (16% range); strong cardiovascular signal (heart attack 100%); PCOS 100%.",
+      "Thailand": "Lung cancer (80%) highly prioritized (reflects regional smoking burden); stroke + hypertension 100%; MS 80%.",
+      "Egypt": "Near-universal urgency across all therapy areas — 100% for ovarian/breast/cervical/endometrial, diabetes, osteoporosis, MS, migraines, Alzheimer's, heart attack, heart failure, DR, DME.",
+      "Morocco": "Similar LMIC pattern — 100% on all oncology, all endocrinology, hypertension, migraines, MS, Alzheimer's, uveitis."
+    },
+    "design_blind_spot": {
+      "description": "The physician survey did not include tier-1 tracks for OB/GYN (covering menstrual, reproductive, menopause), Psychiatry (covering women's mental health, ADHD in women), Rheumatology (covering autoimmune, fibromyalgia), or Primary Care. This means entire clinical domains that patients prioritize are not represented in the physician-side data.",
+      "implication": "The patient taxonomy includes themes (menopause, medical dismissal, autoimmune, fertility/pregnancy) that HAVE NO physician-specialty counterpart in this dataset. The triangulation is therefore asymmetric — patient concerns cover broader domains than the specialties physicians were sampled from."
+    }
+  }
+}
