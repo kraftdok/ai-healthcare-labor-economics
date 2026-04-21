@@ -37,12 +37,14 @@ Healthcare is adopting AI 2.2× faster than the rest of the economy. Twelve mill
 
 ```
 findings/
+├── 00_bootstrap_cis.md        ← Wilson + bootstrap 95% CIs for every measured rate
 ├── 01_enterprise/             ← Claude for Healthcare vertical deployment
 ├── 02_patient_consumer/       ← patient-facing deployment surface  
 ├── 03_condition_library/      ← methodology validation across 5 conditions
 ├── 04_architectural_test/     ← monolithic vs decomposed (Verily/JAMA)
 ├── 05_proprietary_data/       ← workplace + physician survey re-analyses
-└── 06_methodology/            ← citation anchors + quantifications
+├── 06_methodology/            ← citation anchors + quantifications
+└── 08_womens_ai_gap_taxonomy/ ← Clio-style taxonomy of 618 open-ended responses
 ```
 
 ---
@@ -50,6 +52,12 @@ findings/
 ## Headline findings
 
 Findings below are labeled **[measured]** (behavioral observations of Claude on structured inputs at pilot scale) or **[projected]** (labor-economic scaling of measured inputs through published volume and wage parameters — scenario estimates, not observed recoveries). Limitations of each arm — small n, single-rater rubric, self-constructed prompts, assumption-driven volume parameters — are detailed in the corresponding findings memo.
+
+### Primary-data taxonomy (Clio-style, applied to survey free-text)
+
+| Arm | Finding |
+|---|---|
+| **Women's AI-healthcare gap taxonomy** [measured] | **16-theme taxonomy** of 618 open-ended responses from 981 working women × 42 countries. Top theme: **symptom-presentation gaps (29% primary / 37% any-label)** — ahead of any specific disease. **Menopause/perimenopause is #1 specific condition (10%)**, ahead of cardiovascular (3.3%) and reproductive (3.0%). **AI-literacy gap in 15–30% of respondents** — the same population reporting 77% concern about AI healthcare bias. **Only 1.4% of respondents name "bias audit"** as a remedy despite 23% naming "collect more data" — working women understand the input problem, not the deployment-time mitigation. [See full memo →](findings/08_womens_ai_gap_taxonomy/findings.md) |
 
 ### Measurement-grade (observed Claude behavior)
 

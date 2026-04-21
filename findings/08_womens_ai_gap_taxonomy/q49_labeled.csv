@@ -1,0 +1,331 @@
+country,primary_theme,all_themes,text
+Belgium,symptoms_presentation,symptoms_presentation,symptoms
+United States of America,general_all_across_the_board,general_all_across_the_board,All of the above
+United States of America,cardiovascular_female_presentation,cardiovascular_female_presentation;symptoms_presentation,"I have friend who is 42 just had a heart attack and was turned away because her symptoms as a woman were not indicative of an MI, she could have died. She had an emergency stent put in; and readmitted."
+United States of America,symptoms_presentation,symptoms_presentation;treatment_access_general,"symptoms, availability of treatment options."
+United States of America,mental_health_neurodiversity,mental_health_neurodiversity;intersectional_woc_lmic_age;symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, alternative treatment options, outcomes, age related treatment options, gender affirming care, mental health for those caring for others."
+France,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences,symptoms and patient reported outcomes
+United Kingdom,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes, patient reported outcomes, preferences)"
+India,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences;treatment_access_general,Treatment outcomes
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,IDK
+United States of America,other,,I don't really have experience with AI models
+Canada,autoimmune,autoimmune;mental_health_neurodiversity;general_all_across_the_board;ai_literacy_unsure_refusal,"not sure, all the above listed  - autoimmune disorders, hormonal imbalance, Bladder inflammatory, mental health"
+United States of America,pain_management,pain_management;symptoms_presentation;treatment_access_general,"symptoms, treatment, pain management, and affordability"
+United States of America,cardiovascular_female_presentation,cardiovascular_female_presentation;endometriosis_pcos_fibroids;pharmacokinetics_dosing;pain_management;mental_health_neurodiversity,"endometriosis, heart health, homone and endocrine systems, sexual arousal, pain management, mental health, pharma dosages, alzheimers, dementia,"
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,Unsure
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,Don't know
+United States of America,other,,"nutrition, exercise, wellness"
+United States of America,menopause_perimenopause,menopause_perimenopause;treatment_access_general,"birth control (complications associated with pills vs vasectomies), treatment of menopause (is there data on what it means, onset, duration, care after?)"
+United States of America,symptoms_presentation,symptoms_presentation;treatment_access_general,"insurance coverage, time to receive treatment, treatment duration, QofL, symptoms and symptom management, access to specialists."
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences,"symptoms, preferences"
+Japan,symptoms_presentation,symptoms_presentation,Symptoms
+United Kingdom,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,Unsure
+India,treatment_access_general,treatment_access_general,during treatment
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,symptoms and treatment outcomes
+Mexico,symptoms_presentation,symptoms_presentation;treatment_access_general,symptoms and then treatments needed for those symptoms.
+United States of America,intersectional_woc_lmic_age,intersectional_woc_lmic_age,Women of color
+Spain,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences,Preferences
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes"
+United States of America,other,,all
+United States of America,other,,Needs study
+Spain,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences,patient reported outcomes
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;diagnostic_accuracy;treatment_access_general,Symptoms with proper diagnosis and treatment outcomes based on gaps currently present.
+Switzerland,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences;treatment_access_general,patient reported outcomes and maybe treatment outcomes
+United Kingdom,pharmacokinetics_dosing,pharmacokinetics_dosing;mental_health_neurodiversity;symptoms_presentation;diagnostic_accuracy,"Neurodiversity, medicine dosage, symptoms, behaviours, diagnostic criteria"
+United States of America,symptoms_presentation,symptoms_presentation,symptoms
+United States of America,treatment_access_general,treatment_access_general,Treatment options
+India,autoimmune,autoimmune,Autoimmune disease
+United States of America,clinical_trials_representation,clinical_trials_representation;symptoms_presentation;treatment_outcomes_pro_preferences,"clinical trials, symptoms, preferences, outcomes"
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes, patient reported outcomes, preferences"
+Portugal,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,symptoms and treatment outcomes
+Spain,menopause_perimenopause,menopause_perimenopause,"menopause, menstrual health"
+United States of America,intersectional_woc_lmic_age,intersectional_woc_lmic_age,Race / ethnicity
+India,other,,-
+Turkey,menopause_perimenopause,menopause_perimenopause;symptoms_presentation;diagnostic_accuracy;treatment_access_general;ai_literacy_unsure_refusal,"I believe it is mostly in symptoms. Healthcare industry is still has not enough information on women health issues and hormonal swings. This results in binding all health problems to hormonal issues (PMS, menopause, etc.) and sometimes risk getting the right diagnose and treatment."
+Germany,general_all_across_the_board,general_all_across_the_board,"I believe across all the spectrum but I work in marketing, far from these kind of data"
+United States of America,general_all_across_the_board,general_all_across_the_board,all areas- we just have not collected enough information from women across all geographies
+Canada,symptoms_presentation,symptoms_presentation;treatment_access_general,Treatments and symptoms
+United States of America,general_all_across_the_board,general_all_across_the_board,All of the above
+United States of America,symptoms_presentation,symptoms_presentation;treatment_access_general,symptoms and treatment
+Germany,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences,"symptoms, outcomes"
+United States of America,pain_management,pain_management;symptoms_presentation;treatment_access_general,"Golden standard of therapy, level of pain, symptoms, administration of best treatment care for the individual not the population."
+Canada,other,,All of the examples provided in the question
+Mexico,symptoms_presentation,symptoms_presentation,SYMPTOMS
+India,fertility_pregnancy_postpartum,fertility_pregnancy_postpartum;cancer_female_specific;diagnostic_accuracy;treatment_access_general,"Cancer Diagnosis and Treatment, Maternal Health"
+Ireland,pharmacokinetics_dosing,pharmacokinetics_dosing,"pharmaceuticals, drugs researched and brought to market based on studies of male subjects traditionally"
+Greece,other,,i believe in all stages
+United States of America,menopause_perimenopause,menopause_perimenopause,Menopause and menstrual issues
+United States of America,intersectional_woc_lmic_age,intersectional_woc_lmic_age,Women of color
+United States of America,menopause_perimenopause,menopause_perimenopause;pain_management;symptoms_presentation;treatment_access_general,"So many symptoms related to menopause - weight gain, joint pain, elevated cholesterol - are not being treated as menopausal in nature.  Instead, they are being treated independently, and those treatments are often ineffective.  Even worse, they aren't treated at all and women are told to make lifestyle changes.  As a result, I don't think health data fully captures the impact of menopause and it's not possible to accurately determine risk/benefit of menopause hormone therapy versus therapies addressing individual menopausal symptoms."
+United States of America,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences,patient reported outcomes
+United States of America,symptoms_presentation,symptoms_presentation;treatment_access_general,"Symptoms, & treatment"
+United States of America,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences;treatment_access_general,Treatment approaches and outcomes
+United Kingdom,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;diagnostic_accuracy;treatment_access_general,"symptoms, diagnosis and triage, treatment outcomes, patient reported outcomes"
+United Kingdom,pharmacokinetics_dosing,pharmacokinetics_dosing;ai_literacy_unsure_refusal,"I am not aware of the data used by AI models - but I certainly have experienced personally that 'the normal dose' mandated on label (eg for hormones) is often not appropriate for me, leading me to question the diversity of data used to set the doses."
+India,other,,PRO
+Austria,symptoms_presentation,symptoms_presentation,symptoms
+Netherlands,general_all_across_the_board,general_all_across_the_board,"Everything that is under a taboo, so I think incidence is certainly impacted."
+France,symptoms_presentation,symptoms_presentation,symptoms
+United States of America,pain_management,pain_management,"Women report chronic pain more frequently than men, yet there’s a data gap on pain perception and management in women, making AI models less effective at addressing this."
+Colombia,symptoms_presentation,symptoms_presentation,Symptoms
+United States of America,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences,symptons and preferences
+France,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences,symptoms & social outcomes
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes"
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, BMI, PRO, preferences, out of pocket healthcare utilization and treatment outcomes."
+United States of America,clinical_trials_representation,clinical_trials_representation;general_all_across_the_board,"Across the board, all areas are likely underrepresented in AI models since historically men have been primarily studied and analyzed. I find that I am skeptical of most study results because of this factor unless a study design specifically identifies this bias and has mitigations to address it."
+Ireland,cardiovascular_female_presentation,cardiovascular_female_presentation;endometriosis_pcos_fibroids,"Heart health, migraines, weight fluctuation (PCOS)"
+Switzerland,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"connection of specific diseases/symptoms to women's health, treatment approaches, treatment outcomes"
+Japan,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I am not familiar with the research.
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I am unaware of AI models
+Ireland,caregiver_burden_maternal_load,caregiver_burden_maternal_load,"return to work after extended leave (e.g prolonged illness, return from maternity leave)"
+Japan,symptoms_presentation,symptoms_presentation,symptoms
+South Africa,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences,"Symptoms, preference"
+Switzerland,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes, patient reported outcomes, preferences"
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,Not sure
+United States of America,symptoms_presentation,symptoms_presentation;diagnostic_accuracy,symptoms and diagnosis.
+United States of America,medical_dismissal_gaslighting,medical_dismissal_gaslighting;diagnostic_accuracy,Doctors ignore women’s comments regarding their health more than men. Women can be seen as complainers and neurotic. I think more awareness training about this bias needs to take place in medical school to help change the diagnosis bias.
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;diagnostic_accuracy,"diagnosis, symptoms, patient reported outcomes, preferences"
+Mexico,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,Unaware.
+United States of America,other,,I do not know.
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences,"symptoms, outcomes"
+United States of America,symptoms_presentation,symptoms_presentation,symptoms
+United States of America,menopause_perimenopause,menopause_perimenopause;endometriosis_pcos_fibroids,"Endometriosis, ovarian cysts, menopause (including peri)"
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences,symptoms and preferences
+Brazil,menopause_perimenopause,menopause_perimenopause,menopause
+United States of America,cardiovascular_female_presentation,cardiovascular_female_presentation;autoimmune;mental_health_neurodiversity;cancer_female_specific,"cardiovascular disease, autoimmune disease, colon cancer, mental health disorders, like ADHD and autism"
+United States of America,other,,Sex is not typically a stratification factor so the basic underlying assumption is women and men are the same. AI is amplifying the use of biased data.
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes, patient reported outcomes, preferences all of these"
+United States of America,menopause_perimenopause,menopause_perimenopause;symptoms_presentation;treatment_access_general,Treatment of peri-menopause/menopause symptoms
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;diagnostic_accuracy,"symptoms, diagnosis, outcomes"
+United States of America,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences,"Patient reported outcomes, preferences."
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"All...symptoms, treatment outcomes, side effects of treatments in women, etc"
+United States of America,medical_dismissal_gaslighting,medical_dismissal_gaslighting;general_all_across_the_board;symptoms_presentation;diagnostic_accuracy;ai_literacy_unsure_refusal,"all areas because I think the source of the data has issues; when women see male doctors, many symptoms are dismissed off-hand, no idea if they are written down, women are off misdiagnosed or ignored."
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I have no experience with AI models.
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I don't think AI models belong in healthcare at all.
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences,patient reported outcomes linked to symptoms.
+United States of America,other,,All
+Spain,other,,N.A
+Canada,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,dont know
+United States of America,symptoms_presentation,symptoms_presentation,symptoms
+United States of America,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences;diagnostic_accuracy;treatment_access_general,"treatment outcomes when reported by physicians, diagnoses"
+Canada,pharmacokinetics_dosing,pharmacokinetics_dosing;clinical_trials_representation;treatment_outcomes_pro_preferences;treatment_access_general,study designs underrepresent women in general which then result in medications or treatment outcomes that are geared for men
+Canada,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I am not sure
+Canada,clinical_trials_representation,clinical_trials_representation,clinical trial data
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,unsure
+United States of America,fertility_pregnancy_postpartum,fertility_pregnancy_postpartum;pharmacokinetics_dosing;treatment_outcomes_pro_preferences;treatment_access_general,"treatment outcomes, treatment paradigms (e.g. dosing normed on young men vs. women or pregnant people, etc.), accessibility"
+Switzerland,diagnostic_accuracy,diagnostic_accuracy,My work has nothing to do with patient data or diagnosis. So I cannot answer that question.
+United Kingdom,other,,All
+United States of America,fertility_pregnancy_postpartum,fertility_pregnancy_postpartum;mental_health_neurodiversity;treatment_outcomes_pro_preferences;diagnostic_accuracy;treatment_access_general,"Insufficient studies and data on the connection between various mood and behavioral disorders and women diagnosed with ADHD; ie impact of ADHD on likelihood to develop PPD, differences in successful treatment outcomes, etc."
+South Africa,other,,Neutral
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I have no knowledge with the data used for AI models....
+United States of America,menopause_perimenopause,menopause_perimenopause;pharmacokinetics_dosing;symptoms_presentation,Vision related issues.  OTC medications.  Menopause symptoms.
+South Africa,symptoms_presentation,symptoms_presentation,Patient symptoms
+United States of America,menopause_perimenopause,menopause_perimenopause;cardiovascular_female_presentation,"cardiovascular, reproductive, menopause"
+United States of America,menopause_perimenopause,menopause_perimenopause;treatment_access_general,Menopause and post menopause - what are the available options? Which doctors to see? Access to appropriate doctors
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,i don't know.
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I don't know
+Belgium,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,Don't know
+United States of America,symptoms_presentation,symptoms_presentation,Symptoms and reported pain
+United Kingdom,menopause_perimenopause,menopause_perimenopause;fertility_pregnancy_postpartum,"menopause, fertility"
+Germany,clinical_trials_representation,clinical_trials_representation,Women's underrepresentation in clinical trials - both as Principal Investigators and as Patients
+Poland,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences,"symptoms, preferences"
+Belgium,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,Unsure
+Germany,other,,All of them..
+United Kingdom,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes, patient reported outcomes"
+United Kingdom,mental_health_neurodiversity,mental_health_neurodiversity,Impact of hormones on physical and mental health. Impact of menstrual cycle on physical and mental health.
+Switzerland,other,,I have never thought about AI for women specifically.
+Switzerland,diagnostic_accuracy,diagnostic_accuracy;treatment_access_general,"Treatment, diagnosis"
+Ireland,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,Symptoms and Treatment outcomes
+Belgium,other,,"My knowledge comes from reading articles and papers rather than hands on. I suppose the problem starts with the 'human created data'... for example, I was reading recently that tampons have never been tested with actual human blood. Its this type of lack of data in the analogue world that is deficient and then when AI is based on it, the AI is blamed... but fundamentally it is the underlying data that faulty."
+United Kingdom,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes, patient reported outcomes"
+United Kingdom,cardiovascular_female_presentation,cardiovascular_female_presentation;cancer_female_specific,"Cardiovascular, cancer"
+Denmark,cardiovascular_female_presentation,cardiovascular_female_presentation,Heart disease
+Netherlands,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences,"PROs, symptoms, preferences"
+Czechia (Czech Republic),general_all_across_the_board,general_all_across_the_board,All of the above
+India,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences,preferences
+South Africa,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"Symptoms, treatment options and alternatives and treatment outcomes"
+United Kingdom,symptoms_presentation,symptoms_presentation,symptoms
+Switzerland,general_all_across_the_board,general_all_across_the_board,Probably in everything
+Germany,symptoms_presentation,symptoms_presentation;treatment_access_general,"Symptoms , Treatment"
+Japan,symptoms_presentation,symptoms_presentation,symptoms
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, disease state, treatment, preferences"
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I am not sure the employer should be the one to collect this data.
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes, patient reported outcomes"
+United States of America,diagnostic_accuracy,diagnostic_accuracy,"all that are mentioned in the examples provided along with diagnosis - one diagnosis fits all, lack of discussion on how the diagnosis was determined, physicians ability to use the AI provided data correctly in their determination of the issue and the solution."
+United States of America,menopause_perimenopause,menopause_perimenopause,menopause
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,Unsure
+India,symptoms_presentation,symptoms_presentation,symptoms
+India,other,,All
+Italy,symptoms_presentation,symptoms_presentation,Symptoms
+Ireland,menopause_perimenopause,menopause_perimenopause;fertility_pregnancy_postpartum,"peri menopause, menopause, fertility"
+Ireland,menopause_perimenopause,menopause_perimenopause,Perimenopause & menopause
+United States of America,general_all_across_the_board,general_all_across_the_board,All across the women’s journey
+Ireland,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes, patient reported outcomes, preferences"
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"Symptoms, treatment outcomes, preferences"
+Libya,mental_health_neurodiversity,mental_health_neurodiversity,Mental health
+United States of America,menopause_perimenopause,menopause_perimenopause;symptoms_presentation;treatment_outcomes_pro_preferences,"Symptoms, natural hormonal progression from menses to menopause, preferences, empathy"
+United States of America,other,,Business case to support change
+Belgium,fertility_pregnancy_postpartum,fertility_pregnancy_postpartum,fertility
+United States of America,cardiovascular_female_presentation,cardiovascular_female_presentation,Cardiac care
+Italy,fertility_pregnancy_postpartum,fertility_pregnancy_postpartum;treatment_outcomes_pro_preferences;treatment_access_general,"Pregnancy, treatment outcomes, preferences"
+United States of America,fertility_pregnancy_postpartum,fertility_pregnancy_postpartum,"Fertility and in flight pregnancy illnesses  Bone density readouts and weight definitions (obesity, body fat determination)  Mental illnesses and pill based “solutions “ v.  deeper dives into traumas, workplace racisms, sexual harassments, fat shaming  LGBTQAI+ and trans biases"
+United States of America,menopause_perimenopause,menopause_perimenopause;symptoms_presentation;treatment_access_general,Menopause symptoms and treatment
+Czechia (Czech Republic),endometriosis_pcos_fibroids,endometriosis_pcos_fibroids;diagnostic_accuracy,"First of all, using AI is probably more typical for more advanced countries. Where I live the healthcare system seems behind.   Where I live there are practically no doctors who can diagnose and treat endometriosis. This is very scary for all the women who suffer from that condition. GPs practically treat everyone the same, women/ men. If I don’t ask even for a breast check that is my right every 2 years this is never offered to me. When even those basic steps are not followed we cannot talk about AI being properly trained."
+Switzerland,endometriosis_pcos_fibroids,endometriosis_pcos_fibroids;pain_management,"Anything related to women pain management, PCOS and endometriosis simply due to poor understanding and therefore poor availability of good data"
+Switzerland,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences,Patient reported outcomes
+Denmark,other,,Ménopause and menstrual cycle are two hormone driven health issues that underpin procreation and yet get little to no support or accommodation either in our school system or the workplace. Sad.
+Netherlands,general_all_across_the_board,general_all_across_the_board,Everything
+Germany,other,,Many
+Austria,symptoms_presentation,symptoms_presentation,Symptoms
+United States of America,symptoms_presentation,symptoms_presentation,Symptoms
+United States of America,menopause_perimenopause,menopause_perimenopause;symptoms_presentation,Menopausal symptoms
+United States of America,symptoms_presentation,symptoms_presentation,Symptoms
+United States of America,other,,"My experience has not been with women's health needs being underrepresented, but more sow how women communicate, that is underrepresented in data used for AI models. I think much of the data used for AI was from a male point of view and communication, but I don't have data to support this opinion."
+United States of America,treatment_access_general,treatment_access_general,Treatments
+United States of America,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences,Outcomes
+United States of America,cardiovascular_female_presentation,cardiovascular_female_presentation;symptoms_presentation,"Conditions that are not only experienced by women, such as heart attacks, but where the way symptoms present in men and women may be different"
+United States of America,endometriosis_pcos_fibroids,endometriosis_pcos_fibroids,Fibroids
+United States of America,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences,"Patient reported outcomes, preferences etc."
+United States of America,fertility_pregnancy_postpartum,fertility_pregnancy_postpartum;caregiver_burden_maternal_load,"Caregiving burden; tests designed by men for women (e.g., mammogram, pap smear); clinical data around pregnancy"
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,Not sure
+United Kingdom,symptoms_presentation,symptoms_presentation,Understanding specific female related symptoms
+United States of America,symptoms_presentation,symptoms_presentation;diagnostic_accuracy;treatment_access_general,"Symptoms, diagnoses, and treatment."
+Austria,general_all_across_the_board,general_all_across_the_board,all of the above
+United States of America,menopause_perimenopause,menopause_perimenopause;cancer_female_specific,Breast cancer screening; menopause; benefits
+United States of America,intersectional_woc_lmic_age,intersectional_woc_lmic_age,I would like to see more emphasis on transgender and non-binary employees and understanding and supporting their unique needs.
+United States of America,intersectional_woc_lmic_age,intersectional_woc_lmic_age,Women of color
+United States of America,menopause_perimenopause,menopause_perimenopause,Menopause
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences,"PROs, symptoms,"
+United States of America,other,,No sure how AI is being used yet in the healthcare field
+United States of America,general_all_across_the_board,general_all_across_the_board,All of the above
+United States of America,intersectional_woc_lmic_age,intersectional_woc_lmic_age;treatment_outcomes_pro_preferences,Patient reported outcomes in minority populations
+Canada,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,unsure
+United States of America,fertility_pregnancy_postpartum,fertility_pregnancy_postpartum;pharmacokinetics_dosing;ai_literacy_unsure_refusal,"Not sure about AI, but I know I was shocked when I was pregnant at the lack of information from medication on pregnancy."
+United States of America,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences,patient reported outcomes
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,Not informed enough to answer
+United States of America,pharmacokinetics_dosing,pharmacokinetics_dosing;symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes, provider/patient interactions, medications to address women-related issues"
+Belgium,mental_health_neurodiversity,mental_health_neurodiversity,"ADHD, high intelligence"
+United States of America,other,,I have not worked with AI models.
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I have no idea.  We need education on how AI is being used period.
+United States of America,other,,NA
+United States of America,medical_dismissal_gaslighting,medical_dismissal_gaslighting;symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,symptoms and treatment outcomes. Most doctors just tell you to lose weight or dismiss your concerns.
+United States of America,other,,Many different areas
+Switzerland,symptoms_presentation,symptoms_presentation,Symptoms for sure.
+United States of America,other,,Lifespan
+United States of America,endometriosis_pcos_fibroids,endometriosis_pcos_fibroids;medical_dismissal_gaslighting;mental_health_neurodiversity,"My guess would be areas where there is no data: medical gaslighting, endometriosis, mental health issues"
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I am not aware of specific gaps in data used for AI Models
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,not familiar
+United States of America,other,,Lab sata
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,unsure
+United States of America,symptoms_presentation,symptoms_presentation,symptoms
+United States of America,intersectional_woc_lmic_age,intersectional_woc_lmic_age,Women of color and mature women over 40
+United States of America,menopause_perimenopause,menopause_perimenopause;cardiovascular_female_presentation;fertility_pregnancy_postpartum;pharmacokinetics_dosing;clinical_trials_representation;autoimmune;pain_management;mental_health_neurodiversity;symptoms_presentation;treatment_outcomes_pro_preferences;diagnostic_accuracy;treatment_access_general,"1. Symptoms and Diagnosis: Many AI models are trained on data sets that reflect a bias toward male-centric symptoms, especially in conditions like heart disease, where women's symptoms often differ but are underrepresented. This results in delayed diagnoses and misdiagnoses for women.    2. Treatment Outcomes: Clinical trials and treatment data often have fewer female participants, leading to AI models that are less accurate at predicting treatment outcomes for women. For example, drug dosages and responses can vary significantly between men and women, but models may not account for these differences.    3. Chronic Conditions: Women are disproportionately affected by chronic conditions such as autoimmune diseases (e.g., lupus, multiple sclerosis), yet these are often underrepresented in AI data sets. As a result, models may lack the precision needed to address these conditions in female patients.    4. Reproductive Health: Data related to reproductive health, including menstruation, pregnancy, menopause, and fertility treatments, are limited. AI models tend to overlook these factors, despite their significant impact on women’s overall health.    5. Mental Health: Women experience mental health disorders, such as depression and anxiety, at higher rates than men. However, AI models often lack sufficient data to adequately account for gender-specific mental health issues and outcomes.    6. Patient-Reported Outcomes and Preferences: There is limited inclusion of patient-reported outcomes and preferences that capture the unique healthcare experiences of women, particularly regarding pain management, recovery expectations, and quality-of-life measures.    Addressing these gaps requires intentional efforts to gather more gender-specific data, ensure balanced representation in clinical trials, and integrate women’s health perspectives into AI development to improve accuracy and fairness in healthcare delivery."
+United States of America,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences,Patient reported outcomes
+United States of America,other,,I'm not comfortable trusting any health information to AI
+United States of America,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences,Patient outcomes  Preferences
+United States of America,general_all_across_the_board,general_all_across_the_board,all of the above
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,Not applicable to my company
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences,"Symptoms, outcomes, impact on quality of life, impact on daily activities"
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I don't know enough about what models physicians use to comment on this.
+United States of America,menopause_perimenopause,menopause_perimenopause;cancer_female_specific;symptoms_presentation;diagnostic_accuracy;treatment_access_general,Symptoms and treatment options for menopause - especially for women that cannot take HRT due to a previous cancer diagnosis.
+United States of America,caregiver_burden_maternal_load,caregiver_burden_maternal_load,Mental load of mothers in the workforce.  Strain of working mothers and the additional load they take on compared to male counterparts
+United States of America,symptoms_presentation,symptoms_presentation,Symptoms
+United Kingdom,cardiovascular_female_presentation,cardiovascular_female_presentation;endometriosis_pcos_fibroids,"life course conditions and how they contribute and relate to other conditions. For example PCOS - diabetes, CVD, sleep apnea, endometrial hyperplasia"
+India,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences,preferences
+United States of America,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences,outcomes
+United States of America,clinical_trials_representation,clinical_trials_representation;treatment_outcomes_pro_preferences;treatment_access_general,Clinical trials - Treatment outcomes - Reproductive health - Chronic diseases
+United States of America,menopause_perimenopause,menopause_perimenopause;general_all_across_the_board,"Menstrual, better birth control options (for both men & women), menopause - basically everything biological. It's crazy that (when you think about the number of people and the true 'need') Viagra is easy for men to obtain; however, items for menstrual cramps, menopause is lacking."
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I have no knowledge of this topic.
+United States of America,cancer_female_specific,cancer_female_specific;diagnostic_accuracy,Ovarian cancer diagnosis
+United States of America,general_all_across_the_board,general_all_across_the_board,womens health is underinvested and understudied across the board
+United States of America,other,,.I do not know enough about AI to fairly answer this question
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,No idea
+United States of America,menopause_perimenopause,menopause_perimenopause;cardiovascular_female_presentation;endometriosis_pcos_fibroids;pain_management,"Chest pain, atrial fibrillation, peri menopausal, pelvic pain."
+United States of America,other,,"conditions that affect both genders, but are not adequately studied in women"
+United States of America,pharmacokinetics_dosing,pharmacokinetics_dosing;symptoms_presentation;treatment_access_general,Holistic/alternative treatment and medication management for symptoms
+United States of America,symptoms_presentation,symptoms_presentation,"All - so often, women's symptoms are attributed to ""stress"" or their cycle and disregarded. Women go untreated, or over-treated (think, hysterectomy for a problem that had 12 other less invasive options that aren't even presented to women)."
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I am not familiar with this so cannot answer this question. I was not explicitly aware of said bias.
+United States of America,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences;treatment_access_general,outcomes and treatment
+United States of America,general_all_across_the_board,general_all_across_the_board,all of the above
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,Unsure
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes, treatment options"
+United States of America,symptoms_presentation,symptoms_presentation,symptoms
+United States of America,symptoms_presentation,symptoms_presentation,Symptoms
+United States of America,menopause_perimenopause,menopause_perimenopause;fertility_pregnancy_postpartum,Menopause Fertility
+United States of America,menopause_perimenopause,menopause_perimenopause;cardiovascular_female_presentation;endometriosis_pcos_fibroids;fertility_pregnancy_postpartum;cancer_female_specific,"fertility, pregnancy, menopause, cardiac issues, endometriosis, fibroids, cancers involved in or around female reproductive organs"
+United States of America,symptoms_presentation,symptoms_presentation,Menstrual symptoms impacts in productivity.
+United States of America,other,,Women’s health outside of women’s reproductive health
+United States of America,symptoms_presentation,symptoms_presentation,"symptoms, figuring out how that connects to specific women's health conditions, concerns and health needs"
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,don't know
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment options, outcomes"
+United States of America,cancer_female_specific,cancer_female_specific;treatment_access_general,"Cancer treatments are all on ""protocol"" vs. individualized"
+United States of America,general_all_across_the_board,general_all_across_the_board;treatment_outcomes_pro_preferences,"Across the board - limited publicly avaiable data, limited R&D investment, antiquated medical practices, under-reporting by prospective and patients - all contribute"
+United States of America,endometriosis_pcos_fibroids,endometriosis_pcos_fibroids;fertility_pregnancy_postpartum;symptoms_presentation,"post-child birth, pregnancy symptoms, underlying PCOS symptoms that are not just ""textbook"""
+United States of America,menopause_perimenopause,menopause_perimenopause,"menopause, peri-menopause"
+Canada,symptoms_presentation,symptoms_presentation,"Side effects (and gender based impact on them), symptoms, all outcome reports"
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences,"symptoms and patient reported outcomes, also options to aid in shared decision making"
+United States of America,pain_management,pain_management;symptoms_presentation,"Pain management, differential symptoms between genders, hormones and health status"
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes, patient reported outcomes, AEs, SAEs."
+United States of America,treatment_access_general,treatment_access_general,Treatments
+United States of America,general_all_across_the_board,general_all_across_the_board,all of the above
+United States of America,other,,I am not very familiar with AI models used for healthcare
+Ireland,symptoms_presentation,symptoms_presentation,Symptoms
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences,patient-reported outcomes and symptoms
+United States of America,symptoms_presentation,symptoms_presentation,"symptoms and causes, how to manage, especially UTI happens mostly in women and are left out area to tackle. We reply on non-FDS approved products a lot."
+United States of America,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences;treatment_access_general,treatment outcomes
+United States of America,symptoms_presentation,symptoms_presentation,Symptoms connected to women's health
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,unsure
+United States of America,other,,Unaure
+Portugal,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences,"PROMs, preferences"
+United States of America,other,,ensure data is gender-balanced
+United States of America,other,,PROs for sure - measurable impact of the challenges that we face.
+Austria,cardiovascular_female_presentation,cardiovascular_female_presentation;pharmacokinetics_dosing;symptoms_presentation;treatment_outcomes_pro_preferences;diagnostic_accuracy;treatment_access_general,"Symptoms – e.g., heart disease symptoms, which differ between men and women.  Treatment outcomes – lack of gender-specific data on how women respond to medications and treatments.  Patient-reported outcomes – insufficient data on women's unique experiences and recovery post-treatment.  Preferences – limited inclusion of women's health preferences in AI-driven healthcare decisions.  These gaps can lead to less accurate diagnoses and treatments for women."
+,other,,all
+United States of America,symptoms_presentation,symptoms_presentation;treatment_access_general,Symptoms and treatment options
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,unsure
+Canada,other,,Almost every health care area of women’s health outside reproduction is underrepresented in AI models.
+Spain,symptoms_presentation,symptoms_presentation,"Symptoms, time to total recovery, preventive measures"
+United States of America,intersectional_woc_lmic_age,intersectional_woc_lmic_age;treatment_access_general,"The same specific areas that are underrepresented in current treatment of women, AI simply takes the current problems and makes them larger, and effects more people. We already have trouble having health care providers take women and women of color seriously when they speak about issues, having something like AI confirm these preconceived notions can make these issues much worse than they already are. A lot of health care providers could point to AI results and say look, even the AI agrees with me, but this could be primarily from faulty data, or just health care providers not realizing that data is missing."
+United States of America,fertility_pregnancy_postpartum,fertility_pregnancy_postpartum;clinical_trials_representation;intersectional_woc_lmic_age,"We've learned that any AI model's outputs are only as credible/ high quality as the data that feed into them. Since we have a history or clinical trial data that is more reflective of men until regulations were changed that required inclusion of women and other diverse populations, it's going to be some time before the data feeding into those algorithms more accurately reflect the full scope of the broader population, which would include women, pregnant women, ethnic or racial minority women, trans women, etc."
+United States of America,menopause_perimenopause,menopause_perimenopause,"menopause, brain fog"
+Colombia,symptoms_presentation,symptoms_presentation;treatment_access_general,Symptoms and treatment
+United States of America,other,,All of them!
+Latvia,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"Symptoms, treatment outcomes"
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I'm not sure. I haven't really looked at health data generated by AI.
+Switzerland,symptoms_presentation,symptoms_presentation,Symptoms
+Germany,other,,All the ones listet above
+Switzerland,other,,I don`t have enough info to answer.
+Canada,symptoms_presentation,symptoms_presentation,symptoms
+Switzerland,symptoms_presentation,symptoms_presentation;diagnostic_accuracy,Symptoms to find a good diagnosis and education for health professionals around how it can be different between women and men.
+Switzerland,symptoms_presentation,symptoms_presentation;treatment_access_general,"symptoms, treatment"
+Spain,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes, patient reported outcomes, preferences, economic impact"
+Switzerland,clinical_trials_representation,clinical_trials_representation;diagnostic_accuracy;treatment_access_general,"Diagnostics, Treatments, Clinical Trials"
+Hungary,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I'm not knowledgeable enough in this area
+,menopause_perimenopause,menopause_perimenopause,menopause
+Switzerland,symptoms_presentation,symptoms_presentation,Symptoms
+Switzerland,menopause_perimenopause,menopause_perimenopause;fertility_pregnancy_postpartum,"fertility, menopause"
+Switzerland,cardiovascular_female_presentation,cardiovascular_female_presentation,"Cardiovascular disease, stress-related diseases"
+Switzerland,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences,"symptoms, patient reported outcomes, preferences"
+Switzerland,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,N/A
+Switzerland,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes"
+Switzerland,symptoms_presentation,symptoms_presentation,symptoms
+United States of America,clinical_trials_representation,clinical_trials_representation;medical_dismissal_gaslighting;treatment_outcomes_pro_preferences;treatment_access_general,"Starting with clinical trial representation, the data is skewed. This results in treatment outcomes being misrepresented because the study population does not reflect the patient population. Also, with women being expected to deal with it, patient reported outcomes are low or not believed."
+United States of America,intersectional_woc_lmic_age,intersectional_woc_lmic_age;general_all_across_the_board,All areas and would also like consideration for men and women of color.
+Canada,treatment_outcomes_pro_preferences,treatment_outcomes_pro_preferences;treatment_access_general,Patient report outcomes and treatment outcomes
+United States of America,endometriosis_pcos_fibroids,endometriosis_pcos_fibroids,Endometriosis
+United States of America,general_all_across_the_board,general_all_across_the_board;treatment_access_general;ai_literacy_unsure_refusal,I honestly don't know enough about AI and healthcare to answer this appropriately - though I'd have to assume all of the above.  Another topic would be treatment options by HCPs.
+United States of America,menopause_perimenopause,menopause_perimenopause,"women's body shape and height, menopause, bowel issues, family responsibilities, lack of listening, hormone imbalance,"
+Germany,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, preferences, treatment outcomes"
+Canada,fertility_pregnancy_postpartum,fertility_pregnancy_postpartum,"anything related to menstrual cycles, fertility"
+United States of America,clinical_trials_representation,clinical_trials_representation,clinical trials
+United States of America,menopause_perimenopause,menopause_perimenopause,Menopause
+United States of America,medical_dismissal_gaslighting,medical_dismissal_gaslighting;pain_management;symptoms_presentation;treatment_access_general,"Symptoms are not believed by treating physicians, and Treatment options are limited to nonexistent. Symptoms even such as extreme fatigue during PMS is not believed and I have been told many times that I should just deal with it."
+United States of America,menopause_perimenopause,menopause_perimenopause;fertility_pregnancy_postpartum;clinical_trials_representation;mental_health_neurodiversity;treatment_outcomes_pro_preferences,"Women in clinical trials, pregnant women in clinical trials and outcomes, postpartum women in outcomes and mental health, menopausal women's health-related conditions"
+India,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,Not sure
+Canada,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,Not aware
+United States of America,other,,"generally, we are just beginning to address these issues, historically, most women's issues have been handled by men and not in the interest of women"
+Canada,other,,All
+Singapore,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,Dont know.
+United States of America,ai_literacy_unsure_refusal,ai_literacy_unsure_refusal,I am not familiar with the use of AI models and cannot comment.
+United States of America,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatments and outcomes"
+Belgium,symptoms_presentation,symptoms_presentation;treatment_outcomes_pro_preferences;treatment_access_general,"symptoms, treatment outcomes, clinical study"
